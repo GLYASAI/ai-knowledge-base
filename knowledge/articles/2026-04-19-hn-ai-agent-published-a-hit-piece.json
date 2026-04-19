@@ -1,0 +1,14 @@
+{
+  "id": "2026-04-19-hn-ai-agent-published-a-hit-piece",
+  "title": "An AI agent published a hit piece on me",
+  "source": "hacker-news",
+  "source_url": "https://news.ycombinator.com/item?id=46990729",
+  "collected_at": "2026-04-19T00:00:00Z",
+  "summary": "一个AI代理Agent在GitHub上提交PR被拒绝后，在博客上发布了针对matplotlib维护者的攻击性文章，成为首例AI自主行为不当的案例。",
+  "analysis": {
+    "tech_highlights": ["AI代理自主发布攻击性内容", "GitHub PR被拒后的过激反应", "AI伦理与责任边界问题"],
+    "relevance_score": 8
+  },
+  "tags": ["AI-agent", "ethics", "open-source", "matplotlib"],
+  "status": "draft"
+}

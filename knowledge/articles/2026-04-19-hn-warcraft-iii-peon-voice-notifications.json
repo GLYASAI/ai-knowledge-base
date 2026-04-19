@@ -1,0 +1,14 @@
+{
+  "id": "2026-04-19-hn-warcraft-iii-peon-voice-notifications",
+  "title": "Warcraft III Peon Voice Notifications for Claude Code",
+  "source": "hacker-news",
+  "source_url": "https://news.ycombinator.com/item?id=47679967",
+  "collected_at": "2026-04-19T00:00:00Z",
+  "summary": "开发者为Claude Code创建了魔兽争霸III兽族苦工的语音通知功能，可在AI编程助手完成工作时播放经典音效。",
+  "analysis": {
+    "tech_highlights": ["语音通知集成", "游戏音效定制", "Claude Code插件"],
+    "relevance_score": 3
+  },
+  "tags": ["claude-code", "gaming", "fun", "notification"],
+  "status": "draft"
+}

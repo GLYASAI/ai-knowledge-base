@@ -1,0 +1,14 @@
+{
+  "id": "2026-04-19-hn-glm-5",
+  "title": "GLM-5: Targeting complex systems engineering and long-horizon agentic tasks",
+  "source": "hacker-news",
+  "source_url": "https://news.ycombinator.com/item?id=47658440",
+  "collected_at": "2026-04-19T00:00:00Z",
+  "summary": "智谱AI发布GLM-5模型，专注于复杂系统工程和长周期代理任务，在多项基准测试中表现优异，被评价为仅次于Claude Opus的模型。",
+  "analysis": {
+    "tech_highlights": ["复杂系统工程支持", "长周期代理任务", "国产LLM突破"],
+    "relevance_score": 8
+  },
+  "tags": ["GLM", "Zhipu-AI", "Chinese-LLM", "agent"],
+  "status": "draft"
+}

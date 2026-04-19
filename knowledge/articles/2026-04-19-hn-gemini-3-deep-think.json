@@ -1,0 +1,14 @@
+{
+  "id": "2026-04-19-hn-gemini-3-deep-think",
+  "title": "Gemini 3 Deep Think",
+  "source": "hacker-news",
+  "source_url": "https://news.ycombinator.com/item?id=46991240",
+  "collected_at": "2026-04-19T00:00:00Z",
+  "summary": "Google发布Gemini 3 Deep Think，在ARC-AGI-2基准测试中得分84.6%，超越Claude Opus 4.6的68.8%，展现强大推理能力。",
+  "analysis": {
+    "tech_highlights": ["ARC-AGI-2得分84.6%", "推理能力超越Claude", "Deep Think模式"],
+    "relevance_score": 8
+  },
+  "tags": ["Gemini", "Google", "reasoning", "benchmark"],
+  "status": "draft"
+}
