@@ -1,0 +1,14 @@
+{
+  "id": "2026-04-19-github-dive-into-llms",
+  "title": "dive-into-llms",
+  "source": "github-trending",
+  "source_url": "https://github.com/Lordog/dive-into-llms",
+  "collected_at": "2026-04-19T00:00:00Z",
+  "summary": "动手学大模型系列编程实践教程，LLM 学习入门教程",
+  "analysis": {
+    "tech_highlights": ["实践导向", "入门教程", "代码驱动"],
+    "relevance_score": 6
+  },
+  "tags": ["tutorial", "llm", "education"],
+  "status": "draft"
+}

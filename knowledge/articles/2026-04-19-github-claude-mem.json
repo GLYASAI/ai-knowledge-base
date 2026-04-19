@@ -1,0 +1,14 @@
+{
+  "id": "2026-04-19-github-claude-mem",
+  "title": "claude-mem",
+  "source": "github-trending",
+  "source_url": "https://github.com/thedotmack/claude-mem",
+  "collected_at": "2026-04-19T00:00:00Z",
+  "summary": "Claude Code 记忆插件，自动记录会话上下文并用 AI 压缩注入未来会话",
+  "analysis": {
+    "tech_highlights": ["自动上下文记录", "AI 压缩记忆", "会话继承"],
+    "relevance_score": 7
+  },
+  "tags": ["claude-code", "memory", "context", "plugin"],
+  "status": "draft"
+}

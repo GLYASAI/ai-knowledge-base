@@ -1,0 +1,14 @@
+{
+  "id": "2026-04-19-github-andrej-karpathy-skills",
+  "title": "andrej-karpathy-skills",
+  "source": "github-trending",
+  "source_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+  "collected_at": "2026-04-19T00:00:00Z",
+  "summary": "基于 Andrej Karpathy 经验的 Claude Code 行为改进指南文件",
+  "analysis": {
+    "tech_highlights": ["专家经验整理", "最佳实践集合", "Agent 行为优化"],
+    "relevance_score": 6
+  },
+  "tags": ["claude-code", "best-practices", "guide"],
+  "status": "draft"
+}

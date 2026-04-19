@@ -1,0 +1,14 @@
+{
+  "id": "2026-04-19-github-hermes-agent",
+  "title": "hermes-agent",
+  "source": "github-trending",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "collected_at": "2026-04-19T00:00:00Z",
+  "summary": "可成长的 AI Agent 框架，支持多平台消息网关、持久记忆、技能系统和沙盒终端",
+  "analysis": {
+    "tech_highlights": ["持久记忆系统", "多平台消息网关", "沙盒执行环境"],
+    "relevance_score": 9
+  },
+  "tags": ["agent", "memory", "framework", "sandbox"],
+  "status": "draft"
+}

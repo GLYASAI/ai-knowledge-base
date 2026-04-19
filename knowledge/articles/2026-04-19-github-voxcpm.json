@@ -1,0 +1,14 @@
+{
+  "id": "2026-04-19-github-voxcpm",
+  "title": "VoxCPM",
+  "source": "github-trending",
+  "source_url": "https://github.com/OpenBMB/VoxCPM",
+  "collected_at": "2026-04-19T00:00:00Z",
+  "summary": "无分词器 TTS，支持多语言语音生成和创意声音设计",
+  "analysis": {
+    "tech_highlights": ["无分词器设计", "多语言支持", "创意声音"],
+    "relevance_score": 6
+  },
+  "tags": ["tts", "multilingual", "audio"],
+  "status": "draft"
+}
