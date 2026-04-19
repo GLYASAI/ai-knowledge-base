@@ -1,0 +1,15 @@
+{
+  "id": "2026-04-19-github-nano-analyzer",
+  "title": "Nano Analyzer: LLM 驱动的零日漏洞扫描器",
+  "source": "github-trending",
+  "source_url": "https://github.com/weareaisle/nano-analyzer",
+  "collected_at": "2026-04-19T00:00:00Z",
+  "summary": "单文件 LLM 零日漏洞扫描器，偏向 C/C++ 内存安全 bug，研究原型可检出真实漏洞。",
+  "analysis": {
+    "tech_highlights": ["单文件极简实现，LLM 分析代码模式识别潜在零日", "偏向 C/C++ 内存安全类 bug，能检出真实漏洞但有误报"],
+    "relevance_score": 5,
+    "score_reason": "研究原型展示 LLM 安全审计可行性，但误报多且仅限 C/C++，距生产远"
+  },
+  "tags": ["large-language-model", "security-analysis", "code-analysis"],
+  "status": "draft"
+}

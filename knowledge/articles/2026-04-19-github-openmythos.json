@@ -1,0 +1,15 @@
+{
+  "id": "2026-04-19-github-openmythos",
+  "title": "OpenMythos: Claude Mythos 架构理论逆向重建",
+  "source": "github-trending",
+  "source_url": "https://github.com/kyegomez/OpenMythos",
+  "collected_at": "2026-04-19T00:00:00Z",
+  "summary": "逆向重建 Claude 架构，实现 Recurrent-Depth Transformer 推理。",
+  "analysis": {
+    "tech_highlights": ["实现 Prelude/Recurrent Block/Coda 三阶段 RDT 架构", "循环深度机制用有限参数模拟无限深度推理"],
+    "relevance_score": 6,
+    "score_reason": "Recurrent-Depth Transformer 有学术参考价值，但无训练权重难以直接使用"
+  },
+  "tags": ["large-language-model", "transformer", "architecture-research"],
+  "status": "draft"
+}

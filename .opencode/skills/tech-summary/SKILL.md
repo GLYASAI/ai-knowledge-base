@@ -1,107 +1,137 @@
 ---
 name: tech-summary
-description: When you need to analyze and summarize collected tech articles
+description: 当需要对采集的技术内容进行深度分析总结时使用此技能
+allowed-tools:
+  - Read
+  - Grep
+  - Glob
+  - WebFetch
 ---
 
-# 技术摘要生成技能
+# 技术内容深度分析技能
 
-## 触发场景
+## 使用场景
 
-当用户要求对已采集的技术文章或开源项目生成分析摘要时，自动激活此技能。
+对 `knowledge/raw/` 中已采集的技术文章或开源项目进行深度分析，生成结构化摘要、评分和趋势洞察。
 
-## 摘要生成流程
+## 执行步骤
 
-### 1. 读取源数据
+### 第 1 步：读取最新采集文件
 
-从 `knowledge/raw/` 读取目标 JSON 文件，提取每个条目的以下信息：
-- `title` — 标题
-- `description` — 描述
-- `url` — 链接（用于获取更多上下文）
-- `stars` / `score` — 热度指标
-- `readme_excerpt` — README 摘录（如有）
+从 `knowledge/raw/` 读取最新的 JSON 文件，提取每个条目的：
+- `name` — 项目名
+- `url` — 链接（用于获取补充上下文）
+- `summary` — 采集阶段的初步摘要
+- `stars` — Star 数
+- `language` — 编程语言
+- `topics` — 标签
 
-### 2. 获取补充上下文（可选）
+如果条目的 `url` 指向 GitHub 仓库，通过 API 获取 README 前 500 字作为补充上下文：
 
-如果条目没有 `readme_excerpt` 且 `url` 可用：
-- GitHub 仓库：通过 API 获取 README 前 500 字
-- 博客/文章：通过 WebFetch 获取正文前 1000 字
-- 获取失败不阻塞流程，基于已有信息生成摘要
+```bash
+curl -s -H "Accept: application/vnd.github.v3+json" \
+  "https://api.github.com/repos/{owner}/{repo}/readme" | python3 -c "
+import json, sys, base64
+data = json.load(sys.stdin)
+print(base64.b64decode(data['content']).decode('utf-8')[:500])
+"
+```
 
-### 3. 生成中文技术摘要
+获取失败不阻塞流程，基于已有信息继续分析。
 
-**摘要长度**：100-200 个中文字符
+### 第 2 步：逐条深度分析
 
-**结构要求**（不需要显式标注，自然融入）：
-1. **定位**（1 句）：这个项目/文章解决什么问题
-2. **核心内容**（2-3 句）：关键技术方案、架构特点、主要创新
-3. **价值判断**（1 句）：对 AI 工程师的实际意义
+对每个条目独立生成以下 4 项内容：
 
-**写作规范**：
-- 第一句直接点明核心，不要 "本项目是..."、"这篇文章介绍了..." 等模板开头
-- 技术术语保留英文原文，如 RAG、MCP、Fine-tuning
-- 避免空洞的形容词（"强大的"、"创新性的"）——用具体信息替代
-- 如果能写出具体数字（性能提升、模型大小等），优先使用数字
+**1) 中文摘要（不超过 50 字）**
 
-**示例**：
+- 公式：做什么 + 怎么做/有什么不同
+- 第一句直接点明核心，禁止"本项目是..."等模板开头
+- 技术术语保留英文原文（如 RAG、MCP、Agent）
+- 用具体事实替代空洞形容词，有数字优先用数字
 
-好的摘要：
-> 基于 Tree-of-Thought 推理框架，让 LLM 在复杂数学推理任务上的准确率从
-> 54% 提升到 74%。核心思路是将单次推理拆分为多步搜索树，每步生成多个候选
-> 并通过 LLM 自评估剪枝。实现代码不到 500 行 Python，可直接集成到现有
-> LangChain 管道中。
+**2) 技术亮点（2-3 个，用事实说话）**
 
-差的摘要：
-> 这是一个非常创新的项目，使用了先进的 AI 技术来提升推理能力。
-> 它采用了一种新颖的方法，在多个基准测试中取得了很好的效果。
-> 对于 AI 从业者来说值得关注。
+每个亮点必须包含具体信息，禁止泛泛而谈。
 
-### 4. 评分
+好的示例：
+- "自愈机制：运行时自动生成缺失工具函数"
+- "双层脱敏：本地 Ollama LLM 语义识别 + 正则兜底"
 
-按 AGENTS.md 中定义的 5 维度评分体系打分：
+差的示例：
+- "采用了先进的 AI 技术"
+- "性能表现优秀"
 
-| 维度 | 权重 | 评分要点 |
-|------|------|----------|
-| 技术深度 | 0.25 | 有原理说明 > 只有使用方法 > 纯新闻报道 |
-| 实用价值 | 0.30 | 可直接用 > 需大量适配 > 纯学术 |
-| 时效性 | 0.20 | 本周发布 > 本月发布 > 更早 |
-| 社区热度 | 0.15 | GitHub: >1K Stars 高, >100 中, <100 低; HN: >200 高, >50 中 |
-| 领域匹配 | 0.10 | Agent/LLM 核心 > AI 相关 > 泛技术 |
+**3) 评分（1-10 分，附理由）**
 
-### 5. 提取标签
+评分标准：
 
-为每个条目生成 3-5 个标签：
+| 分数段 | 含义 | 典型特征 |
+|--------|------|----------|
+| 9-10 | 改变格局 | 定义新品类、突破性架构、千 Star 级爆发 |
+| 7-8 | 直接有帮助 | 可集成到现有工作流、解决明确痛点 |
+| 5-6 | 值得了解 | 有启发但需大量适配、偏学术或早期 |
+| 1-4 | 可略过 | 重复造轮子、噱头大于实质 |
 
-**标签词库**（优先使用，保持一致性）：
+**约束：15 个项目中 9-10 分不超过 2 个。**
+
+评分理由必须是一句具体的判断，说明"为什么给这个分"。
+
+**4) 标签建议（3-5 个）**
+
+优先使用标准词库：
 - 领域：`large-language-model`, `agent-framework`, `rag`, `mcp`, `fine-tuning`, `prompt-engineering`, `multi-agent`, `code-generation`
 - 技术：`transformer`, `attention`, `embedding`, `vector-database`, `knowledge-graph`
 - 工具：`langchain`, `llamaindex`, `openai`, `anthropic`, `deepseek`, `huggingface`
 - 场景：`chatbot`, `code-assistant`, `data-analysis`, `document-qa`, `workflow-automation`
 
-如果条目涉及词库中没有的概念，可以新增标签，但必须遵循小写连字符格式。
+词库中没有的概念可新增，必须遵循小写连字符格式。
 
-### 6. 输出格式
+### 第 3 步：趋势发现
 
-对每个条目追加以下字段：
+分析全部条目后，提炼本批次的趋势洞察：
+
+- **共同主题**：多个项目指向的同一方向（如"Agent 工具链成熟"）
+- **新概念/新术语**：首次出现或快速升温的技术概念
+- **信号判断**：这些趋势对 AI 工程师意味着什么
+
+输出 2-4 条趋势，每条包含方向、代表项目和一句话信号描述。
+
+### 第 4 步：输出分析结果 JSON
+
+路径：`knowledge/raw/tech-summary-{YYYY-MM-DD}.json`
 
 ```json
 {
-  "summary": "中文技术摘要...",
-  "relevance_score": 0.85,
-  "score_breakdown": {
-    "tech_depth": 0.80,
-    "practical_value": 0.90,
-    "timeliness": 0.85,
-    "community_heat": 0.80,
-    "domain_match": 0.90
-  },
-  "tags": ["agent-framework", "python", "openai"],
-  "analyzed_at": "2026-03-17T11:00:00Z"
+  "source": "tech-summary",
+  "skill": "tech-summary",
+  "analyzed_at": "2026-04-19T00:00:00Z",
+  "input_file": "github-trending-2026-04-19.json",
+  "items": [
+    {
+      "name": "owner/repo",
+      "url": "https://github.com/owner/repo",
+      "summary": "不超过 50 字的中文摘要",
+      "tech_highlights": ["亮点1：具体事实", "亮点2：具体事实"],
+      "score": 8,
+      "score_reason": "一句话评分理由",
+      "tags": ["agent-framework", "python"]
+    }
+  ],
+  "trends": [
+    {
+      "direction": "趋势方向",
+      "projects": ["project-a", "project-b"],
+      "signal": "一句话信号描述"
+    }
+  ]
 }
 ```
 
-## 批量处理
+## 注意事项
 
-当一个文件中包含多个条目时：
-- 逐条处理，每条独立评分
-- 不要因为前面的条目分数高就压低后面的（绝对评分，非相对排名）
+- 逐条独立评分，不因前面的条目分数高就压低后面的（绝对评分，非相对排名）
+- 15 个项目中 9-10 分不超过 2 个
+- 摘要必须是中文，不超过 50 字
+- 不编造不存在的项目或数据
 - 处理完所有条目后再统一输出

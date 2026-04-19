@@ -1,0 +1,15 @@
+{
+  "id": "2026-04-19-github-cc-design",
+  "title": "CC Design: AI Agent 高保真设计与原型技能",
+  "source": "github-trending",
+  "source_url": "https://github.com/ZeroZ-lab/cc-design",
+  "collected_at": "2026-04-19T00:00:00Z",
+  "summary": "为 Claude Code 嵌入设计工作流 Skill，覆盖原型/落地页/动画，支持 MCP 导出。",
+  "analysis": {
+    "tech_highlights": ["从 Claude Artifacts 设计环境适配到 Claude Code/Codex Agent", "覆盖幻灯片/交互原型/落地页/UI mockup/动画 5 类场景"],
+    "relevance_score": 7,
+    "score_reason": "弥补 coding agent UI 设计短板，从 Artifacts 适配有实践基础"
+  },
+  "tags": ["code-assistant", "design-system", "mcp"],
+  "status": "draft"
+}

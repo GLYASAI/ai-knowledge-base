@@ -1,0 +1,15 @@
+{
+  "id": "2026-04-19-github-agentic-stack",
+  "title": "Agentic Stack: 可移植的 .agent/ 上下文标准",
+  "source": "github-trending",
+  "source_url": "https://github.com/codejunkie99/agentic-stack",
+  "collected_at": "2026-04-19T00:00:00Z",
+  "summary": "可移植 .agent/ 文件夹标准，记忆+技能+协议跨 AI 编码工具无缝迁移。",
+  "analysis": {
+    "tech_highlights": ["三层结构：memory + skills + protocols 打包迁移", "已验证兼容 Claude Code/Cursor/Windsurf/OpenCode 等 6+ 工具"],
+    "relevance_score": 8,
+    "score_reason": "首个提出跨 AI 编码工具可移植上下文标准，解决 vendor lock-in 痛点"
+  },
+  "tags": ["agent-framework", "code-assistant", "prompt-engineering"],
+  "status": "draft"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "2026-04-19-github-agentic-video-editor",
+  "title": "Agentic Video Editor: 多 Agent 协作自动视频剪辑",
+  "source": "github-trending",
+  "source_url": "https://github.com/poseljacob/agentic-video-editor",
+  "collected_at": "2026-04-19T00:00:00Z",
+  "summary": "多 Agent 协作视频剪辑 CLI，Gemini 做场景决策 + FFmpeg 渲染出片。",
+  "analysis": {
+    "tech_highlights": ["多 Agent 分工：场景检测/镜头选择/组装/质量审核各由独立 Agent 负责", "Google Gemini 做理解决策 + FFmpeg 做渲染的组合架构"],
+    "relevance_score": 7,
+    "score_reason": "多 Agent 视频制作端到端落地，展示非文本领域 Agent 应用可能"
+  },
+  "tags": ["multi-agent", "workflow-automation", "content-generation"],
+  "status": "draft"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "2026-04-19-github-obscura",
+  "title": "Obscura: 专为 AI Agent 设计的 Rust 无头浏览器",
+  "source": "github-trending",
+  "source_url": "https://github.com/h4ckf0r0day/obscura",
+  "collected_at": "2026-04-19T00:00:00Z",
+  "summary": "Rust + V8 无头浏览器引擎，支持 CDP，主打轻量反检测，为 Agent 提供浏览器底座。",
+  "analysis": {
+    "tech_highlights": ["Rust + V8 引擎执行真实 JavaScript，资源开销低于 Puppeteer", "内置 anti-detection 能力，支持 Chrome DevTools Protocol"],
+    "relevance_score": 8,
+    "score_reason": "填补 Agent 专用无头浏览器空白，Rust 高性能 + 反检测是差异化优势"
+  },
+  "tags": ["agent-framework", "browser-automation", "web-scraping"],
+  "status": "draft"
+}
