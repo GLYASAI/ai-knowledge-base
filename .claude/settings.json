@@ -11,7 +11,8 @@
       "Bash(/Users/abewang/Workspaces/glyasai/ai-knowledge-base/.venv/bin/python3 -m pip install python-dotenv)",
       "Bash(/Users/abewang/Workspaces/glyasai/ai-knowledge-base/.venv/bin/python3 -c \"from dotenv import load_dotenv; print\\('OK'\\)\")",
       "Bash(/Users/abewang/Workspaces/glyasai/ai-knowledge-base/.venv/bin/python3 -m pip install openai)",
-      "Bash(/Users/abewang/Workspaces/glyasai/ai-knowledge-base/.venv/bin/python3 -c \"from openai import OpenAI; print\\('OK'\\)\")"
+      "Bash(/Users/abewang/Workspaces/glyasai/ai-knowledge-base/.venv/bin/python3 -c \"from openai import OpenAI; print\\('OK'\\)\")",
+      "Bash(/Users/abewang/Workspaces/glyasai/ai-knowledge-base/.venv/bin/python3 -c \"from patterns.supervisor import supervisor, worker, review; print\\('OK'\\)\")"
     ]
   },
   "hooks": {
