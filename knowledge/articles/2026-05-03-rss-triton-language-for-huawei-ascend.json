@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260503-009",
+  "title": "Triton language for Huawei Ascend",
+  "source": "rss",
+  "source_url": "https://github.com/triton-lang/triton-ascend",
+  "collected_at": "2026-05-03T00:55:07Z",
+  "summary": "该项目将 Triton 语言移植到华为 Ascend NPU 上，使开发者能使用 Triton 编写高性能 kernel，并利用 Ascend 的硬件加速能力。",
+  "analysis": {
+    "tech_highlights": [
+      "将 Triton 语言移植到华为 Ascend NPU 平台",
+      "支持使用 Triton 编写高性能 kernel 并利用 Ascend 硬件加速"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该项目填补了 Triton 在国产 AI 芯片上的空白，对 Ascend 生态和 AI 编译器社区有重要价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "triton",
+    "huawei-ascend",
+    "npu",
+    "ai-compiler",
+    "high-performance-computing"
+  ],
+  "status": "draft"
+}

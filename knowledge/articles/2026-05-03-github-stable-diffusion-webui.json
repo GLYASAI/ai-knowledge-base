@@ -1,0 +1,26 @@
+{
+  "id": "github-20260503-002",
+  "title": "AUTOMATIC1111/stable-diffusion-webui",
+  "source": "github",
+  "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "collected_at": "2026-05-03T00:55:07Z",
+  "summary": "一个基于 Gradio 的 Stable Diffusion Web UI，支持 text2image、image2image、图像放大等功能，是 AI 图像生成领域最流行的开源工具之一。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 Gradio 构建交互式 Web 界面，支持实时参数调整",
+      "集成多种 Stable Diffusion 模型和采样器，支持 img2img 和 upscaling",
+      "使用 PyTorch 和 torch 进行深度学习推理，优化 GPU 加速"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该项目是 AI 图像生成领域的标杆工具，技术成熟、社区活跃，对研究和应用均有极高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "stable-diffusion",
+    "image-generation",
+    "web-ui",
+    "pytorch",
+    "gradio"
+  ],
+  "status": "draft"
+}

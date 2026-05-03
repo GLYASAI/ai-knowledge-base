@@ -1,0 +1,24 @@
+{
+  "id": "rss-20260503-002",
+  "title": "NHS Goes To War Against Open Source",
+  "source": "rss",
+  "source_url": "https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/",
+  "collected_at": "2026-05-03T00:55:07Z",
+  "summary": "英国NHS因安全与合规问题，对开源软件采取限制措施，引发开发者社区对政府IT政策与开源协作的争议。",
+  "analysis": {
+    "tech_highlights": [
+      "NHS限制开源软件使用，强调安全审计与合规性",
+      "开源社区与政府机构在安全策略上的冲突"
+    ],
+    "relevance_score": 7,
+    "score_reason": "该事件涉及开源软件在关键基础设施中的安全与合规挑战，对开发者社区有警示意义，但具体技术细节较少。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "open-source",
+    "government-it",
+    "security-policy",
+    "nhs"
+  ],
+  "status": "draft"
+}

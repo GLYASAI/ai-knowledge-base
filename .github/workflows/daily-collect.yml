@@ -1,0 +1,54 @@
+name: Daily Collect
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # UTC 08:00 = 北京时间 16:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python pipeline/pipeline.py --sources github,rss --limit 20 --verbose
+
+      - name: Validate articles
+        run: |
+          shopt -s nullglob
+          files=(knowledge/articles/*.json)
+          if [ ${#files[@]} -gt 0 ]; then
+            python hooks/validate_json.py "${files[@]}"
+            python hooks/check_quality.py "${files[@]}"
+          fi
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add knowledge/
+          if git diff --cached --quiet; then
+            echo "No new data, skip commit."
+          else
+            count=$(git diff --cached --name-only -- 'knowledge/articles/*.json' | wc -l | tr -d ' ')
+            date=$(date -u +%Y-%m-%d)
+            git commit -m "chore: daily collect ${date} — ${count} articles"
+            git push
+          fi

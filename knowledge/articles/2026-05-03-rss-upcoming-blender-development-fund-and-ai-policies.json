@@ -1,0 +1,24 @@
+{
+  "id": "rss-20260503-003",
+  "title": "Upcoming Blender Development Fund and AI Policies",
+  "source": "rss",
+  "source_url": "https://www.blender.org/news/upcoming-blender-development-fund-and-ai-policies/",
+  "collected_at": "2026-05-03T00:55:07Z",
+  "summary": "Blender 宣布即将更新其发展基金和 AI 政策，旨在应对 AI 技术对开源 3D 创作工具的影响，确保社区贡献和开发者权益。",
+  "analysis": {
+    "tech_highlights": [
+      "Blender 将制定 AI 相关使用政策，规范 AI 生成内容在项目中的应用",
+      "发展基金调整以支持长期可持续性和社区治理"
+    ],
+    "relevance_score": 7,
+    "score_reason": "对关注开源工具和 AI 政策的技术社区有较高参考价值，但非直接技术实现细节。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "blender",
+    "open-source",
+    "ai-policy",
+    "3d-modeling"
+  ],
+  "status": "draft"
+}
