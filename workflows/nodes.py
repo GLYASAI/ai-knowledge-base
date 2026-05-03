@@ -527,3 +527,37 @@ def save_node(state: KBState) -> dict[str, Any]:
 
     logger.info("[Save] 保存完成，新增 %d 篇", len(saved_files))
     return {"articles": articles}
+
+
+# ---------------------------------------------------------------------------
+# 测试用审核节点（验证循环后移除）
+# ---------------------------------------------------------------------------
+
+_TEST_FEEDBACKS = [
+    "第 1 轮：部分摘要超过 100 字，请精简；标签应使用小写连字符格式。",
+    "第 2 轮：relevance_score 偏高，建议重新评估；audience 分类不够准确。",
+]
+
+
+def review_node_test(state: KBState) -> dict[str, Any]:
+    """测试用审核节点：前 2 次强制不通过，第 3 次通过。"""
+    tracker = state.get("cost_tracker") or {}
+    iteration = state.get("iteration", 0)
+
+    if iteration >= 2:
+        logger.info("[ReviewTest] iteration=%d, review_passed=True（测试通过）", iteration)
+        return {
+            "review_passed": True,
+            "review_feedback": "第 3 轮：审核通过，所有条目符合规范。",
+            "iteration": iteration + 1,
+            "cost_tracker": tracker,
+        }
+
+    feedback = _TEST_FEEDBACKS[iteration]
+    logger.info("[ReviewTest] iteration=%d, review_passed=False, feedback=%s", iteration, feedback)
+    return {
+        "review_passed": False,
+        "review_feedback": feedback,
+        "iteration": iteration + 1,
+        "cost_tracker": tracker,
+    }

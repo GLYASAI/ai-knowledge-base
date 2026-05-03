@@ -87,8 +87,8 @@ if __name__ == "__main__":
 
     cost = final_state.get("cost_tracker", {})
     logger.info(
-        "工作流执行完毕 — prompt_tokens=%d, completion_tokens=%d, 总费用=¥%.6f",
-        cost.get("prompt_tokens", 0),
-        cost.get("completion_tokens", 0),
+        "工作流执行完毕 — prompt=%.1fk tokens, completion=%.1fk tokens, 总费用=¥%.4f",
+        cost.get("prompt_tokens", 0) / 1000,
+        cost.get("completion_tokens", 0) / 1000,
         cost.get("total_cost", 0),
     )
