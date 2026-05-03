@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260503-005",
+  "title": "Where the goblins came from",
+  "source": "rss",
+  "source_url": "https://openai.com/index/where-the-goblins-came-from/",
+  "collected_at": "2026-05-03T00:55:07Z",
+  "summary": "OpenAI 发布文章探讨 AI 模型中的“地精”现象，即模型在训练数据中学习到意外模式或偏见，并分析其来源与影响。",
+  "analysis": {
+    "tech_highlights": [
+      "分析 AI 模型在训练数据中学习到的意外模式（goblins）及其成因",
+      "探讨数据偏见对模型行为的影响及缓解方法",
+      "提供案例研究展示模型如何从噪声中提取非预期特征"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章深入探讨 AI 模型训练中的偏见问题，对理解模型行为和数据质量有较高价值，但内容偏理论，实用指导有限。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-bias",
+    "model-behavior",
+    "data-quality",
+    "openai"
+  ],
+  "status": "draft"
+}

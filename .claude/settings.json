@@ -11,5 +11,10 @@
         ]
       }
     ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(/Users/abewang/Workspaces/glyasai/ai-knowledge-base/.venv/bin/python3 pipeline.py --sources github --limit 3 --dry-run)"
+    ]
   }
 }

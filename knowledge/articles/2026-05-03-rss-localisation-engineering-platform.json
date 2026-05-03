@@ -1,0 +1,24 @@
+{
+  "id": "rss-20260503-008",
+  "title": "Localisation Engineering Platform",
+  "source": "rss",
+  "source_url": "https://lingo.dev/en/blog/introducing-lingodotdev-v1",
+  "collected_at": "2026-05-03T00:55:07Z",
+  "summary": "Lingo.dev 是一个本地化工程平台，通过自动化翻译和集成工具简化多语言内容管理流程。",
+  "analysis": {
+    "tech_highlights": [
+      "自动化翻译工作流，支持多种语言",
+      "与开发工具链深度集成，如 Git 和 CI/CD"
+    ],
+    "relevance_score": 7,
+    "score_reason": "对需要多语言支持的开发团队有实用价值，但技术深度一般，适合快速集成场景。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "localization",
+    "automation",
+    "devops",
+    "translation"
+  ],
+  "status": "draft"
+}
