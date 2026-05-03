@@ -608,6 +608,8 @@ def main() -> None:
         level=log_level,
         format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     )
+    logging.getLogger("httpx").setLevel(logging.WARNING)
+    logging.getLogger("httpcore").setLevel(logging.WARNING)
 
     sources = [s.strip() for s in args.sources.split(",") if s.strip()]
     valid_sources = {"github", "rss"}
