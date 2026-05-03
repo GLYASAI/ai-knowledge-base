@@ -238,7 +238,7 @@ def get_provider(
     api_key: str | None = None,
 ) -> OpenAICompatibleProvider:
     """根据环境变量或参数创建提供商实例。"""
-    name = provider_name or os.environ.get("LLM_PROVIDER", "deepseek")
+    name = provider_name or os.environ.get("LLM_PROVIDER") or "deepseek"
     return OpenAICompatibleProvider(name, api_key=api_key)
 
 
