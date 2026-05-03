@@ -1,0 +1,26 @@
+{
+  "id": "github-20260503-008",
+  "title": "PaddlePaddle/PaddleOCR",
+  "source": "github",
+  "source_url": "https://github.com/PaddlePaddle/PaddleOCR",
+  "collected_at": "2026-05-03T10:32:06Z",
+  "summary": "PaddleOCR 是一个基于 PaddlePaddle 的轻量级 OCR 工具包，支持 100+ 语言，可将 PDF 或图像文档转换为结构化数据，便于与 LLM 集成，适用于 RAG 和文档解析场景。",
+  "analysis": {
+    "tech_highlights": [
+      "支持 100+ 语言的 OCR 识别，包括中文、英文等，覆盖广泛",
+      "集成文档解析、KIE（关键信息提取）和 PDF 转 Markdown 功能，适配 RAG 流程",
+      "提供轻量级模型和预训练权重，易于部署和微调"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该项目在 OCR 和文档解析领域具有高实用性和广泛影响力，尤其适合结合 LLM 的 RAG 应用，Star 数高且持续更新。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ocr",
+    "document-parsing",
+    "pdf-extraction",
+    "rag",
+    "chinese-ocr"
+  ],
+  "status": "draft"
+}

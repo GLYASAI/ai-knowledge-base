@@ -1,0 +1,26 @@
+{
+  "id": "github-20260503-002",
+  "title": "github/spec-kit",
+  "source": "github",
+  "source_url": "https://github.com/github/spec-kit",
+  "collected_at": "2026-05-03T10:32:06Z",
+  "summary": "Spec-Kit 是一个帮助开发者快速上手 Spec-Driven Development 的工具包，通过结构化规范驱动 AI 生成代码，提升开发效率。",
+  "analysis": {
+    "tech_highlights": [
+      "Spec-Driven Development 方法论，以结构化规范（如 PRD）作为开发起点",
+      "集成 AI Copilot 能力，自动从规范生成代码或测试用例",
+      "提供 Python 工具链，简化规范编写与版本管理流程"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该项目结合了 AI 辅助开发与规范驱动理念，对提升工程效率有实际价值，但需用户具备一定开发基础。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "spec-driven-development",
+    "ai-copilot",
+    "python",
+    "prd",
+    "development-toolkit"
+  ],
+  "status": "draft"
+}

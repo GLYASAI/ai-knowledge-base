@@ -1,0 +1,26 @@
+{
+  "id": "github-20260503-004",
+  "title": "fighting41love/funNLP",
+  "source": "github",
+  "source_url": "https://github.com/fighting41love/funNLP",
+  "collected_at": "2026-05-03T10:32:06Z",
+  "summary": "funNLP 是一个汇集了海量 NLP 资源（包括语料、工具、模型、数据集）的 GitHub 仓库，覆盖从基础分词到知识图谱、语音识别等众多方向，是 NLP 从业者的宝库。",
+  "analysis": {
+    "tech_highlights": [
+      "涵盖从基础 NLP 工具（分词、NER、情感分析）到前沿模型（BERT、GPT-2）的完整资源链",
+      "包含大量中文特有资源，如敏感词库、古诗词库、中文词向量、中文对话语料等",
+      "提供知识图谱构建、关系抽取、问答系统等高级任务的工具和数据集"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该仓库资源极其丰富，几乎覆盖了 NLP 所有子领域，且持续更新，对研究和工程实践均有极高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "nlp",
+    "chinese-nlp",
+    "dataset",
+    "knowledge-graph",
+    "bert"
+  ],
+  "status": "draft"
+}

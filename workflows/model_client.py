@@ -143,5 +143,5 @@ def accumulate_usage(tracker: dict, new_usage: dict) -> dict:
     return {
         "prompt_tokens": prompt,
         "completion_tokens": completion,
-        "total_cost_yuan": round(total_cost, 6),
+        "total_cost": round(total_cost, 6),
     }

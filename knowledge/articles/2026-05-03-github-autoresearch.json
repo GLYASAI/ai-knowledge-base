@@ -1,0 +1,26 @@
+{
+  "id": "github-20260503-007",
+  "title": "karpathy/autoresearch",
+  "source": "github",
+  "source_url": "https://github.com/karpathy/autoresearch",
+  "collected_at": "2026-05-03T10:32:06Z",
+  "summary": "karpathy/autoresearch 是一个开源项目，利用 AI agents 在单 GPU 上自动运行 nanochat 训练研究，简化深度学习实验流程。",
+  "analysis": {
+    "tech_highlights": [
+      "AI agents 自动化执行研究任务，减少人工干预",
+      "单 GPU 环境下高效训练 nanochat 模型",
+      "基于 Python 实现，易于扩展和定制"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该项目由 AI 领域知名专家 Andrej Karpathy 创建，聚焦自动化研究，对深度学习实践者具有高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-agents",
+    "nanochat",
+    "single-gpu-training",
+    "automated-research",
+    "deep-learning"
+  ],
+  "status": "draft"
+}
