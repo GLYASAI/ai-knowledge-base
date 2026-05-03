@@ -20,7 +20,7 @@ from typing import Any
 import httpx
 import yaml
 
-from model_client import chat_with_retry, get_provider, calculate_cost
+from model_client import chat_with_retry, get_provider, calculate_cost, tracker
 
 logger = logging.getLogger(__name__)
 
@@ -341,7 +341,7 @@ def step_analyze(
         cost = calculate_cost(resp.usage, resp.model)
         total_cost += cost
         logger.info(
-            "  tokens=%d, cost=$%.6f",
+            "  tokens=%d, cost=¥%.6f",
             resp.usage.total_tokens, cost,
         )
 
@@ -353,7 +353,7 @@ def step_analyze(
         item["llm_analysis"] = analysis
         analyzed.append(item)
 
-    logger.info("分析完成: %d/%d 成功，总成本 $%.6f", len(analyzed), len(items), total_cost)
+    logger.info("分析完成: %d/%d 成功，总成本 ¥%.6f", len(analyzed), len(items), total_cost)
     return analyzed
 
 
@@ -561,6 +561,8 @@ def run_pipeline(
         len(raw_items), len(analyzed), len(articles), elapsed,
     )
     logger.info("=" * 60)
+
+    tracker.report()
 
 
 # ---------------------------------------------------------------------------

@@ -1,4 +1,13 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(/Users/abewang/Workspaces/glyasai/ai-knowledge-base/.venv/bin/python3 pipeline.py --sources github --limit 3 --dry-run)",
+      "Bash(grep -n '\\\\$\\\\|USD\\\\|美元' /Users/abewang/Workspaces/glyasai/ai-knowledge-base/pipeline/model_client.py)",
+      "Bash(grep -n '\\\\$\\\\|USD' /Users/abewang/Workspaces/glyasai/ai-knowledge-base/pipeline/pipeline.py)",
+      "Bash(/Users/abewang/Workspaces/glyasai/ai-knowledge-base/.venv/bin/python3 -c \"from pipeline.model_client import chat, tracker, LLMResponse; print\\('OK'\\)\")",
+      "Bash(/Users/abewang/Workspaces/glyasai/ai-knowledge-base/.venv/bin/python3 -c ' *)"
+    ]
+  },
   "hooks": {
     "PostToolUse": [
       {
@@ -10,11 +19,6 @@
           }
         ]
       }
-    ]
-  },
-  "permissions": {
-    "allow": [
-      "Bash(/Users/abewang/Workspaces/glyasai/ai-knowledge-base/.venv/bin/python3 pipeline.py --sources github --limit 3 --dry-run)"
     ]
   }
 }

@@ -42,6 +42,9 @@ class LLMResponse:
     model: str = ""
     provider: str = ""
 
+    def __getitem__(self, key: str) -> Any:
+        return getattr(self, key)
+
 
 # ---------------------------------------------------------------------------
 # 提供商配置
@@ -65,15 +68,74 @@ PROVIDER_CONFIG: dict[str, dict[str, Any]] = {
     },
 }
 
-# 每 1K token 的 USD 价格 (prompt / completion)
+# 每 1K token 的 CNY 价格 (prompt / completion)
 PRICING: dict[str, tuple[float, float]] = {
-    "deepseek-chat": (0.0014, 0.0028),
-    "deepseek-reasoner": (0.0055, 0.0219),
+    "deepseek-chat": (0.001, 0.002),
+    "deepseek-reasoner": (0.004, 0.016),
     "qwen-plus": (0.0008, 0.002),
     "qwen-turbo": (0.0003, 0.0006),
-    "gpt-4o": (0.0025, 0.01),
-    "gpt-4o-mini": (0.00015, 0.0006),
+    "gpt-4o": (0.018, 0.072),
+    "gpt-4o-mini": (0.001, 0.004),
 }
+
+# ---------------------------------------------------------------------------
+# 成本追踪
+# ---------------------------------------------------------------------------
+
+
+class CostTracker:
+    """追踪 LLM 调用的 token 消耗和成本。"""
+
+    def __init__(self) -> None:
+        self._records: list[dict[str, Any]] = []
+
+    def record(self, usage: Usage, model: str) -> None:
+        """记录一次 API 调用。"""
+        self._records.append({"usage": usage, "model": model})
+
+    @property
+    def total_prompt_tokens(self) -> int:
+        return sum(r["usage"].prompt_tokens for r in self._records)
+
+    @property
+    def total_completion_tokens(self) -> int:
+        return sum(r["usage"].completion_tokens for r in self._records)
+
+    @property
+    def total_tokens(self) -> int:
+        return self.total_prompt_tokens + self.total_completion_tokens
+
+    @property
+    def call_count(self) -> int:
+        return len(self._records)
+
+    def estimated_cost(self) -> float:
+        """返回所有调用的累计成本（CNY）。"""
+        return sum(calculate_cost(r["usage"], r["model"]) for r in self._records)
+
+    def report(self) -> str:
+        """生成成本报告并记录到日志，返回报告文本。"""
+        lines = [
+            "=== LLM Cost Report ===",
+            f"调用次数: {self.call_count}",
+            f"Prompt tokens: {self.total_prompt_tokens:,}",
+            f"Completion tokens: {self.total_completion_tokens:,}",
+            f"Total tokens: {self.total_tokens:,}",
+            f"估算成本: ¥{self.estimated_cost():.6f}",
+            "=======================",
+        ]
+        text = "\n".join(lines)
+        logging.basicConfig(level=logging.INFO)
+        logger.info("\n%s", text)
+        return text
+
+    def reset(self) -> None:
+        """清空记录。"""
+        self._records.clear()
+
+
+tracker = CostTracker()
+
 
 # ---------------------------------------------------------------------------
 # 抽象基类
@@ -154,12 +216,14 @@ class OpenAICompatibleProvider(LLMProvider):
         )
         content = data["choices"][0]["message"]["content"]
 
-        return LLMResponse(
+        response = LLMResponse(
             content=content,
             usage=usage,
             model=model,
             provider=self.provider_name,
         )
+        tracker.record(usage, model)
+        return response
 
 
 # ---------------------------------------------------------------------------
@@ -220,7 +284,7 @@ def estimate_tokens(text: str) -> int:
 
 
 def calculate_cost(usage: Usage, model: str) -> float:
-    """根据用量和模型计算成本（USD）。"""
+    """根据用量和模型计算成本（CNY）。"""
     prompt_price, completion_price = PRICING.get(model, (0.0, 0.0))
     return (
         usage.prompt_tokens * prompt_price / 1000
@@ -241,8 +305,7 @@ def get_provider(
     name = provider_name or os.environ.get("LLM_PROVIDER") or "deepseek"
     return OpenAICompatibleProvider(name, api_key=api_key)
 
-
-def quick_chat(
+def chat(
     prompt: str,
     *,
     system: str = "你是一个有帮助的 AI 助手。",
@@ -265,12 +328,12 @@ def quick_chat(
         max_tokens=max_tokens,
     )
     logger.info(
-        "quick_chat 完成 — model=%s, tokens=%d, cost=$%.6f",
+        "chat 完成 — model=%s, tokens=%d, cost=¥%.6f",
         resp.model,
         resp.usage.total_tokens,
         calculate_cost(resp.usage, resp.model),
     )
-    return resp.content
+    return resp
 
 
 # ---------------------------------------------------------------------------
@@ -295,10 +358,10 @@ if __name__ == "__main__":
     response = chat_with_retry(provider, test_messages)
     logger.info("回复: %s", response.content)
     logger.info("用量: %s", response.usage)
-    logger.info("估算成本: $%.6f", calculate_cost(response.usage, response.model))
+    logger.info("估算成本: ¥%.6f", calculate_cost(response.usage, response.model))
 
-    logger.info("--- quick_chat 测试 ---")
-    answer = quick_chat("用一句话解释什么是 AI Agent。")
+    logger.info("--- chat 测试 ---")
+    answer = chat("用一句话解释什么是 AI Agent。")
     logger.info("回复: %s", answer)
 
     sample = "LangGraph 是一个用于构建多 Agent 工作流的框架。"
