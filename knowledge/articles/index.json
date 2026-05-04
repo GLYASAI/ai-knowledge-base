@@ -1,66 +1,150 @@
 [
   {
     "id": "github-20260503-001",
+    "title": "Significant-Gravitas/AutoGPT",
+    "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "filename": "2026-05-03-github-autogpt.json"
+  },
+  {
+    "id": "github-20260503-002",
+    "title": "AUTOMATIC1111/stable-diffusion-webui",
+    "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "filename": "2026-05-03-github-stable-diffusion-webui.json"
+  },
+  {
+    "id": "github-20260503-003",
+    "title": "huggingface/transformers",
+    "source_url": "https://github.com/huggingface/transformers",
+    "filename": "2026-05-03-github-transformers.json"
+  },
+  {
+    "id": "rss-20260503-001",
+    "title": "fabrica - A terminal-based minimal coding agent harness",
+    "source_url": "https://github.com/Endi1/fabrica",
+    "filename": "2026-05-03-rss-fabrica-a-terminal-based-minimal-coding-agent-harn.json"
+  },
+  {
+    "id": "rss-20260503-002",
+    "title": "Upcoming Blender Development Fund and AI Policies",
+    "source_url": "https://www.blender.org/news/upcoming-blender-development-fund-and-ai-policies/",
+    "filename": "2026-05-03-rss-upcoming-blender-development-fund-and-ai-policies.json"
+  },
+  {
+    "id": "github-20260503-004",
+    "title": "NousResearch/hermes-agent",
+    "source_url": "https://github.com/NousResearch/hermes-agent",
+    "filename": "2026-05-03-github-hermes-agent.json"
+  },
+  {
+    "id": "github-20260503-005",
+    "title": "anthropics/skills",
+    "source_url": "https://github.com/anthropics/skills",
+    "filename": "2026-05-03-github-skills.json"
+  },
+  {
+    "id": "github-20260503-006",
+    "title": "Comfy-Org/ComfyUI",
+    "source_url": "https://github.com/Comfy-Org/ComfyUI",
+    "filename": "2026-05-03-github-comfyui.json"
+  },
+  {
+    "id": "github-20260503-007",
+    "title": "Shubhamsaboo/awesome-llm-apps",
+    "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "filename": "2026-05-03-github-awesome-llm-apps.json"
+  },
+  {
+    "id": "github-20260503-008",
     "title": "hacksider/Deep-Live-Cam",
     "source_url": "https://github.com/hacksider/Deep-Live-Cam",
     "filename": "2026-05-03-github-deep-live-cam.json"
   },
   {
-    "id": "github-20260503-002",
+    "id": "github-20260503-009",
     "title": "github/spec-kit",
     "source_url": "https://github.com/github/spec-kit",
     "filename": "2026-05-03-github-spec-kit.json"
   },
   {
-    "id": "github-20260503-003",
+    "id": "github-20260503-010",
     "title": "browser-use/browser-use",
     "source_url": "https://github.com/browser-use/browser-use",
     "filename": "2026-05-03-github-browser-use.json"
   },
   {
-    "id": "github-20260503-004",
+    "id": "github-20260503-011",
     "title": "fighting41love/funNLP",
     "source_url": "https://github.com/fighting41love/funNLP",
     "filename": "2026-05-03-github-funnlp.json"
   },
   {
-    "id": "github-20260503-005",
+    "id": "github-20260503-012",
     "title": "infiniflow/ragflow",
     "source_url": "https://github.com/infiniflow/ragflow",
     "filename": "2026-05-03-github-ragflow.json"
   },
   {
-    "id": "github-20260503-006",
+    "id": "github-20260503-013",
     "title": "vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm",
     "filename": "2026-05-03-github-vllm.json"
   },
   {
-    "id": "github-20260503-007",
+    "id": "github-20260503-014",
     "title": "karpathy/autoresearch",
     "source_url": "https://github.com/karpathy/autoresearch",
     "filename": "2026-05-03-github-autoresearch.json"
   },
   {
-    "id": "github-20260503-008",
+    "id": "github-20260503-015",
     "title": "PaddlePaddle/PaddleOCR",
     "source_url": "https://github.com/PaddlePaddle/PaddleOCR",
     "filename": "2026-05-03-github-paddleocr.json"
   },
   {
-    "id": "github-20260503-009",
+    "id": "github-20260503-016",
     "title": "nextlevelbuilder/ui-ux-pro-max-skill",
     "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
     "filename": "2026-05-03-github-ui-ux-pro-max-skill.json"
   },
   {
-    "id": "github-20260503-010",
+    "id": "github-20260503-017",
     "title": "OpenHands/OpenHands",
     "source_url": "https://github.com/OpenHands/OpenHands",
     "filename": "2026-05-03-github-openhands.json"
   },
   {
-    "id": "rss-20260503-001",
+    "id": "rss-20260503-003",
+    "title": "Scaling Pain of Coding Agent Serving: Lessons from Debugging GLM-5 at Scale",
+    "source_url": "https://z.ai/blog/scaling-pain",
+    "filename": "2026-05-03-rss-scaling-pain-of-coding-agent-serving-lessons-from-.json"
+  },
+  {
+    "id": "rss-20260503-004",
+    "title": "AI Terminology is Poorly Defined and Oft Misused",
+    "source_url": "https://vale.rocks/posts/ai-terminology",
+    "filename": "2026-05-03-rss-ai-terminology-is-poorly-defined-and-oft-misused.json"
+  },
+  {
+    "id": "rss-20260503-005",
+    "title": "Localisation Engineering Platform",
+    "source_url": "https://lingo.dev/en/blog/introducing-lingodotdev-v1",
+    "filename": "2026-05-03-rss-localisation-engineering-platform.json"
+  },
+  {
+    "id": "rss-20260503-006",
+    "title": "Triton language for Huawei Ascend",
+    "source_url": "https://github.com/triton-lang/triton-ascend",
+    "filename": "2026-05-03-rss-triton-language-for-huawei-ascend.json"
+  },
+  {
+    "id": "rss-20260503-007",
+    "title": "Introducing talkie: a 13B vintage language model from 1930",
+    "source_url": "https://talkie-lm.com/introducing-talkie",
+    "filename": "2026-05-03-rss-introducing-talkie-a-13b-vintage-language-model-fr.json"
+  },
+  {
+    "id": "rss-20260503-008",
     "title": "On the Limits of Self-Improving in Large Language Models: The Singularity Is Not Near Without Symbolic Model Synthesis",
     "source_url": "https://arxiv.org/html/2601.05280v2",
     "filename": "2026-05-03-rss-on-the-limits-of-self-improving-in-large-language-.json"

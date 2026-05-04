@@ -1,18 +1,18 @@
 {
-  "id": "github-20260503-005",
+  "id": "github-20260503-002",
   "title": "langchain-ai/langchain",
   "source": "github",
   "source_url": "https://github.com/langchain-ai/langchain",
-  "collected_at": "2026-05-03T00:55:07Z",
-  "summary": "LangChain 是一个用于构建 LLM 应用的 agent engineering 平台，提供模块化组件和 LangGraph 支持复杂 agent 工作流，简化 RAG 和多 agent 系统开发。",
+  "collected_at": "2026-05-03T13:47:27Z",
+  "summary": "LangChain 是一个用于构建 LLM 驱动应用的 agent 工程平台，支持多模型集成、RAG 和 agent 编排，提供 langgraph 等工具简化复杂 AI 工作流开发。",
   "analysis": {
     "tech_highlights": [
-      "提供统一的 LLM 抽象层，支持 OpenAI、Anthropic、Gemini 等多种模型无缝切换",
-      "LangGraph 扩展支持有状态、多步骤的 agent 工作流编排",
-      "内置 RAG 和 agent 工具链，简化文档检索与外部 API 集成"
+      "提供 langgraph 框架支持多 agent 协作和复杂工作流编排",
+      "内置 RAG 和工具调用能力，简化 LLM 与外部数据源的集成",
+      "支持 OpenAI、Anthropic、Gemini 等多种 LLM 的统一接口"
     ],
     "relevance_score": 9,
-    "score_reason": "LangChain 是当前最流行的 LLM 应用开发框架之一，覆盖 RAG、agent 和 workflow 等核心场景，对 AI 开发者极具参考价值。",
+    "score_reason": "作为最流行的 LLM 应用框架之一，LangChain 在 agent 工程和 RAG 领域具有极高实用价值，适合当前 AI 开发热点。",
     "audience": "intermediate"
   },
   "tags": [

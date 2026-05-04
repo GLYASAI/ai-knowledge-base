@@ -53,12 +53,14 @@ def _compute_weighted_score(scores: dict[str, int | float]) -> float:
 
 
 def review_node(state: KBState) -> dict[str, Any]:
-    """5 维度加权评分审核 analyses，iteration >= 2 时强制通过。"""
+    """5 维度加权评分审核 analyses，达到 max_iterations 时强制通过。"""
     tracker = dict(state.get("cost_tracker") or {})
     iteration = state.get("iteration", 0)
     analyses = state.get("analyses", [])
+    plan = state.get("plan") or {}
+    max_iterations = int(plan.get("max_iterations", 3))
 
-    logger.info("[Review] 开始审核，iteration=%d, analyses=%d", iteration, len(analyses))
+    logger.info("[Review] 开始审核，iteration=%d/%d, analyses=%d", iteration, max_iterations, len(analyses))
 
     if not analyses:
         logger.info("[Review] 无分析结果，跳过审核")
@@ -69,8 +71,8 @@ def review_node(state: KBState) -> dict[str, Any]:
             "cost_tracker": tracker,
         }
 
-    if iteration >= 2:
-        logger.info("[Review] 已达最大审核次数，强制通过")
+    if iteration >= max_iterations:
+        logger.info("[Review] 已达最大审核次数 (%d)，强制通过", max_iterations)
         return {
             "review_passed": True,
             "review_feedback": "强制通过：已达最大审核次数",

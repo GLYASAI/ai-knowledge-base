@@ -1,18 +1,18 @@
 {
-  "id": "github-20260503-009",
+  "id": "github-20260503-016",
   "title": "nextlevelbuilder/ui-ux-pro-max-skill",
   "source": "github",
   "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-  "collected_at": "2026-05-03T10:32:06Z",
-  "summary": "一个基于 AI 的 UI/UX 设计技能库，支持多平台专业界面设计，集成 Claude、Cursor 等 AI 工具，使用 React 和 TailwindCSS 构建。",
+  "collected_at": "2026-05-03T13:47:27Z",
+  "summary": "一个基于 AI 的 UI/UX 设计技能库，支持多平台专业界面设计，集成多种 AI 编码工具和前端技术栈。",
   "analysis": {
     "tech_highlights": [
-      "集成多种 AI 编码助手（Claude、Cursor、Copilot 等）实现设计智能",
-      "基于 React + TailwindCSS 构建跨平台 UI 组件库",
-      "支持移动端 UI 和 Landing Page 等常见设计模式"
+      "集成 Claude、Copilot、Cursor AI 等多种 AI 编码助手，实现 AI 驱动的 UI 设计",
+      "支持 React、Tailwind CSS、HTML5 等现代前端技术栈，覆盖移动端和 Web 端设计",
+      "提供设计智能（Design Intelligence）能力，自动生成专业级 UI/UX 组件和页面"
     ],
-    "relevance_score": 8,
-    "score_reason": "该项目结合了 AI 辅助设计与前端开发，技术栈现代且实用，对提升 UI/UX 工作效率有较高参考价值。",
+    "relevance_score": 9,
+    "score_reason": "该项目将 AI 编码工具与 UI/UX 设计深度结合，技术栈现代且实用，对前端和 AI 开发者有较高参考价值。",
     "audience": "intermediate"
   },
   "tags": [
@@ -20,7 +20,7 @@
     "ui-design",
     "react",
     "tailwindcss",
-    "claude-code"
+    "claude"
   ],
   "status": "draft"
 }

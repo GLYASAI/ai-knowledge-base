@@ -7,6 +7,7 @@ import logging
 from typing import Any
 
 from workflows.model_client import accumulate_usage, chat_json
+from workflows.reviewer import MAX_REVIEW_ITEMS
 from workflows.state import KBState
 
 logger = logging.getLogger(__name__)
@@ -31,11 +32,14 @@ def revise_node(state: KBState) -> dict[str, Any]:
         logger.debug("[Revise] 无需修正（analyses=%d, feedback=%s）", len(analyses), bool(feedback))
         return {}
 
-    logger.info("[Revise] 开始修正 %d 条分析，feedback: %s", len(analyses), feedback[:80])
+    logger.info("[Revise] 开始修正前 %d 条分析，feedback: %s", min(len(analyses), MAX_REVIEW_ITEMS), feedback[:80])
 
-    items_text = json.dumps(analyses, ensure_ascii=False, indent=2)
+    to_revise = analyses[:MAX_REVIEW_ITEMS]
+    rest = analyses[MAX_REVIEW_ITEMS:]
+
+    items_text = json.dumps(to_revise, ensure_ascii=False, indent=2)
     prompt = (
-        f"以下是 {len(analyses)} 条分析结果：\n\n{items_text}\n\n"
+        f"以下是 {len(to_revise)} 条分析结果：\n\n{items_text}\n\n"
         f"审核反馈：\n{feedback}\n\n"
         f"请根据反馈逐条修改，返回修改后的完整 JSON 数组。"
     )
@@ -45,7 +49,7 @@ def revise_node(state: KBState) -> dict[str, Any]:
         tracker = accumulate_usage(tracker, usage)
     except Exception as exc:
         logger.warning("[Revise] LLM 调用失败，保留原文: %s", exc)
-        return {"analyses": analyses, "cost_tracker": tracker}
+        return {"analyses": to_revise + rest, "cost_tracker": tracker}
 
     if isinstance(resp, list):
         improved = resp
@@ -53,7 +57,7 @@ def revise_node(state: KBState) -> dict[str, Any]:
         improved = resp["analyses"]
     else:
         logger.warning("[Revise] 返回格式异常，保留原文")
-        improved = analyses
+        improved = to_revise
 
-    logger.info("[Revise] 修正完成，%d 条", len(improved))
-    return {"analyses": improved, "cost_tracker": tracker}
+    logger.info("[Revise] 修正完成，%d 条（跳过 %d 条未审核项）", len(improved), len(rest))
+    return {"analyses": improved + rest, "cost_tracker": tracker}

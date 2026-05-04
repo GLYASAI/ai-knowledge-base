@@ -1,11 +1,11 @@
 """
 LangGraph 工作流组装 — 将节点串联为带条件循环的图。
 工作流程结构：
-collect → analyze → review ─┬─ passed ──────→ organize → save → END
-                            │
-                            ├─ !passed & <3 → revise → review (循环)
-                            │
-                            └─ !passed & ≥3 → human_flag → END
+plan → sources → analyses → review ─[pass]→ organize → END
+                                ↓
+                            revise → review（循环）
+                                ↓[>max]
+                            human_flag → END
 """
 
 from __future__ import annotations
@@ -14,13 +14,11 @@ import logging
 
 from langgraph.graph import END, StateGraph
 
+from workflows.analyzer import analyze_node
+from workflows.collector import collect_node
 from workflows.human_flag import human_flag_node
-from workflows.nodes import (
-    analyze_node,
-    collect_node,
-    organize_node,
-    save_node,
-)
+from workflows.organizer import organize_node, save_node
+from workflows.planner import planner_node
 from workflows.reviewer import review_node
 from workflows.reviser import revise_node
 from workflows.state import KBState
@@ -30,9 +28,12 @@ logger = logging.getLogger(__name__)
 
 def _review_router(state: KBState) -> str:
     """review 之后的 3 路条件路由。"""
+    plan = state.get("plan", {}) or {}
+    max_iter = int(plan.get("max_iterations", 3))
+
     if state.get("review_passed"):
         return "organize"
-    if state.get("iteration", 0) >= 3:
+    if state.get("iteration", 0) >= max_iter:
         return "human_flag"
     return "revise"
 
@@ -41,6 +42,7 @@ def build_graph() -> any:
     """构建并编译 LangGraph 工作流，返回可执行的 app。"""
     graph = StateGraph(KBState)
 
+    graph.add_node("plan", planner_node)
     graph.add_node("collect", collect_node)
     graph.add_node("analyze", analyze_node)
     graph.add_node("organize", organize_node)
@@ -49,7 +51,8 @@ def build_graph() -> any:
     graph.add_node("human_flag", human_flag_node)
     graph.add_node("save", save_node)
 
-    graph.set_entry_point("collect")
+    graph.set_entry_point("plan")
+    graph.add_edge("plan", "collect")
     graph.add_edge("collect", "analyze")
     graph.add_edge("analyze", "review")
     graph.add_conditional_edges("review", _review_router, {

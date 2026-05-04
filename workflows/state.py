@@ -10,6 +10,9 @@ class KBState(TypedDict):
     而非原始 HTML/API 响应等大体积数据。
     """
 
+    # Planner 输出策略
+    plan: dict
+
     # 采集到的原始数据摘要列表，每项包含 source_url / title / raw_text 等关键字段
     sources: list[dict]
 

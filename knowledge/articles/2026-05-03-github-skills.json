@@ -1,18 +1,17 @@
 {
-  "id": "github-20260503-008",
+  "id": "github-20260503-005",
   "title": "anthropics/skills",
   "source": "github",
   "source_url": "https://github.com/anthropics/skills",
-  "collected_at": "2026-05-03T00:55:07Z",
-  "summary": "Anthropic 发布了一个公开的 Agent Skills 仓库，旨在提供可复用的 AI 代理技能模块，帮助开发者快速构建和部署智能代理应用。",
+  "collected_at": "2026-05-03T13:47:27Z",
+  "summary": "Anthropic 开源了 Agent Skills 仓库，提供可复用的 Python 技能模块，用于构建和扩展 AI 代理能力。",
   "analysis": {
     "tech_highlights": [
-      "提供模块化的 Agent Skills，支持快速集成到 AI 代理系统中",
-      "基于 Python 实现，便于开发者扩展和定制",
-      "由 Anthropic 维护，与 Claude 等大模型生态兼容"
+      "提供模块化的 Agent Skills，支持快速集成到现有 AI 代理系统中",
+      "基于 Python 实现，强调可复用性和社区贡献"
     ],
     "relevance_score": 9,
-    "score_reason": "该项目直接面向 AI 代理开发的核心需求，提供实用技能模块，且由 Anthropic 官方维护，对构建智能代理应用具有高参考价值。",
+    "score_reason": "该项目由 Anthropic 维护，聚焦于 AI 代理技能，与当前 AI 代理开发趋势高度相关，且拥有极高星标数，表明其广泛关注和实用价值。",
     "audience": "intermediate"
   },
   "tags": [
@@ -20,7 +19,7 @@
     "ai-agents",
     "python",
     "anthropic",
-    "llm-tools"
+    "open-source"
   ],
   "status": "draft"
 }

@@ -1,26 +1,26 @@
 {
-  "id": "rss-20260503-004",
+  "id": "rss-20260503-001",
   "title": "Porting microgpt to Futhark, Part I",
   "source": "rss",
   "source_url": "https://www.kmjn.org/notes/microgpt_futhark.html",
-  "collected_at": "2026-05-03T00:55:07Z",
-  "summary": "本文介绍了将 microgpt 移植到 Futhark 语言的过程，展示了如何利用 Futhark 的并行计算能力来加速 GPT 模型的核心运算。",
+  "collected_at": "2026-05-03T13:47:27Z",
+  "summary": "本文介绍了将 microgpt（一个轻量级 GPT 实现）移植到 Futhark（一种数据并行函数式编程语言）的过程，重点讨论了并行化 Transformer 模型中的矩阵运算和注意力机制。",
   "analysis": {
     "tech_highlights": [
-      "使用 Futhark 的并行数组操作实现 GPT 的矩阵乘法与注意力机制",
-      "通过类型系统确保 GPU 上的内存安全与数据依赖正确性",
-      "对比 Futhark 与 Python 实现的性能差异，展示并行编译优化效果"
+      "使用 Futhark 的并行原语高效实现矩阵乘法",
+      "在 Futhark 中实现 Transformer 的 scaled dot-product attention",
+      "通过类型系统确保 GPU 上的内存安全和数据并行性"
     ],
     "relevance_score": 7,
-    "score_reason": "对于关注 GPU 编程、并行计算或 GPT 模型优化的开发者有较高参考价值，但内容偏向特定语言移植，通用性稍弱。",
-    "audience": "intermediate"
+    "score_reason": "该文章对 Futhark 和 GPT 模型移植有深入技术细节，适合对并行计算和函数式编程感兴趣的开发者，但受众相对小众。",
+    "audience": "advanced"
   },
   "tags": [
     "futhark",
     "gpt",
     "parallel-computing",
-    "gpu-programming",
-    "porting"
+    "transformer",
+    "gpu-programming"
   ],
   "status": "draft"
 }

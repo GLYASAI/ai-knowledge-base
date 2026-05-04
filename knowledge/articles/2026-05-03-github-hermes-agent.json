@@ -1,18 +1,18 @@
 {
-  "id": "github-20260503-007",
+  "id": "github-20260503-004",
   "title": "NousResearch/hermes-agent",
   "source": "github",
   "source_url": "https://github.com/NousResearch/hermes-agent",
-  "collected_at": "2026-05-03T00:55:07Z",
-  "summary": "Hermes Agent 是一个基于 Python 的 AI 代理框架，支持与 OpenAI、Anthropic 等主流 LLM 集成，强调可扩展性和用户共同成长的设计理念。",
+  "collected_at": "2026-05-03T13:47:27Z",
+  "summary": "Hermes Agent 是一个基于 Python 的 AI 代理框架，由 Nous Research 开发，支持与 OpenAI、Anthropic 等主流 LLM 集成，提供可扩展的智能代理能力。",
   "analysis": {
     "tech_highlights": [
-      "支持多 LLM 后端（OpenAI、Anthropic、Claude 等）的灵活集成",
-      "模块化架构设计，便于用户自定义和扩展代理行为",
-      "高星数（129k+）社区项目，具备成熟生态和活跃维护"
+      "支持多种 LLM 后端（OpenAI、Anthropic、Claude 等），提供灵活集成",
+      "采用模块化架构，便于扩展和定制代理行为",
+      "基于 Python 实现，降低开发者使用门槛"
     ],
     "relevance_score": 8,
-    "score_reason": "该项目在 AI 代理领域具有极高关注度，技术架构灵活，适合作为学习或二次开发的基础，但描述较为抽象，具体实现细节需进一步探索。",
+    "score_reason": "该项目拥有高星数（130K+），集成主流 LLM，技术架构清晰，对 AI 代理开发社区有显著参考价值。",
     "audience": "intermediate"
   },
   "tags": [
