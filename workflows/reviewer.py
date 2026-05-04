@@ -6,6 +6,7 @@ import json
 import logging
 from typing import Any
 
+from tests.cost_guard import BudgetExceededError
 from workflows.model_client import accumulate_usage, chat_json
 from workflows.state import KBState
 
@@ -86,8 +87,10 @@ def review_node(state: KBState) -> dict[str, Any]:
     prompt = f"请审核以下 {len(review_items)} 条分析结果：\n\n{items_text}"
 
     try:
-        resp, usage = chat_json(prompt, system=REVIEW_SYSTEM, temperature=0.1)
+        resp, usage = chat_json(prompt, system=REVIEW_SYSTEM, temperature=0.1, node_name="review")
         tracker = accumulate_usage(tracker, usage)
+    except BudgetExceededError:
+        raise
     except Exception as exc:
         logger.warning("[Review] LLM 审核失败，自动通过: %s", exc)
         return {

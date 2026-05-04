@@ -1,0 +1,26 @@
+{
+  "id": "github-20260504-019",
+  "title": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "source": "github",
+  "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "collected_at": "2026-05-04T03:21:58Z",
+  "summary": "一个基于AI的UI/UX设计技能库，支持多平台专业界面设计，集成Claude、Copilot、Cursor等主流AI工具，提供从Landing Page到Mobile UI的完整设计智能。",
+  "analysis": {
+    "tech_highlights": [
+      "集成Claude Code、Copilot、Cursor AI等主流AI编码工具，实现跨平台UI/UX设计自动化",
+      "基于React + TailwindCSS + HTML5技术栈，提供Landing Page和Mobile UI等专业设计模板",
+      "支持命令行交互与AI驱动的设计智能，降低多平台UI开发门槛"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该项目整合了当前最热门的AI编码工具与前端技术栈，提供实用的UI/UX设计解决方案，Star数极高，对AI辅助设计领域有显著参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-skills",
+    "ui-ux-design",
+    "react",
+    "tailwindcss",
+    "claude-code"
+  ],
+  "status": "draft"
+}

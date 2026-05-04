@@ -15,7 +15,26 @@ from typing import Any
 from dotenv import load_dotenv
 from openai import OpenAI
 
+from tests.cost_guard import CostGuard
+
 load_dotenv()
+
+_cost_guard: CostGuard | None = None
+
+
+def get_cost_guard() -> CostGuard:
+    """获取全局 CostGuard 实例（懒加载）。"""
+    global _cost_guard
+    if _cost_guard is None:
+        budget = float(os.getenv("BUDGET", "1.0"))
+        input_price = float(os.getenv("PRICE_INPUT_PER_MILLION", "1.0"))
+        output_price = float(os.getenv("PRICE_OUTPUT_PER_MILLION", "2.0"))
+        _cost_guard = CostGuard(
+            budget=budget,
+            input_price_per_million=input_price,
+            output_price_per_million=output_price,
+        )
+    return _cost_guard
 
 
 def get_client() -> OpenAI:
@@ -32,6 +51,7 @@ def chat(
     model: str | None = None,
     temperature: float = 0.3,
     max_tokens: int = 2000,
+    node_name: str = "unknown",
 ) -> tuple[str, dict]:
     """调用 LLM 并返回 (回复文本, token用量信息)
 
@@ -41,6 +61,7 @@ def chat(
         model: 模型名，默认从环境变量读取
         temperature: 采样温度
         max_tokens: 最大输出 token 数
+        node_name: 调用方节点名（用于成本追踪）
 
     Returns:
         (response_text, usage_dict) 其中 usage_dict 包含 prompt_tokens, completion_tokens
@@ -64,12 +85,17 @@ def chat(
         "completion_tokens": response.usage.completion_tokens if response.usage else 0,
     }
 
+    guard = get_cost_guard()
+    guard.record(node_name, usage, model_name)
+    guard.check()
+
     return text, usage
 
 
 def chat_json(
     prompt: str,
     system: str = "你是一个专业的 AI 技术分析师。请用 JSON 格式回复。",
+    node_name: str = "unknown",
     **kwargs: Any,
 ) -> tuple[dict | list, dict]:
     """调用 LLM 并解析 JSON 响应（带容错）
@@ -88,7 +114,7 @@ def chat_json(
     """
     import re
 
-    text, usage = chat(prompt, system=system, **kwargs)
+    text, usage = chat(prompt, system=system, node_name=node_name, **kwargs)
 
     # 策略 1: 去掉 markdown 代码块包裹
     cleaned = text.strip()

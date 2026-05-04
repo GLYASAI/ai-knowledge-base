@@ -1,0 +1,24 @@
+{
+  "id": "rss-20260504-006",
+  "title": "AI Terminology is Poorly Defined and Oft Misused",
+  "source": "rss",
+  "source_url": "https://vale.rocks/posts/ai-terminology",
+  "collected_at": "2026-05-04T03:21:58Z",
+  "summary": "文章指出AI术语定义模糊且常被误用，强调清晰定义对技术讨论的重要性。",
+  "analysis": {
+    "tech_highlights": [
+      "批判AI术语（如AGI、机器学习）的滥用现象",
+      "呼吁建立更严谨的术语标准以促进交流"
+    ],
+    "relevance_score": 7,
+    "score_reason": "对AI术语的反思有助于提升技术讨论的准确性，但缺乏具体解决方案。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-terminology",
+    "misuse",
+    "definitions",
+    "tech-communication"
+  ],
+  "status": "draft"
+}

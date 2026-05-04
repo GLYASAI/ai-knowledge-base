@@ -6,6 +6,7 @@ import json
 import logging
 from typing import Any
 
+from tests.cost_guard import BudgetExceededError
 from workflows.model_client import accumulate_usage, chat_json
 from workflows.reviewer import MAX_REVIEW_ITEMS
 from workflows.state import KBState
@@ -45,8 +46,10 @@ def revise_node(state: KBState) -> dict[str, Any]:
     )
 
     try:
-        resp, usage = chat_json(prompt, system=REVISE_SYSTEM, temperature=0.4)
+        resp, usage = chat_json(prompt, system=REVISE_SYSTEM, temperature=0.4, node_name="revise")
         tracker = accumulate_usage(tracker, usage)
+    except BudgetExceededError:
+        raise
     except Exception as exc:
         logger.warning("[Revise] LLM 调用失败，保留原文: %s", exc)
         return {"analyses": to_revise + rest, "cost_tracker": tracker}

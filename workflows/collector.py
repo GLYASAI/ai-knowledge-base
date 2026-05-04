@@ -12,6 +12,7 @@ from typing import Any
 
 import yaml
 
+from tests.security import sanitize_input
 from workflows.state import KBState
 
 logger = logging.getLogger(__name__)
@@ -170,5 +171,15 @@ def collect_node(state: KBState) -> dict[str, Any]:
     sources: list[dict[str, Any]] = []
     sources.extend(_collect_github(github_limit))
     sources.extend(_collect_rss(rss_limit))
+
+    # 对采集到的文本字段做输入清洗
+    for item in sources:
+        for field in ("title", "description"):
+            if item.get(field):
+                cleaned, warns = sanitize_input(item[field])
+                if warns:
+                    logger.warning("[Collect] 清洗 %s: %s", item.get("url", ""), warns)
+                item[field] = cleaned
+
     logger.info("[Collect] 采集完成，共 %d 条", len(sources))
     return {"sources": sources}

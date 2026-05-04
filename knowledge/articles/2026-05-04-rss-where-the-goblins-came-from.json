@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260504-004",
+  "title": "Where the goblins came from",
+  "source": "rss",
+  "source_url": "https://openai.com/index/where-the-goblins-came-from/",
+  "collected_at": "2026-05-04T03:21:58Z",
+  "summary": "OpenAI 发布文章探讨了 AI 模型中的“地精”现象，即模型在训练过程中出现的意外行为和偏差，分析了其来源和影响。",
+  "analysis": {
+    "tech_highlights": [
+      "分析了 AI 模型训练中意外行为（地精现象）的成因",
+      "探讨了数据偏差和模型架构对输出结果的影响",
+      "提出了缓解模型异常行为的潜在方法"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章涉及 AI 模型行为分析，对理解模型偏差和安全性有参考价值，但内容较为概念化，技术深度一般。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-model-behavior",
+    "model-bias",
+    "ai-safety",
+    "openai"
+  ],
+  "status": "draft"
+}

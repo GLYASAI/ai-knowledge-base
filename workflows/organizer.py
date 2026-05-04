@@ -9,6 +9,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from tests.cost_guard import BudgetExceededError
+from tests.security import filter_output
 from workflows.model_client import accumulate_usage, chat_json
 from workflows.state import KBState
 
@@ -37,6 +39,18 @@ def _make_filename(source: str, title: str) -> str:
     slug = re.sub(r"[^a-zA-Z0-9]+", "-", title.split("/")[-1].lower()).strip("-")
     slug = slug[:50]
     return f"{TODAY}-{source}-{slug}.json"
+
+
+def _filter_articles_pii(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """对 articles 的文本字段做 PII 过滤。"""
+    for article in articles:
+        for field in ("title", "summary"):
+            if article.get(field):
+                filtered, detections = filter_output(article[field])
+                if detections:
+                    logger.warning("[Organize] PII detected in %s: %s", article.get("id", ""), detections)
+                article[field] = filtered
+    return articles
 
 
 def organize_node(state: KBState) -> dict[str, Any]:
@@ -84,7 +98,7 @@ def organize_node(state: KBState) -> dict[str, Any]:
             })
 
         logger.info("[Organize] 首轮整理完成，%d 条（threshold=%.1f）", len(articles), min_score)
-        return {"articles": articles, "cost_tracker": tracker}
+        return {"articles": _filter_articles_pii(articles), "cost_tracker": tracker}
 
     # 后续轮次：根据审核反馈用 LLM 修正
     if not feedback:
@@ -101,18 +115,20 @@ def organize_node(state: KBState) -> dict[str, Any]:
             f"请根据反馈修改该条目，保留所有字段，以 JSON 格式返回修改后的完整条目。"
         )
         try:
-            result, usage = chat_json(prompt, system=REVISE_SYSTEM)
+            result, usage = chat_json(prompt, system=REVISE_SYSTEM, node_name="organize")
             tracker = accumulate_usage(tracker, usage)
             if isinstance(result, dict):
                 revised.append(result)
             else:
                 revised.append(article)
+        except BudgetExceededError:
+            raise
         except Exception as exc:
             logger.warning("[Organize] 修正失败，保留原文: %s", exc)
             revised.append(article)
 
     logger.info("[Organize] 修正完成，%d 条", len(revised))
-    return {"articles": revised, "cost_tracker": tracker}
+    return {"articles": _filter_articles_pii(revised), "cost_tracker": tracker}
 
 
 # ---------------------------------------------------------------------------

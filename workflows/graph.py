@@ -11,12 +11,16 @@ plan → sources → analyses → review ─[pass]→ organize → END
 from __future__ import annotations
 
 import logging
+from datetime import datetime, timezone
+
+from pathlib import Path
 
 from langgraph.graph import END, StateGraph
 
 from workflows.analyzer import analyze_node
 from workflows.collector import collect_node
 from workflows.human_flag import human_flag_node
+from workflows.model_client import get_cost_guard
 from workflows.organizer import organize_node, save_node
 from workflows.planner import planner_node
 from workflows.reviewer import review_node
@@ -116,3 +120,26 @@ if __name__ == "__main__":
         cost.get("completion_tokens", 0) / 1000,
         cost.get("total_cost", 0),
     )
+
+    # CostGuard 成本报告
+    guard = get_cost_guard()
+    report = guard.get_report()
+    logger.info("=== CostGuard 成本报告 ===")
+    logger.info(
+        "总计: %d 次调用, prompt=%d tokens, completion=%d tokens, 费用=¥%.6f / ¥%.2f (%.1f%%)",
+        report["total_calls"],
+        report["total_prompt_tokens"],
+        report["total_completion_tokens"],
+        report["total_cost"],
+        report["budget"],
+        report["usage_ratio"] * 100,
+    )
+    for node, stats in report["by_node"].items():
+        logger.info(
+            "  [%s] %d 次, prompt=%d, completion=%d, ¥%.6f",
+            node, stats["calls"], stats["prompt_tokens"], stats["completion_tokens"], stats["cost"],
+        )
+    reports_dir = Path(__file__).resolve().parent.parent / "knowledge" / "cost_reports"
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    report_path = reports_dir / f"cost_report_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}.json"
+    guard.save_report(report_path)

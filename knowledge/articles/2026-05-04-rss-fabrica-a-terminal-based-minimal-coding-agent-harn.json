@@ -1,0 +1,24 @@
+{
+  "id": "rss-20260504-001",
+  "title": "fabrica - A terminal-based minimal coding agent harness",
+  "source": "rss",
+  "source_url": "https://github.com/Endi1/fabrica",
+  "collected_at": "2026-05-04T03:21:58Z",
+  "summary": "Fabrica 是一个基于终端的极简编码代理工具，旨在通过命令行界面简化 AI 辅助编程流程，提供轻量级的代码生成与交互体验。",
+  "analysis": {
+    "tech_highlights": [
+      "基于终端的极简设计，无需复杂 GUI 即可运行",
+      "集成 AI 编码代理功能，支持代码生成与交互式调试"
+    ],
+    "relevance_score": 7,
+    "score_reason": "该项目聚焦于终端环境下的 AI 编码代理，对 CLI 爱好者和 AI 辅助开发者有较高实用价值，但功能相对基础，创新性一般。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "terminal-based",
+    "ai-coding-agent",
+    "cli-tool",
+    "code-generation"
+  ],
+  "status": "draft"
+}

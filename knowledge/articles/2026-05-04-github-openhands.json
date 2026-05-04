@@ -1,0 +1,26 @@
+{
+  "id": "github-20260504-020",
+  "title": "OpenHands/OpenHands",
+  "source": "github",
+  "source_url": "https://github.com/OpenHands/OpenHands",
+  "collected_at": "2026-05-04T03:21:58Z",
+  "summary": "OpenHands 是一个基于 AI 的开发者工具，利用大语言模型（如 GPT、Claude）驱动自动化开发流程，支持 CLI 和交互式 agent 模式。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 LLM（如 GPT、Claude）实现 AI 驱动的开发自动化",
+      "支持 CLI 和 agent 两种交互模式，灵活适配不同开发场景",
+      "开源且用 Python 实现，易于集成和扩展"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该项目在 AI 驱动开发领域具有高人气（72k+ stars），技术架构清晰，实用性强，对开发者社区有显著影响。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-agent",
+    "developer-tools",
+    "llm",
+    "cli",
+    "open-source"
+  ],
+  "status": "draft"
+}

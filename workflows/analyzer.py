@@ -7,6 +7,7 @@ import logging
 from pathlib import Path
 from typing import Any
 
+from tests.cost_guard import BudgetExceededError
 from workflows.model_client import accumulate_usage, chat_json
 from workflows.state import KBState
 
@@ -90,7 +91,10 @@ def analyze_node(state: KBState) -> dict[str, Any]:
         prompt = _build_analyze_prompt(item)
 
         try:
-            result, usage = chat_json(prompt, system=ANALYZE_SYSTEM)
+            result, usage = chat_json(prompt, system=ANALYZE_SYSTEM, node_name="analyze")
+        except BudgetExceededError:
+            logger.warning("[Analyze] 预算超限，终止分析")
+            break
         except Exception as exc:
             logger.warning("[Analyze] LLM 调用失败，跳过: %s", exc)
             continue
