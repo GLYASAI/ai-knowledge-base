@@ -18,6 +18,9 @@ from typing import Any
 
 import aiohttp
 
+from openai import OpenAI
+
+from distribution.card_generator import generate_card
 from distribution.formatter import generate_daily_digest
 
 logger = logging.getLogger(__name__)
@@ -194,6 +197,128 @@ class FeishuPublisher(BasePublisher):
         return [await self.send_message(card)]
 
 
+# ── 小红书草稿实现 ────────────────────────────────────────────────────────────
+
+
+class XiaohongshuPublisher(BasePublisher):
+    """将评分最高的文章改写为小红书笔记草稿，并生成图文卡片，保存至本地。
+
+    文字草稿和图片均写入 {drafts_dir}/{date}/ 目录，不发任何网络请求（LLM 除外）。
+    LLM 接入使用与采集流水线相同的环境变量：LLM_API_KEY / LLM_BASE_URL / LLM_MODEL。
+
+    Args:
+        drafts_dir: 草稿根目录，默认 "drafts"。
+    """
+
+    _CHANNEL = "xiaohongshu"
+
+    _SYSTEM_PROMPT = (
+        "你是一位小红书内容创作者，擅长将 AI 技术资讯改写为吸引普通用户的口语化内容。"
+    )
+    _USER_PROMPT_TMPL = """\
+请将以下 AI 技术资讯改写为一篇小红书笔记。
+
+要求：
+1. 标题：20 字以内，带 emoji，口语化，吸引眼球
+2. 正文：300-500 字，口语化，emoji 穿插，分点说明对普通人/开发者的价值
+3. 话题标签：5 个，格式 #标签名
+4. 严格按如下格式输出，不要输出其他内容：
+
+【标题】
+xxx
+
+【正文】
+xxx
+
+【标签】
+#xxx #xxx #xxx #xxx #xxx
+
+---
+文章标题：{title}
+摘要：{summary}
+技术亮点：
+{highlights}"""
+
+    def __init__(self, drafts_dir: str = "drafts") -> None:
+        self._drafts_dir = Path(drafts_dir)
+
+    def _llm_rewrite(self, article: dict[str, Any]) -> str:
+        """调用 LLM 将文章改写为小红书风格文本。
+
+        Args:
+            article: 知识条目 dict。
+
+        Returns:
+            改写后的小红书笔记文本。
+        """
+        client = OpenAI(
+            api_key=os.environ.get("LLM_API_KEY", ""),
+            base_url=os.environ.get("LLM_BASE_URL", "https://api.deepseek.com"),
+        )
+        model = os.environ.get("LLM_MODEL", "deepseek-chat")
+        highlights = article.get("analysis", {}).get("tech_highlights", [])
+        prompt = self._USER_PROMPT_TMPL.format(
+            title=article.get("title", ""),
+            summary=article.get("summary", ""),
+            highlights="\n".join(f"- {h}" for h in highlights),
+        )
+        response = client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": self._SYSTEM_PROMPT},
+                {"role": "user", "content": prompt},
+            ],
+            temperature=0.7,
+            max_tokens=1000,
+        )
+        return response.choices[0].message.content or ""
+
+    async def send_message(self, content: Any) -> PublishResult:
+        """未使用；小红书草稿通过 send_digest() 生成。"""
+        return PublishResult(
+            channel=self._CHANNEL, success=False, error="请使用 send_digest()"
+        )
+
+    async def send_digest(self, digest: dict[str, Any]) -> list[PublishResult]:
+        """取评分最高的文章，生成小红书文字草稿和图片卡片，写入本地。
+
+        Args:
+            digest: generate_daily_digest() 返回的 dict，需含 "articles" 和 "date" 键。
+
+        Returns:
+            含单个 PublishResult 的列表。
+        """
+        articles: list[dict[str, Any]] = digest.get("articles", [])
+        if not articles:
+            return [PublishResult(channel=self._CHANNEL, success=False,
+                                  error="digest 中无文章")]
+
+        article = articles[0]  # 已按 relevance_score 降序，取 Top 1
+        date_str: str = digest.get("date", "unknown")
+        out_dir = self._drafts_dir / date_str
+
+        try:
+            # LLM 改写（同步调用放入线程池）
+            text = await asyncio.to_thread(self._llm_rewrite, article)
+
+            # 保存文字草稿
+            txt_path = out_dir / "xiaohongshu.txt"
+            txt_path.parent.mkdir(parents=True, exist_ok=True)
+            txt_path.write_text(text, encoding="utf-8")
+            logger.info("小红书文字草稿: %s", txt_path)
+
+            # 生成图片卡片（CPU 密集，放入线程池）
+            img_path = out_dir / "xiaohongshu.png"
+            await asyncio.to_thread(generate_card, article, img_path)
+
+        except Exception as exc:
+            logger.exception("小红书草稿生成失败")
+            return [PublishResult(channel=self._CHANNEL, success=False,
+                                  error=str(exc))]
+
+        return [PublishResult(channel=self._CHANNEL, success=True)]
+
+
 # ── 统一异步入口 ──────────────────────────────────────────────────────────────
 
 
@@ -206,6 +331,8 @@ def _build_publishers() -> list[BasePublisher]:
     publishers: list[BasePublisher] = []
     if os.environ.get("FEISHU_WEBHOOK_URL"):
         publishers.append(FeishuPublisher())  # secret 由 __init__ 从环境变量自动读取
+    if os.environ.get("LLM_API_KEY"):
+        publishers.append(XiaohongshuPublisher())
     return publishers
 
 

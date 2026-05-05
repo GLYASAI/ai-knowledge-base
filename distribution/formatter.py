@@ -288,6 +288,8 @@ def generate_daily_digest(
     }
 
     return {
+        "date": date,
+        "articles": top_articles,
         "markdown": markdown_text,
         "feishu": feishu_digest,
     }
