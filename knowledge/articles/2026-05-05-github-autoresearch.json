@@ -1,0 +1,26 @@
+{
+  "id": "github-20260505-017",
+  "title": "karpathy/autoresearch",
+  "source": "github",
+  "source_url": "https://github.com/karpathy/autoresearch",
+  "collected_at": "2026-05-05T08:29:55Z",
+  "summary": "该项目利用AI agents在单GPU上自动运行nanochat训练研究，实现自动化机器学习研究流程，由Andrej Karpathy开发。",
+  "analysis": {
+    "tech_highlights": [
+      "单GPU环境下自动执行nanochat训练研究",
+      "AI agents驱动自动化机器学习研究流程",
+      "基于Python实现，简化研究实验管理"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该项目由知名AI研究者开发，聚焦自动化研究流程，对AI研究者和工程师有高参考价值，且Star数极高表明社区认可。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ai-agents",
+    "automl",
+    "nanochat",
+    "single-gpu-training",
+    "research-automation"
+  ],
+  "status": "draft"
+}

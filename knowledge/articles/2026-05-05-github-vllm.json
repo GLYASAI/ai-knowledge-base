@@ -1,0 +1,26 @@
+{
+  "id": "github-20260505-016",
+  "title": "vllm-project/vllm",
+  "source": "github",
+  "source_url": "https://github.com/vllm-project/vllm",
+  "collected_at": "2026-05-05T08:29:55Z",
+  "summary": "vLLM 是一个高吞吐量、内存高效的 LLM 推理和服务引擎，支持多种模型（如 Llama、DeepSeek、Qwen）和硬件（CUDA、AMD、TPU），通过 PagedAttention 等技术优化推理性能。",
+  "analysis": {
+    "tech_highlights": [
+      "PagedAttention 机制实现高效内存管理，支持动态批处理和连续请求",
+      "支持多种硬件后端（CUDA、AMD、TPU）和模型架构（MoE、Transformer）",
+      "集成 OpenAI 兼容 API，提供高性能模型服务"
+    ],
+    "relevance_score": 9,
+    "score_reason": "vLLM 是 LLM 推理领域的核心项目，技术先进且社区活跃，对 AI 工程化实践有重要参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "llm-inference",
+    "model-serving",
+    "paged-attention",
+    "high-throughput",
+    "pytorch"
+  ],
+  "status": "draft"
+}
