@@ -31,7 +31,11 @@ jobs:
       - name: Validate articles
         run: |
           shopt -s nullglob
-          files=(knowledge/articles/*.json)
+          files=()
+          for f in knowledge/articles/*.json; do
+            [[ "$(basename "$f")" == "index.json" ]] && continue
+            files+=("$f")
+          done
           if [ ${#files[@]} -gt 0 ]; then
             python hooks/validate_json.py "${files[@]}"
             python hooks/check_quality.py "${files[@]}"
