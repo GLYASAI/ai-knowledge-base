@@ -22,13 +22,11 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Run pipeline
+      - name: Run workflow
         env:
-          LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python pipeline/pipeline.py --sources github,rss --limit 20 --verbose
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: python workflows/graph.py
 
       - name: Validate articles
         run: |
