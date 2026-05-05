@@ -262,9 +262,11 @@ xxx
             prompt,
             system=self._SYSTEM_PROMPT,
             temperature=0.7,
-            max_tokens=1000,
+            max_tokens=16000,  # thinking 模式需要足够空间留给正文
             node_name="xiaohongshu",
         )
+        if not text:
+            logger.warning("LLM 返回空文本，检查 max_tokens 或模型响应结构")
         return text
 
     async def send_message(self, content: Any) -> PublishResult:
@@ -272,6 +274,39 @@ xxx
         return PublishResult(
             channel=self._CHANNEL, success=False, error="请使用 send_digest()"
         )
+
+    async def _fetch_github_meta(
+        self, source_url: str
+    ) -> dict[str, Any]:
+        """从 GitHub API 拉取仓库元数据。
+
+        Args:
+            source_url: 仓库主页 URL，如 https://github.com/owner/repo。
+
+        Returns:
+            包含 stargazers_count、forks_count、language、topics、updated_at 等字段的
+            dict；请求失败时返回空 dict。
+        """
+        parts = source_url.rstrip("/").split("/")
+        if len(parts) < 2 or "github.com" not in source_url:
+            return {}
+        owner, repo = parts[-2], parts[-1]
+        api_url = f"https://api.github.com/repos/{owner}/{repo}"
+        headers = {
+            "Accept": "application/vnd.github+json",
+            "X-GitHub-Api-Version": "2022-11-28",
+        }
+        try:
+            timeout = aiohttp.ClientTimeout(total=10)
+            async with aiohttp.ClientSession(timeout=timeout) as session:
+                async with session.get(api_url, headers=headers) as resp:
+                    if resp.status != 200:
+                        logger.warning("GitHub API 返回 %d for %s", resp.status, api_url)
+                        return {}
+                    return await resp.json()
+        except Exception as exc:
+            logger.warning("GitHub 元数据拉取失败: %s", exc)
+            return {}
 
     async def send_digest(self, digest: dict[str, Any]) -> list[PublishResult]:
         """取评分最高的文章，生成小红书文字草稿和图片卡片，写入本地。
@@ -292,8 +327,11 @@ xxx
         out_dir = self._drafts_dir / date_str
 
         try:
-            # LLM 改写（同步调用放入线程池）
-            text = await asyncio.to_thread(self._llm_rewrite, article)
+            # 并发：LLM 改写 + GitHub 元数据
+            text, github_meta = await asyncio.gather(
+                asyncio.to_thread(self._llm_rewrite, article),
+                self._fetch_github_meta(article.get("source_url", "")),
+            )
 
             # 保存文字草稿
             txt_path = out_dir / "xiaohongshu.txt"
@@ -301,9 +339,9 @@ xxx
             txt_path.write_text(text, encoding="utf-8")
             logger.info("小红书文字草稿: %s", txt_path)
 
-            # 生成图片卡片（CPU 密集，放入线程池）
+            # 生成图片卡片（注入 GitHub 元数据）
             img_path = out_dir / "xiaohongshu.png"
-            await asyncio.to_thread(generate_card, article, img_path)
+            await asyncio.to_thread(generate_card, article, img_path, github_meta)
 
         except Exception as exc:
             logger.exception("小红书草稿生成失败")

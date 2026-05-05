@@ -50,7 +50,7 @@ def chat(
     system: str = "你是一个专业的 AI 技术分析师。",
     model: str | None = None,
     temperature: float = 0.3,
-    max_tokens: int = 2000,
+    max_tokens: int = 8000,
     node_name: str = "unknown",
 ) -> tuple[str, dict]:
     """调用 LLM 并返回 (回复文本, token用量信息)
