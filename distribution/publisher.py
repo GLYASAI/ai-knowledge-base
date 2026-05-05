@@ -19,8 +19,6 @@ from typing import Any
 
 import aiohttp
 
-from openai import OpenAI
-
 from distribution.card_generator import generate_card
 from distribution.formatter import generate_daily_digest
 
@@ -252,27 +250,22 @@ xxx
         Returns:
             改写后的小红书笔记文本。
         """
-        client = OpenAI(
-            api_key=os.environ.get("LLM_API_KEY", ""),
-            base_url=os.environ.get("LLM_BASE_URL", "https://api.deepseek.com"),
-        )
-        model = os.environ.get("LLM_MODEL", "deepseek-chat")
+        from workflows.model_client import chat
+
         highlights = article.get("analysis", {}).get("tech_highlights", [])
         prompt = self._USER_PROMPT_TMPL.format(
             title=article.get("title", ""),
             summary=article.get("summary", ""),
             highlights="\n".join(f"- {h}" for h in highlights),
         )
-        response = client.chat.completions.create(
-            model=model,
-            messages=[
-                {"role": "system", "content": self._SYSTEM_PROMPT},
-                {"role": "user", "content": prompt},
-            ],
+        text, _ = chat(
+            prompt,
+            system=self._SYSTEM_PROMPT,
             temperature=0.7,
             max_tokens=1000,
+            node_name="xiaohongshu",
         )
-        return response.choices[0].message.content or ""
+        return text
 
     async def send_message(self, content: Any) -> PublishResult:
         """未使用；小红书草稿通过 send_digest() 生成。"""
