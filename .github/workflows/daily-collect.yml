@@ -43,20 +43,6 @@ jobs:
             python hooks/check_quality.py "${files[@]}"
           fi
 
-      - name: Commit & push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add knowledge/ drafts/
-          if git diff --cached --quiet; then
-            echo "No new data, skip commit."
-          else
-            count=$(git diff --cached --name-only -- 'knowledge/articles/*.json' | wc -l | tr -d ' ')
-            date=$(date -u +%Y-%m-%d)
-            git commit -m "chore: daily collect ${date} — ${count} articles"
-            git push
-          fi
-
       - name: Publish
         env:
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
@@ -79,3 +65,18 @@ jobs:
 
           asyncio.run(main())
           EOF
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add knowledge/
+          [ -d drafts ] && git add drafts/ || true
+          if git diff --cached --quiet; then
+            echo "No new data, skip commit."
+          else
+            count=$(git diff --cached --name-only -- 'knowledge/articles/*.json' | wc -l | tr -d ' ')
+            date=$(date -u +%Y-%m-%d)
+            git commit -m "chore: daily collect ${date} — ${count} articles"
+            git push
+          fi
