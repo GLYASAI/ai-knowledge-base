@@ -1,0 +1,26 @@
+{
+  "id": "github-20260505-007",
+  "title": "NousResearch/hermes-agent",
+  "source": "github",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "collected_at": "2026-05-05T08:48:30Z",
+  "summary": "一个高度可定制、能与用户共同成长的 AI 代理框架，支持 OpenAI、Anthropic 等多种 LLM 后端并集成代码执行、文件操作等工具。",
+  "analysis": {
+    "tech_highlights": [
+      "支持 OpenAI、Anthropic 等主流 LLM 平滑切换，并可结合本地模型运行",
+      "代理具备自适应与持续学习能力，能根据交互历史改进响应策略",
+      "内置丰富的工具链，包括代码解释器、文件系统操作和外部 API 调用"
+    ],
+    "relevance_score": 9,
+    "score_reason": "高星 AI 代理项目，集成多模型与自我进化机制，在自主代理和开发者工具体系中具有较高参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ai-agent",
+    "llm",
+    "self-improving-agent",
+    "openai",
+    "anthropic"
+  ],
+  "status": "draft"
+}

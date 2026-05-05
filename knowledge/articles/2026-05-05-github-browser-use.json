@@ -1,0 +1,26 @@
+{
+  "id": "github-20260505-013",
+  "title": "browser-use/browser-use",
+  "source": "github",
+  "source_url": "https://github.com/browser-use/browser-use",
+  "collected_at": "2026-05-05T08:48:30Z",
+  "summary": "基于 Playwright 和 LLM 的浏览器自动化框架，让 AI agent 能像人类一样浏览网页并执行复杂任务，支持自然语言指令。",
+  "analysis": {
+    "tech_highlights": [
+      "将 LLM 与 Playwright 深度集成，实现自然语言驱动的浏览器操作与决策",
+      "支持多步骤任务自动化，具备页面状态理解和错误恢复能力",
+      "提供面向 AI agent 的高层抽象 API，可识别和操作页面元素"
+    ],
+    "relevance_score": 10,
+    "score_reason": "该项目是构建自主 AI agent 的关键基础设施，直接连接 LLM 与真实 Web 环境，对智能助手、自动化测试和数据采集等 AI 应用场景高度相关。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-agent",
+    "browser-automation",
+    "llm",
+    "playwright",
+    "python"
+  ],
+  "status": "draft"
+}

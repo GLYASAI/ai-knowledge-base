@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260505-007",
+  "title": "Porting microgpt to Futhark, Part I",
+  "source": "rss",
+  "source_url": "https://www.kmjn.org/notes/microgpt_futhark.html",
+  "collected_at": "2026-05-05T08:48:30Z",
+  "summary": "本文记录将微型 GPT 模型 microgpt 移植到函数式 GPU 编程语言 Futhark 的第一部分，重点围绕并行 tensor 计算与注意力机制的实现。",
+  "analysis": {
+    "tech_highlights": [
+      "利用 Futhark 的隐式并行和数组编程特性实现多头注意力机制的高效并行化",
+      "对比 Futhark 代码与原始 Python/PyTorch 实现，突出函数式并行语言在模型推理中的表达力",
+      "展示 Futhark 在多后端（CUDA/OpenCL）支持下的性能与可移植性潜力"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章深入探索了函数式并行语言在深度学习模型上的实际应用，对关注机器学习系统、GPU 编程和编程语言交叉领域的开发者具有较高参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "futhark",
+    "microgpt",
+    "gpu-programming",
+    "functional-programming",
+    "tensor-computation"
+  ],
+  "status": "draft"
+}

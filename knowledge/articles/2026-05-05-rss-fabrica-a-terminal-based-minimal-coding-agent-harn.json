@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260505-005",
+  "title": "fabrica - A terminal-based minimal coding agent harness",
+  "source": "rss",
+  "source_url": "https://github.com/Endi1/fabrica",
+  "collected_at": "2026-05-05T08:48:30Z",
+  "summary": "fabrica 是一个运行于终端的极简 coding agent 框架，允许开发者通过轻量级配置和提示与 LLM 交互，自动化小型编程任务。",
+  "analysis": {
+    "tech_highlights": [
+      "纯终端界面，利用 CLI 输出与交互，无需图形界面依赖",
+      "基于 harness 模式的 agent 编排，支持自定义工具和管道集成",
+      "极简设计，核心代码量小，易于理解和扩展"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该工具将 coding agent 能力带到终端，顺应开发者对轻量级、可控的 AI 辅助编程需求，具有一定的实用和创新价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "terminal",
+    "coding-agent",
+    "cli-tool",
+    "llm",
+    "developer-tools"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "github-20260505-017",
+  "title": "karpathy/autoresearch",
+  "source": "github",
+  "source_url": "https://github.com/karpathy/autoresearch",
+  "collected_at": "2026-05-05T08:48:30Z",
+  "summary": "Karpathy 的 autoresearch 项目利用 AI 代理在单 GPU 上自动运行 nanochat 训练研究，通过脚本驱动实验进程、记录指标并自动调整超参数。",
+  "analysis": {
+    "tech_highlights": [
+      "AI 代理驱动的自动化实验流程，无需人工干预即可进行 nanochat 训练与评估",
+      "针对单 GPU 环境优化的轻量级研究框架，兼顾资源效率与可复现性",
+      "内置实验管理与指标追踪，便于快速迭代和对比不同训练配置的效果"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该项目直接展示了大模型社区流行的 AI 代理自动化研究方向，对关注训练效率与实验管理的开发者有较高参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ai-agents",
+    "nanochat",
+    "single-gpu-training",
+    "automated-research",
+    "python"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "github-20260505-008",
+  "title": "anthropics/skills",
+  "source": "github",
+  "source_url": "https://github.com/anthropics/skills",
+  "collected_at": "2026-05-05T08:48:30Z",
+  "summary": "Anthropic 官方开源的 Agent Skills 仓库，提供可复用的 Python 技能模块，用于扩展 Claude 等 AI 代理的能力，支持文件处理、代码执行等任务。",
+  "analysis": {
+    "tech_highlights": [
+      "模块化 Agent 技能架构，每个技能独立封装，易于组合与扩展",
+      "与 Anthropic API 紧密集成，可直接用于 Claude 的 function calling 和工具调用",
+      "内置文件解析、shell 命令执行、网络请求等基础技能，加速代理应用开发"
+    ],
+    "relevance_score": 9,
+    "score_reason": "作为 Anthropic 官方维护的 AI Agent 技能库，直接赋能 Claude 代理的能力扩展，对 AI 开发者具有极高的参考与实用价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "agent-skills",
+    "claude",
+    "anthropic",
+    "python",
+    "ai-agent"
+  ],
+  "status": "draft"
+}

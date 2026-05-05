@@ -1,0 +1,26 @@
+{
+  "id": "github-20260505-016",
+  "title": "vllm-project/vllm",
+  "source": "github",
+  "source_url": "https://github.com/vllm-project/vllm",
+  "collected_at": "2026-05-05T08:48:30Z",
+  "summary": "一个面向大语言模型的高吞吐量、内存高效推理服务引擎，利用 PagedAttention 实现动态 KV 缓存管理，显著提升推理性能。",
+  "analysis": {
+    "tech_highlights": [
+      "采用 PagedAttention 算法管理 KV 缓存，减少内存浪费并提高 GPU 利用率，支持高并发连续批处理。",
+      "提供多硬件后端支持，包括 CUDA (NVIDIA)、AMD ROCm、TPU，并支持 FP8、INT8 等混合精度加速。",
+      "与主流模型框架无缝集成，支持 Llama、GPT、Qwen、DeepSeek 等上百种模型，同时兼容 OpenAI API 协议。"
+    ],
+    "relevance_score": 10,
+    "score_reason": "vLLM 是目前 LLM 部署领域最广泛使用的高性能引擎，在吞吐量、内存效率方面居领先地位，是生产级推理的首选方案。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "llm-inference",
+    "pagedattention",
+    "high-throughput",
+    "memory-efficient",
+    "model-serving"
+  ],
+  "status": "draft"
+}

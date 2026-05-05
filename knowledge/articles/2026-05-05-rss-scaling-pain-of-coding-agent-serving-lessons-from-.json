@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260505-009",
+  "title": "Scaling Pain of Coding Agent Serving: Lessons from Debugging GLM-5 at Scale",
+  "source": "rss",
+  "source_url": "https://z.ai/blog/scaling-pain",
+  "collected_at": "2026-05-05T08:48:30Z",
+  "summary": "本文分享了 GLM-5 编程助手在大规模服务化落地时遇到的扩展性痛点与调试经验，涵盖高并发推理、资源调度、稳定性治理等工程难题。",
+  "analysis": {
+    "tech_highlights": [
+      "大规模 coding agent 服务化中的并发请求调度与延迟优化",
+      "基于 GLM-5 模型推理的扩展架构设计与瓶颈诊断",
+      "生产环境下复杂调用链的调试方法论与故障复盘流程"
+    ],
+    "relevance_score": 9,
+    "score_reason": "内容直接从工程实践角度剖析 AI coding agent 的规模化落地挑战，对从事 LLM 服务化、MLOps 及后端系统设计的开发者有高参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "coding-agent",
+    "llm-serving",
+    "scaling",
+    "debugging",
+    "aiops"
+  ],
+  "status": "draft"
+}

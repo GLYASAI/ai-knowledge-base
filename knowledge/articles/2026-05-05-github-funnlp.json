@@ -1,0 +1,26 @@
+{
+  "id": "github-20260505-014",
+  "title": "fighting41love/funNLP",
+  "source": "github",
+  "source_url": "https://github.com/fighting41love/funNLP",
+  "collected_at": "2026-05-05T08:48:30Z",
+  "summary": "这是一个规模庞大的中文自然语言处理（NLP）资源合集，覆盖语料库、工具库、预训练模型、知识图谱、数据集与教程等几乎全部子领域。",
+  "analysis": {
+    "tech_highlights": [
+      "汇聚大量中文NLP实战资源，包括分词、NER、情感分析、知识图谱、文本生成等完整工具链",
+      "收录了BERT、GPT-2、ALBERT、ELECTRA等预训练模型的中文实现与落地代码",
+      "提供丰富的开放数据集、竞赛方案、课程资料与标注工具，方便研究与工程应用"
+    ],
+    "relevance_score": 9,
+    "score_reason": "一站式NLP资源导航，对中文自然语言处理的学习、研究和开发具有极高的实用价值和参考意义。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "natural-language-processing",
+    "chinese-nlp",
+    "resources",
+    "datasets",
+    "pretrained-models"
+  ],
+  "status": "draft"
+}

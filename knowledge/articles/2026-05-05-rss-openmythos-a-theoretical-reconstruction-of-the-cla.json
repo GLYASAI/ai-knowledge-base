@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260505-003",
+  "title": "OpenMythos: A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature",
+  "source": "rss",
+  "source_url": "https://github.com/kyegomez/OpenMythos",
+  "collected_at": "2026-05-05T08:48:30Z",
+  "summary": "OpenMythos 基于公开研究文献，从第一性原理出发对 Claude 的 Mythos 架构进行理论重建，旨在复现其核心设计思想。",
+  "analysis": {
+    "tech_highlights": [
+      "通过公开文献逆向工程 Claude 的底层架构，揭示可能的注意力变体与训练流程",
+      "融合 Constitutional AI、RLHF 等对齐方法的设计原则，重现安全与实用平衡的机制",
+      "纯理论推导，不依赖预训练权重，聚焦于概念验证和可解释性分析"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该项目尝试解构前沿闭源模型 Claude 的架构，对研究 LLM 内部机制、对齐技术及开源复现的开发者有较高参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "llm",
+    "architecture",
+    "constitutional-ai",
+    "theoretical-reconstruction",
+    "open-source"
+  ],
+  "status": "draft"
+}

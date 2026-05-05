@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260505-002",
+  "title": "Why a Decade of Writing Detection Logic Makes the Mythos Exploit Numbers Less Scary",
+  "source": "rss",
+  "source_url": "https://www.magonia.io/research/why-a-decade-of-writing-detection-logic-makes-the-mythos-exploit-numbers-less-scary/",
+  "collected_at": "2026-05-05T08:48:30Z",
+  "summary": "本文分享了作者十年编写漏洞利用检测逻辑的经验，说明为何Mythos漏洞利用的实际威胁被夸大了，强调通过扎实的检测工程可以大幅降低其影响。",
+  "analysis": {
+    "tech_highlights": [
+      "基于十年实战经验的 detection logic 编写方法论",
+      "对 Mythos 漏洞利用的理性评估与缓解策略",
+      "将 detection engineering 应用于实际 defense 以消除恐惧"
+    ],
+    "relevance_score": 8,
+    "score_reason": "为安全检测工程师提供了宝贵的实战经验和心态建设，直接回应业界对特定漏洞利用的恐慌。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "security",
+    "detection-engineering",
+    "exploit-mitigation",
+    "mythos",
+    "vulnerability-assessment"
+  ],
+  "status": "draft"
+}

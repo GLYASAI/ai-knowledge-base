@@ -1,0 +1,26 @@
+{
+  "id": "github-20260505-001",
+  "title": "Significant-Gravitas/AutoGPT",
+  "source": "github",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "collected_at": "2026-05-05T08:48:30Z",
+  "summary": "AutoGPT 是一个开源的自主 AI 代理框架，支持通过 LLM 创建能自动规划、分解任务并联网执行的自治智能体，降低 AI 应用开发门槛。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 LLM 的自主任务规划与执行循环，支持多工具调用与记忆管理",
+      "插件式架构集成 GPT、Claude、Llama 等多种模型，并允许自定义工具扩展",
+      "提供前端与后端分离的构建工具，便于开发者快速搭建和部署自主代理应用"
+    ],
+    "relevance_score": 9,
+    "score_reason": "作为 GitHub 上最知名的自主代理项目之一，AutoGPT 直接体现了 AI 智能体技术的前沿应用，对关注 LLM 实践和自动化工具开发的开发者极具参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "autonomous-agents",
+    "llm",
+    "agentic-ai",
+    "open-source",
+    "python"
+  ],
+  "status": "draft"
+}

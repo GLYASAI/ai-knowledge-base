@@ -1,0 +1,26 @@
+{
+  "id": "github-20260505-009",
+  "title": "Comfy-Org/ComfyUI",
+  "source": "github",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI",
+  "collected_at": "2026-05-05T08:48:30Z",
+  "summary": "ComfyUI 是一个基于图/节点流程的模块化 Stable Diffusion 工作台，提供 GUI、API 与后端，通过可视化节点连接实现灵活、可复用的图像生成流水线。",
+  "analysis": {
+    "tech_highlights": [
+      "基于图/节点的可视化工作流引擎，支持拖拽式组合扩散模型组件",
+      "模块化架构与自定义节点系统，通过社区扩展快速集成新模型和方法",
+      "同时提供交互式 GUI 和可编程 API，兼顾手动操作与自动化生产需求"
+    ],
+    "relevance_score": 9,
+    "score_reason": "作为 Stable Diffusion 生态中最活跃的图形化工作流工具，对 AI 图像生成开发者、艺术家和研究者具有极高的实用价值，相关技术、扩展和教程内容丰富。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "comfyui",
+    "stable-diffusion",
+    "node-based-gui",
+    "diffusion-models",
+    "image-generation"
+  ],
+  "status": "draft"
+}

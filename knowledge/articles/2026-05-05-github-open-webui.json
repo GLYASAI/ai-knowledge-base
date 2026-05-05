@@ -1,0 +1,26 @@
+{
+  "id": "github-20260505-006",
+  "title": "open-webui/open-webui",
+  "source": "github",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "collected_at": "2026-05-05T08:48:30Z",
+  "summary": "Open WebUI 是一个用户友好的自托管 AI 聊天界面，统一接入 Ollama、OpenAI API 等多种后端，并内置 RAG、MCP 等扩展功能。",
+  "analysis": {
+    "tech_highlights": [
+      "多后端统一接入：无缝切换 Ollama、OpenAI 兼容 API 及其他 LLM 服务",
+      "内置 RAG 管道：支持上传文档构建知识库，增强模型上下文感知",
+      "MCP 协议集成：支持模型扩展工具调用，实现更复杂的自动化任务"
+    ],
+    "relevance_score": 10,
+    "score_reason": "极度贴合当下自托管 LLM 交互需求，功能全面且社区活跃（135k+ Star），在开发者日常 AI 工作流中价值极高。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "self-hosted",
+    "llm-webui",
+    "ollama",
+    "rag",
+    "openai-api"
+  ],
+  "status": "draft"
+}

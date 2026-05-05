@@ -1,0 +1,26 @@
+{
+  "id": "github-20260505-018",
+  "title": "PaddlePaddle/PaddleOCR",
+  "source": "github",
+  "source_url": "https://github.com/PaddlePaddle/PaddleOCR",
+  "collected_at": "2026-05-05T08:48:30Z",
+  "summary": "PaddleOCR 是一个轻量级、多语言的 OCR 工具包，能将图片或 PDF 转为结构化数据（如 Markdown），支持 100+ 语言，是连接非结构化文档与 LLM / RAG 应用的桥梁。",
+  "analysis": {
+    "tech_highlights": [
+      "支持检测、识别、表格解析和版面分析的全流程 OCR 能力",
+      "内置 PaddleOCR-VL 多模态模型，可直接输出 Markdown 等格式用于 RAG",
+      "轻量化部署，支持 100+ 语言和多种硬件平台"
+    ],
+    "relevance_score": 9,
+    "score_reason": "作为文档解析与 AI 数据预处理的核心工具，PaddleOCR 为 LLM 和 RAG 应用提供关键的结构化数据，生态成熟且多语言支持出色。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "paddleocr",
+    "ocr",
+    "document-parsing",
+    "multilingual-ocr",
+    "rag"
+  ],
+  "status": "draft"
+}
