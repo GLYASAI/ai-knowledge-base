@@ -26,7 +26,7 @@ jobs:
         env:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-        run: python workflows/graph.py
+        run: python -m workflows.graph
 
       - name: Validate articles
         run: |
