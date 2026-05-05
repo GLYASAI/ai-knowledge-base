@@ -27,8 +27,8 @@ def get_cost_guard() -> CostGuard:
     global _cost_guard
     if _cost_guard is None:
         budget = float(os.getenv("BUDGET", "1.0"))
-        input_price = float(os.getenv("PRICE_INPUT_PER_MILLION", "1.0"))
-        output_price = float(os.getenv("PRICE_OUTPUT_PER_MILLION", "2.0"))
+        input_price = float(os.getenv("PRICE_INPUT_PER_MILLION", "0.435"))
+        output_price = float(os.getenv("PRICE_OUTPUT_PER_MILLION", "0.87"))
         _cost_guard = CostGuard(
             budget=budget,
             input_price_per_million=input_price,
@@ -67,7 +67,7 @@ def chat(
         (response_text, usage_dict) 其中 usage_dict 包含 prompt_tokens, completion_tokens
     """
     client = get_client()
-    model_name = model or os.getenv("LLM_MODEL", "deepseek-chat")
+    model_name = model or os.getenv("LLM_MODEL", "deepseek-v4-pro")
 
     response = client.chat.completions.create(
         model=model_name,
@@ -161,9 +161,9 @@ def accumulate_usage(tracker: dict, new_usage: dict) -> dict:
     prompt = tracker.get("prompt_tokens", 0) + new_usage.get("prompt_tokens", 0)
     completion = tracker.get("completion_tokens", 0) + new_usage.get("completion_tokens", 0)
 
-    # DeepSeek 定价: 输入 ¥1/百万token, 输出 ¥2/百万token（近似）
-    input_price = float(os.getenv("PRICE_INPUT_PER_MILLION", "1.0"))
-    output_price = float(os.getenv("PRICE_OUTPUT_PER_MILLION", "2.0"))
+    # deepseek-v4-pro 定价: 输入 $0.435/M tokens, 输出 $0.87/M tokens（75% 折扣价）
+    input_price = float(os.getenv("PRICE_INPUT_PER_MILLION", "0.435"))
+    output_price = float(os.getenv("PRICE_OUTPUT_PER_MILLION", "0.87"))
     total_cost = (prompt * input_price + completion * output_price) / 1_000_000
 
     return {

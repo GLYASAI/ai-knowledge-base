@@ -53,7 +53,7 @@ class LLMResponse:
 PROVIDER_CONFIG: dict[str, dict[str, Any]] = {
     "deepseek": {
         "base_url": "https://api.deepseek.com/v1",
-        "default_model": "deepseek-chat",
+        "default_model": "deepseek-v4-pro",
         "api_key_env": "DEEPSEEK_API_KEY",
     },
     "qwen": {
@@ -70,7 +70,7 @@ PROVIDER_CONFIG: dict[str, dict[str, Any]] = {
 
 # 每 1K token 的 CNY 价格 (prompt / completion)
 PRICING: dict[str, tuple[float, float]] = {
-    "deepseek-chat": (0.001, 0.002),
+    "deepseek-v4-pro": (0.001, 0.002),
     "deepseek-reasoner": (0.004, 0.016),
     "qwen-plus": (0.0008, 0.002),
     "qwen-turbo": (0.0003, 0.0006),
