@@ -255,10 +255,39 @@ def generate_daily_digest(
         md_parts.append("")
     markdown_text = "\n".join(md_parts)
 
-    # ── 飞书（卡片列表）──────────────────────────────────────────────────────
-    feishu_cards = [json_to_feishu(art) for art in top_articles]
+    # ── 飞书（单张汇总卡片）────────────────────────────────────────────────────
+    elements: list[dict[str, Any]] = [
+        {
+            "tag": "div",
+            "text": {"tag": "lark_md", "content": sub_line},
+        },
+        {"tag": "hr"},
+    ]
+    for i, art in enumerate(top_articles, 1):
+        title = art.get("title", "（无标题）")
+        source_url = art.get("source_url", "")
+        score = _extract_score(art)
+        tags = art.get("tags", [])
+        tags_str = "  ".join(f"#{t}" for t in tags) if tags else ""
+        summary = art.get("summary", "")
+        title_link = f"[{title}]({source_url})" if source_url else title
+        body = f"**{i}. {title_link}**\n{_score_emoji(score)} {score}/10  {tags_str}\n{summary}"
+        elements.append({"tag": "div", "text": {"tag": "lark_md", "content": body}})
+        if i < len(top_articles):
+            elements.append({"tag": "hr"})
+
+    feishu_digest = {
+        "msg_type": "interactive",
+        "card": {
+            "header": {
+                "title": {"tag": "plain_text", "content": f"📚 AI 知识日报 · {date}"},
+                "template": "blue",
+            },
+            "elements": elements,
+        },
+    }
 
     return {
         "markdown": markdown_text,
-        "feishu": feishu_cards,
+        "feishu": feishu_digest,
     }
