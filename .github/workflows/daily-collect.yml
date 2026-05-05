@@ -52,3 +52,23 @@ jobs:
             git commit -m "chore: daily collect ${date} — ${count} articles"
             git push
           fi
+
+      - name: Publish
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_WEBHOOK_SECRET: ${{ secrets.FEISHU_WEBHOOK_SECRET }}
+        run: |
+          python - <<'EOF'
+          import asyncio
+          from distribution.publisher import publish_daily_digest
+
+          async def main():
+              results = await publish_daily_digest(knowledge_dir="knowledge/articles")
+              for r in results:
+                  status = "✅" if r.success else "❌"
+                  print(f"{status} {r.channel}: {r.error or 'ok'}")
+              if any(not r.success for r in results):
+                  raise SystemExit(1)
+
+          asyncio.run(main())
+          EOF
