@@ -2,7 +2,12 @@
 set -euo pipefail
 
 # Extract file_path from CLAUDE_TOOL_INPUT JSON
-FILE_PATH=$(echo "${CLAUDE_TOOL_INPUT:-}" | python3 -c "
+INPUT="${CLAUDE_TOOL_INPUT:-}"
+if [ -z "$INPUT" ]; then
+  exit 0
+fi
+
+FILE_PATH=$(echo "$INPUT" | python3 -c "
 import json, sys
 data = json.load(sys.stdin)
 print(data.get('file_path') or data.get('filePath') or '')
