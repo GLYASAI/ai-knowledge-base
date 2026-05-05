@@ -1,4 +1,4 @@
-"""小红书图文卡片生成器：用 Pillow 将知识条目渲染为 1080×1440 图片。
+"""小红书图文卡片生成器：仿「每周开源大赏」风格，Pillow 渲染 1080×1440。
 
 纯函数模块，不发网络请求。github_meta 由调用方注入。
 """
@@ -15,23 +15,23 @@ logger = logging.getLogger(__name__)
 
 CARD_W = 1080
 CARD_H = 1440
-PAD = 64
 
-# 配色
-_BG         = (250, 248, 245)
-_HEADER_BG  = (22, 22, 22)
-_WHITE      = (255, 255, 255)
-_GRAY_DARK  = (38, 38, 38)
-_GRAY_MID   = (100, 100, 100)
-_GRAY_LIGHT = (180, 178, 174)
-_DIVIDER    = (218, 215, 210)
-_RED        = (255, 48, 48)
-_STAT_BG    = (240, 237, 232)
+# ── 配色（参考「每周开源大赏」） ───────────────────────────────────────────────
+_DARK    = (43, 26, 8)          # 深棕：顶栏、右栏底色
+_CREAM   = (250, 246, 238)      # 奶油：卡片底色、左栏
+_LCREAM  = (240, 232, 215)      # 浅棕：左栏区分背景
+_GOLD    = (196, 152, 0)        # 金色：节名、子弹头
+_WTEXT   = (245, 230, 200)      # 暖白：深色背景上的文字
+_DTEXT   = (26, 16, 8)          # 深棕文字
+_MUTED   = (139, 115, 85)       # 灰棕：统计栏标签
+_GREEN   = (38, 140, 60)        # 绿色：周新增 Star
+_DIVIDER = (210, 195, 170)      # 分隔线
+_BADGE   = (220, 210, 195)      # 协议徽章底色
 
-_SCORE_COLOR = {
-    "green":  (40, 167, 69),
-    "yellow": (255, 193, 7),
-    "red":    (220, 53, 69),
+_AUDIENCE = {
+    "beginner":     "AI 入门学习者、对新技术感兴趣的学生",
+    "intermediate": "AI 工程师、开发者、技术创业者",
+    "advanced":     "AI 研究者、资深工程师、开源贡献者",
 }
 
 _FONT_CANDIDATES = [
@@ -52,12 +52,11 @@ def _font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
                 return ImageFont.truetype(path, size)
             except Exception:
                 continue
-    logger.warning("未找到中文字体，使用 Pillow 内置字体")
     return ImageFont.load_default()
 
 
-def _wrap(text: str, font: Any, max_w: int, draw: ImageDraw.ImageDraw) -> list[str]:
-    """按像素宽度折行。"""
+def _wrap(text: str, font: Any, max_w: int,
+          draw: ImageDraw.ImageDraw) -> list[str]:
     lines: list[str] = []
     for para in text.split("\n"):
         cur = ""
@@ -72,10 +71,10 @@ def _wrap(text: str, font: Any, max_w: int, draw: ImageDraw.ImageDraw) -> list[s
     return lines
 
 
-def _fmt_num(n: int) -> str:
-    if n >= 1000:
-        return f"{n / 1000:.1f}k"
-    return str(n)
+def _fmt(n: int | None) -> str:
+    if n is None:
+        return "—"
+    return f"{n / 1000:.1f}k" if n >= 1000 else str(n)
 
 
 def generate_card(
@@ -83,7 +82,7 @@ def generate_card(
     output_path: Path,
     github_meta: dict[str, Any] | None = None,
 ) -> Path:
-    """将单篇知识条目渲染为小红书图文卡片并保存为 PNG。
+    """渲染单篇知识条目为小红书图文卡片并保存为 PNG。
 
     Args:
         article: 符合项目知识条目格式的 dict。
@@ -93,111 +92,177 @@ def generate_card(
     Returns:
         实际写入的文件路径。
     """
-    title      = article.get("title", "（无标题）")
+    title      = article.get("title", "")
     summary    = article.get("summary", "")
     source_url = article.get("source_url", "")
-    score      = article.get("analysis", {}).get("relevance_score", 0)
-    highlights = article.get("analysis", {}).get("tech_highlights", [])
-    tags       = article.get("tags", [])
+    analysis   = article.get("analysis", {})
+    highlights = analysis.get("tech_highlights", [])
+    score_rsn  = analysis.get("score_reason", "")
+    audience   = analysis.get("audience", "intermediate")
 
-    gm = github_meta or {}
+    gm       = github_meta or {}
     stars    = gm.get("stargazers_count")
     forks    = gm.get("forks_count")
-    language = gm.get("language", "")
-    topics   = gm.get("topics", [])
-    updated  = (gm.get("updated_at") or "")[:10]
+    language = gm.get("language") or "—"
+    license_ = (gm.get("license") or {}).get("spdx_id") or "开源协议"
 
-    img  = Image.new("RGB", (CARD_W, CARD_H), _BG)
+    # 项目亮点大标题：取 score_reason 前 10 字，或 summary 前 8 字
+    hl_title = (score_rsn[:10] if score_rsn else summary[:8]).rstrip("，,。. ")
+    # 适用人群
+    audience_text = _AUDIENCE.get(audience, _AUDIENCE["intermediate"])
+
+    img  = Image.new("RGB", (CARD_W, CARD_H), _CREAM)
     draw = ImageDraw.Draw(img)
-    cw   = CARD_W - PAD * 2  # usable content width
 
-    f56 = _font(56)
-    f34 = _font(34)
-    f28 = _font(28)
-    f24 = _font(24)
-    f22 = _font(22)
+    PAD   = 52
+    f60   = _font(60)
+    f48   = _font(48)
+    f38   = _font(38)
+    f32   = _font(32)
+    f28   = _font(28)
+    f24   = _font(24)
+    f20   = _font(20)
 
-    # ── 顶部品牌色条 ─────────────────────────────────────────────────────────
-    draw.rectangle([(0, 0), (CARD_W, 8)], fill=_RED)
+    # ════════════════════════════════════════════════════════════════════════
+    # 1. 顶部系列标题栏
+    # ════════════════════════════════════════════════════════════════════════
+    HDR_H = 108
+    draw.rectangle([(0, 0), (CARD_W, HDR_H)], fill=_DARK)
+    draw.text((PAD, 24), "AI 知识日报", font=f60, fill=_WTEXT)
 
-    # ── Header 背景 ──────────────────────────────────────────────────────────
-    HEADER_H = 280
-    draw.rectangle([(0, 8), (CARD_W, HEADER_H)], fill=_HEADER_BG)
+    # ════════════════════════════════════════════════════════════════════════
+    # 2. 项目信息区（头像占位 + 名称 + 协议徽章）
+    # ════════════════════════════════════════════════════════════════════════
+    INFO_Y = HDR_H
+    INFO_H = 148
+    draw.rectangle([(0, INFO_Y), (CARD_W, INFO_Y + INFO_H)], fill=_CREAM)
 
-    # 标题（白色，最多 3 行）
-    title_lines = _wrap(title, f56, cw, draw)[:3]
-    y = 36
+    # 头像占位（圆角方块，取标题首字）
+    av = 84
+    ax, ay = PAD, INFO_Y + (INFO_H - av) // 2
+    draw.rounded_rectangle([(ax, ay), (ax + av, ay + av)], radius=14, fill=_DARK)
+    letter = title[0].upper() if title else "A"
+    lw = draw.textlength(letter, font=f48)
+    draw.text((ax + (av - lw) / 2, ay + 12), letter, font=f48, fill=_WTEXT)
+
+    # 项目名 + 描述
+    tx = ax + av + 22
+    title_lines = _wrap(title, f38, CARD_W - tx - PAD, draw)[:2]
+    ty = INFO_Y + 18
     for line in title_lines:
-        draw.text((PAD, y), line, font=f56, fill=_WHITE)
-        y += 70
+        draw.text((tx, ty), line, font=f38, fill=_DTEXT)
+        ty += 50
+    # 协议徽章
+    badge_text = f"  ⑂ 开源协议 {license_}  "
+    bw = int(draw.textlength(badge_text, font=f24)) + 4
+    bh = 34
+    by = INFO_Y + INFO_H - bh - 14
+    draw.rounded_rectangle([(tx, by), (tx + bw, by + bh)], radius=6, fill=_BADGE)
+    draw.text((tx + 2, by + 4), badge_text, font=f24, fill=_MUTED)
 
-    # ── GitHub 统计栏 ─────────────────────────────────────────────────────────
-    STAT_H = 68
-    draw.rectangle([(0, HEADER_H), (CARD_W, HEADER_H + STAT_H)], fill=_STAT_BG)
+    # ════════════════════════════════════════════════════════════════════════
+    # 3. 统计栏（周新增 / Star / 语言 / Forks）
+    # ════════════════════════════════════════════════════════════════════════
+    STAT_Y = INFO_Y + INFO_H
+    STAT_H = 96
+    draw.rectangle([(0, STAT_Y), (CARD_W, STAT_Y + STAT_H)], fill=_CREAM)
+    # 顶部细分割线
+    draw.line([(0, STAT_Y), (CARD_W, STAT_Y)], fill=_DIVIDER, width=2)
+    draw.line([(0, STAT_Y + STAT_H)], fill=_DIVIDER, width=1)
 
-    stat_parts: list[str] = []
-    if stars is not None:
-        stat_parts.append(f"★ {_fmt_num(stars)}")
-    if forks is not None:
-        stat_parts.append(f"⑂ {_fmt_num(forks)}")
-    if language:
-        stat_parts.append(f"◈ {language}")
-    if updated:
-        stat_parts.append(f"↻ {updated}")
+    stats = [
+        ("☆ STAR",   _fmt(stars),   _DTEXT),
+        ("◈ 语言",    language,      _DTEXT),
+        ("⑂ FORKS",  _fmt(forks),   _DTEXT),
+        ("★ 相关性",  f"{article.get('analysis', {}).get('relevance_score', 0)}/10", _DTEXT),
+    ]
+    col_w = CARD_W // len(stats)
+    for i, (label, value, vcol) in enumerate(stats):
+        cx = i * col_w + col_w // 2
+        lw2 = draw.textlength(label, font=f24)
+        vw  = draw.textlength(value, font=f38)
+        draw.text((cx - lw2 / 2, STAT_Y + 10), label, font=f24, fill=_MUTED)
+        draw.text((cx - vw / 2,  STAT_Y + 46), value,  font=f38, fill=vcol)
+        if i > 0:
+            draw.line([(i * col_w, STAT_Y + 16), (i * col_w, STAT_Y + STAT_H - 16)],
+                      fill=_DIVIDER, width=1)
 
-    stat_text = "    ".join(stat_parts) if stat_parts else ""
-    if stat_text:
-        draw.text((PAD, HEADER_H + 18), stat_text, font=f28, fill=_GRAY_MID)
+    # ════════════════════════════════════════════════════════════════════════
+    # 4. 主内容：左栏（核心功能）+ 右栏（项目亮点 + 适用人群）
+    # ════════════════════════════════════════════════════════════════════════
+    BODY_Y = STAT_Y + STAT_H
+    FOOT_H = 64
+    BODY_H = CARD_H - BODY_Y - FOOT_H
 
-    y = HEADER_H + STAT_H + 36
+    LEFT_W = 400
+    RIGHT_W = CARD_W - LEFT_W
 
-    # ── 摘要 ─────────────────────────────────────────────────────────────────
-    for line in _wrap(summary, f34, cw, draw)[:8]:
-        draw.text((PAD, y), line, font=f34, fill=_GRAY_DARK)
-        y += 48
-    y += 12
+    # 左栏背景
+    draw.rectangle([(0, BODY_Y), (LEFT_W, CARD_H - FOOT_H)], fill=_LCREAM)
+    # 右栏背景
+    draw.rectangle([(LEFT_W, BODY_Y), (CARD_W, CARD_H - FOOT_H)], fill=_DARK)
 
-    # ── 技术亮点 ─────────────────────────────────────────────────────────────
-    if highlights:
-        draw.text((PAD, y), "技术亮点", font=f28, fill=_RED)
-        y += 38
-        for hl in highlights[:3]:
-            prefix = "• "
-            for i, line in enumerate(_wrap(prefix + hl, f28, cw, draw)[:3]):
-                draw.text((PAD + (16 if i > 0 else 0), y), line, font=f28, fill=_GRAY_DARK)
-                y += 38
-        y += 8
+    # ── 左栏内容 ─────────────────────────────────────────────────────────────
+    LPAD = 28
+    y = BODY_Y + 28
+    # 节标题
+    draw.text((LPAD, y), "⚡ 核心功能", font=f28, fill=_GOLD)
+    y += 44
 
-    # ── Topics ───────────────────────────────────────────────────────────────
-    all_tags = list(dict.fromkeys(topics[:3] + tags[:3]))  # 去重，topics 优先
-    if all_tags:
-        tag_str = "  ".join(f"#{t}" for t in all_tags[:5])
-        for line in _wrap(tag_str, f24, cw, draw):
-            draw.text((PAD, y), line, font=f24, fill=_RED)
-            y += 34
-        y += 8
+    for hl in highlights[:5]:
+        bullet = "◆ "
+        bw3 = draw.textlength(bullet, font=f28)
+        lines = _wrap(hl, f28, LEFT_W - LPAD * 2 - int(bw3), draw)
+        for j, line in enumerate(lines[:3]):
+            if j == 0:
+                draw.text((LPAD, y), bullet, font=f28, fill=_GOLD)
+                draw.text((LPAD + int(bw3), y), line, font=f28, fill=_DTEXT)
+            else:
+                draw.text((LPAD + int(bw3), y), line, font=f28, fill=_DTEXT)
+            y += 42
+        y += 6
 
-    # ── 分割线 ───────────────────────────────────────────────────────────────
-    div_y = max(y + 16, CARD_H - 180)
-    draw.line([(PAD, div_y), (CARD_W - PAD, div_y)], fill=_DIVIDER, width=2)
-    y = div_y + 24
+    # ── 右栏内容 ─────────────────────────────────────────────────────────────
+    RPAD = 28
+    rx   = LEFT_W + RPAD
+    rw   = RIGHT_W - RPAD * 2
+    ry   = BODY_Y + 28
 
-    # ── 评分圆点 ─────────────────────────────────────────────────────────────
-    if score >= 8:
-        dot_color = _SCORE_COLOR["green"]
-    elif score >= 6:
-        dot_color = _SCORE_COLOR["yellow"]
-    else:
-        dot_color = _SCORE_COLOR["red"]
+    # 节标题
+    draw.text((rx, ry), "⚙ 项目亮点", font=f28, fill=_GOLD)
+    ry += 44
 
-    r = 10
-    cx, cy = PAD + r, y + r + 4
-    draw.ellipse([(cx - r, cy - r), (cx + r, cy + r)], fill=dot_color)
-    draw.text((PAD + r * 2 + 10, y), f"相关性  {score}/10", font=f28, fill=_GRAY_MID)
+    # 亮点大标题
+    for line in _wrap(hl_title, f48, rw, draw)[:2]:
+        draw.text((rx, ry), line, font=f48, fill=_WTEXT)
+        ry += 62
+    ry += 8
 
-    # ── 来源 URL（底部）──────────────────────────────────────────────────────
-    url_display = source_url[:72] + "…" if len(source_url) > 72 else source_url
-    draw.text((PAD, CARD_H - 52), url_display, font=f22, fill=_GRAY_LIGHT)
+    # 摘要正文
+    for line in _wrap(summary, f28, rw, draw)[:9]:
+        draw.text((rx, ry), line, font=f28, fill=_WTEXT)
+        ry += 40
+    ry += 16
+
+    # 适用人群
+    draw.text((rx, ry), "👥 适用人群", font=f28, fill=_GOLD)
+    ry += 40
+    for line in _wrap(audience_text, f28, rw, draw)[:3]:
+        draw.text((rx, ry), line, font=f28, fill=_WTEXT)
+        ry += 40
+
+    # ════════════════════════════════════════════════════════════════════════
+    # 5. 底部版权行
+    # ════════════════════════════════════════════════════════════════════════
+    FOOT_Y = CARD_H - FOOT_H
+    draw.line([(0, FOOT_Y), (CARD_W, FOOT_Y)], fill=_DIVIDER, width=1)
+    # repo 路径
+    repo = source_url.replace("https://github.com/", "⑂ ")
+    draw.text((PAD, FOOT_Y + 18), repo[:48], font=f24, fill=_MUTED)
+    # 小红书水印
+    wm = "小红书号: AI知识日报"
+    wm_w = draw.textlength(wm, font=f24)
+    draw.text((CARD_W - PAD - wm_w, FOOT_Y + 18), wm, font=f24, fill=_MUTED)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     img.save(output_path, "PNG", optimize=True)
