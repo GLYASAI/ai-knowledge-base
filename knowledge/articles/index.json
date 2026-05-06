@@ -178,5 +178,11 @@
     "title": "AI Terminology is Poorly Defined and Oft Misused",
     "source_url": "https://vale.rocks/posts/ai-terminology",
     "filename": "2026-05-05-rss-ai-terminology-is-poorly-defined-and-oft-misused.json"
+  },
+  {
+    "id": "rss-20260506-001",
+    "title": "Agent MetaSKILLs",
+    "source_url": "https://swival.dev/pages/metaskills.html",
+    "filename": "2026-05-06-rss-agent-metaskills.json"
   }
 ]

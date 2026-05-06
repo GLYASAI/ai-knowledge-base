@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260506-001",
+  "title": "Agent MetaSKILLs",
+  "source": "rss",
+  "source_url": "https://swival.dev/pages/metaskills.html",
+  "collected_at": "2026-05-06T05:31:44Z",
+  "summary": "Agent MetaSKILLs 提出一套让 AI agent 自主学习与组合技能的元认知框架，强调 agent 通过反思、规划和工具调用动态优化行为，以提升在开放环境中的泛化能力。",
+  "analysis": {
+    "tech_highlights": [
+      "将元学习与 LLM agent 结合，实现基于经验的技能自动组合与迁移",
+      "内置反思与规划循环，使 agent 能在执行中自我纠错并调整策略",
+      "通过结构化提示与工具抽象，降低新技能接入的工程复杂度"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章触及当前 agent 研究的热点方向（自主性、元认知），但缺乏具体实现细节，主要停留在概念与方法论层面。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-agents",
+    "meta-learning",
+    "llm",
+    "autonomous-systems",
+    "prompt-engineering"
+  ],
+  "status": "draft"
+}
