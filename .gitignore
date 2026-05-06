@@ -16,3 +16,9 @@ env
 .DS_Store
 node_modules
 .openclaw
+HEARTBEAT.md
+IDENTITY.md
+TOOLS.md
+SOUL.md
+USER.md
+.xhs
