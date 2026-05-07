@@ -184,5 +184,17 @@
     "title": "Agent MetaSKILLs",
     "source_url": "https://swival.dev/pages/metaskills.html",
     "filename": "2026-05-06-rss-agent-metaskills.json"
+  },
+  {
+    "id": "rss-20260507-001",
+    "title": "Google’s Prompt API",
+    "source_url": "https://wil.to/posts/googles-prompt-api/",
+    "filename": "2026-05-07-rss-google-s-prompt-api.json"
+  },
+  {
+    "id": "rss-20260507-002",
+    "title": "A Path Not Taken for OxCaml",
+    "source_url": "https://joel.place/blog/path-not-taken/",
+    "filename": "2026-05-07-rss-a-path-not-taken-for-oxcaml.json"
   }
 ]

@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260507-001",
+  "title": "Google’s Prompt API",
+  "source": "rss",
+  "source_url": "https://wil.to/posts/googles-prompt-api/",
+  "collected_at": "2026-05-07T05:34:23Z",
+  "summary": "Google 的 Prompt API 将大语言模型交互能力直接嵌入浏览器，使 Web 应用无需后端即可调用 Gemini Nano 等设备端模型完成翻译、摘要、写作等任务，兼顾隐私与低延迟。",
+  "analysis": {
+    "tech_highlights": [
+      "浏览器内置 Prompt API，前端可直接调用 Gemini Nano 进行本地推理，无需服务端支持",
+      "支持流式响应、信号中止和多模态输入，保持 Web API 的标准化设计",
+      "内置毒性检测与安全过滤，结合设备端处理增强隐私保护"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该技术将大模型能力下沉至浏览器，可能重塑 Web 应用架构，对前端开发者、隐私敏感场景极具价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "prompt-api",
+    "browser-ai",
+    "gemini-nano",
+    "privacy-preserving",
+    "web-standard"
+  ],
+  "status": "draft"
+}
