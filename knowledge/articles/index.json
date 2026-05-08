@@ -196,5 +196,23 @@
     "title": "A Path Not Taken for OxCaml",
     "source_url": "https://joel.place/blog/path-not-taken/",
     "filename": "2026-05-07-rss-a-path-not-taken-for-oxcaml.json"
+  },
+  {
+    "id": "rss-20260508-001",
+    "title": "Mojo v1.0.0b1",
+    "source_url": "https://mojolang.org/releases/v1.0.0b1",
+    "filename": "2026-05-08-rss-mojo-v1-0-0b1.json"
+  },
+  {
+    "id": "rss-20260508-002",
+    "title": "jlearn: Machine Learning Library in J",
+    "source_url": "https://github.com/jonghough/jlearn",
+    "filename": "2026-05-08-rss-jlearn-machine-learning-library-in-j.json"
+  },
+  {
+    "id": "rss-20260508-003",
+    "title": "Open weights are quietly closing up - and that's a problem",
+    "source_url": "https://martinalderson.com/posts/open-weights-are-quietly-closing-up/",
+    "filename": "2026-05-08-rss-open-weights-are-quietly-closing-up-and-that-s-a-p.json"
   }
 ]

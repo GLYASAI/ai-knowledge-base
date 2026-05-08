@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260508-001",
+  "title": "Mojo v1.0.0b1",
+  "source": "rss",
+  "source_url": "https://mojolang.org/releases/v1.0.0b1",
+  "collected_at": "2026-05-08T04:56:26Z",
+  "summary": "Mojo v1.0.0b1 发布，这是面向 AI 和系统编程的高性能语言的首个 beta 版本，旨在结合 Python 的易用性与底层硬件的极致性能。",
+  "analysis": {
+    "tech_highlights": [
+      "首个 beta 版本标志着 Mojo 语言核心特性趋于稳定，为生产级 AI 应用开发铺路",
+      "基于 MLIR 编译框架，支持自动并行化和异构硬件加速，实现 Python 级语法与 C++ 级性能",
+      "提供与 Python 生态无缝互操作的同时，引入 ownership、traits 等系统编程特性"
+    ],
+    "relevance_score": 8,
+    "score_reason": "Mojo 作为面向 AI 和系统编程的新兴语言，首个 beta 版发布是技术社区的重要里程碑，对关注高性能计算和 AI 基础设施的开发者具有较高吸引力。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "mojo",
+    "programming-languages",
+    "ai",
+    "systems-programming",
+    "beta-release"
+  ],
+  "status": "draft"
+}

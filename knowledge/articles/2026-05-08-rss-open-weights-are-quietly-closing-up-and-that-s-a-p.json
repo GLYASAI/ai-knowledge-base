@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260508-003",
+  "title": "Open weights are quietly closing up - and that's a problem",
+  "source": "rss",
+  "source_url": "https://martinalderson.com/posts/open-weights-are-quietly-closing-up/",
+  "collected_at": "2026-05-08T04:56:26Z",
+  "summary": "文章分析了当前声称“开放权重”的 AI 模型在数据、代码、许可等方面存在隐藏限制，导致真正的开放度下降，对研究和生态构成潜在风险。",
+  "analysis": {
+    "tech_highlights": [
+      "剖析开放权重在数据可访问性、代码可用性、许可条款等方面的多种隐性限制",
+      "对比 Llama、Mistral 等知名模型的开放程度，揭示“开放”与“真正可复现”的差距",
+      "讨论封闭趋势对科学独立性与去中心化创新的影响"
+    ],
+    "relevance_score": 9,
+    "score_reason": "直接针对当前 AI 开源生态的关键争议，涉及模型透明度与治理，对从业者与研究者有重要参考意义。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "open-weights",
+    "ai-governance",
+    "licensing",
+    "model-transparency",
+    "open-source-ai"
+  ],
+  "status": "draft"
+}
