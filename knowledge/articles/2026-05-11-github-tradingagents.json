@@ -1,0 +1,26 @@
+{
+  "id": "github-20260511-001",
+  "title": "TauricResearch/TradingAgents",
+  "source": "github",
+  "source_url": "https://github.com/TauricResearch/TradingAgents",
+  "collected_at": "2026-05-11T06:02:09Z",
+  "summary": "TradingAgents 是一个基于 LLM 的多智能体金融交易框架，利用多个 AI 代理协同进行市场分析、策略制定与交易执行。",
+  "analysis": {
+    "tech_highlights": [
+      "采用 Multi-Agent 架构将交易流程解构为多个 LLM 代理，实现分工协作与决策链模拟",
+      "融合实时金融数据与 LLM 的推理能力，支持动态交易策略生成与评估",
+      "提供可扩展的框架设计，便于集成多种 LLM 后端与自定义交易环境"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该项目直接将大型语言模型应用于量化金融交易，采用前沿的多智能体架构，技术新颖且具有实际落地价值，与 AI 在金融领域的应用高度契合。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "multi-agent",
+    "llm",
+    "trading",
+    "finance",
+    "framework"
+  ],
+  "status": "draft"
+}

@@ -220,5 +220,17 @@
     "title": "Aurora: A Leverage-Aware Optimizer for Rectangular Matrices",
     "source_url": "https://blog.tilderesearch.com/blog/aurora",
     "filename": "2026-05-10-rss-aurora-a-leverage-aware-optimizer-for-rectangular-.json"
+  },
+  {
+    "id": "github-20260511-001",
+    "title": "TauricResearch/TradingAgents",
+    "source_url": "https://github.com/TauricResearch/TradingAgents",
+    "filename": "2026-05-11-github-tradingagents.json"
+  },
+  {
+    "id": "rss-20260511-001",
+    "title": "Training an LLM in Swift, Part 1: Taking matrix multiplication from Gflop/s to Tflop/s",
+    "source_url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
+    "filename": "2026-05-11-rss-s.json"
   }
 ]
