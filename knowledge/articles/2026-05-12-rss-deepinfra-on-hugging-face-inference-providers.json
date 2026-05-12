@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260512-006",
+  "title": "DeepInfra on Hugging Face Inference Providers 🔥",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/inference-providers-deepinfra",
+  "collected_at": "2026-05-12T05:44:51Z",
+  "summary": "DeepInfra 正式成为 Hugging Face 的推理提供商，用户可直接在 Hub 上调用 DeepInfra 托管的高性能模型 API，体验低延迟、自动扩缩容的 serverless 推理服务。",
+  "analysis": {
+    "tech_highlights": [
+      "无缝集成 Hugging Face Hub，无需额外配置即可使用 DeepInfra 推理端点",
+      "提供高性能、自动扩缩容的 serverless 推理，按 token 或请求计费",
+      "支持多种热门模型（如 Llama、Stable Diffusion 等），兼容 OpenAI API 格式"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章宣布了 Hugging Face 生态新增重要推理提供商，对需要快速部署和扩展模型推理的开发者具有实际参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "inference",
+    "huggingface",
+    "deepinfra",
+    "serverless",
+    "model-serving"
+  ],
+  "status": "draft"
+}

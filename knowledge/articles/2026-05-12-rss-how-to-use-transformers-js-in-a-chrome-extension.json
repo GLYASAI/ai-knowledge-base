@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260512-010",
+  "title": "How to Use Transformers.js in a Chrome Extension",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+  "collected_at": "2026-05-12T05:44:51Z",
+  "summary": "本文介绍了如何在 Chrome 扩展中集成 Transformers.js，通过 Service Worker 实现离线文本分类等机器学习任务，无需后端服务器。",
+  "analysis": {
+    "tech_highlights": [
+      "在浏览器扩展中直接运行 Hugging Face Transformers 模型，实现离线推理",
+      "利用 Service Worker 处理异步 AI 推理请求，与页面内容安全策略兼容",
+      "示例演示了从权限申请到模型加载、文本分类的完整流程"
+    ],
+    "relevance_score": 8,
+    "score_reason": "将 Transformers.js 应用于 Chrome 扩展是边缘 AI 的实用场景，结合 Service Worker 的解决方案具有较高实操价值，但主题相对垂直。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "transformers-js",
+    "chrome-extension",
+    "on-device-ai",
+    "service-worker",
+    "machine-learning"
+  ],
+  "status": "draft"
+}

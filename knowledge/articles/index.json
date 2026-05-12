@@ -232,5 +232,65 @@
     "title": "Training an LLM in Swift, Part 1: Taking matrix multiplication from Gflop/s to Tflop/s",
     "source_url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
     "filename": "2026-05-11-rss-s.json"
+  },
+  {
+    "id": "rss-20260512-001",
+    "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+    "source_url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+    "filename": "2026-05-12-rss-building-blocks-for-foundation-model-training-and-.json"
+  },
+  {
+    "id": "rss-20260512-002",
+    "title": "EMO: Pretraining mixture of experts for emergent modularity",
+    "source_url": "https://huggingface.co/blog/allenai/emo",
+    "filename": "2026-05-12-rss-emo-pretraining-mixture-of-experts-for-emergent-mo.json"
+  },
+  {
+    "id": "rss-20260512-003",
+    "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+    "source_url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+    "filename": "2026-05-12-rss-vllm-v0-to-v1-correctness-before-corrections-in-rl.json"
+  },
+  {
+    "id": "rss-20260512-004",
+    "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+    "source_url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+    "filename": "2026-05-12-rss-adding-benchmaxxer-repellant-to-the-open-asr-leade.json"
+  },
+  {
+    "id": "rss-20260512-005",
+    "title": "Granite 4.1 LLMs: How They’re Built",
+    "source_url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+    "filename": "2026-05-12-rss-granite-4-1-llms-how-they-re-built.json"
+  },
+  {
+    "id": "rss-20260512-006",
+    "title": "DeepInfra on Hugging Face Inference Providers 🔥",
+    "source_url": "https://huggingface.co/blog/inference-providers-deepinfra",
+    "filename": "2026-05-12-rss-deepinfra-on-hugging-face-inference-providers.json"
+  },
+  {
+    "id": "rss-20260512-007",
+    "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+    "source_url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+    "filename": "2026-05-12-rss-introducing-nvidia-nemotron-3-nano-omni-long-conte.json"
+  },
+  {
+    "id": "rss-20260512-008",
+    "title": "How to build scalable web apps with OpenAI&apos;s Privacy Filter",
+    "source_url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+    "filename": "2026-05-12-rss-how-to-build-scalable-web-apps-with-openai-apos-s-.json"
+  },
+  {
+    "id": "rss-20260512-009",
+    "title": "DeepSeek-V4: a million-token context that agents can actually use",
+    "source_url": "https://huggingface.co/blog/deepseekv4",
+    "filename": "2026-05-12-rss-deepseek-v4-a-million-token-context-that-agents-ca.json"
+  },
+  {
+    "id": "rss-20260512-010",
+    "title": "How to Use Transformers.js in a Chrome Extension",
+    "source_url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+    "filename": "2026-05-12-rss-how-to-use-transformers-js-in-a-chrome-extension.json"
   }
 ]

@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260512-004",
+  "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+  "collected_at": "2026-05-12T05:44:51Z",
+  "summary": "Hugging Face 在开放语音识别排行榜中引入因私测试数据与过滤机制，防止模型对公开基准过拟合，确保评估更公平并鼓励真实泛化能力。",
+  "analysis": {
+    "tech_highlights": [
+      "使用私有保留语音数据评估 ASR 模型，避免测试集信息泄露导致排名失真",
+      "集成‘benchmaxxer repellant’过滤层，识别并排除针对排行榜优化而非实用效果的模型"
+    ],
+    "relevance_score": 8,
+    "score_reason": "触及当前 AI 基准评测的核心痛点——防过拟合与测试集泄露，提出的私有数据方法对社区构建可靠排行榜具有借鉴价值",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "automatic-speech-recognition",
+    "leaderboard-integrity",
+    "private-test-data",
+    "benchmark-overfitting",
+    "evaluation-fairness"
+  ],
+  "status": "draft"
+}

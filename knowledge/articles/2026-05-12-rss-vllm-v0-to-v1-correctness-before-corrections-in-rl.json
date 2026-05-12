@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260512-003",
+  "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+  "collected_at": "2026-05-12T05:44:51Z",
+  "summary": "vLLM 从 V0 迁移到 V1，以强化学习场景中的推理正确性为最高优先级，通过重构内存管理和调度策略，在保持高吞吐的同时确保 RL 训练中生成结果的准确性与一致性。",
+  "analysis": {
+    "tech_highlights": [
+      "针对 RL 工作负载（如 RLHF）的请求模式优化了 continuous batching 与抢占调度，避免因异步修正导致的结果漂移",
+      "引入更稳健的 KV 缓存分配和 PagedAttention 改进，减少动态采样中的内存碎片与竞争条件",
+      "采用 V1 全新软件架构，分离控制平面与数据平面，在分布式环境中实现确定性推理"
+    ],
+    "relevance_score": 9,
+    "score_reason": "vLLM 是 LLM 推理领域主流开源项目，其 V1 更新直接关系到 RL 训练管线中推理引擎的准确性与效率，对 AI 基础设施从业者高度相关。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "vllm",
+    "reinforcement-learning",
+    "inference",
+    "correctness",
+    "pagedattention"
+  ],
+  "status": "draft"
+}

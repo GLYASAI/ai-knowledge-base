@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260512-005",
+  "title": "Granite 4.1 LLMs: How They’re Built",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+  "collected_at": "2026-05-12T05:44:51Z",
+  "summary": "本文深入剖析 IBM Granite 4.1 系列企业级 LLM 的构建流程，涵盖从 Granite 3.0 到 4.0 的增量预训练、基于 Mixture of Experts（MoE）的架构、合成数据生成、多阶段对齐以及面向 128K 上下文的推理优化。",
+  "analysis": {
+    "tech_highlights": [
+      "采用从 3B/8B Granite 3.0 模型进行增量预训练，迁移学习已有知识，降低训练成本并提升最终性能",
+      "Granite 4.1 8B 模型基于 Mixture of Experts（MoE）设计，总参数量 80B，激活 8B，平衡容量与推理效率",
+      "通过合成数据生成、链式思维蒸馏和分组相对策略优化（GRPO）实现数学与代码能力的显著提升，并在长上下文中支持 128K tokens"
+    ],
+    "relevance_score": 9,
+    "score_reason": "文章系统介绍了企业级大语言模型从架构设计、增量训练到推理优化的全链路实践，对正在开发或评估 LLM 的团队具有高参考价值",
+    "audience": "advanced"
+  },
+  "tags": [
+    "large-language-models",
+    "mixture-of-experts",
+    "pretraining",
+    "synthetic-data",
+    "ibm-granite"
+  ],
+  "status": "draft"
+}

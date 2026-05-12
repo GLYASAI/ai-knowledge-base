@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260512-002",
+  "title": "EMO: Pretraining mixture of experts for emergent modularity",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/allenai/emo",
+  "collected_at": "2026-05-12T05:44:51Z",
+  "summary": "Allen AI 发布的 EMO 方法通过大规模预训练 MoE 架构，使模型在无监督情况下自然涌现出模块化能力，每个专家负责可解释的子任务，并支持任务组合与零样本泛化。",
+  "analysis": {
+    "tech_highlights": [
+      "利用 Mixture-of-Experts 预训练无监督诱导出功能模块的自动分化，无需显式模块化目标",
+      "模块涌现后展现出强大的组合泛化能力，可通过手工重组专家实现 zero-shot 迁移",
+      "在多个下游任务中验证模块的可解释性，并能有效缓解灾难性遗忘"
+    ],
+    "relevance_score": 9,
+    "score_reason": "文章介绍了 MoE 预训练实现涌现模块化的前沿方法，对理解模块化架构、组合泛化以及训练动态具有较高参考价值，直接关联当前大模型可扩展性与可解释性研究。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "mixture-of-experts",
+    "modularity",
+    "pretraining",
+    "emergent-behavior",
+    "compositional-generalization"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260512-008",
+  "title": "How to build scalable web apps with OpenAI&apos;s Privacy Filter",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+  "collected_at": "2026-05-12T05:44:51Z",
+  "summary": "本文介绍如何将 OpenAI 的 Privacy Filter 集成到可扩展的 web 应用中，确保用户输入在发送到 LLM 前被自动脱敏，保护个人身份信息（PII）且不影响模型效果。",
+  "analysis": {
+    "tech_highlights": [
+      "使用 OpenAI's Privacy Filter SDK 对用户提示进行实时 PII 检测与替换",
+      "基于 FastAPI 构建异步 web 服务并配合负载均衡与队列实现水平扩展",
+      "通过 Hugging Face Spaces 集成演示，展示生产级 privacy-by-design 实践"
+    ],
+    "relevance_score": 8,
+    "score_reason": "覆盖了 LLM 应用中的隐私合规痛点，并给出从集成到扩展的完整架构，对开发企业级 AI 应用具有直接参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "privacy-filter",
+    "llm-security",
+    "openai",
+    "pii-redaction",
+    "fastapi"
+  ],
+  "status": "draft"
+}

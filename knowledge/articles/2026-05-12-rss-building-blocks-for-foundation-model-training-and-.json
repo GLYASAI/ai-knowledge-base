@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260512-001",
+  "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+  "collected_at": "2026-05-12T05:44:51Z",
+  "summary": "本文介绍了在 AWS 上通过 Hugging Face 生态整合 NeMo、Megatron-LM 和 TensorRT-LLM 等开源库，构建 Foundation Model 训练与推理的模块化积木，提供分布式训练与优化推理的参考实现。",
+  "analysis": {
+    "tech_highlights": [
+      "将 Hugging Face 模型与 NVIDIA NeMo、Megatron-LM 无缝结合，支持 AWS 上的大规模分布式训练",
+      "利用 NVIDIA TensorRT-LLM 在 AWS GPU 实例上实现高性能、低延迟的 Foundation Model 推理",
+      "提供可直接复用的 SageMaker 示例与自动化脚本，简化训练和部署流程"
+    ],
+    "relevance_score": 9,
+    "score_reason": "直接解决行业痛点，结合主流工具链给出 AWS 上的端到端实践，对 MLOps 工程师和基础模型开发者极具参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "foundation-model",
+    "aws",
+    "nemo",
+    "megatron-lm",
+    "tensorrt-llm",
+    "hugging-face"
+  ],
+  "status": "draft"
+}

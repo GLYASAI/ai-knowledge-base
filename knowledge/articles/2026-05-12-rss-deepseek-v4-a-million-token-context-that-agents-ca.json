@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260512-009",
+  "title": "DeepSeek-V4: a million-token context that agents can actually use",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/deepseekv4",
+  "collected_at": "2026-05-12T05:44:51Z",
+  "summary": "DeepSeek-V4 发布，支持高达百万 token 的上下文窗口，并针对 AI 代理场景深度优化，确保在超长对话与多步任务中保持可靠的指令跟随和工具调用能力。",
+  "analysis": {
+    "tech_highlights": [
+      "原生支持 1M token 上下文长度，将长文档理解和跨会话记忆推向新高度",
+      "针对 agentic workload 专项优化，在超长上下文中仍能精准执行 function calling 和多步推理",
+      "可能沿用 MLA 注意力、DeepSeekMoE 等高效架构，在极端长上下文下实现可部署的推理效率"
+    ],
+    "relevance_score": 9,
+    "score_reason": "极长上下文与可靠的代理能力是当前 LLM 落地复杂应用的核心瓶颈，DeepSeek-V4 的发布对构建长会话助手、自动化工作流等场景具有直接价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "long-context",
+    "agents",
+    "deepseek",
+    "large-language-model",
+    "function-calling"
+  ],
+  "status": "draft"
+}
