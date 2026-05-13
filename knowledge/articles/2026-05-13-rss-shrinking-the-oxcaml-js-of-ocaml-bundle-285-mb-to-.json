@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260513-001",
+  "title": "Shrinking the OxCaml js_of_ocaml bundle: 285 MB to 4 MB",
+  "source": "rss",
+  "source_url": "https://kcsrk.info/ocaml/oxcaml/modes/2026/05/10/shrinking-the-oxcaml-bundle/",
+  "collected_at": "2026-05-13T05:52:13Z",
+  "summary": "本文介绍了如何通过模式分析、死代码消除和依赖裁剪，将 OxCaml 的 js_of_ocaml 编译产物从 285 MB 压缩至 4 MB，展示了 OCaml 在 Web 前端打包优化中的潜力。",
+  "analysis": {
+    "tech_highlights": [
+      "利用 OxCaml 的模式（modes）系统进行更细粒度的 unused code 分析，实现死代码消除",
+      "结合 js_of_ocaml 的 whole-program compilation 和自定义 tail-recursion 优化，大幅减少 bundle 体积",
+      "通过依赖图裁剪和模块级 tree shaking 移除未引用的运行时库代码"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该文章对使用 OCaml 进行前端开发、关心编译产物体积的开发者具有很高的参考价值，展示了跨语言编译到 JavaScript 的极限优化方法。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ocaml",
+    "js-of-ocaml",
+    "bundle-optimization",
+    "dead-code-elimination",
+    "tree-shaking"
+  ],
+  "status": "draft"
+}

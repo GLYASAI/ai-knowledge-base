@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260513-002",
+  "title": "The Crystallization of Transformer Architectures (2017-2025)",
+  "source": "rss",
+  "source_url": "https://jytan.net/blog/2025/transformer-architectures/",
+  "collected_at": "2026-05-13T05:52:13Z",
+  "summary": "这篇文章回顾了 Transformer 架构从 2017 年到 2025 年的演化，梳理了 Encoder-Decoder、Encoder-only、Decoder-only、Vision Transformer、Diffusion Transformer 等变体的发展路径，指出它们正逐步结晶为以 decoder-only 和扩散模型为主的统一范式。",
+  "analysis": {
+    "tech_highlights": [
+      "系统对比了 Transformer 在不同模态（文本、图像、语音）中的结构变种及其融合趋势",
+      "揭示了从 BERT 到 GPT，再到 ViT 和扩散 Transformer 的架构收敛路径",
+      "总结了训练效率、推理优化和长序列建模等核心工程挑战的解决方案"
+    ],
+    "relevance_score": 8,
+    "score_reason": "全面梳理了当前 AI 领域最核心的架构演变史，对理解大模型技术方向具有很强的参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "transformer",
+    "architecture-evolution",
+    "deep-learning",
+    "generative-ai",
+    "multi-modal"
+  ],
+  "status": "draft"
+}

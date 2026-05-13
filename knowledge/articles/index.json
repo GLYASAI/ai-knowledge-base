@@ -292,5 +292,17 @@
     "title": "How to Use Transformers.js in a Chrome Extension",
     "source_url": "https://huggingface.co/blog/transformersjs-chrome-extension",
     "filename": "2026-05-12-rss-how-to-use-transformers-js-in-a-chrome-extension.json"
+  },
+  {
+    "id": "rss-20260513-001",
+    "title": "Shrinking the OxCaml js_of_ocaml bundle: 285 MB to 4 MB",
+    "source_url": "https://kcsrk.info/ocaml/oxcaml/modes/2026/05/10/shrinking-the-oxcaml-bundle/",
+    "filename": "2026-05-13-rss-shrinking-the-oxcaml-js-of-ocaml-bundle-285-mb-to-.json"
+  },
+  {
+    "id": "rss-20260513-002",
+    "title": "The Crystallization of Transformer Architectures (2017-2025)",
+    "source_url": "https://jytan.net/blog/2025/transformer-architectures/",
+    "filename": "2026-05-13-rss-the-crystallization-of-transformer-architectures-2.json"
   }
 ]
