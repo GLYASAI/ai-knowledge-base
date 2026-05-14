@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260514-002",
+  "title": "AI as Social Technology",
+  "source": "rss",
+  "source_url": "https://knightcolumbia.org/content/ai-as-social-technology",
+  "collected_at": "2026-05-14T05:51:07Z",
+  "summary": "本文提出将 AI 视为一种“社会技术”，批判仅从纯技术视角理解 AI 的局限性，强调 AI 系统必然嵌入社会关系、制度和价值观，其设计与部署需整合社会科学的洞见。",
+  "analysis": {
+    "tech_highlights": [
+      "从社会技术系统理论重新定义 AI，突破纯工程化思维",
+      "强调 AI 作为技术与社会共同演化的产物，其效果受制度、文化和权力结构影响",
+      "倡导跨学科方法，将社会学、伦理学等融入 AI 生命周期"
+    ],
+    "relevance_score": 7,
+    "score_reason": "对关注 AI 伦理、负责任的 AI 设计和系统思维的开发者与研究者具有重要启发意义，但非直接编码实践，实用性适中。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-ethics",
+    "social-technology",
+    "sociotechnical-systems",
+    "ai-governance",
+    "systems-thinking"
+  ],
+  "status": "draft"
+}

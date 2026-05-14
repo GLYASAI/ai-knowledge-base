@@ -304,5 +304,17 @@
     "title": "The Crystallization of Transformer Architectures (2017-2025)",
     "source_url": "https://jytan.net/blog/2025/transformer-architectures/",
     "filename": "2026-05-13-rss-the-crystallization-of-transformer-architectures-2.json"
+  },
+  {
+    "id": "rss-20260514-001",
+    "title": "Wireloom: A Markdown extension for UI wireframes",
+    "source_url": "https://github.com/StardockCorp/Wireloom",
+    "filename": "2026-05-14-rss-wireloom-a-markdown-extension-for-ui-wireframes.json"
+  },
+  {
+    "id": "rss-20260514-002",
+    "title": "AI as Social Technology",
+    "source_url": "https://knightcolumbia.org/content/ai-as-social-technology",
+    "filename": "2026-05-14-rss-ai-as-social-technology.json"
   }
 ]

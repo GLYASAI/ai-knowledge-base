@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260514-001",
+  "title": "Wireloom: A Markdown extension for UI wireframes",
+  "source": "rss",
+  "source_url": "https://github.com/StardockCorp/Wireloom",
+  "collected_at": "2026-05-14T05:51:07Z",
+  "summary": "Wireloom 是一个 Markdown 扩展，允许开发者用纯文本语法直接描述 UI 线框图，将文档与原型设计融为一体。",
+  "analysis": {
+    "tech_highlights": [
+      "通过自定义 Markdown 语法定义 UI 组件（如按钮、输入框、布局），无需离开写作环境即可生成静态线框图",
+      "支持将线框图渲染为可预览的交互式原型，并可能导出为多种格式",
+      "提供 VS Code 插件或 CLI 工具，无缝集成到开发文档工作流中"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该项目创新性地将线框图设计融入 Markdown 工作流，对技术写作和前端协作有较高实用价值，但生态尚处于早期阶段。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "wireframe",
+    "markdown",
+    "ui-design",
+    "developer-tools",
+    "prototyping"
+  ],
+  "status": "draft"
+}
