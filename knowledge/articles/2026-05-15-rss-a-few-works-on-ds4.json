@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260515-004",
+  "title": "A few works on DS4",
+  "source": "rss",
+  "source_url": "https://antirez.com/news/165",
+  "collected_at": "2026-05-15T05:58:37Z",
+  "summary": "这是一个专门为 DeepSeek V4 Flash 模型设计的高度定制化 LLM 推理实现，能够在 DGX Spark 或 128GB RAM 的 Macbook 等消费级开发者硬件上运行。",
+  "analysis": {
+    "tech_highlights": [
+      "高度针对 DeepSeek V4 Flash 模型优化的推理引擎",
+      "支持在 DGX Spark 工作站和 128GB RAM Macbook 上本地执行",
+      "实现内存效率与算子优化，无需高端 GPU 即可运行大模型"
+    ],
+    "relevance_score": 9,
+    "score_reason": "直接涉及大语言模型的本地化推理部署，且针对特定前沿模型和消费级硬件，对开发者极具实践价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "deepseek",
+    "llm-inference",
+    "local-ml",
+    "macos",
+    "model-optimization"
+  ],
+  "status": "draft"
+}

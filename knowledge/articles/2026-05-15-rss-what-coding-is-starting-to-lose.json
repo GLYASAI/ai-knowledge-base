@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260515-003",
+  "title": "What Coding Is Starting to Lose",
+  "source": "rss",
+  "source_url": "https://caio.ca/blog/what-coding-is-starting-to-lose",
+  "collected_at": "2026-05-15T05:58:37Z",
+  "summary": "文章反思了在AI辅助编程日益普及的当下，开发者可能正在丧失的深层编程技能，如系统级调试、架构耐心与复杂问题拆解能力。",
+  "analysis": {
+    "tech_highlights": [
+      "剖析AI coding工具（如LLM补全）如何弱化开发者的调试韧性与系统思维",
+      "指出“全栈”模糊化导致的对底层原理理解的退化",
+      "强调在自动化浪潮中保留深度工程能力的必要性"
+    ],
+    "relevance_score": 8,
+    "score_reason": "直击当前AI辅助开发热潮中被忽视的副作用，对全体软件工程师具有强烈的现实警醒意义。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ai-coding",
+    "developer-skills",
+    "software-engineering",
+    "coding-culture",
+    "llm-tradeoffs"
+  ],
+  "status": "draft"
+}

@@ -316,5 +316,29 @@
     "title": "AI as Social Technology",
     "source_url": "https://knightcolumbia.org/content/ai-as-social-technology",
     "filename": "2026-05-14-rss-ai-as-social-technology.json"
+  },
+  {
+    "id": "rss-20260515-001",
+    "title": "Autonomous AI research for nanogpt speedrun",
+    "source_url": "https://www.primeintellect.ai/auto-nanogpt",
+    "filename": "2026-05-15-rss-autonomous-ai-research-for-nanogpt-speedrun.json"
+  },
+  {
+    "id": "rss-20260515-002",
+    "title": "O(x)Caml in Space",
+    "source_url": "https://gazagnaire.org/blog/2026-05-14-borealis.html",
+    "filename": "2026-05-15-rss-o-x-caml-in-space.json"
+  },
+  {
+    "id": "rss-20260515-003",
+    "title": "What Coding Is Starting to Lose",
+    "source_url": "https://caio.ca/blog/what-coding-is-starting-to-lose",
+    "filename": "2026-05-15-rss-what-coding-is-starting-to-lose.json"
+  },
+  {
+    "id": "rss-20260515-004",
+    "title": "A few works on DS4",
+    "source_url": "https://antirez.com/news/165",
+    "filename": "2026-05-15-rss-a-few-works-on-ds4.json"
   }
 ]

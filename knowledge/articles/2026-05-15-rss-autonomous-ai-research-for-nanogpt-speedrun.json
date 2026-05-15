@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260515-001",
+  "title": "Autonomous AI research for nanogpt speedrun",
+  "source": "rss",
+  "source_url": "https://www.primeintellect.ai/auto-nanogpt",
+  "collected_at": "2026-05-15T05:58:37Z",
+  "summary": "这是一个利用自主AI代理（LLM驱动的代码生成与实验管理）对 nanogpt 训练进行 speedrun 的项目，展示了如何通过自动化研究循环快速复现并改进小规模语言模型训练，大幅缩短实验迭代周期。",
+  "analysis": {
+    "tech_highlights": [
+      "使用 LLM 代理自动生成训练代码、调整超参数并分析实验结果，实现闭环研究流程",
+      "在 nanogpt 这类微型模型上完成端到端 speedrun，验证了自主 AI 辅助科研的可行性",
+      "结合自动化实验跟踪与版本管理，将多个试错步骤压缩至几分钟内完成"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该工作将 LLM 应用于 AI 自身研发流程的自动化，预示了 AI 加速科学研究的前沿方向，对自动化机器学习与 AI 工程效率提升具有极强示范意义。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "autonomous-research",
+    "nanogpt",
+    "speedrun",
+    "llm-agents",
+    "automl"
+  ],
+  "status": "draft"
+}

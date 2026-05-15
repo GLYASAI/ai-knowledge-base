@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260515-002",
+  "title": "O(x)Caml in Space",
+  "source": "rss",
+  "source_url": "https://gazagnaire.org/blog/2026-05-14-borealis.html",
+  "collected_at": "2026-05-15T05:58:37Z",
+  "summary": "本文讲述 OCaml 在航天项目 Borealis 中的应用，探讨函数式编程和类型安全如何提升太空软件的可靠性。",
+  "analysis": {
+    "tech_highlights": [
+      "在资源受限的航天嵌入式环境中运行 OCaml 程序",
+      "利用 OCaml 的静态强类型与不可变数据结构避免常见的运行时错误",
+      "通过形式化验证或模型检查保证关键模块的正确性"
+    ],
+    "relevance_score": 8,
+    "score_reason": "将 OCaml 用于航天领域非常罕见，对函数式编程在安全关键系统中的应用提供了实战参考。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ocaml",
+    "space-mission",
+    "functional-programming",
+    "embedded-systems"
+  ],
+  "status": "draft"
+}
