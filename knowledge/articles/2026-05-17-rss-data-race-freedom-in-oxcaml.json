@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260517-002",
+  "title": "Data race freedom in OxCaml",
+  "source": "rss",
+  "source_url": "https://kcsrk.info/ocaml/oxcaml/x-ocaml/blogging/2026/05/07/data-race-freedom-in-oxcaml/",
+  "collected_at": "2026-05-17T05:51:57Z",
+  "summary": "OxCaml通过在类型系统中引入affine types与ownership机制，以静态方式保证并行程序无数据竞争，为OCaml生态提供了编译期并发安全保障。",
+  "analysis": {
+    "tech_highlights": [
+      "利用affine types实现线性所有权，防止数据被多个并行任务同时访问",
+      "在OCaml中引入region-based memory management，结合ownership消除data race",
+      "通过类型系统扩展将并发安全验证前置到编译时，无需运行时开销"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该文章深入探讨了函数式语言编译时数据竞争防护的前沿设计，对并发安全、类型系统和语言设计领域有极高参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "data-race-freedom",
+    "affine-types",
+    "ownership-types",
+    "ocaml",
+    "concurrency-safety"
+  ],
+  "status": "draft"
+}

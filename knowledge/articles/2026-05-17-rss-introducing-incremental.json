@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260517-001",
+  "title": "Introducing Incremental",
+  "source": "rss",
+  "source_url": "https://blog.janestreet.com/introducing-incremental/",
+  "collected_at": "2026-05-17T05:51:57Z",
+  "summary": "Jane Street 推出的 OCaml 库 Incremental，通过自调整计算图实现高效的增量更新，适合构建对变化敏感的应用程序和 UI。",
+  "analysis": {
+    "tech_highlights": [
+      "基于动态依赖图（dynamic dependency graph）的自调整计算模型",
+      "高效的变更传播（change propagation）算法，仅重算受影响部分",
+      "与 OCaml 类型系统深度集成，提供声明式、可组合的增量 API"
+    ],
+    "relevance_score": 8,
+    "score_reason": "增量计算和自调整技术对前端状态管理、构建系统、实时数据处理等前沿领域有重要参考意义，且源自工业级函数式编程实践。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "incremental-computation",
+    "ocaml",
+    "self-adjusting",
+    "functional-programming",
+    "reactive"
+  ],
+  "status": "draft"
+}

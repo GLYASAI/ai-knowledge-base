@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260517-003",
+  "title": "why use F# for scripting and automation?",
+  "source": "rss",
+  "source_url": "https://iev.ee/blog/why-use-fsharp/",
+  "collected_at": "2026-05-17T05:51:57Z",
+  "summary": "文章阐述了使用 F# 进行脚本编写与自动化的优势，包括其强大的类型推断、管道操作符、交互式笔记本支持以及无缝访问 .NET 生态系统，使脚本更安全、可维护。",
+  "analysis": {
+    "tech_highlights": [
+      "利用 F# 的类型提供器和类型推断，在脚本中获得编译时安全性和智能代码补全",
+      "通过管道操作符和代数数据类型简化数据处理流水线的表达",
+      "结合 .NET Interactive 和 Polyglot Notebooks 实现跨语言可复现脚本与自动化"
+    ],
+    "relevance_score": 8,
+    "score_reason": "对寻求提升脚本可靠性和可维护性的 .NET 开发者有较高参考价值，但受众面相对较窄。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "fsharp",
+    "scripting",
+    "automation",
+    "dotnet",
+    "functional-programming"
+  ],
+  "status": "draft"
+}
