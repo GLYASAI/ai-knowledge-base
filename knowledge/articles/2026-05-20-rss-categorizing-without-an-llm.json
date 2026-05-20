@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260520-001",
+  "title": "Categorizing without an LLM",
+  "source": "rss",
+  "source_url": "https://softwaremaniacs.org/blog/2026/05/18/shoppy/",
+  "collected_at": "2026-05-20T06:16:21Z",
+  "summary": "本文探索了在不使用大语言模型的情况下对商品进行自动分类的方法，结合规则匹配与传统机器学习，实现高效、低成本的分类方案。",
+  "analysis": {
+    "tech_highlights": [
+      "通过关键词和规则流水线替代 LLM，实现透明可控的分类逻辑",
+      "使用朴素贝叶斯等轻量级模型在有限资源下获得可接受准确率",
+      "对比分析 LLM 方法在成本、延迟与可解释性上的劣势"
+    ],
+    "relevance_score": 7,
+    "score_reason": "主题对开发者具有实用参考价值，展示减少对昂贵 LLM 依赖的务实思路，但深度和规模一般。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "text-classification",
+    "machine-learning",
+    "llm-alternative",
+    "rule-based",
+    "nlp"
+  ],
+  "status": "draft"
+}

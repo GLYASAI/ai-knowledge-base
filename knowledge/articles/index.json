@@ -358,5 +358,11 @@
     "title": "why use F# for scripting and automation?",
     "source_url": "https://iev.ee/blog/why-use-fsharp/",
     "filename": "2026-05-17-rss-why-use-f-for-scripting-and-automation.json"
+  },
+  {
+    "id": "rss-20260520-001",
+    "title": "Categorizing without an LLM",
+    "source_url": "https://softwaremaniacs.org/blog/2026/05/18/shoppy/",
+    "filename": "2026-05-20-rss-categorizing-without-an-llm.json"
   }
 ]
