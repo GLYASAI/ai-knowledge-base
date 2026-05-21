@@ -364,5 +364,23 @@
     "title": "Categorizing without an LLM",
     "source_url": "https://softwaremaniacs.org/blog/2026/05/18/shoppy/",
     "filename": "2026-05-20-rss-categorizing-without-an-llm.json"
+  },
+  {
+    "id": "rss-20260521-001",
+    "title": "I spent 31 hours on the math behind TurboQuant so you don't have to",
+    "source_url": "https://www.baseten.co/blog/i-spent-31-hours-on-the-math-behind-turboquant-so-you-dont-have-to/",
+    "filename": "2026-05-21-rss-i-spent-31-hours-on-the-math-behind-turboquant-so-.json"
+  },
+  {
+    "id": "rss-20260521-002",
+    "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+    "source_url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+    "filename": "2026-05-21-rss-an-openai-model-has-disproved-a-central-conjecture.json"
+  },
+  {
+    "id": "rss-20260521-003",
+    "title": "AI Resist List",
+    "source_url": "https://airesistlist.org/",
+    "filename": "2026-05-21-rss-ai-resist-list.json"
   }
 ]

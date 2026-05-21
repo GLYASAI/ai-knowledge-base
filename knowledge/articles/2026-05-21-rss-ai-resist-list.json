@@ -1,0 +1,27 @@
+{
+  "id": "rss-20260521-003",
+  "title": "AI Resist List",
+  "source": "rss",
+  "source_url": "https://airesistlist.org/",
+  "collected_at": "2026-05-21T06:29:52Z",
+  "summary": "AI Resist List 以目录形式收集拒绝使用 AI 生成内容的网站与服务，背后反映出对 AI 检测技术不成熟的担忧——现有文本水印易被擦除、真假内容鉴别器误报率高，使得“人工创作”成为对抗 AI 污染的一种社区主张，同时也引发了关于创作者与模型训练数据关系的伦理讨论。",
+  "analysis": {
+    "tech_highlights": [
+      "推动对 AI 生成内容检测方法的评估：如统计特征检测、隐写水印的鲁棒性对比及对抗样本攻击",
+      "实际展示了“拒绝 AI”作为内容治理策略在数据来源标注、版权保护和平台信任度上的技术动机",
+      "引发关于如何从算法层面区分人类与机器创作的技术辩论，凸显可解释性与透明性需求的紧迫性"
+    ],
+    "relevance_score": 5,
+    "score_reason": "项目涉及 AI 的社会影响和伦理边界，虽然本身并非直接的技术创新，但为对抗性检测、内容溯源等子方向提供了需求侧视角。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-resistance",
+    "human-only",
+    "curation",
+    "digital-ethics",
+    "anti-ai",
+    "content-detection"
+  ],
+  "status": "draft"
+}

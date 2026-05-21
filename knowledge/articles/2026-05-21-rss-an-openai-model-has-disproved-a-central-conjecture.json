@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260521-002",
+  "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+  "source": "rss",
+  "source_url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+  "collected_at": "2026-05-21T06:29:52Z",
+  "summary": "OpenAI 的一个模型在离散几何领域构造出反例，推翻了一个长期存在的核心猜想。该方法将大型语言模型的搜索能力与形式化验证工具结合，在自动定理证明上展现了与符号系统互补的优势，但其对高阶数学对象的推理稳定性仍存在局限。",
+  "analysis": {
+    "tech_highlights": [
+      "利用大型语言模型直接在海量候选空间中生成反例，突破了传统符号搜索的性能瓶颈",
+      "与 Lean 等交互式证明系统协同，实现反例的自动形式化验证，构建闭环的数学发现流水线",
+      "揭示了当前 LLM 在复杂数学结构上的泛化缺陷，例如对无穷维对象的处理仍需大量先验知识注入"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该工作将前沿 AI 技术应用于离散几何核心问题的否定性证明，对 AI for Math 领域具有重要示范意义。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ai-for-math",
+    "discrete-geometry",
+    "automated-theorem-proving",
+    "counterexample-generation",
+    "formal-methods"
+  ],
+  "status": "draft"
+}

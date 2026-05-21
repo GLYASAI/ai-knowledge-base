@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260521-001",
+  "title": "I spent 31 hours on the math behind TurboQuant so you don't have to",
+  "source": "rss",
+  "source_url": "https://www.baseten.co/blog/i-spent-31-hours-on-the-math-behind-turboquant-so-you-dont-have-to/",
+  "collected_at": "2026-05-21T06:29:52Z",
+  "summary": "本文详细推导了 TurboQuant 量化方法的底层数学原理，包括权重与激活分布建模、量化参数搜索及误差补偿策略，帮助读者跳过复杂的自行推演，快速掌握高效推理加速技术。",
+  "analysis": {
+    "tech_highlights": [
+      "系统化展示 TurboQuant 量化参数寻优的数学推导过程，填补公开资料空白",
+      "深入分析量化噪声引入的误差传播及修正方法，提升部署精度",
+      "通过数值示例与可视化，直观呈现理论公式与工程实现的对应关系"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章聚焦模型量化的核心数学，是 AI 推理部署方向的重要实践知识，对从事模型优化和加速的开发者很具参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "quantization",
+    "inference-acceleration",
+    "model-optimization",
+    "turboquant",
+    "deep-learning"
+  ],
+  "status": "draft"
+}
