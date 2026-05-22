@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260522-002",
+  "title": "OCaml Infrastructure: How the opam-repository Works",
+  "source": "rss",
+  "source_url": "https://ocaml.org/backstage/2025-11-05-how-the-opam-repository-works",
+  "collected_at": "2026-05-22T06:10:59Z",
+  "summary": "该文介绍了 OCaml 包管理器 opam-repository 的运营方式，强调它作为一个公共资源而非出版平台，依赖人工审核与社区协作来维护所有包的质量。",
+  "analysis": {
+    "tech_highlights": [
+      "采用人工审核制，并非所有提交的包都会被接受，保障仓库内包的质量和一致性",
+      "社区共同维护模式，任何人都可以为任意包提交修改建议，实现协作式的依赖管理",
+      "将包仓库视为公共池而非集中发布中心，反映了分布式维护与持续集成的实践"
+    ],
+    "relevance_score": 6,
+    "score_reason": "对了解 OCaml 生态和包管理基础设施的开发者有参考价值，但受众相对狭窄，非 OCaml 用户可能兴趣较低。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "opam",
+    "ocaml",
+    "package-management",
+    "repository",
+    "infrastructure"
+  ],
+  "status": "draft"
+}

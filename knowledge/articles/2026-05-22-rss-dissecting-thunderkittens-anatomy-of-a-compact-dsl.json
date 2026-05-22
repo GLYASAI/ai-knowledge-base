@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260522-001",
+  "title": "Dissecting ThunderKittens, anatomy of a compact DSL for high-performance AI kernels",
+  "source": "rss",
+  "source_url": "https://hamzaelshafie.bearblog.dev/dissecting-thunderkittens-anatomy-of-a-compact-dsl-for-high-performance-ai-kernels/",
+  "collected_at": "2026-05-22T06:10:59Z",
+  "summary": "本文深入剖析 ThunderKittens，一种用于编写高性能 AI 内核的紧凑领域特定语言 (DSL)，详细阐述了其基于 tile 的抽象、共享内存管理、同步机制及即时编译等设计原理，展示了如何用简洁代码实现 GPU 上的高效注意力机制。",
+  "analysis": {
+    "tech_highlights": [
+      "采用 tile 作为一等公民的计算抽象，自动管理 warp 级并行与数据移动，大幅降低 GPU 编程复杂度",
+      "通过静态分析和代码生成，自动编排共享内存的分配、填充与同步，避免显式手动优化",
+      "与 PyTorch 无缝集成的即时编译 (JIT) 流程，支持自动调优以适应不同 GPU 架构"
+    ],
+    "relevance_score": 9,
+    "score_reason": "文章深度解析了面向 AI 加速的紧凑 DSL 设计，直击高性能 GPU 内核开发的痛点，对从事模型性能优化与底层系统构建的开发者极具参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "domain-specific-language",
+    "gpu-kernels",
+    "high-performance-computing",
+    "ai-acceleration",
+    "thunderkittens"
+  ],
+  "status": "draft"
+}

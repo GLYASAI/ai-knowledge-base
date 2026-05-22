@@ -382,5 +382,17 @@
     "title": "AI Resist List",
     "source_url": "https://airesistlist.org/",
     "filename": "2026-05-21-rss-ai-resist-list.json"
+  },
+  {
+    "id": "rss-20260522-001",
+    "title": "Dissecting ThunderKittens, anatomy of a compact DSL for high-performance AI kernels",
+    "source_url": "https://hamzaelshafie.bearblog.dev/dissecting-thunderkittens-anatomy-of-a-compact-dsl-for-high-performance-ai-kernels/",
+    "filename": "2026-05-22-rss-dissecting-thunderkittens-anatomy-of-a-compact-dsl.json"
+  },
+  {
+    "id": "rss-20260522-002",
+    "title": "OCaml Infrastructure: How the opam-repository Works",
+    "source_url": "https://ocaml.org/backstage/2025-11-05-how-the-opam-repository-works",
+    "filename": "2026-05-22-rss-ocaml-infrastructure-how-the-opam-repository-works.json"
   }
 ]
