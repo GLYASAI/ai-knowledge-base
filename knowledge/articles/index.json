@@ -394,5 +394,11 @@
     "title": "OCaml Infrastructure: How the opam-repository Works",
     "source_url": "https://ocaml.org/backstage/2025-11-05-how-the-opam-repository-works",
     "filename": "2026-05-22-rss-ocaml-infrastructure-how-the-opam-repository-works.json"
+  },
+  {
+    "id": "rss-20260523-001",
+    "title": "2ality blog: temporarily offline",
+    "source_url": "https://2ality.com/",
+    "filename": "2026-05-23-rss-2ality-blog-temporarily-offline.json"
   }
 ]

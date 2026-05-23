@@ -1,0 +1,24 @@
+{
+  "id": "rss-20260523-001",
+  "title": "2ality blog: temporarily offline",
+  "source": "rss",
+  "source_url": "https://2ality.com/",
+  "collected_at": "2026-05-23T05:41:15Z",
+  "summary": "知名 JavaScript 技术博客 2ality 因维护等原因暂时下线，其内容涵盖 ECMAScript 规范、语言特性与编程实践。",
+  "analysis": {
+    "tech_highlights": [
+      "深入解读 ECMAScript 最新提案与语言特性",
+      "高质量的 JavaScript 编程技巧与核心概念解析"
+    ],
+    "relevance_score": 6,
+    "score_reason": "博客本身对 JavaScript 开发者价值很高，但当前处于离线状态，无法直接访问内容。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "javascript",
+    "ecmascript",
+    "blog",
+    "offline"
+  ],
+  "status": "draft"
+}
