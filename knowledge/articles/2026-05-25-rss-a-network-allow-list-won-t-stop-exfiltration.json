@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260525-001",
+  "title": "A Network Allow-List Won't Stop Exfiltration",
+  "source": "rss",
+  "source_url": "https://www.dergraf.org/notes/canister-egress-proxy-dlp/",
+  "collected_at": "2026-05-25T06:37:55Z",
+  "summary": "本文阐述了仅靠网络 Allow-List 无法有效阻止数据 exfiltration，并探讨了基于 Canister egress proxy 的 DLP 策略，以深度包检测弥补传统出口过滤的不足。",
+  "analysis": {
+    "tech_highlights": [
+      "剖析 Allow-List 容易被 DNS 隧道、HTTP smuggling 等手法绕过的根本缺陷",
+      "提出 egress proxy 结合 DLP (Data Loss Prevention) 进行内容感知的出口流量管控",
+      "在 Canister 等沙箱化环境中实现细粒度、可编程的出口安全控制"
+    ],
+    "relevance_score": 8,
+    "score_reason": "直指安全实践中常见的防护误区，兼顾原理讲解与工程化实现思路，对关注数据防泄露的开发者有较高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "data-exfiltration",
+    "dlp",
+    "egress-filtering",
+    "network-security",
+    "allow-list-bypass"
+  ],
+  "status": "draft"
+}

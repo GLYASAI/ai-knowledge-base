@@ -400,5 +400,11 @@
     "title": "2ality blog: temporarily offline",
     "source_url": "https://2ality.com/",
     "filename": "2026-05-23-rss-2ality-blog-temporarily-offline.json"
+  },
+  {
+    "id": "rss-20260525-001",
+    "title": "A Network Allow-List Won't Stop Exfiltration",
+    "source_url": "https://www.dergraf.org/notes/canister-egress-proxy-dlp/",
+    "filename": "2026-05-25-rss-a-network-allow-list-won-t-stop-exfiltration.json"
   }
 ]
