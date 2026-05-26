@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260526-001",
+  "title": "The Open/Closed Problem in AI",
+  "source": "rss",
+  "source_url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+  "collected_at": "2026-05-26T06:09:16Z",
+  "summary": "本文探讨 AI 领域中的开放与封闭之争，分析 open-source 与 proprietary 模型在创新、可访问性及生态 lock-in 之间的张力。",
+  "analysis": {
+    "tech_highlights": [
+      "深入对比 open-source AI 与 closed-source 模型的透明度与社区协作差异",
+      "讨论 open research 对 AI reproducibility 和负责任部署的关键作用",
+      "剖析 AI 平台生态的 vendor lock-in 风险及开放标准的重要性"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章紧扣当前 AI 生态中备受关注的开源与封闭模型辩论，对技术决策与生态发展有实际参考意义。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "open-source",
+    "ai",
+    "closed-source",
+    "reproducibility",
+    "lock-in"
+  ],
+  "status": "draft"
+}

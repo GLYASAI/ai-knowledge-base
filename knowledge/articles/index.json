@@ -406,5 +406,11 @@
     "title": "A Network Allow-List Won't Stop Exfiltration",
     "source_url": "https://www.dergraf.org/notes/canister-egress-proxy-dlp/",
     "filename": "2026-05-25-rss-a-network-allow-list-won-t-stop-exfiltration.json"
+  },
+  {
+    "id": "rss-20260526-001",
+    "title": "The Open/Closed Problem in AI",
+    "source_url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+    "filename": "2026-05-26-rss-closed-problem-in-ai.json"
   }
 ]
