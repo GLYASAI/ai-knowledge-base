@@ -412,5 +412,17 @@
     "title": "The Open/Closed Problem in AI",
     "source_url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
     "filename": "2026-05-26-rss-closed-problem-in-ai.json"
+  },
+  {
+    "id": "github-20260527-001",
+    "title": "anthropics/claude-code",
+    "source_url": "https://github.com/anthropics/claude-code",
+    "filename": "2026-05-27-github-claude-code.json"
+  },
+  {
+    "id": "rss-20260527-001",
+    "title": "Intent to Prototype: Embedding API",
+    "source_url": "https://groups.google.com/a/chromium.org/g/blink-dev/c/EjL1gAy3k3Q/m/31Cnh22MBgAJ",
+    "filename": "2026-05-27-rss-intent-to-prototype-embedding-api.json"
   }
 ]

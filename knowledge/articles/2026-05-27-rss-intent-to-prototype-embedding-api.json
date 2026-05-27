@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260527-001",
+  "title": "Intent to Prototype: Embedding API",
+  "source": "rss",
+  "source_url": "https://groups.google.com/a/chromium.org/g/blink-dev/c/EjL1gAy3k3Q/m/31Cnh22MBgAJ",
+  "collected_at": "2026-05-27T06:24:04Z",
+  "summary": "Chromium 计划原型实现 Embedding API，让网页可以直接在浏览器中利用设备端模型生成文本嵌入向量，提升语义搜索、聚类等任务的性能和隐私性。",
+  "analysis": {
+    "tech_highlights": [
+      "浏览器原生提供文本 embedding 能力，避免将敏感数据发送到服务端",
+      "利用设备端 AI 模型加速语义理解类任务，降低延迟",
+      "与现有 Web 平台集成，或将为 Web 应用打开新的隐私保护型 AI 功能"
+    ],
+    "relevance_score": 9,
+    "score_reason": "直接涉及 Chromium 对 Web 平台 AI 能力的最新探索，对现代前端、隐私保护和边缘智能方向影响深远。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "embedding-api",
+    "web-ai",
+    "chrome",
+    "blink",
+    "machine-learning"
+  ],
+  "status": "draft"
+}
