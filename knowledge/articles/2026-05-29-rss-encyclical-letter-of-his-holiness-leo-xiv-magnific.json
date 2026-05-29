@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260529-001",
+  "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
+  "source": "rss",
+  "source_url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+  "collected_at": "2026-05-29T06:16:44Z",
+  "summary": "这篇虚构的2026年教皇通谕以教宗文体探讨科技与人性尊严的关系，从AI伦理、人类增强到数字文明的人文反思，引发科技社区对技术未来的深度讨论。",
+  "analysis": {
+    "tech_highlights": [
+      "以教皇通谕形式讨论AI伦理与人类增强的边界",
+      "融入 speculative fiction 手法，展现未来技术社会的人文困境",
+      "在技术社区引发关于技术人文主义的跨学科对话"
+    ],
+    "relevance_score": 7,
+    "score_reason": "虽为虚构文体，但紧扣AI伦理、技术人文主义等当前技术热点，对开发者和研究者具有启发和反思价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-ethics",
+    "humanism",
+    "technology-ethics",
+    "speculative-fiction",
+    "digital-culture"
+  ],
+  "status": "draft"
+}
