@@ -430,5 +430,17 @@
     "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
     "source_url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
     "filename": "2026-05-29-rss-encyclical-letter-of-his-holiness-leo-xiv-magnific.json"
+  },
+  {
+    "id": "rss-20260530-001",
+    "title": "\"But it happened.\" - Casey Muratori's comment on Eric Schmidt's commencement speech",
+    "source_url": "https://youtu.be/tlQ7EoJDTQY",
+    "filename": "2026-05-30-rss-but-it-happened-casey-muratori-s-comment-on-eric-s.json"
+  },
+  {
+    "id": "rss-20260530-002",
+    "title": "Building Machine Learning Systems for a Trillion Trillion Floating Point Operations (2024)",
+    "source_url": "https://www.youtube.com/watch?v=139UPjoq7Kw",
+    "filename": "2026-05-30-rss-building-machine-learning-systems-for-a-trillion-t.json"
   }
 ]

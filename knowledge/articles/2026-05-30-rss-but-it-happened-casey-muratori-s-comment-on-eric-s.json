@@ -1,0 +1,24 @@
+{
+  "id": "rss-20260530-001",
+  "title": "\"But it happened.\" - Casey Muratori's comment on Eric Schmidt's commencement speech",
+  "source": "rss",
+  "source_url": "https://youtu.be/tlQ7EoJDTQY",
+  "collected_at": "2026-05-30T05:50:34Z",
+  "summary": "Casey Muratori 在视频中回应 Eric Schmidt 的毕业演讲，指出其技术乐观预测并未兑现，并借此批评现代软件工程中过度抽象与性能忽视的问题。",
+  "analysis": {
+    "tech_highlights": [
+      "以实际案例反驳技术领袖对工程进度与复杂性的乐观估计",
+      "强调性能优先和简单的系统设计理念，反对无节制的抽象层"
+    ],
+    "relevance_score": 6,
+    "score_reason": "内容涉及软件工程哲学与行业趋势反思，对关注代码质量和技术文化的中高级开发者有一定启发，但其形式为观点评论，缺乏可直接应用的技术细节。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "software-engineering",
+    "performance",
+    "technical-leadership",
+    "critique"
+  ],
+  "status": "draft"
+}

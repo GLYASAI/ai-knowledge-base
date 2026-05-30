@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260530-002",
+  "title": "Building Machine Learning Systems for a Trillion Trillion Floating Point Operations (2024)",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=139UPjoq7Kw",
+  "collected_at": "2026-05-30T05:50:34Z",
+  "summary": "视频探讨了如何为 10^24 次浮点运算（trillion trillion FLOPS）规模的机器学习任务构建系统，涵盖分布式训练、硬件加速与能效优化。",
+  "analysis": {
+    "tech_highlights": [
+      "针对 10^24 FLOPS 的超大规模分布式训练系统设计",
+      "融合异构计算（GPU/TPU/etc）与网络拓扑优化的高性能计算架构",
+      "面向能源效率与冷却方案的可持续 AI 基础设施"
+    ],
+    "relevance_score": 9,
+    "score_reason": "内容直接涉及前沿的大规模 AI 训练系统工程，对当前算力扩展的热点问题有高度参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "large-scale-ml",
+    "distributed-training",
+    "floating-point-performance",
+    "ai-infrastructure",
+    "hpc"
+  ],
+  "status": "draft"
+}
