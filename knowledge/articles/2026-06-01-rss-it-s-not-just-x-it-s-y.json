@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260601-001",
+  "title": "It's Not Just X. It's Y",
+  "source": "rss",
+  "source_url": "https://mail.cyberneticforests.com/its-not-just-data-its-post-training/",
+  "collected_at": "2026-06-01T06:59:14Z",
+  "summary": "文章指出，现代AI系统的能力飞跃并非仅仅源于更大的数据集，而是更多归功于后训练阶段（post-training）的优化，如指令微调与对齐技术，这颠覆了“数据是唯一关键”的认知。",
+  "analysis": {
+    "tech_highlights": [
+      "强调post-training（后训练）在提升模型实用性上的决定性作用，而非仅依赖预训练数据规模",
+      "对比了传统“数据为王”与后训练驱动范式，指出指令微调、RLHF等技术如何塑造模型行为"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该文章提供关于AI模型开发的关键视角转变，对理解当前大语言模型的能力来源具有重要启发，实用性强。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "post-training",
+    "instruction-tuning",
+    "rlhf",
+    "data-vs-training",
+    "ai-development"
+  ],
+  "status": "draft"
+}
