@@ -448,5 +448,23 @@
     "title": "It's Not Just X. It's Y",
     "source_url": "https://mail.cyberneticforests.com/its-not-just-data-its-post-training/",
     "filename": "2026-06-01-rss-it-s-not-just-x-it-s-y.json"
+  },
+  {
+    "id": "rss-20260602-001",
+    "title": "thunderbolt-ibverbs: We have InfiniBand at home",
+    "source_url": "https://blog.hellas.ai/blog/thunderbolt-ibverbs/",
+    "filename": "2026-06-02-rss-thunderbolt-ibverbs-we-have-infiniband-at-home.json"
+  },
+  {
+    "id": "rss-20260602-002",
+    "title": "strace-ui, Bonsai_term, and the TUI renaissance",
+    "source_url": "https://blog.janestreet.com/strace-ui-bonsai-term-and-the-tui-renaissance/",
+    "filename": "2026-06-02-rss-strace-ui-bonsai-term-and-the-tui-renaissance.json"
+  },
+  {
+    "id": "rss-20260602-003",
+    "title": "Constraining LLMs Just Like Users",
+    "source_url": "https://www.aeracode.org/2026/06/01/constraining-llms/",
+    "filename": "2026-06-02-rss-constraining-llms-just-like-users.json"
   }
 ]

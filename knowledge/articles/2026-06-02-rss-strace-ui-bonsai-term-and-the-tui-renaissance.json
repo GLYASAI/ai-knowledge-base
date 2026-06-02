@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260602-002",
+  "title": "strace-ui, Bonsai_term, and the TUI renaissance",
+  "source": "rss",
+  "source_url": "https://blog.janestreet.com/strace-ui-bonsai-term-and-the-tui-renaissance/",
+  "collected_at": "2026-06-02T06:44:50Z",
+  "summary": "本文介绍 Jane Street 开发的两个终端用户界面工具：strace-ui 将 strace 输出可视化，Bonsai_term 是基于 OCaml 的 TUI 框架，展示了 OCaml 生态中终端界面设计的复兴与函数式编程的实践。",
+  "analysis": {
+    "tech_highlights": [
+      "利用 Bonsai_term 声明式框架构建高性能 TUI，将可组合的 UI 组件与副作用管理解耦",
+      "strace-ui 通过实时解析 strace 事件并展示为交互式树状视图，提升系统调用调试效率",
+      "OCaml 函数式特性与 Term 后端结合，实现跨终端的一致性与现代化界面"
+    ],
+    "relevance_score": 7,
+    "score_reason": "内容聚焦于 OCaml 生态的终端 UI 工具与函数式编程实践，对 AI 技术分析助手而言有一定参考价值，但受众面相对小众。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "tui",
+    "ocaml",
+    "strace",
+    "bonsai",
+    "terminal-ui"
+  ],
+  "status": "draft"
+}

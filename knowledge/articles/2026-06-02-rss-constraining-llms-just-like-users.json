@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260602-003",
+  "title": "Constraining LLMs Just Like Users",
+  "source": "rss",
+  "source_url": "https://www.aeracode.org/2026/06/01/constraining-llms/",
+  "collected_at": "2026-06-02T06:44:50Z",
+  "summary": "文章探讨了如何像对待人类用户一样，将权限模型和访问控制应用于LLM代理，通过定义最小权限和操作边界来约束其行为，防止越权与滥用。",
+  "analysis": {
+    "tech_highlights": [
+      "将基于角色的访问控制(RBAC)和用户权限模型映射到LLM的function calling与工具使用上",
+      "利用结构化输出与护栏(guardrails)在运行时动态约束LLM的操作范围",
+      "采用隔离执行环境与最小权限原则，将LLM视为不可信用户进行安全设计"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该主题直接回应了当前LLM agent安全设计中的核心挑战，对构建可信任的AI应用具有较高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "llm-security",
+    "access-control",
+    "ai-safety",
+    "prompt-engineering",
+    "least-privilege"
+  ],
+  "status": "draft"
+}

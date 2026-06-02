@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260602-001",
+  "title": "thunderbolt-ibverbs: We have InfiniBand at home",
+  "source": "rss",
+  "source_url": "https://blog.hellas.ai/blog/thunderbolt-ibverbs/",
+  "collected_at": "2026-06-02T06:44:50Z",
+  "summary": "利用 Thunderbolt 高速互联模拟 InfiniBand verbs 接口，让消费级硬件也能获得类似 InfiniBand 的 RDMA 能力。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 Thunderbolt 物理层实现与 InfiniBand 兼容的 RDMA verbs 语义",
+      "利用内核旁路和共享内存映射降低通信延迟，模拟零拷贝数据传输",
+      "以极低成本在普通 PC 间搭建具有 RDMA 特性的高速网络"
+    ],
+    "relevance_score": 8,
+    "score_reason": "将高性能 RDMA 理念下沉到消费级 Thunderbolt 硬件，对 HPC、边缘集群和 RDMA 学习者具有实验与启发价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "rdma",
+    "thunderbolt",
+    "infiniband",
+    "verbs",
+    "hpc"
+  ],
+  "status": "draft"
+}
