@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260604-002",
+  "title": "Introducing RadixAttention to Trellis",
+  "source": "rss",
+  "source_url": "https://trellis.unfoldml.com/blog/radix-attention-intro",
+  "collected_at": "2026-06-04T06:45:21Z",
+  "summary": "本文介绍了在 Trellis 开源机器学习框架中集成的 RadixAttention 机制，这是一种利用基数排序思想的高效注意力实现，旨在降低长序列处理的内存和计算开销。",
+  "analysis": {
+    "tech_highlights": [
+      "RadixAttention 将基数排序与注意力计算融合，实现近似线性复杂度的稀疏注意力",
+      "与 Trellis 框架深度集成，提供易用的 API 并可替换标准注意力模块",
+      "针对 GPU 等硬件进行了优化，显著提升长上下文推理速度"
+    ],
+    "relevance_score": 7,
+    "score_reason": "高效注意力机制是当前大模型优化的热点，RadixAttention 提供了新的工程实践路径，对关注模型效率的开发者有直接参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "radix-attention",
+    "attention-mechanism",
+    "trellis",
+    "machine-learning",
+    "efficiency"
+  ],
+  "status": "draft"
+}

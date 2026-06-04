@@ -466,5 +466,17 @@
     "title": "Constraining LLMs Just Like Users",
     "source_url": "https://www.aeracode.org/2026/06/01/constraining-llms/",
     "filename": "2026-06-02-rss-constraining-llms-just-like-users.json"
+  },
+  {
+    "id": "rss-20260604-001",
+    "title": "Announcing Pyro Caml: The First Continuous Profiler for OCaml",
+    "source_url": "https://semgrep.dev/blog/2026/announcing-pyro-caml-continuous-profiler-ocaml",
+    "filename": "2026-06-04-rss-announcing-pyro-caml-the-first-continuous-profiler.json"
+  },
+  {
+    "id": "rss-20260604-002",
+    "title": "Introducing RadixAttention to Trellis",
+    "source_url": "https://trellis.unfoldml.com/blog/radix-attention-intro",
+    "filename": "2026-06-04-rss-introducing-radixattention-to-trellis.json"
   }
 ]

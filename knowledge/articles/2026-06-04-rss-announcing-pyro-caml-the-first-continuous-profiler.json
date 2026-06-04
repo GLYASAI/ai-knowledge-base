@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260604-001",
+  "title": "Announcing Pyro Caml: The First Continuous Profiler for OCaml",
+  "source": "rss",
+  "source_url": "https://semgrep.dev/blog/2026/announcing-pyro-caml-continuous-profiler-ocaml",
+  "collected_at": "2026-06-04T06:45:21Z",
+  "summary": "Pyro Caml 是首个针对 OCaml 语言的持续性能分析器（Continuous Profiler），由 Semgrep 团队发布，旨在为 OCaml 应用提供低开销、生产可用的 CPU 和内存剖析能力。",
+  "analysis": {
+    "tech_highlights": [
+      "实现了 OCaml 原生持续 profiling，无需修改代码即可部署至生产环境",
+      "利用 OCaml 的 runtime 事件和采样机制实现低开销的 CPU 与内存分析",
+      "与 Semgrep 内部工具链集成，展示了大规模 OCaml 项目的性能可观测性实践"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该工具填补了 OCaml 生态在持续 profiling 领域的空白，对性能敏感的 OCaml 系统和服务开发者极具价值，同时展示了编译型语言 profiling 的通用技术思路。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ocaml",
+    "continuous-profiling",
+    "performance-analysis",
+    "developer-tools",
+    "runtime-profiling"
+  ],
+  "status": "draft"
+}
