@@ -478,5 +478,11 @@
     "title": "Introducing RadixAttention to Trellis",
     "source_url": "https://trellis.unfoldml.com/blog/radix-attention-intro",
     "filename": "2026-06-04-rss-introducing-radixattention-to-trellis.json"
+  },
+  {
+    "id": "rss-20260606-001",
+    "title": "ZML: Model to Metal",
+    "source_url": "https://zml.ai/",
+    "filename": "2026-06-06-rss-zml-model-to-metal.json"
   }
 ]

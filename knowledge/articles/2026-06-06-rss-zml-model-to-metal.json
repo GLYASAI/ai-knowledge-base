@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260606-001",
+  "title": "ZML: Model to Metal",
+  "source": "rss",
+  "source_url": "https://zml.ai/",
+  "collected_at": "2026-06-06T05:56:03Z",
+  "summary": "ZML 是一个高性能的 AI 编译器与运行时，能将机器学习模型直接编译为接近硬件的原生代码，大幅提升推理效率并跨加速器部署。",
+  "analysis": {
+    "tech_highlights": [
+      "通过 MLIR 和自定义编译管线实现端到端模型到金属（Model to Metal）的原生代码生成",
+      "支持多种硬件后端（如 GPU、CPU、NPU），并提供统一的中间表示以降低跨平台优化成本",
+      "内置内存规划与 kernel 融合，显著减少推理延迟和内存占用"
+    ],
+    "relevance_score": 8,
+    "score_reason": "对从事 AI 推理部署、编译器开发或边缘计算优化的开发者具有较高实用价值，直接解决模型落地的性能痛点。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "model-compiler",
+    "hardware-acceleration",
+    "mlir",
+    "inference-optimization",
+    "edge-ai"
+  ],
+  "status": "draft"
+}
