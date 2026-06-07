@@ -484,5 +484,23 @@
     "title": "ZML: Model to Metal",
     "source_url": "https://zml.ai/",
     "filename": "2026-06-06-rss-zml-model-to-metal.json"
+  },
+  {
+    "id": "rss-20260607-001",
+    "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+    "source_url": "https://arxiv.org/pdf/2605.31514",
+    "filename": "2026-06-07-rss-if-llms-have-human-like-attributes-then-so-does-ag.json"
+  },
+  {
+    "id": "rss-20260607-002",
+    "title": "AI Worm",
+    "source_url": "https://arxiv.org/abs/2606.03811",
+    "filename": "2026-06-07-rss-ai-worm.json"
+  },
+  {
+    "id": "rss-20260607-003",
+    "title": "Language models transmit behavioural traits through hidden signals in data",
+    "source_url": "https://www.nature.com/articles/s41586-026-10319-8",
+    "filename": "2026-06-07-rss-language-models-transmit-behavioural-traits-throug.json"
   }
 ]

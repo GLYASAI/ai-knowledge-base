@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260607-001",
+  "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+  "source": "rss",
+  "source_url": "https://arxiv.org/pdf/2605.31514",
+  "collected_at": "2026-06-07T06:27:20Z",
+  "summary": "本文以讽刺手法指出，若仅凭表面行为就将 LLM 视为具有人类属性，那么《帝国时代 II》中的游戏单位同样可被赋予类似属性，从而揭示当前 AI 拟人化评价的逻辑谬误。",
+  "analysis": {
+    "tech_highlights": [
+      "批判 LLM 拟人化评估中的过度归因倾向，揭示统计模式与真实意图的本质区别",
+      "利用《帝国时代 II》的游戏机制作为类比，生动解构强 AI 主张的逻辑漏洞",
+      "从哲学与认知科学角度探讨智能、理解与代理的判据，挑战主流 AI 叙事"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章紧扣 AI 领域热点话题，对 LLM 评估与拟人化问题提供深刻反思，具有学术讨论价值，但非直接技术实现类内容。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "llm-critique",
+    "anthropomorphism",
+    "ai-philosophy",
+    "game-analogy"
+  ],
+  "status": "draft"
+}

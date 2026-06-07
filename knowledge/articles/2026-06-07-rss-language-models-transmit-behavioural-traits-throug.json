@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260607-003",
+  "title": "Language models transmit behavioural traits through hidden signals in data",
+  "source": "rss",
+  "source_url": "https://www.nature.com/articles/s41586-026-10319-8",
+  "collected_at": "2026-06-07T06:27:20Z",
+  "summary": "该 Nature 论文揭示了语言模型会通过训练数据中难以察觉的隐性信号，在输出中传递和放大特定的行为特质，构成一种新型风险传输机制。",
+  "analysis": {
+    "tech_highlights": [
+      "首次系统性证明语言模型能捕获数据中与显式内容无关的 hidden signals，并将其转化为稳定的 behavioural traits",
+      "设计实验隔离了 token 分布、语法结构等潜在混淆因素，证实行为传递并非源于 surface-level 统计",
+      "发现模型在微调和对齐后仍保留这些特质，可能绕开现有 safety alignment 策略"
+    ],
+    "relevance_score": 10,
+    "score_reason": "文章提出了一种尚未被充分认识的语言模型行为传染路径，直接关系到 AI 安全与对齐，对学界和工业界都有极高参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "language-models",
+    "behavioral-transmission",
+    "hidden-signals",
+    "ai-safety",
+    "alignment"
+  ],
+  "status": "draft"
+}

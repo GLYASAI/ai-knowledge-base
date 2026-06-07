@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260607-002",
+  "title": "AI Worm",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2606.03811",
+  "collected_at": "2026-06-07T06:27:20Z",
+  "summary": "本文提出了一种针对AI系统的计算机蠕虫“AI Worm”，展示了利用AI模型漏洞实现自我复制和跨节点传播的攻击方式，揭示了AI生态中新型安全威胁。",
+  "analysis": {
+    "tech_highlights": [
+      "利用生成式AI的输出接口实现自我复制与恶意载荷注入",
+      "基于AI模型之间的通信链路进行自主传播，绕过传统安全检测",
+      "针对多模态AI系统的跨平台感染与持久化机制"
+    ],
+    "relevance_score": 9,
+    "score_reason": "首次系统性展示AI原生蠕虫攻击，对AI安全研究和防御体系建设具有高度警示与参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ai-worm",
+    "ai-security",
+    "malware",
+    "self-replication",
+    "adversarial-ai"
+  ],
+  "status": "draft"
+}
