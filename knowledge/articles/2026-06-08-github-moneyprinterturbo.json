@@ -1,0 +1,26 @@
+{
+  "id": "github-20260608-001",
+  "title": "harry0703/MoneyPrinterTurbo",
+  "source": "github",
+  "source_url": "https://github.com/harry0703/MoneyPrinterTurbo",
+  "collected_at": "2026-06-08T06:45:52Z",
+  "summary": "MoneyPrinterTurbo 利用 AI LLM 一键生成高清短视频，将文案写作、素材拼接与语音合成自动化，适合快速制作 TikTok 类内容。",
+  "analysis": {
+    "tech_highlights": [
+      "集成 ChatGPT 等大模型自动生成视频文案与脚本",
+      "基于 moviepy 实现视频合成与特效编排的自动化流水线",
+      "端到端一键式操作，降低短视频创作门槛"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该项目紧扣当前 AI 生成视频热点，Star 数极高，实用价值明显，但技术实现相对直白，缺乏深层次模型训练或创新架构。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai",
+    "automation",
+    "llm",
+    "short-video",
+    "video-generation"
+  ],
+  "status": "draft"
+}
