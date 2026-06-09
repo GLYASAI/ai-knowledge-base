@@ -514,5 +514,17 @@
     "title": "How LLMs Actually Work",
     "source_url": "https://0xkato.xyz/how-llms-actually-work/",
     "filename": "2026-06-08-rss-how-llms-actually-work.json"
+  },
+  {
+    "id": "rss-20260609-001",
+    "title": "Self-hosting email the hard way from your own routable IPv4 block up",
+    "source_url": "https://anil.recoil.org/notes/recoil-self-hosting-2026",
+    "filename": "2026-06-09-rss-self-hosting-email-the-hard-way-from-your-own-rout.json"
+  },
+  {
+    "id": "rss-20260609-002",
+    "title": "Expanding Private Cloud Compute - Apple Security Research",
+    "source_url": "https://security.apple.com/blog/expanding-pcc/",
+    "filename": "2026-06-09-rss-expanding-private-cloud-compute-apple-security-res.json"
   }
 ]

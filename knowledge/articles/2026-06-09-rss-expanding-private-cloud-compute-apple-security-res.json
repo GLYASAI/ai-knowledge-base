@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260609-002",
+  "title": "Expanding Private Cloud Compute - Apple Security Research",
+  "source": "rss",
+  "source_url": "https://security.apple.com/blog/expanding-pcc/",
+  "collected_at": "2026-06-09T06:11:58Z",
+  "summary": "Apple 宣布扩大 Private Cloud Compute 的研究范围，允许安全研究人员更深入地审计其保护用户云端 AI 请求的隐私和安全机制。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 Apple Silicon 的硬件安全飞地与无状态计算架构",
+      "可验证的透明度机制，允许外部审计整个计算栈",
+      "强化数据隔离与端到端加密的隐私保护设计"
+    ],
+    "relevance_score": 7,
+    "score_reason": "对专注于隐私保护、云安全及 Apple 生态的开发者有较高参考价值，但话题相对垂直且与常规应用开发间隔较远。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "apple",
+    "private-cloud-compute",
+    "privacy",
+    "security",
+    "cloud-computing"
+  ],
+  "status": "draft"
+}
