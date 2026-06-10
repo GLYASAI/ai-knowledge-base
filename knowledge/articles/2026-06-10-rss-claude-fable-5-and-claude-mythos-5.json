@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260610-003",
+  "title": "Claude Fable 5 and Claude Mythos 5",
+  "source": "rss",
+  "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+  "collected_at": "2026-06-10T06:31:02Z",
+  "summary": "Anthropic 发布 Claude Fable 5 和 Claude Mythos 5，分别针对创意叙事和逻辑推理场景优化，展示了模型能力的分化与专业化趋势。",
+  "analysis": {
+    "tech_highlights": [
+      "双模型差异化分工：Fable 5 强化故事生成与创意写作，Mythos 5 提升复杂推理和知识整合",
+      "基于 Transformer 的长上下文处理优化，支持更高效的指令遵循与内容生成",
+      "强化安全对齐技术，通过 RLHF 和宪法 AI 减少幻觉与有害输出"
+    ],
+    "relevance_score": 8,
+    "score_reason": "Anthropic 最新的模型发布直接影响 LLM 应用方向，对开发者选择模型和评估能力有重要参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "anthropic",
+    "claude",
+    "language-model",
+    "model-release",
+    "ai-safety"
+  ],
+  "status": "draft"
+}

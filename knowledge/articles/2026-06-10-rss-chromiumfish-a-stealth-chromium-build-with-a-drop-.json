@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260610-004",
+  "title": "chromiumfish: A stealth Chromium build with a drop-in Playwright harness for Python and Node",
+  "source": "rss",
+  "source_url": "https://github.com/arman-bd/chromiumfish",
+  "collected_at": "2026-06-10T06:31:02Z",
+  "summary": "chromiumfish 是一个预构建的隐身 Chromium 版本，能无缝替换 Playwright 默认浏览器，提升 Python 和 Node.js 自动化任务的反指纹与反检测能力。",
+  "analysis": {
+    "tech_highlights": [
+      "预编译的隐身 Chromium 二进制文件，移除或混淆多种自动化检测特征（如 navigator.webdriver、CDP Runtime 等）",
+      "与 Playwright 开箱即用集成，支持 Python 和 Node.js，只需简单更换 executablePath 即可获得隐身效果",
+      "保持 Playwright API 完全兼容，不影响原有测试/爬虫脚本的结构和用法"
+    ],
+    "relevance_score": 9,
+    "score_reason": "直接解决了使用 Playwright 时频繁被反爬机制检测的痛点，在自动化测试、数据采集和安全研究领域具有很高的实用价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "playwright",
+    "chromium",
+    "stealth",
+    "anti-detection",
+    "browser-automation"
+  ],
+  "status": "draft"
+}

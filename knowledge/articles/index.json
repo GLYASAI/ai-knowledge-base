@@ -526,5 +526,35 @@
     "title": "Expanding Private Cloud Compute - Apple Security Research",
     "source_url": "https://security.apple.com/blog/expanding-pcc/",
     "filename": "2026-06-09-rss-expanding-private-cloud-compute-apple-security-res.json"
+  },
+  {
+    "id": "rss-20260610-001",
+    "title": "Building a persistent cognitive architecture for LLM agents using Elixir and OTP",
+    "source_url": "https://0xcc.re/2026/05/03/skynet-towards-synthetic-neurobiology.html/",
+    "filename": "2026-06-10-rss-building-a-persistent-cognitive-architecture-for-l.json"
+  },
+  {
+    "id": "rss-20260610-002",
+    "title": "It doesn’t matter if it works",
+    "source_url": "https://henry.codes/writing/it-doesnt-matter-if-it-works/",
+    "filename": "2026-06-10-rss-it-doesn-t-matter-if-it-works.json"
+  },
+  {
+    "id": "rss-20260610-003",
+    "title": "Claude Fable 5 and Claude Mythos 5",
+    "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "filename": "2026-06-10-rss-claude-fable-5-and-claude-mythos-5.json"
+  },
+  {
+    "id": "rss-20260610-004",
+    "title": "chromiumfish: A stealth Chromium build with a drop-in Playwright harness for Python and Node",
+    "source_url": "https://github.com/arman-bd/chromiumfish",
+    "filename": "2026-06-10-rss-chromiumfish-a-stealth-chromium-build-with-a-drop-.json"
+  },
+  {
+    "id": "rss-20260610-005",
+    "title": "What about OpenCL and CUDA C++ alternatives?",
+    "source_url": "https://www.modular.com/blog/democratizing-ai-compute-part-5-what-about-cuda-c-alternatives",
+    "filename": "2026-06-10-rss-what-about-opencl-and-cuda-c-alternatives.json"
   }
 ]

@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260610-001",
+  "title": "Building a persistent cognitive architecture for LLM agents using Elixir and OTP",
+  "source": "rss",
+  "source_url": "https://0xcc.re/2026/05/03/skynet-towards-synthetic-neurobiology.html/",
+  "collected_at": "2026-06-10T06:31:02Z",
+  "summary": "本文探讨如何使用 Elixir 和 OTP 为 LLM agent 构建一个持久的认知架构，利用 Actor 模型、监督树与状态持久化能力，实现具有长期记忆和稳定运行特性的智能代理系统。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 Elixir/OTP 的进程管理实现 LLM agent 的并发控制与故障恢复",
+      "利用 ETS/DETS 或外部存储构建持久化的记忆与认知状态层",
+      "通过 Supervisor 树保证 agent 组件的容错和持续运行"
+    ],
+    "relevance_score": 8,
+    "score_reason": "LLM agent 的记忆与持久化是当前智能代理实践的核心挑战，Elixir/OTP 的天然优势直击痛点，方案具有很强的前沿性和工程参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "elixir",
+    "otp",
+    "llm-agents",
+    "cognitive-architecture",
+    "persistent-memory"
+  ],
+  "status": "draft"
+}

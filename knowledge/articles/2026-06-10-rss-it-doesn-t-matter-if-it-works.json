@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260610-002",
+  "title": "It doesn’t matter if it works",
+  "source": "rss",
+  "source_url": "https://henry.codes/writing/it-doesnt-matter-if-it-works/",
+  "collected_at": "2026-06-10T06:31:02Z",
+  "summary": "本文强调在软件开发中，代码「能工作」只是最低标准，真正重要的是可维护性、可读性、设计意图的清晰表达以及对长期演进的考量，否则技术债务会不断累积。",
+  "analysis": {
+    "tech_highlights": [
+      "批判「只要跑得起来就行」的短视主义，指出只关注功能实现会导致代码腐化",
+      "强调以可读性和可维护性为核心的编码哲学，视代码为沟通工具而非单纯指令",
+      "引申出对技术债务、重构成本及团队协作效率的深层权衡"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章探讨了影响软件生命周期的基础工程理念，对日常开发有反思价值，但偏重哲学论述，缺少具体技术落地。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "software-engineering",
+    "code-quality",
+    "technical-debt",
+    "maintainability",
+    "programming-philosophy"
+  ],
+  "status": "draft"
+}
