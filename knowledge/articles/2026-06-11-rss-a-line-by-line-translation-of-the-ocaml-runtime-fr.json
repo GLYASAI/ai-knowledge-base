@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260611-003",
+  "title": "A line-by-line translation of the OCaml runtime from C to Rust",
+  "source": "rss",
+  "source_url": "https://discuss.ocaml.org/t/a-line-by-line-translation-of-the-ocaml-runtime-from-c-to-rust/18247",
+  "collected_at": "2026-06-11T06:51:55Z",
+  "summary": "该项目尝试将 OCaml 运行时从 C 语言逐行翻译为 Rust，旨在借助 Rust 的所有权与类型系统消除运行时中的内存安全隐患，同时保持原有性能与兼容性。",
+  "analysis": {
+    "tech_highlights": [
+      "利用 Rust 的所有权和借用检查替换 C 的手工内存管理，提升运行时内存安全性",
+      "通过行对行翻译策略（line-by-line）确保行为一致性，降低移植过程中的逻辑错误风险",
+      "探索用 Rust 重写关键系统组件而不损失性能的可行性，为语言运行时实现提供新范式"
+    ],
+    "relevance_score": 9,
+    "score_reason": "结合了系统软件安全（Rust）与语言运行时工程（OCaml），对于关注内存安全、PL实现及Rust应用的技术人员极具价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ocaml",
+    "rust",
+    "runtime",
+    "memory-safety",
+    "language-implementation"
+  ],
+  "status": "draft"
+}

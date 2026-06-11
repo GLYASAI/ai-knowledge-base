@@ -556,5 +556,23 @@
     "title": "What about OpenCL and CUDA C++ alternatives?",
     "source_url": "https://www.modular.com/blog/democratizing-ai-compute-part-5-what-about-cuda-c-alternatives",
     "filename": "2026-06-10-rss-what-about-opencl-and-cuda-c-alternatives.json"
+  },
+  {
+    "id": "rss-20260611-001",
+    "title": "To Gen or Not To Gen: The Ethical Use of Generative AI",
+    "source_url": "https://blog.johanneslink.net/2025/11/04/to-gen-or-not-to-gen/",
+    "filename": "2026-06-11-rss-to-gen-or-not-to-gen-the-ethical-use-of-generative.json"
+  },
+  {
+    "id": "rss-20260611-002",
+    "title": "Debootstrapping without Archeology: Stacked Implementations in Camlboot",
+    "source_url": "https://arxiv.org/abs/2202.09231",
+    "filename": "2026-06-11-rss-debootstrapping-without-archeology-stacked-impleme.json"
+  },
+  {
+    "id": "rss-20260611-003",
+    "title": "A line-by-line translation of the OCaml runtime from C to Rust",
+    "source_url": "https://discuss.ocaml.org/t/a-line-by-line-translation-of-the-ocaml-runtime-from-c-to-rust/18247",
+    "filename": "2026-06-11-rss-a-line-by-line-translation-of-the-ocaml-runtime-fr.json"
   }
 ]

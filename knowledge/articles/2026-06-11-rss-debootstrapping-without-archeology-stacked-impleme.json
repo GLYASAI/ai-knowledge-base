@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260611-002",
+  "title": "Debootstrapping without Archeology: Stacked Implementations in Camlboot",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2202.09231",
+  "collected_at": "2026-06-11T06:51:55Z",
+  "summary": "本文介绍了在 Camlboot 项目中通过“堆叠实现”方法去除编译器自举依赖（debootstrap），无需追溯历史版本，以干净、可信任的方式重建工具链。",
+  "analysis": {
+    "tech_highlights": [
+      "提出“堆叠实现”（Stacked Implementations）策略，用多个逐渐完整的解释器彼此构建，避免传统 bootstrap 对预编译二进制或历史考古的依赖",
+      "在 Camlboot 中实际构建了一个从最小 Scheme 解释器到完整 OCaml 编译器的自举链条",
+      "该方法可增强自举工具链的可审计性，减少对未经验证的二进制或历史源的信任要求"
+    ],
+    "relevance_score": 7,
+    "score_reason": "对研究编译器自举、可重现构建与工具链安全的高级开发者有较高参考价值，但社区直接应用面较窄，故给予 7 分。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "compiler-bootstrapping",
+    "ocaml",
+    "self-hosting",
+    "reproducible-builds",
+    "formal-methods"
+  ],
+  "status": "draft"
+}
