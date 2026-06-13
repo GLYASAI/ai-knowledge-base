@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260613-001",
+  "title": "What’s New in WeatherMesh-6",
+  "source": "rss",
+  "source_url": "https://windbornesystems.com/blog/introducing-wm-6",
+  "collected_at": "2026-06-13T06:18:58Z",
+  "summary": "Windborne Systems 发布 WeatherMesh-6，一个基于深度学习的全球天气预报模型，在保持高效推理的同时将水平分辨率提升至 0.25°，预报时效延长至 15 天，并显著改进了极端天气事件预报能力。",
+  "analysis": {
+    "tech_highlights": [
+      "采用混合架构（transformer + GNN）实现 0.25° 全球网格的高分辨率预报，支持 15 天预测窗",
+      "通过 multi-stage training 与 custom loss 设计，显式提升对极端降水、热带气旋等关键事件的捕捉能力",
+      "推理速度极快，单 GPU 秒级生成 15 天全球预报，适合业务化部署与集成"
+    ],
+    "relevance_score": 9,
+    "score_reason": "WeatherMesh-6 代表 AI 气象模型前沿进展，在分辨率、时效、极端事件预报上均有突破，是 AI for Earth Science 领域的重要更新。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "weather-forecasting",
+    "deep-learning",
+    "global-model",
+    "transformer",
+    "graph-neural-network"
+  ],
+  "status": "draft"
+}
