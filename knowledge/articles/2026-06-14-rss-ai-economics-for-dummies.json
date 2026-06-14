@@ -1,0 +1,24 @@
+{
+  "id": "rss-20260614-003",
+  "title": "AI Economics for Dummies",
+  "source": "rss",
+  "source_url": "https://www.mcsweeneys.net/articles/ai-economics-for-dummies",
+  "collected_at": "2026-06-14T06:43:45Z",
+  "summary": "这篇幽默讽刺文章以轻松口吻剖析AI热潮背后的经济逻辑，揭示高投入、低盈利与泡沫风险的现实。",
+  "analysis": {
+    "tech_highlights": [
+      "用通俗比喻解释AI模型训练与推理的边际成本与规模效应",
+      "讽刺AI产业资本狂热与实际盈利能力之间的巨大落差"
+    ],
+    "relevance_score": 7,
+    "score_reason": "虽非深度技术分析，但以幽默视角切入AI经济核心矛盾，对理解行业现状有启发性。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-economics",
+    "technology-humor",
+    "ai-bubble",
+    "cost-analysis"
+  ],
+  "status": "draft"
+}

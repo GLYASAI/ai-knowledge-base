@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260614-002",
+  "title": "The Curse of Depth in Large Language Models",
+  "source": "rss",
+  "source_url": "https://arxiv.org/pdf/2502.05795",
+  "collected_at": "2026-06-14T06:43:45Z",
+  "summary": "本文系统研究了大型语言模型中深度（层数）增加带来的性能退化问题，揭示了深层 Transformer 在预训练和下游任务中的“深度诅咒”现象，并分析了其与表示崩塌、梯度消失的关系。",
+  "analysis": {
+    "tech_highlights": [
+      "量化了深层 LLM 中表示崩溃与层数之间的尺度规律，发现过深的模型反而导致语义多样性下降",
+      "通过对比不同深度下的注意力机制与残差流，指出深度诅咒主要源自信息传输瓶颈而非梯度消失",
+      "提出了一种浅层重参数化初始化和动态深度剪枝策略，有效缓解了深度带来的性能饱和"
+    ],
+    "relevance_score": 8,
+    "score_reason": "针对当前 LLM 盲目堆叠层数的趋势，该工作提供了重要的理论分析和实证指导，对模型架构设计与训练优化有直接参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "large-language-models",
+    "depth",
+    "training-dynamics",
+    "scaling-laws",
+    "transformer-architecture"
+  ],
+  "status": "draft"
+}

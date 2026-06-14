@@ -580,5 +580,23 @@
     "title": "What’s New in WeatherMesh-6",
     "source_url": "https://windbornesystems.com/blog/introducing-wm-6",
     "filename": "2026-06-13-rss-what-s-new-in-weathermesh-6.json"
+  },
+  {
+    "id": "rss-20260614-001",
+    "title": "The future of Siri, or: why private inference isn’t private enough",
+    "source_url": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
+    "filename": "2026-06-14-rss-the-future-of-siri-or-why-private-inference-isn-t-.json"
+  },
+  {
+    "id": "rss-20260614-002",
+    "title": "The Curse of Depth in Large Language Models",
+    "source_url": "https://arxiv.org/pdf/2502.05795",
+    "filename": "2026-06-14-rss-the-curse-of-depth-in-large-language-models.json"
+  },
+  {
+    "id": "rss-20260614-003",
+    "title": "AI Economics for Dummies",
+    "source_url": "https://www.mcsweeneys.net/articles/ai-economics-for-dummies",
+    "filename": "2026-06-14-rss-ai-economics-for-dummies.json"
   }
 ]

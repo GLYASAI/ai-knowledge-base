@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260614-001",
+  "title": "The future of Siri, or: why private inference isn’t private enough",
+  "source": "rss",
+  "source_url": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
+  "collected_at": "2026-06-14T06:43:45Z",
+  "summary": "文章探讨了 Apple Siri 等私人 AI 助手采用隐私保护推理技术的局限性，指出仅靠加密或设备端推理仍不足以解决数据泄露风险，真正的隐私需要端到端保证和架构层面的重新设计。",
+  "analysis": {
+    "tech_highlights": [
+      "深入解析了 private inference 的概念及其在 Siri 类场景中的实际威胁模型，揭示加密/设备端推理的信任边界缺陷",
+      "讨论了私人 AI 代理除了模型推理隐私外，还需考虑上下文、元数据和执行结果的泄露问题",
+      "提出从架构层面而非单点技术解决隐私问题，强调真正的隐私需要结合 differential privacy、federated learning 和 verifiability"
+    ],
+    "relevance_score": 9,
+    "score_reason": "文章直接点出了当前 AI 隐私领域热点话题，对工业界（如 Apple）的实践有深刻批判，对构建安全隐私的智能助手有重要参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "privacy",
+    "private-inference",
+    "siri",
+    "ai-security",
+    "trusted-execution"
+  ],
+  "status": "draft"
+}
