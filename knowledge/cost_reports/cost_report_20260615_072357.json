@@ -1,0 +1,28 @@
+{
+  "total_cost": 0.003831,
+  "total_prompt_tokens": 2018,
+  "total_completion_tokens": 3394,
+  "total_calls": 4,
+  "budget": 1.0,
+  "usage_ratio": 0.0038,
+  "by_node": {
+    "analyze": {
+      "calls": 1,
+      "prompt_tokens": 269,
+      "completion_tokens": 508,
+      "cost": 0.000559
+    },
+    "review": {
+      "calls": 2,
+      "prompt_tokens": 1233,
+      "completion_tokens": 1690,
+      "cost": 0.002007
+    },
+    "revise": {
+      "calls": 1,
+      "prompt_tokens": 516,
+      "completion_tokens": 1196,
+      "cost": 0.001265
+    }
+  }
+}

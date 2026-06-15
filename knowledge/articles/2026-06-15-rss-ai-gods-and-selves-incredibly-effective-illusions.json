@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260615-001",
+  "title": "AI, Gods and Selves: Incredibly Effective Illusions",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
+  "collected_at": "2026-06-15T07:23:57Z",
+  "summary": "探讨 AI 作为有效幻觉的本质，分析 LLM 模拟自我意识与神圣叙事的机制，及其对人类认知的投射影响与缓解技术方向。",
+  "analysis": {
+    "tech_highlights": [
+      "LLM 通过自回归概率采样产生连贯却可能失实的幻觉，根源在于分布外泛化与训练数据偏见",
+      "将 AI 幻觉类比宗教叙事，揭示其作为人类理解复杂系统的认知工具，但需借助检索增强生成（RAG）与事实性评估进行矫正",
+      "后人类主义视角下，AI 成为新的意义投射对象，其「有效幻觉」推动对齐技术与安全治理的讨论"
+    ],
+    "relevance_score": 7,
+    "score_reason": "切入 AI 哲学与认知科学交叉领域，对理解 LLM 幻觉的社会文化影响有启发；侧重思想实验，缺乏具体模型机制与幻觉缓解的实践指导，动手参考价值有限。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-philosophy",
+    "large-language-models",
+    "illusion",
+    "self",
+    "cognition"
+  ],
+  "status": "draft"
+}
