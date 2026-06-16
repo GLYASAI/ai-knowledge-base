@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260616-005",
+  "title": "CrankGPT — Local Human-powered AI",
+  "source": "rss",
+  "source_url": "https://crankgpt.com",
+  "collected_at": "2026-06-16T07:30:32Z",
+  "summary": "CrankGPT 是一个本地运行的人类驱动 AI 项目，通过网络聊天界面模拟 ChatGPT，实际由真人提供回复，旨在讽刺或探讨 AI 与人类智能的边界。",
+  "analysis": {
+    "tech_highlights": [
+      "本地运行的伪 AI 服务，响应完全由真人实时输入",
+      "使用 Web 聊天界面模拟标准聊天机器人交互体验",
+      "通过人类在回路（Human-in-the-loop）的模式挑战传统 AI 定义"
+    ],
+    "relevance_score": 5,
+    "score_reason": "项目以娱乐和批判性实验为主，技术深度有限，但在人机交互和 AI 伦理领域有一定启发性。",
+    "audience": "beginner"
+  },
+  "tags": [
+    "human-powered-ai",
+    "chatgpt-parody",
+    "human-in-the-loop",
+    "local-server"
+  ],
+  "status": "draft"
+}

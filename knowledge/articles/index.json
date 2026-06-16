@@ -604,5 +604,35 @@
     "title": "AI, Gods and Selves: Incredibly Effective Illusions",
     "source_url": "https://www.youtube.com/watch?v=9X1CQlrwgDI",
     "filename": "2026-06-15-rss-ai-gods-and-selves-incredibly-effective-illusions.json"
+  },
+  {
+    "id": "rss-20260616-001",
+    "title": "Language integrated LLMs as an OCaml function",
+    "source_url": "https://anil.recoil.org/notes/language-integrated-llms",
+    "filename": "2026-06-16-rss-language-integrated-llms-as-an-ocaml-function.json"
+  },
+  {
+    "id": "rss-20260616-002",
+    "title": "Why adding ontologies to LLMs won't yield machine intelligence",
+    "source_url": "https://youtu.be/Ce-cN5Llaz4?t=93",
+    "filename": "2026-06-16-rss-why-adding-ontologies-to-llms-won-t-yield-machine-.json"
+  },
+  {
+    "id": "rss-20260616-003",
+    "title": "June Framework Memory and storage pricing updates",
+    "source_url": "https://frame.work/ca/en/blog/updates-on-memory-pricing-and-navigating-the-volatile-memory-market",
+    "filename": "2026-06-16-rss-june-framework-memory-and-storage-pricing-updates.json"
+  },
+  {
+    "id": "rss-20260616-004",
+    "title": "Building llm-driven “ai” still requires domain knowledge",
+    "source_url": "https://lobste.rs/s/q9sd1m/building_llm_driven_ai_still_requires",
+    "filename": "2026-06-16-rss-building-llm-driven-ai-still-requires-domain-knowl.json"
+  },
+  {
+    "id": "rss-20260616-005",
+    "title": "CrankGPT — Local Human-powered AI",
+    "source_url": "https://crankgpt.com",
+    "filename": "2026-06-16-rss-crankgpt-local-human-powered-ai.json"
   }
 ]

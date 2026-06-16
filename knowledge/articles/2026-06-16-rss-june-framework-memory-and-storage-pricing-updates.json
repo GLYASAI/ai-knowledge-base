@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260616-003",
+  "title": "June Framework Memory and storage pricing updates",
+  "source": "rss",
+  "source_url": "https://frame.work/ca/en/blog/updates-on-memory-pricing-and-navigating-the-volatile-memory-market",
+  "collected_at": "2026-06-16T07:30:32Z",
+  "summary": "Framework 更新内存与存储定价，受 DRAM 市场剧烈波动影响，128GB Framework Desktop 价格从发布时的 2000 美元飙升至 4839 美元。",
+  "analysis": {
+    "tech_highlights": [
+      "反映 DRAM 现货价格波动的动态定价机制",
+      "Framework Desktop 模块化设计允许用户独立升级内存与存储",
+      "高密度 128GB 内存配置在桌面级模块化设备中的集成"
+    ],
+    "relevance_score": 6,
+    "score_reason": "对关注硬件供应链透明度、模块化 PC 成本以及 DRAM 市场趋势的读者有参考价值，但主要是一则定价更新公告，技术深度有限。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "framework",
+    "memory-pricing",
+    "dram-market",
+    "modular-computing",
+    "storage-pricing"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260616-001",
+  "title": "Language integrated LLMs as an OCaml function",
+  "source": "rss",
+  "source_url": "https://anil.recoil.org/notes/language-integrated-llms",
+  "collected_at": "2026-06-16T07:30:32Z",
+  "summary": "本文探索如何将大型语言模型（LLM）调用以原生 OCaml 函数的形式集成，通过类型系统约束 prompt 的构造与输出的解析，实现安全、可组合的 AI 接口。",
+  "analysis": {
+    "tech_highlights": [
+      "利用 OCaml 类型系统设计类型安全的 prompt 模板与结构化解码，确保输入输出符合预期模式",
+      "通过 PPX 或元编程将 LLM 调用无缝嵌入 OCaml 代码，如同普通函数般使用",
+      "结合函数式编程范式，实现可组合、可重试、可观测的 LLM 交互层"
+    ],
+    "relevance_score": 8,
+    "score_reason": "将 LLM 与函数式语言的类型系统深度结合，为 AI 工程化与安全集成提供了新颖的思路，对关注 AI 开发实践和语言设计的开发者有较高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "llm-integration",
+    "ocaml",
+    "type-safety",
+    "prompt-engineering",
+    "functional-programming"
+  ],
+  "status": "draft"
+}

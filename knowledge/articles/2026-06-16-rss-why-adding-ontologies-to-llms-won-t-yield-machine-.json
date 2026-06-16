@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260616-002",
+  "title": "Why adding ontologies to LLMs won't yield machine intelligence",
+  "source": "rss",
+  "source_url": "https://youtu.be/Ce-cN5Llaz4?t=93",
+  "collected_at": "2026-06-16T07:30:32Z",
+  "summary": "探讨了为何将形式化本体集成到大语言模型中无法获得真正的机器智能，指出符号与神经方法的简单结合仍缺失理解与常识推理的基础。",
+  "analysis": {
+    "tech_highlights": [
+      "批判性地分析了将 formal ontologies 与 LLM 结合无法解决常识、理解和泛化等根本性问题",
+      "揭示了当前 LLM 在处理抽象概念、因果推理和世界模型建立上的结构性局限",
+      "反思了混合神经符号方法在通往机器智能道路上的认识论障碍"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章直击当前 AI 领域核心争论，对 LLM 本质局限与符号方法整合的批判具有较高思辨价值，适合提醒开发者不要对简单嫁接抱有幻想。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ontologies",
+    "large-language-models",
+    "machine-intelligence",
+    "symbolic-ai",
+    "ai-critique"
+  ],
+  "status": "draft"
+}
