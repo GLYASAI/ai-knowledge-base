@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260617-001",
+  "title": "Can gzip be a language model?",
+  "source": "rss",
+  "source_url": "https://nathan.rs/posts/gzip-lm/",
+  "collected_at": "2026-06-17T07:12:52Z",
+  "summary": "探索将 gzip 压缩算法视为语言模型的可能性，通过归一化压缩距离和压缩率实现零参数文本分类与相似度度量，揭示压缩与语言建模之间的信息论联系。",
+  "analysis": {
+    "tech_highlights": [
+      "利用 gzip 归一化压缩距离作为文本相似性度量，实现无参数文本分类",
+      "将压缩率视为对文本概率分布的近似，从而无需训练即可进行语言建模",
+      "在低资源场景中，基于压缩器的分类方法能够达到与深度学习方法可比的性能"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章从信息论角度探讨了传统压缩算法在 NLP 中的应用，提供了无参数文本分类的新视角，对理解压缩与语言建模的联系有启发，但实际工程价值有限。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "gzip",
+    "language-model",
+    "compression",
+    "text-classification",
+    "normalized-compression-distance"
+  ],
+  "status": "draft"
+}

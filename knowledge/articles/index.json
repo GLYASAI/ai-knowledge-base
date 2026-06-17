@@ -634,5 +634,11 @@
     "title": "CrankGPT — Local Human-powered AI",
     "source_url": "https://crankgpt.com",
     "filename": "2026-06-16-rss-crankgpt-local-human-powered-ai.json"
+  },
+  {
+    "id": "rss-20260617-001",
+    "title": "Can gzip be a language model?",
+    "source_url": "https://nathan.rs/posts/gzip-lm/",
+    "filename": "2026-06-17-rss-can-gzip-be-a-language-model.json"
   }
 ]
