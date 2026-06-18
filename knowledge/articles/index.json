@@ -640,5 +640,11 @@
     "title": "Can gzip be a language model?",
     "source_url": "https://nathan.rs/posts/gzip-lm/",
     "filename": "2026-06-17-rss-can-gzip-be-a-language-model.json"
+  },
+  {
+    "id": "rss-20260618-001",
+    "title": "Announcing Stack Overflow for Agents",
+    "source_url": "https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/",
+    "filename": "2026-06-18-rss-announcing-stack-overflow-for-agents.json"
   }
 ]

@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260618-001",
+  "title": "Announcing Stack Overflow for Agents",
+  "source": "rss",
+  "source_url": "https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/",
+  "collected_at": "2026-06-18T06:54:28Z",
+  "summary": "Stack Overflow 宣布推出面向 AI Coding Agent 的知识库 API，使代理能够直接获取经社区验证的代码片段与解释，提升开发工作流的可靠性和效率。",
+  "analysis": {
+    "tech_highlights": [
+      "提供结构化且可验证的代码答案接口，减少 LLM 幻觉",
+      "支持 Agent 实时查询并集成至开发环境，实现自动化编程辅助",
+      "依托社区投票与信任机制，确保返回内容的准确性与实用度"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该公告直接服务于 AI 编码代理的工程化落地，为构建可靠开发者工具提供了关键基础设施，对 AI 应用开发者具有较高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "stack-overflow",
+    "ai-agents",
+    "llm-tools",
+    "code-assistance",
+    "developer-tools"
+  ],
+  "status": "draft"
+}
