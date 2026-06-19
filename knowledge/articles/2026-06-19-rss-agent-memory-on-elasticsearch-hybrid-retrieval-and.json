@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260619-001",
+  "title": "Agent memory on Elasticsearch: hybrid retrieval and DLS",
+  "source": "rss",
+  "source_url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+  "collected_at": "2026-06-19T07:08:50Z",
+  "summary": "本文探讨在 Elasticsearch 上实现 AI Agent 的记忆系统，通过混合检索（Hybrid Retrieval）结合 BM25 与 KNN，并利用文档级安全（DLS）保障多用户隔离。",
+  "analysis": {
+    "tech_highlights": [
+      "混合检索融合 BM25 全文搜索与 KNN 向量相似度，提升记忆召回精度",
+      "文档级安全 (DLS) 实现多租户 Agent 记忆隔离与权限控制",
+      "基于 Elasticsearch 的低延迟持久化记忆存储与检索架构"
+    ],
+    "relevance_score": 9,
+    "score_reason": "紧扣 AI Agent 记忆管理的工程痛点，融合混合检索与安全性方案，对构建生产级 RAG 系统有较高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "agent-memory",
+    "hybrid-retrieval",
+    "elasticsearch",
+    "document-level-security",
+    "rag"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260619-002",
+  "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
+  "source": "rss",
+  "source_url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
+  "collected_at": "2026-06-19T07:08:50Z",
+  "summary": "文章以威廉·吉布森的名言为引，探讨了并发编程（concurrency）的未来已经在某些系统和语言中实现，但尚未均匀分布，重点分析结构化并发、异步模型等前沿模式。",
+  "analysis": {
+    "tech_highlights": [
+      "结构化并发（structured concurrency）已在部分生态落地，如 Kotlin 协程和 Swift 任务树",
+      "异步编程模型从回调、Future 到 async/await 的演进，以及语言内建支持对并发安全的影响",
+      "讨论不同语言（Rust、Go、Swift 等）在并发抽象上的设计取舍与未来走向"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章紧扣现代系统编程与并发模型的核心话题，对关注 Rust 和并发设计的开发者具有较高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "concurrency",
+    "structured-concurrency",
+    "async-await",
+    "systems-programming",
+    "language-design"
+  ],
+  "status": "draft"
+}

@@ -646,5 +646,17 @@
     "title": "Announcing Stack Overflow for Agents",
     "source_url": "https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/",
     "filename": "2026-06-18-rss-announcing-stack-overflow-for-agents.json"
+  },
+  {
+    "id": "rss-20260619-001",
+    "title": "Agent memory on Elasticsearch: hybrid retrieval and DLS",
+    "source_url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+    "filename": "2026-06-19-rss-agent-memory-on-elasticsearch-hybrid-retrieval-and.json"
+  },
+  {
+    "id": "rss-20260619-002",
+    "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
+    "source_url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
+    "filename": "2026-06-19-rss-the-future-of-the-con-is-already-here-it-s-just-no.json"
   }
 ]
