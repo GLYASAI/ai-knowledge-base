@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260621-002",
+  "title": "Reverse Engineering the Qualcomm NPU Compiler",
+  "source": "rss",
+  "source_url": "https://datavorous.github.io/writing/qairt/",
+  "collected_at": "2026-06-21T06:53:35Z",
+  "summary": "本文深入逆向分析高通NPU（Neural Processing Unit）编译器qairt的内部架构，揭示了其多层IR设计、算子融合策略及专有指令集的生成流程。",
+  "analysis": {
+    "tech_highlights": [
+      "通过逆向还原出qairt编译器使用的多级中间表示（MLIR-like dialect chain），包括high-level graph IR、tiling/packing IR及硬件专有指令IR",
+      "详细分析了NPU特有的量化重计算、卷积与激活的自动融合，以及基于内存带宽的调度优化策略",
+      "映射出Hexagon Tensor Processor的未公开指令编码格式与计算单元流水线行为"
+    ],
+    "relevance_score": 8,
+    "score_reason": "对AI编译器、边缘推理硬件和移动端优化领域有很高参考价值，揭示了主流NPU闭环工具链的内部设计逻辑。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "reverse-engineering",
+    "qualcomm-npu",
+    "compiler",
+    "mlir",
+    "ai-hardware"
+  ],
+  "status": "draft"
+}

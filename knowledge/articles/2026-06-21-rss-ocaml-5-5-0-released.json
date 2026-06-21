@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260621-001",
+  "title": "OCaml 5.5.0 released",
+  "source": "rss",
+  "source_url": "https://discuss.ocaml.org/t/ocaml-5-5-0-released/18265",
+  "collected_at": "2026-06-21T06:53:35Z",
+  "summary": "OCaml 5.5.0 发布，主要提升了多核运行时性能，引入压缩主堆以节省内存，并增加了 RISC-V 后端和运行时事件监测功能。",
+  "analysis": {
+    "tech_highlights": [
+      "引入 Compressed major heap（压缩主堆），可大幅减少长期驻留数据的内存占用",
+      "新增 Domain local allocation buffers，降低多核分配时的争用并提升吞吐",
+      "支持 RISC-V 64 位后端与运行时事件跟踪，改善可观测性和平台覆盖"
+    ],
+    "relevance_score": 8,
+    "score_reason": "作为 OCaml 5 多核路线的重要里程碑，5.5.0 聚焦内存效率、并行性能和可移植性，对函数式编程与系统开发社区有较高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ocaml",
+    "multicore",
+    "garbage-collection",
+    "programming-languages",
+    "release"
+  ],
+  "status": "draft"
+}

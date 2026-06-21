@@ -658,5 +658,17 @@
     "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
     "source_url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
     "filename": "2026-06-19-rss-the-future-of-the-con-is-already-here-it-s-just-no.json"
+  },
+  {
+    "id": "rss-20260621-001",
+    "title": "OCaml 5.5.0 released",
+    "source_url": "https://discuss.ocaml.org/t/ocaml-5-5-0-released/18265",
+    "filename": "2026-06-21-rss-ocaml-5-5-0-released.json"
+  },
+  {
+    "id": "rss-20260621-002",
+    "title": "Reverse Engineering the Qualcomm NPU Compiler",
+    "source_url": "https://datavorous.github.io/writing/qairt/",
+    "filename": "2026-06-21-rss-reverse-engineering-the-qualcomm-npu-compiler.json"
   }
 ]
