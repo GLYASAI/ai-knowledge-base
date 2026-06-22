@@ -670,5 +670,11 @@
     "title": "Reverse Engineering the Qualcomm NPU Compiler",
     "source_url": "https://datavorous.github.io/writing/qairt/",
     "filename": "2026-06-21-rss-reverse-engineering-the-qualcomm-npu-compiler.json"
+  },
+  {
+    "id": "rss-20260622-001",
+    "title": "Lighthouse agentic browsing scoring",
+    "source_url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring",
+    "filename": "2026-06-22-rss-lighthouse-agentic-browsing-scoring.json"
   }
 ]

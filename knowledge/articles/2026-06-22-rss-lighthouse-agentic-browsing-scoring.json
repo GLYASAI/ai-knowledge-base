@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260622-001",
+  "title": "Lighthouse agentic browsing scoring",
+  "source": "rss",
+  "source_url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring",
+  "collected_at": "2026-06-22T07:26:32Z",
+  "summary": "本文介绍了 Lighthouse 中新的 agentic browsing 评分机制，用于衡量网站对 AI 代理访问的友好程度，涵盖结构化数据、可访问性和动态渲染等维度。",
+  "analysis": {
+    "tech_highlights": [
+      "引入 Agentic Browsing 评分，量化网站对 AI 代理的适配水平",
+      "整合 Schema.org 结构化数据和 ARIA 可访问性评估内容可解析性",
+      "检测动态渲染内容是否可被 AI 代理正确理解与索引"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该评分机制直接面向 AI 时代的 Web 标准，对前端性能优化、SEO 和代理友好性实践具有较高指导价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "lighthouse",
+    "agentic-browsing",
+    "web-performance",
+    "seo",
+    "structured-data"
+  ],
+  "status": "draft"
+}
