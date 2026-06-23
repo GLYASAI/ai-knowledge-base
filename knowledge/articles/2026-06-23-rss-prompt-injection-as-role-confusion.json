@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260623-004",
+  "title": "Prompt Injection as Role Confusion",
+  "source": "rss",
+  "source_url": "https://role-confusion.github.io",
+  "collected_at": "2026-06-23T06:10:03Z",
+  "summary": "本文提出将 prompt injection 攻击解释为角色混淆（Role Confusion），即模型因上下文冲突而混淆系统预设与用户注入的角色指令，并据此设计了新的防御策略。",
+  "analysis": {
+    "tech_highlights": [
+      "将 prompt injection 重新定义为角色混淆问题，提供统一的威胁模型",
+      "通过实验分析系统角色、用户角色和注入角色的交互如何导致安全漏洞",
+      "提出基于角色边界强化的防御方法，减少注入成功率"
+    ],
+    "relevance_score": 8,
+    "score_reason": "针对当前 LLM 应用中广泛存在的 prompt injection 安全问题，从认知角度提出新框架，对安全研究和防御实践有较高参考价值",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "prompt-injection",
+    "role-confusion",
+    "llm-security",
+    "adversarial-attacks",
+    "prompt-engineering"
+  ],
+  "status": "draft"
+}

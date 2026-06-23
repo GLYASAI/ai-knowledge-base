@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260623-001",
+  "title": "Event Tensor: A Unified Abstraction for Compiling Dynamic Megakernel",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.13327",
+  "collected_at": "2026-06-23T06:10:03Z",
+  "summary": "提出 Event Tensor 抽象，统一表示动态 Megakernel 中的数据流动与事件依赖，以便编译器高效生成和优化融合内核。",
+  "analysis": {
+    "tech_highlights": [
+      "将动态 kernel 执行转化为 Event Tensor 上的图操作，统一调度与内存依赖",
+      "支持编译期对动态 Megakernel 进行自动融合与资源分配",
+      "通过事件抽象解耦计算与同步，提高 GPU 利用率与可编程性"
+    ],
+    "relevance_score": 8,
+    "score_reason": "针对高性能 GPU 编译的原创抽象，对异构计算、AI 编译器及动态内核优化领域有直接参考价值",
+    "audience": "advanced"
+  },
+  "tags": [
+    "event-tensor",
+    "dynamic-megakernel",
+    "gpu-compilation",
+    "kernel-fusion",
+    "task-graph"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260623-003",
+  "title": "A fully local voice assistant setup",
+  "source": "rss",
+  "source_url": "https://blog.platypush.tech/article/Local-voice-assistant",
+  "collected_at": "2026-06-23T06:10:03Z",
+  "summary": "介绍如何搭建一个完全运行在本地的语音助手，结合本地 speech-to-text、LLM 和 text-to-speech，实现隐私保护的离线语音交互。",
+  "analysis": {
+    "tech_highlights": [
+      "完全本地化运行，无需云端服务，确保数据隐私",
+      "整合本地语音识别（STT）、大语言模型（LLM）和语音合成（TTS）",
+      "提供可定制的端到端开源方案"
+    ],
+    "relevance_score": 9,
+    "score_reason": "高度契合当下本地AI部署和隐私保护趋势，对动手能力强的开发者极具参考价值，覆盖从语音到文本到语音的完整链路。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "local-voice-assistant",
+    "speech-to-text",
+    "text-to-speech",
+    "llm",
+    "privacy"
+  ],
+  "status": "draft"
+}

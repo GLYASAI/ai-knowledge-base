@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260623-002",
+  "title": "TIRx: An Open Compiler Stack for Evolving Frontier ML Kernels",
+  "source": "rss",
+  "source_url": "https://tvm.apache.org/2026/06/22/tirx",
+  "collected_at": "2026-06-23T06:10:03Z",
+  "summary": "TIRx 是一个基于 Apache TVM TensorIR 的开源编译器栈，专门用于前沿机器学习内核的定制化生成、优化与持续演进。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 TVM 的 TensorIR 抽象，提供可组合的编译变换与调度原语",
+      "支持面向新兴硬件和模型结构的 ML 内核快速开发和迭代",
+      "开放编译器栈设计，允许社区自定义优化流程和后端支持"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该项目直接针对机器学习编译器的前沿研究，是 AI 基础设施的关键组成部分，对 AI 技术分析具有高度相关性。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "compiler-stack",
+    "ml-kernels",
+    "tvm",
+    "tensorir",
+    "open-source"
+  ],
+  "status": "draft"
+}

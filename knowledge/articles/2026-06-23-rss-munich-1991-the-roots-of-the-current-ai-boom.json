@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260623-005",
+  "title": "Munich 1991: the Roots of the Current AI Boom",
+  "source": "rss",
+  "source_url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+  "collected_at": "2026-06-23T06:10:03Z",
+  "summary": "本文回顾了1991年慕尼黑IJCNN会议，展示了LSTM等早期深度学习思想的源头，并阐述这些工作如何演变为当今AI繁荣的根基。",
+  "analysis": {
+    "tech_highlights": [
+      "LSTM网络在1991年会议被首次提出，解决了传统RNN的长期依赖问题",
+      "反向传播算法训练RNN的早期探索与梯度消失/爆炸挑战",
+      "Munich 1991会议聚集了Schmidhuber、Hochreiter等深度学习先驱，催化了后续突破"
+    ],
+    "relevance_score": 9,
+    "score_reason": "文章直接追溯构成当前AI热潮核心的LSTM等技术的历史起点，对理解深度学习演进具有极高参考价值",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-history",
+    "deep-learning",
+    "lstm",
+    "munich-1991",
+    "jürgen-schmidhuber"
+  ],
+  "status": "draft"
+}

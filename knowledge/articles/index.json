@@ -676,5 +676,35 @@
     "title": "Lighthouse agentic browsing scoring",
     "source_url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring",
     "filename": "2026-06-22-rss-lighthouse-agentic-browsing-scoring.json"
+  },
+  {
+    "id": "rss-20260623-001",
+    "title": "Event Tensor: A Unified Abstraction for Compiling Dynamic Megakernel",
+    "source_url": "https://arxiv.org/abs/2604.13327",
+    "filename": "2026-06-23-rss-event-tensor-a-unified-abstraction-for-compiling-d.json"
+  },
+  {
+    "id": "rss-20260623-002",
+    "title": "TIRx: An Open Compiler Stack for Evolving Frontier ML Kernels",
+    "source_url": "https://tvm.apache.org/2026/06/22/tirx",
+    "filename": "2026-06-23-rss-tirx-an-open-compiler-stack-for-evolving-frontier-.json"
+  },
+  {
+    "id": "rss-20260623-003",
+    "title": "A fully local voice assistant setup",
+    "source_url": "https://blog.platypush.tech/article/Local-voice-assistant",
+    "filename": "2026-06-23-rss-a-fully-local-voice-assistant-setup.json"
+  },
+  {
+    "id": "rss-20260623-004",
+    "title": "Prompt Injection as Role Confusion",
+    "source_url": "https://role-confusion.github.io",
+    "filename": "2026-06-23-rss-prompt-injection-as-role-confusion.json"
+  },
+  {
+    "id": "rss-20260623-005",
+    "title": "Munich 1991: the Roots of the Current AI Boom",
+    "source_url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+    "filename": "2026-06-23-rss-munich-1991-the-roots-of-the-current-ai-boom.json"
   }
 ]
