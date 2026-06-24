@@ -706,5 +706,11 @@
     "title": "Munich 1991: the Roots of the Current AI Boom",
     "source_url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
     "filename": "2026-06-23-rss-munich-1991-the-roots-of-the-current-ai-boom.json"
+  },
+  {
+    "id": "rss-20260624-001",
+    "title": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models",
+    "source_url": "https://arxiv.org/abs/2606.16140",
+    "filename": "2026-06-24-rss-vibethinker-3b-exploring-the-frontier-of-verifiabl.json"
   }
 ]
