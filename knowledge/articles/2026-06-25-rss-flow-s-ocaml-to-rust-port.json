@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260625-001",
+  "title": "Flow’s OCaml to Rust Port",
+  "source": "rss",
+  "source_url": "https://medium.com/flow-type/flows-ocaml-to-rust-port-78b95bcf49e9",
+  "collected_at": "2026-06-25T06:10:22Z",
+  "summary": "Flow 类型检查器从 OCaml 成功移植到 Rust，通过利用 Rust 的所有权模型、并发支持和丰富的生态，获得了性能提升和更强的可维护性。",
+  "analysis": {
+    "tech_highlights": [
+      "将 OCaml 的代数类型和模式匹配映射到 Rust 的枚举与 match 机制，保持类型安全",
+      "使用 Rust 的 async/await 和 Tokio 实现并行类型检查，显著提升多核利用率",
+      "通过重写 C FFI 部分为安全 Rust 代码，消除了内存安全风险并简化构建流程"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该项目展示了从函数式语言到系统级语言的复杂移植过程，对语言迁移、性能优化和编译器工具链设计具有很高的参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ocaml",
+    "rust",
+    "programming-language-migration",
+    "type-checker",
+    "flow-type"
+  ],
+  "status": "draft"
+}

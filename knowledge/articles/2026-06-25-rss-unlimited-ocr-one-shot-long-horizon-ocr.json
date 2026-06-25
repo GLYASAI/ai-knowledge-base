@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260625-003",
+  "title": "Unlimited-OCR: One-shot Long-horizon OCR",
+  "source": "rss",
+  "source_url": "https://github.com/baidu/Unlimited-OCR",
+  "collected_at": "2026-06-25T06:10:22Z",
+  "summary": "Unlimited-OCR 是百度开源的一站式长距离 OCR 方案，可在单次推理中完成超长文本行的端到端光学字符识别。",
+  "analysis": {
+    "tech_highlights": [
+      "支持超长 horizon 文本的 one-shot 端到端识别，无需分段拼接",
+      "结合视觉与语言模型的联合优化，处理任意长度序列",
+      "开源实现可直接用于文档数字化与长文本提取场景"
+    ],
+    "relevance_score": 8,
+    "score_reason": "作为前沿的长文本 OCR 开源项目，对文档智能、信息抽取和 LLM 数据预处理有直接应用价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ocr",
+    "long-text-recognition",
+    "end-to-end",
+    "document-ai",
+    "baidu-research"
+  ],
+  "status": "draft"
+}

@@ -712,5 +712,23 @@
     "title": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models",
     "source_url": "https://arxiv.org/abs/2606.16140",
     "filename": "2026-06-24-rss-vibethinker-3b-exploring-the-frontier-of-verifiabl.json"
+  },
+  {
+    "id": "rss-20260625-001",
+    "title": "Flow’s OCaml to Rust Port",
+    "source_url": "https://medium.com/flow-type/flows-ocaml-to-rust-port-78b95bcf49e9",
+    "filename": "2026-06-25-rss-flow-s-ocaml-to-rust-port.json"
+  },
+  {
+    "id": "rss-20260625-002",
+    "title": "Using the Gini Coefficient to Plan Edge Capacity",
+    "source_url": "https://www.fastly.com/blog/using-gini-coefficient-plan-edge-capacity",
+    "filename": "2026-06-25-rss-using-the-gini-coefficient-to-plan-edge-capacity.json"
+  },
+  {
+    "id": "rss-20260625-003",
+    "title": "Unlimited-OCR: One-shot Long-horizon OCR",
+    "source_url": "https://github.com/baidu/Unlimited-OCR",
+    "filename": "2026-06-25-rss-unlimited-ocr-one-shot-long-horizon-ocr.json"
   }
 ]
