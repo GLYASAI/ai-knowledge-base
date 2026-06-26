@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260626-001",
+  "title": "Echoes of the AI Winter",
+  "source": "rss",
+  "source_url": "https://netzhansa.com/echoes-of-the-ai-winter/",
+  "collected_at": "2026-06-26T06:13:03Z",
+  "summary": "本文回顾了AI寒冬的历史，探讨当前AI热潮与过去相似的模式，警示可能再次出现投资降温与技术瓶颈，强调从历史教训中理性看待AI发展。",
+  "analysis": {
+    "tech_highlights": [
+      "对比分析历次AI寒冬的触发因素（如期望过高、算力不足、资金撤离）与当前生成式AI的局限性",
+      "指出当前大语言模型在可解释性、可靠性及实际落地中的差距，暗示泡沫风险"
+    ],
+    "relevance_score": 8,
+    "score_reason": "以历史视角审视AI周期，为当下过度炒作提供冷静分析，对理解AI可持续性发展具有参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-winter",
+    "history-of-ai",
+    "ai-bubble",
+    "machine-learning",
+    "technology-history"
+  ],
+  "status": "draft"
+}
