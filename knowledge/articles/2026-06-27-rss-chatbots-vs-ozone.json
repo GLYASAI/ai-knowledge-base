@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260627-003",
+  "title": "Chatbots vs Ozone",
+  "source": "rss",
+  "source_url": "https://blog.dshr.org/2026/05/chatbots-vs-ozone.html",
+  "collected_at": "2026-06-27T05:55:47Z",
+  "summary": "文章将AI聊天机器人的能源消耗与臭氧层破坏进行类比，探讨大语言模型训练与推理的碳足迹、资源占用及其对环境可持续性的潜在冲击。",
+  "analysis": {
+    "tech_highlights": [
+      "量化对比聊天机器人的生命周期碳排放与传统环境问题（如臭氧层损耗物质）的影响",
+      "揭示大模型扩展带来的边际能耗增长与能效瓶颈",
+      "讨论数字技术可持续性中计算资源与环保目标的权衡"
+    ],
+    "relevance_score": 7,
+    "score_reason": "话题涉及AI的环境成本，对关注绿色计算和可持续技术的读者有启发，但偏向观点评论而非具体工程方案。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai",
+    "sustainability",
+    "energy",
+    "carbon-footprint",
+    "large-language-models"
+  ],
+  "status": "draft"
+}

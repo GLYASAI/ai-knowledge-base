@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260627-002",
+  "title": "AI Agents Enable Adaptive Computer Worms",
+  "source": "rss",
+  "source_url": "https://cleverhans.io/worm.html",
+  "collected_at": "2026-06-27T05:55:47Z",
+  "summary": "该研究展示了一种由 AI Agent 驱动的自适应计算机蠕虫，能自主决策、绕过防病毒检测并通过电子邮件和社交网络传播。",
+  "analysis": {
+    "tech_highlights": [
+      "利用 LLM 作为决策核心，实现蠕虫的自主环境感知与行动规划",
+      "通过自然语言生成对抗性邮件和消息，诱骗用户执行恶意附件",
+      "在传播过程中动态调整 payload 和行为以躲避签名检测"
+    ],
+    "relevance_score": 9,
+    "score_reason": "前沿的 AI 安全威胁研究，直接探讨 LLM 如何重塑恶意软件的能力，对安全社区和 AI 风险治理具有极高参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ai-security",
+    "computer-worms",
+    "llm-agents",
+    "adaptive-malware",
+    "cybersecurity"
+  ],
+  "status": "draft"
+}

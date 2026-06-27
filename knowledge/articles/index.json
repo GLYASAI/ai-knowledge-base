@@ -736,5 +736,23 @@
     "title": "Echoes of the AI Winter",
     "source_url": "https://netzhansa.com/echoes-of-the-ai-winter/",
     "filename": "2026-06-26-rss-echoes-of-the-ai-winter.json"
+  },
+  {
+    "id": "rss-20260627-001",
+    "title": "What does it mean to be a mathematician when AI does the math?",
+    "source_url": "https://spectrum.ieee.org/ai-in-mathematics",
+    "filename": "2026-06-27-rss-what-does-it-mean-to-be-a-mathematician-when-ai-do.json"
+  },
+  {
+    "id": "rss-20260627-002",
+    "title": "AI Agents Enable Adaptive Computer Worms",
+    "source_url": "https://cleverhans.io/worm.html",
+    "filename": "2026-06-27-rss-ai-agents-enable-adaptive-computer-worms.json"
+  },
+  {
+    "id": "rss-20260627-003",
+    "title": "Chatbots vs Ozone",
+    "source_url": "https://blog.dshr.org/2026/05/chatbots-vs-ozone.html",
+    "filename": "2026-06-27-rss-chatbots-vs-ozone.json"
   }
 ]

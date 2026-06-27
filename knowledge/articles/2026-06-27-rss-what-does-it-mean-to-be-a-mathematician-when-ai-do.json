@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260627-001",
+  "title": "What does it mean to be a mathematician when AI does the math?",
+  "source": "rss",
+  "source_url": "https://spectrum.ieee.org/ai-in-mathematics",
+  "collected_at": "2026-06-27T05:55:47Z",
+  "summary": "探讨 AI 在数学证明、定理发现等领域的应用如何重塑数学家角色，强调 automated theorem proving 与 formal verification 的价值及人类直觉的不可替代性。",
+  "analysis": {
+    "tech_highlights": [
+      "AI 辅助数学证明与形式化系统（如 Lean、Coq）的进展",
+      "机器学习在猜想生成与模式发现中的应用",
+      "数学知识的形式化验证与协同开发模式"
+    ],
+    "relevance_score": 8,
+    "score_reason": "深入分析 AI 对数学研究的实际影响，对关注 AI 与科学学科交叉的开发者具有较强启发性。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-in-mathematics",
+    "automated-theorem-proving",
+    "formal-verification",
+    "machine-learning",
+    "mathematical-research"
+  ],
+  "status": "draft"
+}
