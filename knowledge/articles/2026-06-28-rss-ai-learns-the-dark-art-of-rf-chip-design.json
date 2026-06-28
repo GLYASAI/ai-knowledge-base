@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260628-002",
+  "title": "AI Learns the \"Dark Art\" of RF Chip Design",
+  "source": "rss",
+  "source_url": "https://spectrum.ieee.org/ai-radio-chip-design",
+  "collected_at": "2026-06-28T06:21:05Z",
+  "summary": "本文报道了AI技术（如深度学习）用于自动化射频芯片设计，将以往依赖专家经验的“黑艺术”转化为可优化的生成式流程，大幅提升设计效率与性能。",
+  "analysis": {
+    "tech_highlights": [
+      "使用生成式对抗网络（GAN）或强化学习自动合成射频电路拓扑",
+      "基于逆向设计方法快速优化无源器件（如片上电感）的电磁结构",
+      "将AI模型作为代理加速电磁仿真，降低迭代优化成本"
+    ],
+    "relevance_score": 8,
+    "score_reason": "揭示了AI在硬件设计自动化领域的前沿突破，对EDA与AI交叉方向具有重要参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai",
+    "rf-design",
+    "chip-design",
+    "generative-models",
+    "electronic-design-automation"
+  ],
+  "status": "draft"
+}

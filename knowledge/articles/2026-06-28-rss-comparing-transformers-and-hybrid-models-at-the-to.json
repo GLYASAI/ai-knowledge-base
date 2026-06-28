@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260628-003",
+  "title": "Comparing Transformers and Hybrid Models at the Token Level",
+  "source": "rss",
+  "source_url": "https://arxiv.org/pdf/2606.20936",
+  "collected_at": "2026-06-28T06:21:05Z",
+  "summary": "本文在 token 级别系统比较了 Transformer 与混合模型（如结合卷积或状态空间模型的架构）的性能，揭示不同设计在局部与全局上下文建模上的差异及效率权衡。",
+  "analysis": {
+    "tech_highlights": [
+      "Token-level fine-grained comparison between Transformers and hybrid architectures",
+      "Analysis of hybrid models combining self-attention with convolution or state space models",
+      "Efficiency-accuracy trade-off insights for token-level language modeling"
+    ],
+    "relevance_score": 7,
+    "score_reason": "对关注模型架构选型和 token 级行为差异的研究者与工程师有直接参考价值，但论文尚未深入披露实现细节。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "transformers",
+    "hybrid-models",
+    "token-level-analysis",
+    "model-comparison",
+    "deep-learning"
+  ],
+  "status": "draft"
+}

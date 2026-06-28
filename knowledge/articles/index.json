@@ -754,5 +754,35 @@
     "title": "Chatbots vs Ozone",
     "source_url": "https://blog.dshr.org/2026/05/chatbots-vs-ozone.html",
     "filename": "2026-06-27-rss-chatbots-vs-ozone.json"
+  },
+  {
+    "id": "rss-20260628-001",
+    "title": "The feature in OxCaml that more languages should steal",
+    "source_url": "https://theconsensus.dev/p/2026/06/27/the-feature-in-oxcaml-more-languages-should-steal.html",
+    "filename": "2026-06-28-rss-the-feature-in-oxcaml-that-more-languages-should-s.json"
+  },
+  {
+    "id": "rss-20260628-002",
+    "title": "AI Learns the \"Dark Art\" of RF Chip Design",
+    "source_url": "https://spectrum.ieee.org/ai-radio-chip-design",
+    "filename": "2026-06-28-rss-ai-learns-the-dark-art-of-rf-chip-design.json"
+  },
+  {
+    "id": "rss-20260628-003",
+    "title": "Comparing Transformers and Hybrid Models at the Token Level",
+    "source_url": "https://arxiv.org/pdf/2606.20936",
+    "filename": "2026-06-28-rss-comparing-transformers-and-hybrid-models-at-the-to.json"
+  },
+  {
+    "id": "rss-20260628-004",
+    "title": "GPT2-BASIC: Portable Machine Intelligence in BASIC",
+    "source_url": "https://github.com/tsotchke/gpt2-basic",
+    "filename": "2026-06-28-rss-gpt2-basic-portable-machine-intelligence-in-basic.json"
+  },
+  {
+    "id": "rss-20260628-005",
+    "title": "\"How to Think About AI\": Cory Doctorow on Big Tech, Understanding AI, Labor Automation &amp; More",
+    "source_url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
+    "filename": "2026-06-28-rss-how-to-think-about-ai-cory-doctorow-on-big-tech-un.json"
   }
 ]

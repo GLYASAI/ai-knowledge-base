@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260628-004",
+  "title": "GPT2-BASIC: Portable Machine Intelligence in BASIC",
+  "source": "rss",
+  "source_url": "https://github.com/tsotchke/gpt2-basic",
+  "collected_at": "2026-06-28T06:21:05Z",
+  "summary": "用 BASIC 语言实现的轻量级 GPT-2 推理引擎，可在 MS-DOS、Commodore 64 等 8/16 位老式计算机上运行，展示了现代语言模型在极端受限硬件上的可移植性。",
+  "analysis": {
+    "tech_highlights": [
+      "在 BASIC 中实现 GPT-2 的 transformer 前向传播与自回归 token 生成",
+      "支持 8-bit/16-bit 复古计算平台，需对模型权重进行量化或简化以适配极小内存",
+      "无需现代深度学习框架，纯 BASIC 代码即可完成推理，体现极简移植思路"
+    ],
+    "relevance_score": 7,
+    "score_reason": "项目在 AI 可移植性与复古计算领域具有独特的技术趣味性，但实用价值有限，适合作为试验性探索而非生产方案。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "basic",
+    "gpt-2",
+    "retro-computing",
+    "edge-inference",
+    "portable-ai"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260628-005",
+  "title": "\"How to Think About AI\": Cory Doctorow on Big Tech, Understanding AI, Labor Automation &amp; More",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
+  "collected_at": "2026-06-28T06:21:05Z",
+  "summary": "Cory Doctorow 在这场对话中批判性地剖析了当前 AI 热潮，探讨了大科技公司的商业模式如何驱动自动化叙事，以及劳动自动化对社会和工人的深层影响。",
+  "analysis": {
+    "tech_highlights": [
+      "对 AI 能力过度炒作与商业模式结合的系统性反思，强调 ‘AI 是一种意识形态，而非单纯技术’",
+      "分析大科技公司如何通过控制计算资源和数据，将自动化风险转嫁给劳动者，重塑劳资关系",
+      "提出 ‘逆反图灵测试’ 概念：与其测试机器是否像人，不如评估人类是否被降格为机器般劳动"
+    ],
+    "relevance_score": 7,
+    "score_reason": "讲座直接回应当下 AI 狂热，但其重点在社会、经济与权力结构批判，而非技术实现或算法创新，对技术从业者有重要的反思价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-critique",
+    "big-tech",
+    "labor-automation",
+    "technology-ethics",
+    "platform-capitalism"
+  ],
+  "status": "draft"
+}

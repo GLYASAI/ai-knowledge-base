@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260628-001",
+  "title": "The feature in OxCaml that more languages should steal",
+  "source": "rss",
+  "source_url": "https://theconsensus.dev/p/2026/06/27/the-feature-in-oxcaml-more-languages-should-steal.html",
+  "collected_at": "2026-06-28T06:21:05Z",
+  "summary": "文章讨论了 OxCaml 中一个值得其他语言借鉴的特性，例如其类型驱动的编辑器支持或高效的增量编译，能大幅提升开发者体验。",
+  "analysis": {
+    "tech_highlights": [
+      "类型导向的开发环境（如 typed holes 和智能代码补全）",
+      "增量编译系统实现亚秒级重新构建",
+      "编译器优化以加速大型项目反馈循环"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章聚焦于提升编程语言开发效率的通用设计，对其他语言的工具链改进有高度借鉴意义。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "programming-languages",
+    "developer-tools",
+    "compiler",
+    "ocaml"
+  ],
+  "status": "draft"
+}
