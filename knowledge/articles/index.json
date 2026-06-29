@@ -784,5 +784,17 @@
     "title": "\"How to Think About AI\": Cory Doctorow on Big Tech, Understanding AI, Labor Automation &amp; More",
     "source_url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
     "filename": "2026-06-28-rss-how-to-think-about-ai-cory-doctorow-on-big-tech-un.json"
+  },
+  {
+    "id": "rss-20260629-001",
+    "title": "Convolutional Neural Networks in APL (2019)",
+    "source_url": "https://dl.acm.org/doi/epdf/10.1145/3315454.3329960",
+    "filename": "2026-06-29-rss-convolutional-neural-networks-in-apl-2019.json"
+  },
+  {
+    "id": "rss-20260629-002",
+    "title": "MAX models can now run on Apple silicon GPUs",
+    "source_url": "https://forum.modular.com/t/max-models-can-now-run-on-apple-silicon-gpus/3283",
+    "filename": "2026-06-29-rss-max-models-can-now-run-on-apple-silicon-gpus.json"
   }
 ]

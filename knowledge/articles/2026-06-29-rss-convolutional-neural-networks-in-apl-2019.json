@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260629-001",
+  "title": "Convolutional Neural Networks in APL (2019)",
+  "source": "rss",
+  "source_url": "https://dl.acm.org/doi/epdf/10.1145/3315454.3329960",
+  "collected_at": "2026-06-29T06:50:54Z",
+  "summary": "这篇2019年的论文展示了如何利用APL数组编程语言以极其简洁的代码实现卷积神经网络，突显了数组原生操作在深度学习核心计算中的优势。",
+  "analysis": {
+    "tech_highlights": [
+      "使用APL的数组原语以极少的代码行数实现CNN的前向传播、反向传播和梯度下降",
+      "将卷积、池化等操作直接表示为多维数组变换，无需调用外部库",
+      "证明APL在深度学习教育和快速原型设计中的潜力，同时保持可接受的执行效率"
+    ],
+    "relevance_score": 6,
+    "score_reason": "该工作巧妙地将小众数组语言与现代深度学习结合，具有独特的教学和思想启发价值，但由于APL社区和应用场景狭窄，对主流AI开发者的实际影响有限。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "apl",
+    "convolutional-neural-networks",
+    "array-programming",
+    "deep-learning",
+    "educational"
+  ],
+  "status": "draft"
+}
