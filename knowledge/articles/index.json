@@ -796,5 +796,11 @@
     "title": "MAX models can now run on Apple silicon GPUs",
     "source_url": "https://forum.modular.com/t/max-models-can-now-run-on-apple-silicon-gpus/3283",
     "filename": "2026-06-29-rss-max-models-can-now-run-on-apple-silicon-gpus.json"
+  },
+  {
+    "id": "rss-20260630-001",
+    "title": "Robust AI Security and Alignment: A Sisyphean Endeavor?",
+    "source_url": "https://ieeexplore.ieee.org/document/11475847/",
+    "filename": "2026-06-30-rss-robust-ai-security-and-alignment-a-sisyphean-endea.json"
   }
 ]
