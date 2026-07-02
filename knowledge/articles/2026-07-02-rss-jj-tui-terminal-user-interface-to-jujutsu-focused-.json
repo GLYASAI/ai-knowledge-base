@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260702-004",
+  "title": "jj_tui: terminal user interface to jujutsu focused on speed and clarity",
+  "source": "rss",
+  "source_url": "https://tangled.org/elidowling.com/jj_tui",
+  "collected_at": "2026-07-02T06:02:18Z",
+  "summary": "jj_tui 是一个为 jujutsu 版本控制系统设计的终端 UI，强调速度与视觉清晰度，帮助用户以交互方式浏览提交图和执行仓库操作。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 jujutsu 的修订图模型提供直观的提交历史可视化，支持图形化展示分支与合并",
+      "纯键盘驱动操作，可快速进行日志查看、差异对比、变基等操作，提升工作流效率",
+      "轻量级 TUI 实现，资源占用低，适配 tmux 等终端多路复用环境"
+    ],
+    "relevance_score": 8,
+    "score_reason": "为新兴版本控制系统 jujutsu 补充了高效的终端交互界面，填补了其在日常操作体验上的空白，对采用 jujutsu 的开发者实用价值高。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "version-control",
+    "tui",
+    "jujutsu",
+    "terminal",
+    "rust"
+  ],
+  "status": "draft"
+}

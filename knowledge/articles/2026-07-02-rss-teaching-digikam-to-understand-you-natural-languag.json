@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260702-003",
+  "title": "Teaching digiKam to Understand You: Natural Language Search with Local LLMs",
+  "source": "rss",
+  "source_url": "http://srirupa19.github.io/gsoc/2026/06/28/gsoc1.html",
+  "collected_at": "2026-07-02T06:02:18Z",
+  "summary": "本文介绍将本地大语言模型集成至digiKam，实现自然语言照片搜索，用户无需联网即可用日常语句查找图片，保护隐私。",
+  "analysis": {
+    "tech_highlights": [
+      "利用本地LLM解析自然语言查询，生成digiKam内可执行的搜索条件",
+      "全离线运行，无需上传图像或查询至云端，保障隐私",
+      "通过GSoC项目扩展开源桌面应用，展示本地AI与现有软件融合的实践"
+    ],
+    "relevance_score": 7,
+    "score_reason": "为本地桌面软件添加本地LLM驱动的自然语言搜索，结合了隐私、实用性与AI技术，对关注离线智能应用的开源开发者有参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "digikam",
+    "local-llm",
+    "natural-language-search",
+    "privacy",
+    "open-source"
+  ],
+  "status": "draft"
+}

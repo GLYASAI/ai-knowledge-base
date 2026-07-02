@@ -802,5 +802,29 @@
     "title": "Robust AI Security and Alignment: A Sisyphean Endeavor?",
     "source_url": "https://ieeexplore.ieee.org/document/11475847/",
     "filename": "2026-06-30-rss-robust-ai-security-and-alignment-a-sisyphean-endea.json"
+  },
+  {
+    "id": "rss-20260702-001",
+    "title": "The Control Plane Was the Point: Revisiting autofz in the LLM Era",
+    "source_url": "https://yfu.tw/blog/en/autofz-revisited/",
+    "filename": "2026-07-02-rss-the-control-plane-was-the-point-revisiting-autofz-.json"
+  },
+  {
+    "id": "rss-20260702-002",
+    "title": "Matrix Orthogonalization Improves Memory in Recurrent Models",
+    "source_url": "https://ayushtambde.com/blog/matrix-orthogonalization-improves-memory-in-recurrent-models/",
+    "filename": "2026-07-02-rss-matrix-orthogonalization-improves-memory-in-recurr.json"
+  },
+  {
+    "id": "rss-20260702-003",
+    "title": "Teaching digiKam to Understand You: Natural Language Search with Local LLMs",
+    "source_url": "http://srirupa19.github.io/gsoc/2026/06/28/gsoc1.html",
+    "filename": "2026-07-02-rss-teaching-digikam-to-understand-you-natural-languag.json"
+  },
+  {
+    "id": "rss-20260702-004",
+    "title": "jj_tui: terminal user interface to jujutsu focused on speed and clarity",
+    "source_url": "https://tangled.org/elidowling.com/jj_tui",
+    "filename": "2026-07-02-rss-jj-tui-terminal-user-interface-to-jujutsu-focused-.json"
   }
 ]
