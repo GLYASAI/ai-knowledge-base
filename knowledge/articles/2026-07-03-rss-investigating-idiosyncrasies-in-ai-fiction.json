@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260703-001",
+  "title": "Investigating idiosyncrasies in AI fiction",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.03136",
+  "collected_at": "2026-07-03T05:55:26Z",
+  "summary": "该论文系统分析了AI生成虚构作品中的特异模式与局限性，揭示了当前语言模型在创意写作中常见的重复、逻辑断裂及对话扁平化等特征，并为检测和评估AI小说质量提供了量化依据。",
+  "analysis": {
+    "tech_highlights": [
+      "通过大规模语料统计方法，识别AI小说在叙事结构、语篇连贯性与人物话语上的系统性特质",
+      "比较多种语言模型在虚构文本生成中的风格差异与常见缺陷",
+      "探讨AI创作idiosyncrasies的潜在成因，并提出基于语言特征的检测策略"
+    ],
+    "relevance_score": 8,
+    "score_reason": "AI内容生成与检测是当前热门方向，本研究对理解模型创意边界和改进写作辅助工具具有直接参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ai-fiction",
+    "language-models",
+    "text-generation",
+    "stylistic-analysis",
+    "creative-writing"
+  ],
+  "status": "draft"
+}
