@@ -832,5 +832,17 @@
     "title": "Investigating idiosyncrasies in AI fiction",
     "source_url": "https://arxiv.org/abs/2604.03136",
     "filename": "2026-07-03-rss-investigating-idiosyncrasies-in-ai-fiction.json"
+  },
+  {
+    "id": "rss-20260708-001",
+    "title": "A global workspace in language models",
+    "source_url": "https://www.anthropic.com/research/global-workspace",
+    "filename": "2026-07-08-rss-a-global-workspace-in-language-models.json"
+  },
+  {
+    "id": "rss-20260708-002",
+    "title": "Google’s exponential path to climate-wrecking digital bloat",
+    "source_url": "https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/",
+    "filename": "2026-07-08-rss-google-s-exponential-path-to-climate-wrecking-digi.json"
   }
 ]

@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260708-001",
+  "title": "A global workspace in language models",
+  "source": "rss",
+  "source_url": "https://www.anthropic.com/research/global-workspace",
+  "collected_at": "2026-07-08T05:23:23Z",
+  "summary": "Anthropic 将认知科学中的 Global Workspace Theory 引入 Transformer 架构，设计了一个共享工作记忆模块，使不同注意力头或专家子网络能通过竞争机制协调信息，从而增强模型的长程推理和上下文整合能力。",
+  "analysis": {
+    "tech_highlights": [
+      "受心理全局工作空间理论启发，在 Transformer 内实现共享记忆瓶，用于不同模块间的信息路由",
+      "引入稀疏激活和竞争机制，动态选择最相关的内容写入全局工作空间，抑制无关信息",
+      "在需要多步推理和长距离依赖的任务中，比基线模型展现出更好的性能和可解释性"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该研究将认知科学理论与大模型架构设计深度结合，为突破 Transformer 的长程依赖瓶颈和提升推理透明度提供了前沿思路，对 AI 研究社区有重要启发。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "global-workspace",
+    "language-models",
+    "attention-mechanism",
+    "cognitive-science",
+    "long-range-reasoning"
+  ],
+  "status": "draft"
+}
