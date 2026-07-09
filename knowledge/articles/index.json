@@ -844,5 +844,11 @@
     "title": "Google’s exponential path to climate-wrecking digital bloat",
     "source_url": "https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/",
     "filename": "2026-07-08-rss-google-s-exponential-path-to-climate-wrecking-digi.json"
+  },
+  {
+    "id": "rss-20260709-001",
+    "title": "Native-speed vLLM transformers modeling backend",
+    "source_url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+    "filename": "2026-07-09-rss-native-speed-vllm-transformers-modeling-backend.json"
   }
 ]
