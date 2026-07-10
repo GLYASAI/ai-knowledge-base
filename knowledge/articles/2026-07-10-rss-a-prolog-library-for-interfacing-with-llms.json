@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260710-001",
+  "title": "A Prolog library for interfacing with LLMs",
+  "source": "rss",
+  "source_url": "https://github.com/vagos/llmpl",
+  "collected_at": "2026-07-10T06:06:20Z",
+  "summary": "一个用于在 Prolog 逻辑编程中调用大语言模型（LLM）的库，可将 LLM 的文本生成能力集成到符号推理流程中。",
+  "analysis": {
+    "tech_highlights": [
+      "在 Prolog 环境中实现 LLM API 调用，使逻辑程序能直接利用大模型进行文本生成和理解",
+      "支持将 LLM 响应解析为 Prolog 术语，便于后续逻辑推理与约束处理",
+      "探索符号推理与神经网络大模型的混合范式"
+    ],
+    "relevance_score": 7,
+    "score_reason": "结合逻辑编程与 LLM 为符号神经融合提供了新颖的实践工具，但受众专注于 Prolog 生态，应用场景较窄。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "prolog",
+    "large-language-models",
+    "logic-programming",
+    "llm-integration",
+    "symbolic-neural-systems"
+  ],
+  "status": "draft"
+}

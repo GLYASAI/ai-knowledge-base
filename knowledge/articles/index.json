@@ -850,5 +850,11 @@
     "title": "Native-speed vLLM transformers modeling backend",
     "source_url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
     "filename": "2026-07-09-rss-native-speed-vllm-transformers-modeling-backend.json"
+  },
+  {
+    "id": "rss-20260710-001",
+    "title": "A Prolog library for interfacing with LLMs",
+    "source_url": "https://github.com/vagos/llmpl",
+    "filename": "2026-07-10-rss-a-prolog-library-for-interfacing-with-llms.json"
   }
 ]
