@@ -856,5 +856,29 @@
     "title": "A Prolog library for interfacing with LLMs",
     "source_url": "https://github.com/vagos/llmpl",
     "filename": "2026-07-10-rss-a-prolog-library-for-interfacing-with-llms.json"
+  },
+  {
+    "id": "rss-20260712-001",
+    "title": "An Agent in 100 Lines of Lisp",
+    "source_url": "https://thebeach.dev/posts/lisp-agent/",
+    "filename": "2026-07-12-rss-an-agent-in-100-lines-of-lisp.json"
+  },
+  {
+    "id": "rss-20260712-002",
+    "title": "Full-Pipeline Inference Optimization for MiMo-V2.5 Series",
+    "source_url": "https://mimo.xiaomi.com/blog/mimo-v2-5-inference",
+    "filename": "2026-07-12-rss-full-pipeline-inference-optimization-for-mimo-v2-5.json"
+  },
+  {
+    "id": "rss-20260712-003",
+    "title": "AI Surveillance and Social Progress",
+    "source_url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
+    "filename": "2026-07-12-rss-ai-surveillance-and-social-progress.json"
+  },
+  {
+    "id": "rss-20260712-004",
+    "title": "Tau: An Educational Coding Agent",
+    "source_url": "https://twotimespi.dev/",
+    "filename": "2026-07-12-rss-tau-an-educational-coding-agent.json"
   }
 ]

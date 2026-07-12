@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260712-003",
+  "title": "AI Surveillance and Social Progress",
+  "source": "rss",
+  "source_url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
+  "collected_at": "2026-07-12T05:31:19Z",
+  "summary": "Bruce Schneier 探讨 AI surveillance 技术对社会治理的影响，指出监控在促进社会进步的同时可能侵蚀隐私与自由，强调需通过透明化、问责制和技术设计来平衡利弊。",
+  "analysis": {
+    "tech_highlights": [
+      "分析 AI surveillance 在公共安全领域的大规模部署及其对隐私的潜在侵蚀",
+      "探讨监控系统引入 bias 与歧视的风险，以及伦理决策框架的缺失",
+      "提出通过 Privacy by Design 和 regulatory governance 实现 social progress 的路径"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该文章直击 AI 应用中最具争议的监控伦理问题，对开发者、政策制定者和技术管理者均有重要启发价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-surveillance",
+    "privacy",
+    "ethics",
+    "social-impact",
+    "schneier"
+  ],
+  "status": "draft"
+}

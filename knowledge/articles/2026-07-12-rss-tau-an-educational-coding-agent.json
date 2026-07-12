@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260712-004",
+  "title": "Tau: An Educational Coding Agent",
+  "source": "rss",
+  "source_url": "https://twotimespi.dev/",
+  "collected_at": "2026-07-12T05:31:19Z",
+  "summary": "Tau 是一个面向编程教育的智能代理，通过与学习者交互、提供实时反馈和引导，帮助初学者和进阶开发者掌握编码技能。",
+  "analysis": {
+    "tech_highlights": [
+      "基于大语言模型的对话式编程教学，可理解用户意图并给出上下文相关的建议",
+      "支持多轮交互的引导式学习路径，不仅纠正错误还解释原理",
+      "以教育目的设计的 agent，注重逐步构建概念而非直接给出答案"
+    ],
+    "relevance_score": 7,
+    "score_reason": "AI 辅助编程教育是目前热点方向，Tau 的设计理念与 LLM 应用高度相关，但信息有限，技术细节待深入。",
+    "audience": "beginner"
+  },
+  "tags": [
+    "ai-education",
+    "coding-agent",
+    "llm",
+    "interactive-learning"
+  ],
+  "status": "draft"
+}

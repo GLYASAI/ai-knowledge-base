@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260712-002",
+  "title": "Full-Pipeline Inference Optimization for MiMo-V2.5 Series",
+  "source": "rss",
+  "source_url": "https://mimo.xiaomi.com/blog/mimo-v2-5-inference",
+  "collected_at": "2026-07-12T05:31:19Z",
+  "summary": "小米开源视频生成模型 MiMo-V2.5 的端到端推理优化方案，详细介绍了从文本编码、去噪扩散模型到 VAE 解码的全流程加速技术，显著降低显存占用与推理延迟。",
+  "analysis": {
+    "tech_highlights": [
+      "全流程推理优化：覆盖文本编码、扩散模型去噪、VAE 解码三阶段，通过内核融合与内存管理降低耗时",
+      "显存优化：引入 FlashAttention-2、FP8 量化与激活重计算，使大分辨率视频生成在消费级 GPU 上可运行",
+      "分布式流水线并行：将模型拆分到多 GPU 形成推理管线，提升吞吐量并支持实时级视频生成"
+    ],
+    "relevance_score": 9,
+    "score_reason": "针对视频生成这一热门领域的生产级推理优化，方案覆盖精度、显存、延迟等多个维度，对工业部署有极高参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "inference-optimization",
+    "video-generation",
+    "diffusion-models",
+    "vae",
+    "flash-attention"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260712-001",
+  "title": "An Agent in 100 Lines of Lisp",
+  "source": "rss",
+  "source_url": "https://thebeach.dev/posts/lisp-agent/",
+  "collected_at": "2026-07-12T05:31:19Z",
+  "summary": "本文展示了如何用 100 行 Lisp 代码构建一个可与 LLM 交互的 AI agent，包含工具调用和 ReAct 循环，体现 Lisp 在元编程和交互式开发中的简洁性。",
+  "analysis": {
+    "tech_highlights": [
+      "用极简代码（约100行）实现完整的 LLM agent，支持 tool-calling 和多步推理",
+      "利用 Lisp 的 s-expression 原生表示 prompt、工具定义和解析 LLM 输出，避免复杂的 JSON 处理",
+      "展示 REPL 驱动的开发方式，可动态修改 agent 行为并实时测试"
+    ],
+    "relevance_score": 7,
+    "score_reason": "对想理解 agent 核心机制或探索 Lisp 在 AI 领域的应用的开发者有教学价值，但 Lisp 受众较小。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "lisp",
+    "agent",
+    "llm",
+    "tool-calling",
+    "react-pattern"
+  ],
+  "status": "draft"
+}
