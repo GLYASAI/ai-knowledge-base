@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260714-001",
+  "title": "Syntax with Purpose in a Programming Language",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=_HLZoeFREFo",
+  "collected_at": "2026-07-14T04:52:48Z",
+  "summary": "该演讲探讨了编程语言语法设计背后的意图与哲学，强调语法不仅用于解析，更应服务于人类的可读性、可维护性和工具的便利性。",
+  "analysis": {
+    "tech_highlights": [
+      "将语法视为用户界面，关注其如何影响开发者的认知负荷与错误倾向",
+      "对比不同语言在相同语义下的语法选择，分析一致性与简洁性的权衡",
+      "提出面向工具链（如自动格式化、语法高亮）的语法设计原则"
+    ],
+    "relevance_score": 8,
+    "score_reason": "语法设计是编程语言核心理念的体现，对架构师、语言设计者和日常开发者均有启发，虽然较为抽象但涉及根本问题。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "programming-language-design",
+    "syntax",
+    "developer-ux",
+    "language-design-philosophy",
+    "tooling"
+  ],
+  "status": "draft"
+}
