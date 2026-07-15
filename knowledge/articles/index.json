@@ -886,5 +886,29 @@
     "title": "Syntax with Purpose in a Programming Language",
     "source_url": "https://www.youtube.com/watch?v=_HLZoeFREFo",
     "filename": "2026-07-14-rss-syntax-with-purpose-in-a-programming-language.json"
+  },
+  {
+    "id": "github-20260715-001",
+    "title": "Graphify-Labs/graphify",
+    "source_url": "https://github.com/Graphify-Labs/graphify",
+    "filename": "2026-07-15-github-graphify.json"
+  },
+  {
+    "id": "rss-20260715-001",
+    "title": "The Memory Heist",
+    "source_url": "https://ayush.digital/blog/the-memory-heist",
+    "filename": "2026-07-15-rss-the-memory-heist.json"
+  },
+  {
+    "id": "rss-20260715-002",
+    "title": "Verifiable AI inference",
+    "source_url": "https://blog.vrypan.net/2026/07/14/verifiable-ai-inference/",
+    "filename": "2026-07-15-rss-verifiable-ai-inference.json"
+  },
+  {
+    "id": "rss-20260715-003",
+    "title": "Tensor is the might",
+    "source_url": "https://zserge.com/posts/tensor/",
+    "filename": "2026-07-15-rss-tensor-is-the-might.json"
   }
 ]

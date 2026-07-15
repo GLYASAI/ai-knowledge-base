@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260715-003",
+  "title": "Tensor is the might",
+  "source": "rss",
+  "source_url": "https://zserge.com/posts/tensor/",
+  "collected_at": "2026-07-15T04:54:07Z",
+  "summary": "本文用简洁的示例阐释了张量作为多维数组的本质，强调其在现代深度学习、数值计算和 GPU 加速中的核心地位，并将抽象数学与工程实践连接起来。",
+  "analysis": {
+    "tech_highlights": [
+      "从标量到高维数组的逐层抽象与数学表示",
+      "张量操作（reshape、broadcast、contraction）的工程实现要点",
+      "与 GPU 计算和主流框架中张量数据结构的映射关系"
+    ],
+    "relevance_score": 8,
+    "score_reason": "张量是 AI/ML 框架的基石，本文聚焦其原理与实践，直接关联开源 ML 生态，对技术落地有较高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "tensor",
+    "deep-learning",
+    "linear-algebra",
+    "gpu-computing",
+    "multidimensional-arrays"
+  ],
+  "status": "draft"
+}

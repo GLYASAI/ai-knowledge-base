@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260715-001",
+  "title": "The Memory Heist",
+  "source": "rss",
+  "source_url": "https://ayush.digital/blog/the-memory-heist",
+  "collected_at": "2026-07-15T04:54:07Z",
+  "summary": "本文剖析了一种名为“Memory Heist”的新型物理内存攻击技术，展示攻击者如何通过操控内存布局实现权限提升与数据窃取，并探讨了现有缓解措施的局限性。",
+  "analysis": {
+    "tech_highlights": [
+      "基于物理内存布局的精确操控，绕过 ASLR 与 KASLR 等传统地址空间随机化防护",
+      "利用内存子系统的时序侧信道完成跨缓存行攻击，实现高成功率的内核内存写入",
+      "提出一种利用内存碎片化漏洞的权限提升链，从用户态直达 Ring 0"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该技术对于系统安全研究者具有较高的前沿参考价值，展示了新的攻击面和防护挑战，但细节与实用性有待更多实现验证。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "memory-exploitation",
+    "privilege-escalation",
+    "physical-memory-attack",
+    "vulnerability-research",
+    "operating-system-security"
+  ],
+  "status": "draft"
+}

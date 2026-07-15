@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260715-002",
+  "title": "Verifiable AI inference",
+  "source": "rss",
+  "source_url": "https://blog.vrypan.net/2026/07/14/verifiable-ai-inference/",
+  "collected_at": "2026-07-15T04:54:07Z",
+  "summary": "本文探讨利用零知识证明（ZKP）等密码学技术实现AI模型推理的可验证性，确保计算完整性与隐私，为去中心化AI应用提供信任基础。",
+  "analysis": {
+    "tech_highlights": [
+      "结合 zkML（Zero-Knowledge Machine Learning）实现 AI 推理正确性的链上验证",
+      "采用可验证计算协议（如 EZKL、RISC Zero）优化 AI 模型的证明生成与链下验证",
+      "设计链下推理、链上验证的混合架构，降低信任成本并提升效率"
+    ],
+    "relevance_score": 8,
+    "score_reason": "可验证 AI 推理是 Web3 与 AI 交叉领域的前沿热点，对构建无信任的去中心化 AI 服务具有关键意义。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "verifiable-ai",
+    "zero-knowledge-proofs",
+    "zkml",
+    "blockchain",
+    "trustless-ai"
+  ],
+  "status": "draft"
+}

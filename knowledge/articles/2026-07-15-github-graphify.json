@@ -1,0 +1,27 @@
+{
+  "id": "github-20260715-001",
+  "title": "Graphify-Labs/graphify",
+  "source": "github",
+  "source_url": "https://github.com/Graphify-Labs/graphify",
+  "collected_at": "2026-07-15T04:54:07Z",
+  "summary": "Graphify 能将任意文件夹中的代码、SQL schema、R 脚本、Shell 脚本、文档、论文乃至图片、视频转化为可查询的知识图谱，并作为技能集成到 Claude Code、Cursor、Gemini CLI 等 AI 编程助手中，实现跨文件、跨模块的统一图谱查询，大幅增强上下文感知能力。",
+  "analysis": {
+    "tech_highlights": [
+      "利用 tree-sitter 解析多语言代码并结合文档、数据库 schema 等异构源自动构建知识图谱，支持关系提取与语义集成",
+      "以 GraphRAG 为核心，融合 Leiden 社区发现算法，实现基于图谱的检索增强生成，为 AI 编码助手提供精准的跨文件上下文",
+      "以可插拔技能形式适配 Claude Code、Codex、Cursor、Gemini CLI 等多个 AI 编程环境，开箱即用"
+    ],
+    "relevance_score": 9,
+    "score_reason": "项目紧扣当前 AI 编程助手需要深度理解大型代码库的痛点，将知识图谱与 GraphRAG 结合，并提供面向主流 AI 工具的技能，兼具前沿性和实用性。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "knowledge-graph",
+    "graphrag",
+    "ai-coding-assistant",
+    "code-analysis",
+    "tree-sitter",
+    "rag"
+  ],
+  "status": "draft"
+}
