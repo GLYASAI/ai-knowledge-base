@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260716-002",
+  "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
+  "source": "rss",
+  "source_url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
+  "collected_at": "2026-07-16T05:12:50Z",
+  "summary": "本书回顾了史上首个聊天机器人ELIZA的诞生历程，解析其基于模式匹配与规则脚本的简单架构如何通过“ELIZA效应”营造智能幻觉，并探讨它对现代对话式AI的深远影响。",
+  "analysis": {
+    "tech_highlights": [
+      "基于模式匹配和分解-重组-改写规则的自然语言脚本系统，无需理解语义即可模拟对话",
+      "ELIZA效应：用户将过多智能归因于简单程序，引发对AI拟人化与信任的心理反思",
+      "从早期符号主义到现代神经网络对话模型的演进脉络，以及ELIZA作为历史蓝本的定位"
+    ],
+    "relevance_score": 8,
+    "score_reason": "虽属历史著作，但深刻揭示了对话AI的核心交互模式与认知陷阱，对理解现代LLM的拟人化现象很有启发。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "eliza",
+    "chatbot",
+    "history",
+    "natural-language-processing",
+    "pattern-matching"
+  ],
+  "status": "draft"
+}

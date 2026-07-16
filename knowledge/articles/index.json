@@ -910,5 +910,17 @@
     "title": "Tensor is the might",
     "source_url": "https://zserge.com/posts/tensor/",
     "filename": "2026-07-15-rss-tensor-is-the-might.json"
+  },
+  {
+    "id": "rss-20260716-001",
+    "title": "AI Data Centers and the Concentration of Wealth",
+    "source_url": "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
+    "filename": "2026-07-16-rss-ai-data-centers-and-the-concentration-of-wealth.json"
+  },
+  {
+    "id": "rss-20260716-002",
+    "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
+    "source_url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
+    "filename": "2026-07-16-rss-inventing-eliza-how-the-first-chatbot-shaped-the-f.json"
   }
 ]
