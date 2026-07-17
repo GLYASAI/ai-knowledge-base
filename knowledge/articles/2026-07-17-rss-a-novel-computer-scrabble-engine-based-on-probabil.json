@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260717-001",
+  "title": "A novel computer Scrabble engine based on probability that performs at championship level (2021)",
+  "source": "rss",
+  "source_url": "https://upcommons.upc.edu/server/api/core/bitstreams/1339ae43-3d65-4015-8e11-3689e5572b23/content",
+  "collected_at": "2026-07-17T05:16:21Z",
+  "summary": "该论文提出了一种基于概率模型的新型Scrabble引擎，能生成冠军级别的走法，通过模拟和评估未来局面来优化决策，性能接近人类顶尖水平。",
+  "analysis": {
+    "tech_highlights": [
+      "采用概率框架对袋中剩余牌进行蒙特卡洛模拟，估计每一步的期望得分与风险",
+      "结合启发式搜索与静态评估，在有限时间内达到深度策略优化",
+      "引擎在正式比赛中取得大师级评级，验证了概率方法在文字游戏AI中的有效性"
+    ],
+    "relevance_score": 8,
+    "score_reason": "对于博弈AI和自然语言处理交叉领域的研究者，提供了从概率建模到冠军级性能的完整实践，具有较高的复现和借鉴价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "scrabble",
+    "game-ai",
+    "probability-model",
+    "monte-carlo-simulation",
+    "nlp"
+  ],
+  "status": "draft"
+}

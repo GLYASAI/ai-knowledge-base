@@ -922,5 +922,17 @@
     "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
     "source_url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
     "filename": "2026-07-16-rss-inventing-eliza-how-the-first-chatbot-shaped-the-f.json"
+  },
+  {
+    "id": "rss-20260717-001",
+    "title": "A novel computer Scrabble engine based on probability that performs at championship level (2021)",
+    "source_url": "https://upcommons.upc.edu/server/api/core/bitstreams/1339ae43-3d65-4015-8e11-3689e5572b23/content",
+    "filename": "2026-07-17-rss-a-novel-computer-scrabble-engine-based-on-probabil.json"
+  },
+  {
+    "id": "rss-20260717-002",
+    "title": "Why ML/OCaml are good for writing compilers (1998)",
+    "source_url": "https://flint.cs.yale.edu/cs421/case-for-ml.html",
+    "filename": "2026-07-17-rss-ocaml-are-good-for-writing-compilers-1998.json"
   }
 ]

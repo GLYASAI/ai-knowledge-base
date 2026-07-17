@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260717-002",
+  "title": "Why ML/OCaml are good for writing compilers (1998)",
+  "source": "rss",
+  "source_url": "https://flint.cs.yale.edu/cs421/case-for-ml.html",
+  "collected_at": "2026-07-17T05:16:21Z",
+  "summary": "这篇经典文章阐述了ML/OCaml语言在编译器开发中的独特优势，包括代数数据类型、模式匹配与类型推导等特性如何简化AST操作与代码变换。",
+  "analysis": {
+    "tech_highlights": [
+      "利用algebraic data types直观建模抽象语法树（AST），使递归结构定义简洁且类型安全",
+      "通过pattern matching实现树遍历与变换，避免繁琐的访问者模式，代码更简洁且不易出错",
+      "强大的类型推导和静态检查在编译时捕获大量语义错误，提升编译器可靠性"
+    ],
+    "relevance_score": 8,
+    "score_reason": "虽然发表于1998年，但对编译器构造中函数式语言优势的论证至今仍具启发性，是理解现代编译器设计理念的重要参考资料",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ml",
+    "ocaml",
+    "compilers",
+    "functional-programming",
+    "algebraic-data-types"
+  ],
+  "status": "draft"
+}
