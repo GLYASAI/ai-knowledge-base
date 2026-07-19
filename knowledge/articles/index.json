@@ -934,5 +934,17 @@
     "title": "Why ML/OCaml are good for writing compilers (1998)",
     "source_url": "https://flint.cs.yale.edu/cs421/case-for-ml.html",
     "filename": "2026-07-17-rss-ocaml-are-good-for-writing-compilers-1998.json"
+  },
+  {
+    "id": "rss-20260719-001",
+    "title": "Human-like Neural Nets by Catapulting",
+    "source_url": "https://gwern.net/llm-catapult",
+    "filename": "2026-07-19-rss-human-like-neural-nets-by-catapulting.json"
+  },
+  {
+    "id": "rss-20260719-002",
+    "title": "How does Pangram work?",
+    "source_url": "https://pangram.substack.com/p/how-does-pangram-work",
+    "filename": "2026-07-19-rss-how-does-pangram-work.json"
   }
 ]

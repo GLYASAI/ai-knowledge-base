@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260719-001",
+  "title": "Human-like Neural Nets by Catapulting",
+  "source": "rss",
+  "source_url": "https://gwern.net/llm-catapult",
+  "collected_at": "2026-07-19T05:24:05Z",
+  "summary": "文章探讨了一种名为“弹射”（catapulting）的机制，通过动态调整学习率与初始化，使神经网络训练呈现出类似人类认知的阶段性涌现与能力陡增。",
+  "analysis": {
+    "tech_highlights": [
+      "提出“catapulting”机制解释大模型训练中性能的突然跃升",
+      "将学习率调度与模型初始化策略结合，模拟人类认知发展中的突变",
+      "基于groking和phase transition的分析，揭示网络从记忆到泛化的转变"
+    ],
+    "relevance_score": 8,
+    "score_reason": "深入分析训练动力学与涌现行为，对理解大模型能力突变有较高启发价值，但偏向理论探讨，工程落地细节较少。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "neural-networks",
+    "training-dynamics",
+    "phase-transition",
+    "grokking",
+    "scaling-laws"
+  ],
+  "status": "draft"
+}

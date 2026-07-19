@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260719-002",
+  "title": "How does Pangram work?",
+  "source": "rss",
+  "source_url": "https://pangram.substack.com/p/how-does-pangram-work",
+  "collected_at": "2026-07-19T05:24:05Z",
+  "summary": "本文详细解析了Pangram检测AI生成文本的技术原理，涵盖基于水印的识别方法、利用perplexity与burstiness等统计特征分析文本流畅度，以及多分类器集成决策的设计思路。",
+  "analysis": {
+    "tech_highlights": [
+      "通过计算perplexity和burstiness等文本统计量来区分人类写作与AI生成内容",
+      "采用水印（watermarking）技术作为可验证的AI文本标记手段",
+      "使用ensemble方法集成多模型输出以提高检测鲁棒性和准确率"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该技术直击当下AI生成内容泛滥的痛点，所介绍的混合检测方法具有较高的实用性和学术参考价值，且内容覆盖从特征工程到工程集成，完整性高。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-text-detection",
+    "pangram",
+    "nlp",
+    "perplexity",
+    "watermarking"
+  ],
+  "status": "draft"
+}
