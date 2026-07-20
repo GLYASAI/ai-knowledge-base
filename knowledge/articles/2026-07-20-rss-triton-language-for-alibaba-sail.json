@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260720-001",
+  "title": "Triton language for Alibaba SAIL",
+  "source": "rss",
+  "source_url": "https://github.com/t-head/triton-for-sail",
+  "collected_at": "2026-07-20T05:41:48Z",
+  "summary": "该项目将 OpenAI 的 Triton 语言移植到阿里巴巴 SAIL（玄铁）加速器上，使开发者能用 Python 编写高性能算子并编译到该硬件后端。",
+  "analysis": {
+    "tech_highlights": [
+      "在 Triton 编译栈中新增 SAIL 后端，扩展了 Triton 对平头哥玄铁架构的支持",
+      "复用 Triton 的 Python DSL 和自动调优能力，降低 SAIL 加速器上的算子开发门槛",
+      "利用 LLVM/MLIR 进行代码生成与优化，实现从高层语义到底层 SAIL 指令的高效映射"
+    ],
+    "relevance_score": 7,
+    "score_reason": "针对阿里自研 SAIL 硬件的 Triton 移植，对使用该芯片的开发者非常实用，但通用性较窄，社区受众有限。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "triton",
+    "compiler",
+    "domain-specific-language",
+    "alibaba-sail",
+    "accelerator"
+  ],
+  "status": "draft"
+}

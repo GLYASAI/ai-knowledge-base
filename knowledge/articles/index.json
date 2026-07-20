@@ -946,5 +946,11 @@
     "title": "How does Pangram work?",
     "source_url": "https://pangram.substack.com/p/how-does-pangram-work",
     "filename": "2026-07-19-rss-how-does-pangram-work.json"
+  },
+  {
+    "id": "rss-20260720-001",
+    "title": "Triton language for Alibaba SAIL",
+    "source_url": "https://github.com/t-head/triton-for-sail",
+    "filename": "2026-07-20-rss-triton-language-for-alibaba-sail.json"
   }
 ]
