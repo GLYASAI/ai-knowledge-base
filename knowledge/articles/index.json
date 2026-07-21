@@ -952,5 +952,11 @@
     "title": "Triton language for Alibaba SAIL",
     "source_url": "https://github.com/t-head/triton-for-sail",
     "filename": "2026-07-20-rss-triton-language-for-alibaba-sail.json"
+  },
+  {
+    "id": "rss-20260721-001",
+    "title": "Meta Garbage Collection: Using OCaml's GC to GC Rust",
+    "source_url": "https://soteria-tools.com/blog/meta-garbage-collection",
+    "filename": "2026-07-21-rss-meta-garbage-collection-using-ocaml-s-gc-to-gc-rus.json"
   }
 ]
