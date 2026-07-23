@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260723-001",
+  "title": "What Rose Petals Teach Us about Induction",
+  "source": "rss",
+  "source_url": "https://www.oranlooney.com/post/rose-petals/",
+  "collected_at": "2026-07-23T05:27:34Z",
+  "summary": "本文通过玫瑰花瓣排列的几何模型，生动展示了数学归纳法如何从简单初始条件推导出复杂结构，将抽象证明原理与自然模式联系起来。",
+  "analysis": {
+    "tech_highlights": [
+      "利用分形和旋转对称性直观演示归纳步骤",
+      "将数学归纳法与生成式递归关联，解释自相似结构的形成",
+      "通过可视化方式降低归纳证明的理解门槛"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章巧妙连接了自然现象与核心数学原理，为理解递归、分形和证明技巧提供了新颖视角，对提升算法思维有直接启发。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "mathematical-induction",
+    "fractals",
+    "recursion",
+    "geometry",
+    "visual-proof"
+  ],
+  "status": "draft"
+}

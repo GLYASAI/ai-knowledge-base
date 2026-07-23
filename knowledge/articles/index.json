@@ -958,5 +958,23 @@
     "title": "Meta Garbage Collection: Using OCaml's GC to GC Rust",
     "source_url": "https://soteria-tools.com/blog/meta-garbage-collection",
     "filename": "2026-07-21-rss-meta-garbage-collection-using-ocaml-s-gc-to-gc-rus.json"
+  },
+  {
+    "id": "rss-20260723-001",
+    "title": "What Rose Petals Teach Us about Induction",
+    "source_url": "https://www.oranlooney.com/post/rose-petals/",
+    "filename": "2026-07-23-rss-what-rose-petals-teach-us-about-induction.json"
+  },
+  {
+    "id": "rss-20260723-002",
+    "title": "Taking OCaml and Eio for a spin",
+    "source_url": "https://mattjhall.co.uk/posts/taking-ocaml-eio-for-a-spin.html",
+    "filename": "2026-07-23-rss-taking-ocaml-and-eio-for-a-spin.json"
+  },
+  {
+    "id": "rss-20260723-003",
+    "title": "Two years of vector search at Notion: 10x scale, 1/10th cost",
+    "source_url": "https://www.notion.com/blog/two-years-of-vector-search-at-notion",
+    "filename": "2026-07-23-rss-10th-cost.json"
   }
 ]

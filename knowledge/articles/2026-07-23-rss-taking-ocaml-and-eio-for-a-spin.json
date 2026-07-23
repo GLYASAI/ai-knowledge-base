@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260723-002",
+  "title": "Taking OCaml and Eio for a spin",
+  "source": "rss",
+  "source_url": "https://mattjhall.co.uk/posts/taking-ocaml-eio-for-a-spin.html",
+  "collected_at": "2026-07-23T05:27:34Z",
+  "summary": "作者试用 OCaml 与 Eio 库，体验基于 algebraic effects 的直接风格并发 I/O，并分享了初步感受。",
+  "analysis": {
+    "tech_highlights": [
+      "演示 OCaml 5 的 algebraic effects 在 Eio 中的实际应用，实现直接风格异步 I/O",
+      "对比传统 monadic I/O 与 Eio 直接风格的易用性和代码可读性",
+      "展示结构化并发（structured concurrency）和资源管理的优势"
+    ],
+    "relevance_score": 7,
+    "score_reason": "Eio 是 OCaml 生态中前沿的异步 I/O 方案，但 OCaml 本身受众较小，文章为个人体验，技术深度中等。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ocaml",
+    "eio",
+    "algebraic-effects",
+    "concurrency",
+    "structured-concurrency"
+  ],
+  "status": "draft"
+}

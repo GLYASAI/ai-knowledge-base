@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260723-003",
+  "title": "Two years of vector search at Notion: 10x scale, 1/10th cost",
+  "source": "rss",
+  "source_url": "https://www.notion.com/blog/two-years-of-vector-search-at-notion",
+  "collected_at": "2026-07-23T05:27:34Z",
+  "summary": "Notion 分享了两年内将其 AI 向量搜索规模扩展 10 倍同时成本降至 1/10 的工程实践，涵盖分布式索引、近似最近邻（ANN）优化和基础设施成本控制。",
+  "analysis": {
+    "tech_highlights": [
+      "基于自定义分片和分层存储实现 10x 规模扩展而不牺牲延迟",
+      "通过算法调优与硬件选型将单次查询成本降低一个数量级",
+      "在 Faiss 之上构建面向多租户的分布式向量索引服务"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该案例深度覆盖了向量搜索在生产环境中规模扩展和成本优化的核心挑战，对从事 RAG 或 AI 基础设施的工程师极具参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "vector-search",
+    "approximate-nearest-neighbor",
+    "cost-optimization",
+    "notion",
+    "faiss"
+  ],
+  "status": "draft"
+}
