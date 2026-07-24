@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260724-002",
+  "title": "Not just development, distribution of software may change as well",
+  "source": "rss",
+  "source_url": "https://antirez.com/news/170",
+  "collected_at": "2026-07-24T05:22:08Z",
+  "summary": "antirez 探讨软件分发可能因社区对大型科技公司的厌倦，从云服务主导回归到用户自行部署的模式，并通过点对点更新等去中心化方式增强自主性与隐私。",
+  "analysis": {
+    "tech_highlights": [
+      "提出通过点对点网络分发二进制更新以减少对中心化云服务的依赖",
+      "讨论从SaaS回归到用户本地运行软件的哲学与技术趋势",
+      "强调隐私与自主权在现代软件分发中的核心地位"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章触及当前开源与云生态的争议焦点，提出分布式分发模式对开发者生态建设有启发意义。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "software-distribution",
+    "decentralization",
+    "p2p",
+    "open-source",
+    "self-hosting"
+  ],
+  "status": "draft"
+}

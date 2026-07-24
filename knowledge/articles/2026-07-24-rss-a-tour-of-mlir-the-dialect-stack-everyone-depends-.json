@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260724-001",
+  "title": "A tour of MLIR: The Dialect Stack Everyone Depends On",
+  "source": "rss",
+  "source_url": "https://hiraditya.github.io/posts/mlir-dialect-stack-for-ml/",
+  "collected_at": "2026-07-24T05:22:08Z",
+  "summary": "本文系统介绍了 MLIR 中广泛依赖的方言栈，涵盖 builtin、func、arith、scf、memref 等核心 dialect，展示它们如何组合形成可重用、可扩展的编译器中间表示层。",
+  "analysis": {
+    "tech_highlights": [
+      "梳理了 MLIR 中 builtin、func、arith、scf、memref、affine 等核心 dialect 的职责与互动关系",
+      "演示 dialect 栈的层次化设计，说明如何通过组合现有 dialect 快速构建领域专用编译器",
+      "以代码示例展示 dialect 间的渐进降级与转换流程，体现 MLIR 多级中间表示的优势"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章对 MLIR 常用 dialect 栈进行了清晰梳理，适合有一定编译器基础的开发者快速掌握 MLIR 生态的核心抽象，实用性强。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "mlir",
+    "compiler",
+    "llvm",
+    "dialects",
+    "intermediate-representation"
+  ],
+  "status": "draft"
+}

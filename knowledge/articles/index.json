@@ -976,5 +976,17 @@
     "title": "Two years of vector search at Notion: 10x scale, 1/10th cost",
     "source_url": "https://www.notion.com/blog/two-years-of-vector-search-at-notion",
     "filename": "2026-07-23-rss-10th-cost.json"
+  },
+  {
+    "id": "rss-20260724-001",
+    "title": "A tour of MLIR: The Dialect Stack Everyone Depends On",
+    "source_url": "https://hiraditya.github.io/posts/mlir-dialect-stack-for-ml/",
+    "filename": "2026-07-24-rss-a-tour-of-mlir-the-dialect-stack-everyone-depends-.json"
+  },
+  {
+    "id": "rss-20260724-002",
+    "title": "Not just development, distribution of software may change as well",
+    "source_url": "https://antirez.com/news/170",
+    "filename": "2026-07-24-rss-not-just-development-distribution-of-software-may-.json"
   }
 ]
