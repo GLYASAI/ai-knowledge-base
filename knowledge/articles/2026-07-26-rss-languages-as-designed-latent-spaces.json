@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260726-001",
+  "title": "Languages as designed latent spaces",
+  "source": "rss",
+  "source_url": "https://blog.jsbarretto.com/post/languages-as-latent-spaces",
+  "collected_at": "2026-07-26T05:33:54Z",
+  "summary": "文章将编程语言类比为机器学习中的潜在空间（latent space），探讨语言设计如何作为一种有目的的表征形式，约束并塑造开发者对问题的抽象与表达。",
+  "analysis": {
+    "tech_highlights": [
+      "将 'latent space' 概念迁移至编程语言理论，揭示语言即精心构建的表达空间",
+      "分析语言设计选择如何影响问题建模的粒度和复杂度",
+      "强调语言作为思维工具的限制性与生成性双重属性"
+    ],
+    "relevance_score": 7,
+    "score_reason": "跨学科类比提供新颖视角，有助于深入理解语言设计哲学，但缺乏直接工程实践指导，通用性稍低。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "programming-languages",
+    "latent-spaces",
+    "language-design",
+    "abstraction",
+    "machine-learning"
+  ],
+  "status": "draft"
+}
