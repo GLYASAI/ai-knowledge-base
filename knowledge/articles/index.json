@@ -1000,5 +1000,11 @@
     "title": "Languages as designed latent spaces",
     "source_url": "https://blog.jsbarretto.com/post/languages-as-latent-spaces",
     "filename": "2026-07-26-rss-languages-as-designed-latent-spaces.json"
+  },
+  {
+    "id": "rss-20260727-001",
+    "title": "Xavier Leroy on programming, languages and formal verification",
+    "source_url": "https://www.youtube.com/watch?v=9Cswiqrq6So",
+    "filename": "2026-07-27-rss-xavier-leroy-on-programming-languages-and-formal-v.json"
   }
 ]

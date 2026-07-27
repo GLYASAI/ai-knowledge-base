@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260727-001",
+  "title": "Xavier Leroy on programming, languages and formal verification",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=9Cswiqrq6So",
+  "collected_at": "2026-07-27T05:52:15Z",
+  "summary": "Xavier Leroy 分享了他对编程语言设计、类型系统与形式化验证的深刻见解，涵盖 OCaml 与 CompCert 的实践经验，探讨了追求软件正确性的理论与工程权衡。",
+  "analysis": {
+    "tech_highlights": [
+      "深入讨论 CompCert 验证编译器的设计挑战——在实现效率与完全形式化验证之间取得平衡",
+      "解析 OCaml 的类型系统如何结合函数式与面向对象特性，提升代码安全性与可维护性",
+      "阐述将形式化方法从学术界引入工业界时面临的扩展性、认证成本和可用性问题"
+    ],
+    "relevance_score": 9,
+    "score_reason": "内容源自编程语言与形式化验证领域的权威人物，对理解现代编译器、类型系统及高可信软件开发的实践有极高参考价值，适合对底层原理好奇的开发者。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "formal-verification",
+    "compcert",
+    "ocaml",
+    "type-systems",
+    "compiler-design"
+  ],
+  "status": "draft"
+}
