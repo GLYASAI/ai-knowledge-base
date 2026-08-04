@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260804-008",
+  "title": "You Could Have Come Up With Kimi Delta Attention",
+  "source": "rss",
+  "source_url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
+  "collected_at": "2026-08-04T05:18:03Z",
+  "summary": "本文以讲解式风格剖析了 Kimi 模型的 Delta Attention 机制，展示了如何通过仅缓存关键帧的键值对和近似增量计算，在长上下文推理中显著降低 KV 缓存内存占用。",
+  "analysis": {
+    "tech_highlights": [
+      "增量注意力计算：利用当前 query 与前一 token 的 query 差异来近似注意力分数，避免完整计算",
+      "稀疏 KV 缓存：仅存储部分关键帧的键值对，其余 Token 通过插值重建，大幅减少内存需求"
+    ],
+    "relevance_score": 9,
+    "score_reason": "Delta Attention 是长上下文 LLM 推理优化的前沿技术，直接解决 KV 缓存瓶颈，实际工程价值很高。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "delta-attention",
+    "kv-cache",
+    "llm-inference",
+    "moon-kimi",
+    "attention-mechanism"
+  ],
+  "status": "draft"
+}

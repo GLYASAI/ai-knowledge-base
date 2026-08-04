@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260804-004",
+  "title": "bonsai: A library for building dynamic webapps, using Js_of_ocaml",
+  "source": "rss",
+  "source_url": "https://github.com/janestreet/bonsai",
+  "collected_at": "2026-08-04T05:18:03Z",
+  "summary": "Bonsai 是一个基于 OCaml 和 Js_of_ocaml 的动态 Web 应用库，利用 Incremental 库实现细粒度响应式更新，提供纯函数式、类型安全的组件模型。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 Incremental 的高效增量计算引擎，仅更新变化的 UI 子树",
+      "纯函数式、可组合的组件系统，结合 OCaml 的强类型避免运行时错误",
+      "通过 Js_of_ocaml 无缝编译为 JavaScript，可复用 OCaml 生态和类型系统"
+    ],
+    "relevance_score": 8,
+    "score_reason": "为函数式编程在 Web 前端领域提供了高性能、类型安全的解决方案，但目标用户群体相对小众（OCaml 开发者）。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ocaml",
+    "js-of-ocaml",
+    "incremental-computation",
+    "functional-programming",
+    "web-development"
+  ],
+  "status": "draft"
+}

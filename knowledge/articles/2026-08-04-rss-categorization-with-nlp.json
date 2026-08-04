@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260804-001",
+  "title": "Categorization with NLP",
+  "source": "rss",
+  "source_url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/",
+  "collected_at": "2026-08-04T05:18:03Z",
+  "summary": "本文探讨了如何利用自然语言处理（NLP）技术对文本数据进行自动分类，覆盖从传统特征工程到现代预训练模型的实践方法。",
+  "analysis": {
+    "tech_highlights": [
+      "结合 TF-IDF 与传统机器学习分类器（如 SVM、Naive Bayes）的基线方案",
+      "引入预训练语言模型（如 BERT）进行微调，提升语义理解与分类精度",
+      "探讨标签不平衡、层次分类和零样本学习在实际业务中的应用"
+    ],
+    "relevance_score": 7,
+    "score_reason": "主题为 NLP 分类实践，属于经典且广泛适用的技术方向，但缺少具体代码或基准对比时，通用性稍降。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "nlp",
+    "text-classification",
+    "bert",
+    "machine-learning",
+    "transfer-learning"
+  ],
+  "status": "draft"
+}

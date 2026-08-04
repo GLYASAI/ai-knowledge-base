@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260804-005",
+  "title": "Guarded methods in OCaml",
+  "source": "rss",
+  "source_url": "https://xvw.lol/en/articles/oop-refl.html",
+  "collected_at": "2026-08-04T05:18:03Z",
+  "summary": "本文探讨了在 OCaml 中模拟面向对象编程中“受保护方法”（Guarded Methods）的概念，利用模块系统和抽象类型实现方法可见性的精细控制，展示了函数式语言中融合对象模式的一种设计技巧。",
+  "analysis": {
+    "tech_highlights": [
+      "通过 OCaml 的模块签名与抽象类型，实现了类似 protected 可见性的方法守卫机制",
+      "结合函子（functor）和一等模块，灵活控制对象接口的暴露与隐藏",
+      "将面向对象的设计模式无缝嵌入 ML 风格的多范式编程，无运行时开销"
+    ],
+    "relevance_score": 8,
+    "score_reason": "对 OCaml 开发者及对类型系统驱动设计感兴趣的读者具有较高的启发性，但主题相对小众，通用性略低。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ocaml",
+    "object-oriented-programming",
+    "type-systems",
+    "functional-programming",
+    "design-patterns"
+  ],
+  "status": "draft"
+}

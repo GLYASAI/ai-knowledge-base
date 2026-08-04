@@ -1006,5 +1006,53 @@
     "title": "Xavier Leroy on programming, languages and formal verification",
     "source_url": "https://www.youtube.com/watch?v=9Cswiqrq6So",
     "filename": "2026-07-27-rss-xavier-leroy-on-programming-languages-and-formal-v.json"
+  },
+  {
+    "id": "rss-20260804-001",
+    "title": "Categorization with NLP",
+    "source_url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/",
+    "filename": "2026-08-04-rss-categorization-with-nlp.json"
+  },
+  {
+    "id": "rss-20260804-002",
+    "title": "Why Do Cognitive Scientists Hate LLMs? (2023)",
+    "source_url": "https://minihf.com/posts/2023-10-16-hermes-lecture-3-why-do-cognitive-scientists-hate-llms/",
+    "filename": "2026-08-04-rss-why-do-cognitive-scientists-hate-llms-2023.json"
+  },
+  {
+    "id": "rss-20260804-003",
+    "title": "Categorization with NLP",
+    "source_url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/",
+    "filename": "2026-08-04-rss-categorization-with-nlp.json"
+  },
+  {
+    "id": "rss-20260804-004",
+    "title": "bonsai: A library for building dynamic webapps, using Js_of_ocaml",
+    "source_url": "https://github.com/janestreet/bonsai",
+    "filename": "2026-08-04-rss-bonsai-a-library-for-building-dynamic-webapps-usin.json"
+  },
+  {
+    "id": "rss-20260804-005",
+    "title": "Guarded methods in OCaml",
+    "source_url": "https://xvw.lol/en/articles/oop-refl.html",
+    "filename": "2026-08-04-rss-guarded-methods-in-ocaml.json"
+  },
+  {
+    "id": "rss-20260804-006",
+    "title": "Why we write our own C and C++ inference engines",
+    "source_url": "https://localai.io/blog/why-we-write-our-own-engines/",
+    "filename": "2026-08-04-rss-why-we-write-our-own-c-and-c-inference-engines.json"
+  },
+  {
+    "id": "rss-20260804-007",
+    "title": "Why Rocq is better than Lean for program verification",
+    "source_url": "https://joomy.korkutblech.com/posts/2026-07-28-why-rocq-is-better.html",
+    "filename": "2026-08-04-rss-why-rocq-is-better-than-lean-for-program-verificat.json"
+  },
+  {
+    "id": "rss-20260804-008",
+    "title": "You Could Have Come Up With Kimi Delta Attention",
+    "source_url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
+    "filename": "2026-08-04-rss-you-could-have-come-up-with-kimi-delta-attention.json"
   }
 ]

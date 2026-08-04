@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260804-002",
+  "title": "Why Do Cognitive Scientists Hate LLMs? (2023)",
+  "source": "rss",
+  "source_url": "https://minihf.com/posts/2023-10-16-hermes-lecture-3-why-do-cognitive-scientists-hate-llms/",
+  "collected_at": "2026-08-04T05:18:03Z",
+  "summary": "本文探讨了认知科学家为何普遍对大型语言模型（LLMs）持批判态度，指出 LLMs 缺乏具身经验、意向性与真正的理解，只是统计关联的机器，无法作为人类认知的合适模型。",
+  "analysis": {
+    "tech_highlights": [
+      "系统对比了认知科学与 LLM 范式在‘理解’、‘指称’和‘意向性’等概念上的根本分歧，阐明为何认知科学界不认为 LLM 是合理的认知模型。",
+      "引用具身认知与生成主义观点，分析 LLM 缺少与世界的感觉运动交互，导致其无法建立符号接地（symbol grounding）。",
+      "讨论了 LLM 在类比推理和组合性方面的外在表现与人类认知的深层差异，指出统计模式匹配与结构化思维之间的鸿沟。"
+    ],
+    "relevance_score": 8,
+    "score_reason": "内容紧扣当前 AI 领域核心争论，从认知科学视角对 LLM 进行了哲学与实证层面的深刻批评，对从事 AI 可解释性、认知建模的研究者极具启发，但偏重综述与思想辩论，实操技术含量较低。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "cognitive-science",
+    "large-language-models",
+    "critique",
+    "embodied-cognition",
+    "symbol-grounding"
+  ],
+  "status": "draft"
+}
