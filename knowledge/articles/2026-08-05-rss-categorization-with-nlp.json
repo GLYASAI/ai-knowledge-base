@@ -1,0 +1,28 @@
+{
+  "id": "rss-20260805-001",
+  "title": "Categorization with NLP",
+  "source": "rss",
+  "source_url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/",
+  "collected_at": "2026-08-05T05:17:03Z",
+  "summary": "本文介绍基于 NLP 的文本分类方法，涵盖词嵌入、传统机器学习与深度学习模型选择及评估，并讨论实际应用场景。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 NLP 的端到端分类流水线：文本预处理、特征工程（TF‑IDF、词向量）与模型训练",
+      "对比传统词袋模型与 Word2Vec/GloVe 嵌入，结合 SVM、逻辑回归等分类器的性能差异",
+      "探讨深度学习方案（如 CNN、LSTM）及预训练语言模型（BERT）在分类任务中的微调应用",
+      "实例驱动：垃圾邮件过滤、情感分析与主题归类等典型场景的工程落地"
+    ],
+    "relevance_score": 8,
+    "score_reason": "NLP 文本分类是 AI 核心子领域，虽主题经典但近年结合预训练模型持续演进，对中级开发者有很高的工程参考价值；文章延展了从特征工程到深度学习的对比视角，实用性强，但没有明显创新点，故评为 8 分。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "nlp",
+    "text-classification",
+    "machine-learning",
+    "deep-learning",
+    "word-embeddings",
+    "categorization"
+  ],
+  "status": "draft"
+}
