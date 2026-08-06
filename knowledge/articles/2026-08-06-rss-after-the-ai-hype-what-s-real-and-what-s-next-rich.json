@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260806-001",
+  "title": "After the AI Hype – What’s Real, and What’s Next - Richard Campbell - 2026",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=uWnUnMphmPM",
+  "collected_at": "2026-08-06T05:18:39Z",
+  "summary": "Richard Campbell 在 2026 年的演讲中审视了 AI 炒作退潮后的真实能力与局限性，探讨了当前已落地的应用、即将到来的技术转折，以及企业如何务实采纳 AI。",
+  "analysis": {
+    "tech_highlights": [
+      "对 AI 过度炒作与现实落差的系统性剖析，区分营销叙事与工程真相",
+      "预测从生成式 AI 到代理式 AI 的演变路径及关键里程碑",
+      "企业 AI 集成中的成本、幻觉与数据治理等非炒作挑战"
+    ],
+    "relevance_score": 8,
+    "score_reason": "在 AI 泡沫化讨论频繁的 2026 年，该演讲为技术决策者提供了务实的视角和落地思考，紧贴行业热点。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-hype",
+    "reality-check",
+    "generative-ai",
+    "enterprise-ai",
+    "technology-trends"
+  ],
+  "status": "draft"
+}
