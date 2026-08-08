@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260808-001",
+  "title": "social media rabbit holes, clusters, and the relative mixing times of random walks",
+  "source": "rss",
+  "source_url": "https://notes.hella.cheap/twitter-isnt-a-town-square-its-a-high-school-cafeteria.html",
+  "collected_at": "2026-08-08T03:26:56Z",
+  "summary": "文章将社交媒体的信息茧房（rabbit holes）和用户聚类现象与随机游走的相对混合时间进行类比，利用图论和概率模型解析信息传播快慢如何影响观点极化和回音室效应。",
+  "analysis": {
+    "tech_highlights": [
+      "运用 random walk 的 mixing time 分析社交网络聚类的信息传播速度与固化程度",
+      "将社交媒体 rabbit hole 现象建模为图上随机过程的慢混合区域",
+      "通过相对混合时间比较不同聚类的隔离程度与观点回音室效应"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章用随机游走理论解释社交媒体信息茧房，视角新颖且有学术趣味，但内容偏理论，对工程实践指导性有限。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "random-walks",
+    "graph-theory",
+    "social-networks",
+    "echo-chambers",
+    "mixing-time"
+  ],
+  "status": "draft"
+}
