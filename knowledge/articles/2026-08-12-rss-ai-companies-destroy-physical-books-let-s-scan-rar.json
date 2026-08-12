@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260812-003",
+  "title": "AI companies destroy physical books — let’s scan rare books before it’s too late",
+  "source": "rss",
+  "source_url": "https://fr.annas-archive.gl/blog/physical-destruction.html",
+  "collected_at": "2026-08-12T04:10:03Z",
+  "summary": "AI公司在进行书籍数字化过程中销毁实体书本，该文呼吁在珍本书被毁前进行扫描保存，并批评了这种破坏性数字化行为的伦理与法律问题。",
+  "analysis": {
+    "tech_highlights": [
+      "大规模书籍扫描与OCR数字化技术",
+      "数字存档中知识产权与孤儿作品的版权困境",
+      "AI训练数据获取方式对物理文化载体的影响"
+    ],
+    "relevance_score": 6,
+    "score_reason": "文章聚焦AI公司数字化过程中的伦理与社会影响，技术深度较低，但与AI数据来源、数字保存技术间接相关。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-ethics",
+    "book-digitization",
+    "digital-preservation",
+    "copyright",
+    "archive"
+  ],
+  "status": "draft"
+}

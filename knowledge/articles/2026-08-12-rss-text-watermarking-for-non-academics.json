@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260812-001",
+  "title": "Text Watermarking for Non-Academics",
+  "source": "rss",
+  "source_url": "https://blog.gaborkoos.com/posts/2026-08-12-Text-Watermarking-for-Non-Academics/",
+  "collected_at": "2026-08-12T04:10:03Z",
+  "summary": "本文面向非学术读者，通俗解释文本水印技术如何为AI生成内容嵌入可检测信号，并探讨水印能证明什么、无法证明什么，帮助大众理解AI文本溯源的基本概念与局限。",
+  "analysis": {
+    "tech_highlights": [
+      "讲解基于统计的文本水印方案（如红绿列表），在保持文本质量的同时嵌入可检测模式",
+      "分析水印检测的统计原理与假阳性控制，澄清水印只能证明文本来自特定模型，而非直接标记AI生成",
+      "结合“水印实际证明什么”的延伸讨论，揭示技术边界与滥用风险"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章以非技术语言解读文本水印原理与证明力，对AI内容追溯、学术诚信及公众教育具有现实意义，对技术传播与理解很有价值。",
+    "audience": "beginner"
+  },
+  "tags": [
+    "text-watermarking",
+    "ai-generated-text",
+    "detection",
+    "explainer",
+    "non-technical"
+  ],
+  "status": "draft"
+}

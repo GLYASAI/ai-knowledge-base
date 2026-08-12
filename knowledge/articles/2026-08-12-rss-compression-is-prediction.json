@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260812-002",
+  "title": "Compression is prediction",
+  "source": "rss",
+  "source_url": "https://ngrok.com/blog/compression-is-prediction",
+  "collected_at": "2026-08-12T04:10:03Z",
+  "summary": "本文阐述了信息论中“压缩即预测”的核心思想，通过算术编码示例说明更准确的预测模型如何直接提升压缩效率，并探讨了将语言模型等现代预测器用作广义压缩器的可能性。",
+  "analysis": {
+    "tech_highlights": [
+      "用算术编码直观演示预测概率与编码长度的倒数关系，揭示压缩的本质是消除可预测性",
+      "将压缩与预测的等价性延伸到大型语言模型，提出LLM作为通用预测器的压缩新视角"
+    ],
+    "relevance_score": 8,
+    "score_reason": "对于理解当前大模型与信息论的深刻联系具有重要启发，但话题偏理论，非紧急工程需求。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "information-theory",
+    "data-compression",
+    "prediction",
+    "arithmetic-coding",
+    "language-models"
+  ],
+  "status": "draft"
+}
