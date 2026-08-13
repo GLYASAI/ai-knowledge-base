@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260813-001",
+  "title": "Introducing chestnut",
+  "source": "rss",
+  "source_url": "https://blog.comma.ai/chestnut/",
+  "collected_at": "2026-08-13T04:14:13Z",
+  "summary": "comma.ai 发布 Chestnut 自动驾驶车载计算平台，为 openpilot 提供新一代硬件支持，具备更高的 AI 推理能力和车辆接口集成能力。",
+  "analysis": {
+    "tech_highlights": [
+      "兼容 openpilot 的开源自动驾驶软件栈",
+      "集成高分辨率摄像头与 CAN/车辆控制接口",
+      "面向端上 AI 推理优化的嵌入式硬件设计"
+    ],
+    "relevance_score": 8,
+    "score_reason": "官方硬件发布，对自动驾驶与嵌入式 AI 开发者具有直接参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "openpilot",
+    "autonomous-driving",
+    "embedded-hardware",
+    "computer-vision"
+  ],
+  "status": "draft"
+}
