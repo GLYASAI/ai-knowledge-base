@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260816-001",
+  "title": "Are Latent Reasoning Models Easily Interpretable?",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.04902",
+  "collected_at": "2026-08-16T03:01:31Z",
+  "summary": "本文研究 latent reasoning models 的可解释性，在 PrOntoQA、ProsQA 等逻辑任务上发现 Coconut 和 CODI 很少使用隐式推理步骤，提前停止思考仍输出相同响应，说明其高性能可能并非来自隐式推理。",
+  "analysis": {
+    "tech_highlights": [
+      "评估 Coconut 和 CODI 在逻辑任务中是否真正依赖 latent reasoning 步骤",
+      "通过 early stopping 实验证明模型几乎不依赖隐式推理也能保持相同输出",
+      "在 PrOntoQA 和 ProsQA 上分析隐式推理与模型高性能的关系"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该工作直接评估 latent reasoning 模型的可解释性与真实推理贡献，对当前 LLM reasoning 研究具有重要参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "latent-reasoning",
+    "interpretability",
+    "llm-reasoning",
+    "logical-reasoning",
+    "model-analysis"
+  ],
+  "status": "draft"
+}

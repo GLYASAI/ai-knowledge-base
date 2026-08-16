@@ -1102,5 +1102,17 @@
     "title": "Introducing chestnut",
     "source_url": "https://blog.comma.ai/chestnut/",
     "filename": "2026-08-13-rss-introducing-chestnut.json"
+  },
+  {
+    "id": "github-20260816-001",
+    "title": "odysseus-dev/odysseus",
+    "source_url": "https://github.com/odysseus-dev/odysseus",
+    "filename": "2026-08-16-github-odysseus.json"
+  },
+  {
+    "id": "rss-20260816-001",
+    "title": "Are Latent Reasoning Models Easily Interpretable?",
+    "source_url": "https://arxiv.org/abs/2604.04902",
+    "filename": "2026-08-16-rss-are-latent-reasoning-models-easily-interpretable.json"
   }
 ]
