@@ -1,0 +1,26 @@
+{
+  "id": "github-20260817-001",
+  "title": "bytedance/deer-flow",
+  "source": "github",
+  "source_url": "https://github.com/bytedance/deer-flow",
+  "collected_at": "2026-08-17T03:01:22Z",
+  "summary": "字节跳动开源的 Deer-flow 是一个长时程 SuperAgent harness，能够进行研究、编码和创建，借助 sandbox、memory、tools、skills、subagents 和 message gateway 处理从分钟到小时级别的不同复杂度任务。",
+  "analysis": {
+    "tech_highlights": [
+      "通过 sandbox、memory、tools、skills、subagents 和 message gateway 构建多层任务处理架构",
+      "支持长时程任务（minutes to hours）的 SuperAgent harness，可完成研究、编码与创建",
+      "集成 LangChain/LangGraph 生态，支持 Python 与 TypeScript/Node.js 多语言实现"
+    ],
+    "relevance_score": 9,
+    "score_reason": "作为拥有 80k+ stars 的高热度开源 agentic framework，直接覆盖当前 multi-agent、long-horizon 和 deep-research 技术热点，对 AI 技术分析极具参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "superagent",
+    "multi-agent",
+    "agentic-framework",
+    "long-horizon",
+    "deep-research"
+  ],
+  "status": "draft"
+}

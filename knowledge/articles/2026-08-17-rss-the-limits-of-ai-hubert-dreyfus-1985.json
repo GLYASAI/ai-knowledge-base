@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260817-001",
+  "title": "The Limits of AI - Hubert Dreyfus (1985)",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=ePsQksj99LM",
+  "collected_at": "2026-08-17T03:01:22Z",
+  "summary": "该演讲从现象学与 embodied cognition 视角系统批评 1980 年代符号主义 AI 在常识、情境理解和技能习得上的根本局限，对当代 AI 仍有批判性参考价值。",
+  "analysis": {
+    "tech_highlights": [
+      "批判 symbolic AI 无法建模 background context 与 common-sense reasoning",
+      "提出基于 phenomenology 与 embodied cognition 的技能习得模型（novice to expert）",
+      "预测 expert systems 在非形式化领域中的局限性"
+    ],
+    "relevance_score": 7,
+    "score_reason": "虽然视频来自 1985 年，但其对 AI 常识推理与具身性的批判仍能映射当前 LLM 的局限，适合作为 AI 哲学与历史的补充材料。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "philosophy-of-ai",
+    "symbolic-ai",
+    "embodied-cognition",
+    "ai-history",
+    "common-sense-reasoning"
+  ],
+  "status": "draft"
+}
