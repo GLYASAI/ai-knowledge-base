@@ -1,0 +1,24 @@
+{
+  "id": "rss-20260818-001",
+  "title": "Retrofitting a build system into a compiler",
+  "source": "rss",
+  "source_url": "https://www.dra27.uk/blog/platform/2025/09/25/building-with-effects.html",
+  "collected_at": "2026-08-18T02:57:48Z",
+  "summary": "本文探讨了如何将构建系统功能直接集成到编译器中，以减少外部构建工具的复杂度，并提升依赖解析与增量编译的效率。",
+  "analysis": {
+    "tech_highlights": [
+      "编译器内建构建系统，统一编译与构建流程",
+      "通过依赖图优化和缓存机制实现高效的增量编译"
+    ],
+    "relevance_score": 8,
+    "score_reason": "主题涉及编译器与构建系统的深度集成，对系统软件开发者具有较高的参考价值，但受众相对专业。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "compiler",
+    "build-system",
+    "dependency-management",
+    "incremental-compilation"
+  ],
+  "status": "draft"
+}

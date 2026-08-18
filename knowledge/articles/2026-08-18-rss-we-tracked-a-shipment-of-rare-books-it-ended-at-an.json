@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260818-002",
+  "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+  "source": "rss",
+  "source_url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+  "collected_at": "2026-08-18T02:57:48Z",
+  "summary": "这篇文章通过追踪一批稀有书籍的最终流向，揭示了它们被送往 Amazon AI training facility 并用于构建 AI training data 的过程，引发对数据溯源和版权合规的关注。",
+  "analysis": {
+    "tech_highlights": [
+      "AI training data 的版权与数据溯源问题",
+      "实体图书被数字化并用于大型语言模型训练",
+      "数据供应链透明度与 AI 伦理风险"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章涉及 AI 训练数据的来源、版权与合规问题，对理解模型数据治理有参考价值，但技术实现细节较少。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-training-data",
+    "copyright",
+    "data-provenance",
+    "amazon",
+    "dataset-ethics"
+  ],
+  "status": "draft"
+}

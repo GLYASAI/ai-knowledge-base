@@ -1126,5 +1126,17 @@
     "title": "The Limits of AI - Hubert Dreyfus (1985)",
     "source_url": "https://www.youtube.com/watch?v=ePsQksj99LM",
     "filename": "2026-08-17-rss-the-limits-of-ai-hubert-dreyfus-1985.json"
+  },
+  {
+    "id": "rss-20260818-001",
+    "title": "Retrofitting a build system into a compiler",
+    "source_url": "https://www.dra27.uk/blog/platform/2025/09/25/building-with-effects.html",
+    "filename": "2026-08-18-rss-retrofitting-a-build-system-into-a-compiler.json"
+  },
+  {
+    "id": "rss-20260818-002",
+    "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+    "source_url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+    "filename": "2026-08-18-rss-we-tracked-a-shipment-of-rare-books-it-ended-at-an.json"
   }
 ]
