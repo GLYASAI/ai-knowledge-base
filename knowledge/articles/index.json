@@ -1138,5 +1138,29 @@
     "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
     "source_url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
     "filename": "2026-08-18-rss-we-tracked-a-shipment-of-rare-books-it-ended-at-an.json"
+  },
+  {
+    "id": "rss-20260820-001",
+    "title": "AscendNPU-IR: MLIR for Ascend",
+    "source_url": "https://gitcode.com/Ascend/AscendNPU-IR",
+    "filename": "2026-08-20-rss-ascendnpu-ir-mlir-for-ascend.json"
+  },
+  {
+    "id": "rss-20260820-002",
+    "title": "Bongard Problems",
+    "source_url": "https://matthodges.com/posts/2026-08-19-bongard-problems/",
+    "filename": "2026-08-20-rss-bongard-problems.json"
+  },
+  {
+    "id": "rss-20260820-003",
+    "title": "Liquid Types as a behavioural sandbox for agents",
+    "source_url": "https://wiki.alcidesfonseca.com/blog/aeonbox-logical-guardrails-for-agents/",
+    "filename": "2026-08-20-rss-liquid-types-as-a-behavioural-sandbox-for-agents.json"
+  },
+  {
+    "id": "rss-20260820-004",
+    "title": "But what is cross-entropy? | Compression is Intelligence Part 2 - YouTube",
+    "source_url": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
+    "filename": "2026-08-20-rss-but-what-is-cross-entropy-compression-is-intellige.json"
   }
 ]

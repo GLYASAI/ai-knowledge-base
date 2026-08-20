@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260820-003",
+  "title": "Liquid Types as a behavioural sandbox for agents",
+  "source": "rss",
+  "source_url": "https://wiki.alcidesfonseca.com/blog/aeonbox-logical-guardrails-for-agents/",
+  "collected_at": "2026-08-20T02:59:27Z",
+  "summary": "本文介绍 AeonBox，一种将 Liquid Types 作为 AI agent 行为沙箱的方法，通过类型级逻辑约束为 agent 提供可验证的 guardrails，限制其行为范围并提升安全性。",
+  "analysis": {
+    "tech_highlights": [
+      "使用 Liquid Types 定义 agent 行为的前置/后置条件，实现类型级约束",
+      "将逻辑 guardrails 与 agent 执行环境结合，在运行时或类型检查阶段阻止越界行为",
+      "探索形式化验证方法在 LLM agent 安全与沙箱隔离中的应用"
+    ],
+    "relevance_score": 8,
+    "score_reason": "将形式化方法中的 Liquid Types 引入 AI agent 安全与行为约束，方向新颖且技术深度较高，但当前仍偏早期研究，生态和实用性尚待验证。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "liquid-types",
+    "refinement-types",
+    "ai-agents",
+    "formal-verification",
+    "guardrails"
+  ],
+  "status": "draft"
+}

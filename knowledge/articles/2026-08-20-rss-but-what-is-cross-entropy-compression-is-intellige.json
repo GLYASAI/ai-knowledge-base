@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260820-004",
+  "title": "But what is cross-entropy? | Compression is Intelligence Part 2 - YouTube",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
+  "collected_at": "2026-08-20T02:59:27Z",
+  "summary": "本视频是“Compression is Intelligence”系列第二部分，从信息论角度讲解 cross-entropy 的含义，并讨论其与数据压缩、预测和智能之间的联系。",
+  "analysis": {
+    "tech_highlights": [
+      "解释 cross-entropy 与 entropy、KL divergence 之间的数学关系",
+      "从 compression 视角理解 intelligence，强调预测与压缩的等价性",
+      "信息论概念在机器学习损失函数与数据编码中的应用"
+    ],
+    "relevance_score": 8,
+    "score_reason": "cross-entropy 是机器学习损失函数和压缩理论的核心概念，对理解模型训练与智能压缩关系很有价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "cross-entropy",
+    "information-theory",
+    "compression",
+    "machine-learning",
+    "entropy"
+  ],
+  "status": "draft"
+}

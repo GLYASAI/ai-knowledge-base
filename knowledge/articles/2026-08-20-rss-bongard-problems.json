@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260820-002",
+  "title": "Bongard Problems",
+  "source": "rss",
+  "source_url": "https://matthodges.com/posts/2026-08-19-bongard-problems/",
+  "collected_at": "2026-08-20T02:59:27Z",
+  "summary": "本文介绍 Bongard Problems 这一经典抽象视觉推理谜题，探讨其规则归纳对人类与 AI 在概念学习和模式识别方面的挑战，并可能讨论现代机器学习方法的表现。",
+  "analysis": {
+    "tech_highlights": [
+      "Bongard Problems 要求从 12 个图形示例中归纳出区分左右两组的抽象规则，考验视觉概念学习能力",
+      "该问题作为经典 benchmark 暴露当前 deep learning 模型在 few-shot 抽象推理与可解释性上的局限",
+      "与 program synthesis 和 neuro-symbolic methods 结合，推动可泛化的视觉推理研究"
+    ],
+    "relevance_score": 8,
+    "score_reason": "对抽象推理与 AI 结合的主题具有较高技术讨论价值，适合关注机器学习与认知科学交叉领域的读者。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "bongard-problems",
+    "visual-reasoning",
+    "abstract-reasoning",
+    "artificial-intelligence",
+    "cognitive-science"
+  ],
+  "status": "draft"
+}
