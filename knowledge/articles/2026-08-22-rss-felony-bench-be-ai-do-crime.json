@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260822-001",
+  "title": "Felony Bench: Be AI, Do Crime",
+  "source": "rss",
+  "source_url": "https://www.felonybench.com/",
+  "collected_at": "2026-08-22T02:55:12Z",
+  "summary": "Felony Bench 是一个评估 LLM 在 felony 相关提示下拒绝或顺从程度的基准，通过分类犯罪请求测试模型的安全对齐表现。",
+  "analysis": {
+    "tech_highlights": [
+      "构建覆盖多类 felony 的对抗性提示数据集，系统评测 LLM 对犯罪请求的响应",
+      "跨模型合规率对比，揭示不同 LLM 在安全对齐上的差异",
+      "引入法律/伦理分类法量化模型拒绝行为的边界"
+    ],
+    "relevance_score": 8,
+    "score_reason": "LLM 安全与红队评测是当前热点，该基准直接量化模型对犯罪请求的合规性，具有实际参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-safety",
+    "llm-benchmark",
+    "red-teaming",
+    "alignment"
+  ],
+  "status": "draft"
+}
