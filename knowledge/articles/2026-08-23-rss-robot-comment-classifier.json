@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260823-001",
+  "title": "Robot comment classifier",
+  "source": "rss",
+  "source_url": "https://entropicthoughts.com/ai-comment-classifier",
+  "collected_at": "2026-08-23T03:04:08Z",
+  "summary": "本文介绍了一种评论自动分类方法，利用 LLM 输出作为特征，训练 logistic regression 或 SVM 模型进行分类，探索传统机器学习与 AI 输出结合的实用方案。",
+  "analysis": {
+    "tech_highlights": [
+      "利用 LLM 输出作为特征训练 logistic regression/SVM 分类器",
+      "将 traditional ML 与 LLM 结合的 hybrid 文本分类流程",
+      "面向评论数据的自动分类 pipeline"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章展示了 LLM 与传统机器学习在文本分类中的实用结合，对相关任务有借鉴意义，但主题相对常见。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "llm",
+    "text-classification",
+    "logistic-regression",
+    "svm",
+    "machine-learning"
+  ],
+  "status": "draft"
+}

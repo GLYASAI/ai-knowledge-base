@@ -1168,5 +1168,11 @@
     "title": "Felony Bench: Be AI, Do Crime",
     "source_url": "https://www.felonybench.com/",
     "filename": "2026-08-22-rss-felony-bench-be-ai-do-crime.json"
+  },
+  {
+    "id": "rss-20260823-001",
+    "title": "Robot comment classifier",
+    "source_url": "https://entropicthoughts.com/ai-comment-classifier",
+    "filename": "2026-08-23-rss-robot-comment-classifier.json"
   }
 ]
