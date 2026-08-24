@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260824-001",
+  "title": "AI Chip Architectures",
+  "source": "rss",
+  "source_url": "https://www.jepeake.com/ai-chip-architectures",
+  "collected_at": "2026-08-24T03:04:46Z",
+  "summary": "本文梳理了 AI chip 架构的关键设计思路，包括 dataflow、on-chip memory hierarchy 和 matrix compute unit，并对比 GPU、TPU 等 accelerator 的取舍。",
+  "analysis": {
+    "tech_highlights": [
+      "Dataflow 与 systolic array 等 compute array 设计",
+      "On-chip memory hierarchy 与 bandwidth 优化",
+      "GPU/TPU/NPU 架构对比与能效 trade-off"
+    ],
+    "relevance_score": 8,
+    "score_reason": "对关注 AI 硬件加速器设计的工程师有较高参考价值，内容覆盖主流架构权衡。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai",
+    "chip-design",
+    "hardware-architecture",
+    "accelerators",
+    "systolic-array"
+  ],
+  "status": "draft"
+}
