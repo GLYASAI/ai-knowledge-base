@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260826-001",
+  "title": "AI At Home Part 2: Multi GPU Drifting",
+  "source": "rss",
+  "source_url": "https://jdagostino.github.io/ai-pt2-multi-gpu-drifting/index.html",
+  "collected_at": "2026-08-26T03:08:06Z",
+  "summary": "本文是“AI At Home”系列第二篇，探讨在家庭环境中使用多 GPU 执行 LLM 推理时的负载分配与性能问题，重点分析 PCIe 带宽限制下的层迁移和并行策略。",
+  "analysis": {
+    "tech_highlights": [
+      "研究多 GPU 环境中动态迁移模型层或计算负载的可行性与性能表现",
+      "分析 PCIe 与 NVLink 带宽差异对多 GPU 并行效率的具体影响",
+      "给出家庭级多卡 AI 服务器在成本、功耗与推理吞吐之间的权衡建议"
+    ],
+    "relevance_score": 8,
+    "score_reason": "内容针对家庭自建多 GPU 推理环境的实际瓶颈和优化方法，对本地部署 LLM 的开发者有较高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "multi-gpu",
+    "llm-inference",
+    "layer-offloading",
+    "pcie-bandwidth",
+    "home-lab"
+  ],
+  "status": "draft"
+}

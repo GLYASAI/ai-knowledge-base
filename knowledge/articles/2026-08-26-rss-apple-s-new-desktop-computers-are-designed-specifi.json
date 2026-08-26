@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260826-003",
+  "title": "Apple's new desktop computers are designed specifically for local AI development",
+  "source": "rss",
+  "source_url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
+  "collected_at": "2026-08-26T03:08:06Z",
+  "summary": "Apple 发布新款 Mac Studio 和 Mac mini，通过大容量统一内存与 Neural Engine 重点强化本地 AI 推理能力，面向希望在桌面端运行 LLM 的开发者。",
+  "analysis": {
+    "tech_highlights": [
+      "大容量 unified memory 支持在单机加载更大规模的 LLM",
+      "Neural Engine 与 GPU 协同加速 local inference",
+      "Mac Studio 和 Mac mini 针对本地 AI 开发场景进行硬件优化"
+    ],
+    "relevance_score": 8,
+    "score_reason": "直接反映桌面硬件向本地 AI 推理演进的趋势，对关注端侧模型部署的开发者有较高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "apple-silicon",
+    "local-ai",
+    "llm-inference",
+    "mac-studio",
+    "neural-engine"
+  ],
+  "status": "draft"
+}

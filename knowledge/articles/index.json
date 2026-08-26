@@ -1180,5 +1180,29 @@
     "title": "AI Chip Architectures",
     "source_url": "https://www.jepeake.com/ai-chip-architectures",
     "filename": "2026-08-24-rss-ai-chip-architectures.json"
+  },
+  {
+    "id": "rss-20260826-001",
+    "title": "AI At Home Part 2: Multi GPU Drifting",
+    "source_url": "https://jdagostino.github.io/ai-pt2-multi-gpu-drifting/index.html",
+    "filename": "2026-08-26-rss-ai-at-home-part-2-multi-gpu-drifting.json"
+  },
+  {
+    "id": "rss-20260826-002",
+    "title": "A Manifesto for Responsible Agentic Coding",
+    "source_url": "https://www.techwerkers.nl/en/posts/manifesto-responsible-agentic-coding/",
+    "filename": "2026-08-26-rss-a-manifesto-for-responsible-agentic-coding.json"
+  },
+  {
+    "id": "rss-20260826-003",
+    "title": "Apple's new desktop computers are designed specifically for local AI development",
+    "source_url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
+    "filename": "2026-08-26-rss-apple-s-new-desktop-computers-are-designed-specifi.json"
+  },
+  {
+    "id": "rss-20260826-004",
+    "title": "Super-intelligence or Superstition? Exploring Psychological Factors Influencing Belief in AI Predictions about Personal Behavior",
+    "source_url": "https://arxiv.org/abs/2408.06602",
+    "filename": "2026-08-26-rss-super-intelligence-or-superstition-exploring-psych.json"
   }
 ]

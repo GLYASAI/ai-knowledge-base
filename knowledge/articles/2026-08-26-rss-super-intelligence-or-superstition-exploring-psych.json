@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260826-004",
+  "title": "Super-intelligence or Superstition? Exploring Psychological Factors Influencing Belief in AI Predictions about Personal Behavior",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2408.06602",
+  "collected_at": "2026-08-26T03:08:06Z",
+  "summary": "本文通过在线实验研究 need for cognition、locus of control 等 psychological factors 如何影响人们对 AI 预测个人行为的信任，发现预测与 self-concept 一致性会强化 belief，揭示 AI 被视作 super-intelligence 或 superstition 的心理机制。",
+  "analysis": {
+    "tech_highlights": [
+      "通过在线实验测量 psychological traits 对 AI 预测信任度的影响",
+      "分析 self-consistency effect：当预测符合 self-concept 时 belief 更强",
+      "结合 human-computer interaction 与 psychometrics 解释对 AI 的过度信任或怀疑"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章为 AI 信任和 human-AI interaction 提供实证证据，但偏心理学研究而非技术实现，对工程实践的直接参考价值有限。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "ai-psychology",
+    "trust-in-ai",
+    "human-ai-interaction",
+    "algorithmic-prediction",
+    "cognitive-bias"
+  ],
+  "status": "draft"
+}
