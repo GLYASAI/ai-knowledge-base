@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260827-001",
+  "title": "Bill Gates - The turbulent AI era is here",
+  "source": "rss",
+  "source_url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
+  "collected_at": "2026-08-27T12:27:20Z",
+  "summary": "比尔·盖茨在文章中探讨 AI 时代进入动荡阶段，强调技术红利分配、AI governance 与伦理等关键抉择将决定 AI 能否惠及每个人。",
+  "analysis": {
+    "tech_highlights": [
+      "AI-assisted clinical decision support for underserved regions, including symptom checkers and medical imaging interpretation",
+      "LLM-based personalized tutoring and curriculum adaptation in education",
+      "Governance mechanisms such as model auditing, red-teaming, and bias mitigation to ensure equitable AI access"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章从宏观视角论证 AI 公平性与治理，逻辑清晰但缺乏对具体技术实现、成本收益权衡和监管可行性的深入分析；对工程实践指导有限，适合作为背景阅读而非技术决策参考。",
+    "audience": "beginner"
+  },
+  "tags": [
+    "ai",
+    "ai-governance",
+    "technology-policy",
+    "future-of-work",
+    "bill-gates"
+  ],
+  "status": "draft"
+}
