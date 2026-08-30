@@ -1,0 +1,30 @@
+{
+  "id": "rss-20260830-001",
+  "title": "Just a rumour of a bug is enough to find a security exploit these days",
+  "source": "rss",
+  "source_url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
+  "collected_at": "2026-08-30T08:01:53Z",
+  "summary": "本文探讨安全漏洞的模糊传闻如何成为攻击者线索，借助 commit 历史、补丁比对与 fuzzing 快速定位并开发 exploit，突显漏洞披露与修复时机的重要性；对 AI 供应链安全具间接启示。",
+  "analysis": {
+    "tech_highlights": [
+      "仅凭漏洞传闻即可引导攻击者通过 commit 历史、patch diffing 与 fuzzing 快速定位缺陷",
+      "vague bug report 降低 exploit 开发门槛，缩短从 N-day 到 0-day 的漏洞利用时间窗口",
+      "强调负责任的漏洞披露与快速修复以缩小攻击窗口",
+      "漏洞披露与利用的时间窗口问题可迁移至 AI/LLM 供应链安全，提示模型与数据管道的补丁管理需同等重视"
+    ],
+    "relevance_score": 5,
+    "score_reason": "文章聚焦通用软件安全漏洞披露与利用流程，与 AI/LLM/Agent 直接相关度较低；但对 AI 供应链安全、模型漏洞管理有间接启示，故下调至 5 分。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "security",
+    "vulnerability-research",
+    "exploit-development",
+    "patch-diffing",
+    "fuzzing",
+    "responsible-disclosure",
+    "ai-supply-chain-security",
+    "model-vulnerability-management"
+  ],
+  "status": "draft"
+}
