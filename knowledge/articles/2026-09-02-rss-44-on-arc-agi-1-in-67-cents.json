@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260902-001",
+  "title": "44% on ARC-AGI-1 in 67 cents",
+  "source": "rss",
+  "source_url": "https://mvakde.github.io/blog/44-on-arc-1/",
+  "collected_at": "2026-09-02T06:54:04Z",
+  "summary": "本文展示了一种在 ARC-AGI-1 基准上达到 44% 得分的方法，总成本仅约 67 美分，突出低成本 test-time 推理的潜力。",
+  "analysis": {
+    "tech_highlights": [
+      "在 ARC-AGI-1 上以约 67 美分总成本实现 44% 准确率",
+      "聚焦低成本的 test-time inference 策略，而非昂贵的大规模训练",
+      "为 abstraction and reasoning 类 benchmark 提供可复现的评测参考"
+    ],
+    "relevance_score": 8,
+    "score_reason": "低成本在 ARC-AGI-1 上取得 44% 对 LLM 推理和 AGI 评测有实际参考价值，但文章可能偏结果展示。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "arc-agi",
+    "llm-reasoning",
+    "low-cost-inference",
+    "agi-benchmark"
+  ],
+  "status": "draft"
+}

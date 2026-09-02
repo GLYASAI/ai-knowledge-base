@@ -1216,5 +1216,11 @@
     "title": "Just a rumour of a bug is enough to find a security exploit these days",
     "source_url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
     "filename": "2026-08-30-rss-just-a-rumour-of-a-bug-is-enough-to-find-a-securit.json"
+  },
+  {
+    "id": "rss-20260902-001",
+    "title": "44% on ARC-AGI-1 in 67 cents",
+    "source_url": "https://mvakde.github.io/blog/44-on-arc-1/",
+    "filename": "2026-09-02-rss-44-on-arc-agi-1-in-67-cents.json"
   }
 ]
