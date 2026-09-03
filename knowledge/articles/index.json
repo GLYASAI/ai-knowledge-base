@@ -1222,5 +1222,17 @@
     "title": "44% on ARC-AGI-1 in 67 cents",
     "source_url": "https://mvakde.github.io/blog/44-on-arc-1/",
     "filename": "2026-09-02-rss-44-on-arc-agi-1-in-67-cents.json"
+  },
+  {
+    "id": "rss-20260903-001",
+    "title": "Bye Bye Perspective API: Lessons for Measurement Infrastructure in NLP, CSS and LLM Evaluation",
+    "source_url": "https://arxiv.org/abs/2604.25580",
+    "filename": "2026-09-03-rss-bye-bye-perspective-api-lessons-for-measurement-in.json"
+  },
+  {
+    "id": "rss-20260903-002",
+    "title": "Researchers use AI to ‘democratize’ 3D printing of crucial metal alloy",
+    "source_url": "https://news.wsu.edu/news/2026/08/24/researchers-use-ai-to-democratize-3d-printing-of-crucial-metal-alloy/",
+    "filename": "2026-09-03-rss-researchers-use-ai-to-democratize-3d-printing-of-c.json"
   }
 ]

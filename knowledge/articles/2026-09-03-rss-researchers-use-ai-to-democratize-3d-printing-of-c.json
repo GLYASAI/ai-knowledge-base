@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260903-002",
+  "title": "Researchers use AI to ‘democratize’ 3D printing of crucial metal alloy",
+  "source": "rss",
+  "source_url": "https://news.wsu.edu/news/2026/08/24/researchers-use-ai-to-democratize-3d-printing-of-crucial-metal-alloy/",
+  "collected_at": "2026-09-03T06:59:06Z",
+  "summary": "华盛顿州立大学研究人员利用 AI 优化关键 metal alloy 的 3D printing 参数，降低工艺门槛，使更多非专业人士能获得高质量打印结果，推动 metal additive manufacturing 的‘民主化’。",
+  "analysis": {
+    "tech_highlights": [
+      "AI-driven process parameter optimization for critical metal alloy 3D printing",
+      "Reducing reliance on trial-and-error experimentation in additive manufacturing",
+      "Lowering accessibility barriers for non-experts to adopt metal 3D printing"
+    ],
+    "relevance_score": 7,
+    "score_reason": "该研究展示了 AI 在增材制造工艺优化中的实际应用，具有行业落地价值，但新闻稿缺乏技术实现细节与可复现资源。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-in-manufacturing",
+    "additive-manufacturing",
+    "3d-printing",
+    "metal-alloys",
+    "process-optimization"
+  ],
+  "status": "draft"
+}

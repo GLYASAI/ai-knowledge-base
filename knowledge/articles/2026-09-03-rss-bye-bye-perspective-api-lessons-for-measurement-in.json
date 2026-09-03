@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260903-001",
+  "title": "Bye Bye Perspective API: Lessons for Measurement Infrastructure in NLP, CSS and LLM Evaluation",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.25580",
+  "collected_at": "2026-09-03T06:59:06Z",
+  "summary": "本文总结在 Google Perspective API 弃用后，围绕 NLP、CSS 与 LLM 评估中的 measurement infrastructure 所获得的经验与教训。",
+  "analysis": {
+    "tech_highlights": [
+      "Perspective API 弃用对 measurement infrastructure 的冲击与应对策略",
+      "NLP 与 LLM 评估指标的可移植性与稳定性设计",
+      "跨 NLP、CSS 和 LLM 评估的 measurement infrastructure 设计原则"
+    ],
+    "relevance_score": 7,
+    "score_reason": "对关注 API 迁移、模型安全评估和评估基础设施的团队有直接参考价值，但主题偏向特定 API 的弃用经验。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "measurement-infrastructure",
+    "llm-evaluation",
+    "api-deprecation",
+    "nlp",
+    "perspective-api"
+  ],
+  "status": "draft"
+}
