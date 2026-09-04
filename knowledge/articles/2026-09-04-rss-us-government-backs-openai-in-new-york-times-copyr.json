@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260904-002",
+  "title": "US government backs OpenAI in New York Times copyright case",
+  "source": "rss",
+  "source_url": "https://www.reuters.com/legal/litigation/us-government-backs-openai-new-york-times-copyright-case-2026-09-02/",
+  "collected_at": "2026-09-04T07:01:59Z",
+  "summary": "美国政府表态支持 OpenAI 在 The New York Times 版权诉讼中的立场，案件可能为生成式 AI 使用受版权保护内容训练模型的法律边界设立先例。",
+  "analysis": {
+    "tech_highlights": [
+      "美国政府对 OpenAI 的 fair use 抗辩提供支持，影响 AI 训练数据版权认定",
+      "案件可能成为生成式 AI 使用受版权保护内容训练模型的法律先例",
+      "涉及 LLM 训练数据合规与知识产权政策交叉点"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该案直接影响生成式 AI 训练数据的版权合规，对 AI 开发者和研究社区具有重要参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "generative-ai",
+    "copyright-law",
+    "fair-use",
+    "training-data",
+    "ai-policy"
+  ],
+  "status": "draft"
+}

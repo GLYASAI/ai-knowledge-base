@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260904-001",
+  "title": "LLMs and self-referentiality",
+  "source": "rss",
+  "source_url": "https://scottaaronson.blog/?p=10046",
+  "collected_at": "2026-09-04T07:01:59Z",
+  "summary": "Scott Aaronson 在博客中探讨大语言模型（LLMs）与自指性（self-referentiality）的关系，分析模型在处理自指陈述、逻辑悖论及计算理论边界时的表现与局限。",
+  "analysis": {
+    "tech_highlights": [
+      "从计算理论和逻辑学视角分析 LLMs 在自指任务中的推理边界",
+      "讨论 self-referentiality 与模型可解释性、对齐问题的潜在关联",
+      "结合悖论案例考察 LLMs 对递归和自我描述语句的处理能力"
+    ],
+    "relevance_score": 7,
+    "score_reason": "主题聚焦 LLMs 的理论能力边界，具有启发性，但偏理论分析，直接工程应用价值有限。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "llms",
+    "self-reference",
+    "logic",
+    "computational-theory",
+    "paradoxes"
+  ],
+  "status": "draft"
+}
