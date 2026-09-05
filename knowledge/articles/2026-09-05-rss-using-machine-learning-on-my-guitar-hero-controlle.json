@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260905-001",
+  "title": "Using machine learning on my Guitar Hero Controller",
+  "source": "rss",
+  "source_url": "https://p0ly.com/ml_strummer.html",
+  "collected_at": "2026-09-05T06:47:15Z",
+  "summary": "作者将 machine learning 应用于 Guitar Hero 控制器，采集拨弦动作数据并训练分类模型，以提升 strum 输入的识别能力或替代原有物理开关。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 Guitar Hero 控制器的拨弦信号进行数据采集与 feature engineering",
+      "训练 lightweight classifier 并部署到嵌入式环境实现 real-time strum 检测",
+      "通过机器学习替代传统机械开关，优化输入响应与灵活性"
+    ],
+    "relevance_score": 7,
+    "score_reason": "项目将 machine learning 用于游戏外设改造，展示了嵌入式 ML 与信号处理结合，虽然应用场景偏小众，但技术思路有趣。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "machine-learning",
+    "embedded-systems",
+    "signal-processing",
+    "gaming-peripherals",
+    "human-computer-interaction"
+  ],
+  "status": "draft"
+}

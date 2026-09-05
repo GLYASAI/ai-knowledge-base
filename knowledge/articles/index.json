@@ -1246,5 +1246,17 @@
     "title": "US government backs OpenAI in New York Times copyright case",
     "source_url": "https://www.reuters.com/legal/litigation/us-government-backs-openai-new-york-times-copyright-case-2026-09-02/",
     "filename": "2026-09-04-rss-us-government-backs-openai-in-new-york-times-copyr.json"
+  },
+  {
+    "id": "rss-20260905-001",
+    "title": "Using machine learning on my Guitar Hero Controller",
+    "source_url": "https://p0ly.com/ml_strummer.html",
+    "filename": "2026-09-05-rss-using-machine-learning-on-my-guitar-hero-controlle.json"
+  },
+  {
+    "id": "rss-20260905-002",
+    "title": "Hillingar - MirageOS Unikernels on NixOS",
+    "source_url": "https://ryan.freumh.org/hillingar.html",
+    "filename": "2026-09-05-rss-hillingar-mirageos-unikernels-on-nixos.json"
   }
 ]
