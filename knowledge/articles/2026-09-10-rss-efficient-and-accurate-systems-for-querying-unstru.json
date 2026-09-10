@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260910-002",
+  "title": "Efficient and accurate systems for querying unstructured data",
+  "source": "rss",
+  "source_url": "https://stacks.stanford.edu/file/fk030tb6783/thesis-augmented.pdf",
+  "collected_at": "2026-09-10T07:06:46Z",
+  "summary": "该博士论文研究如何高效、准确地查询视频等非结构化数据，通过结合 machine learning 提取结构化信息与 query optimization 技术，在保证结果准确性的同时降低推理成本。",
+  "analysis": {
+    "tech_highlights": [
+      "提出面向视频等非结构化数据的查询系统，将 ML 推理与 SQL 风格的聚合和过滤查询结合",
+      "利用近似查询处理和专用优化在准确率与效率之间取得平衡",
+      "支持对象检测、计数等下游分析任务，减少全量 ML 推理开销"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该工作系统性地解决 ML 驱动的非结构化数据查询效率和准确性问题，对视频分析数据库方向有较强参考价值，但论文内容偏学术和系统实现。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "video-analytics",
+    "query-optimization",
+    "machine-learning",
+    "unstructured-data",
+    "approximate-query-processing"
+  ],
+  "status": "draft"
+}

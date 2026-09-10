@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260910-004",
+  "title": "Serving LLMs on Tenstorrent Hardware: Inside the vLLM TT Plugin",
+  "source": "rss",
+  "source_url": "https://vllm.ai/blog/2026-09-07-vllm-tt-plugin",
+  "collected_at": "2026-09-10T07:06:46Z",
+  "summary": "本文介绍 vLLM 的 Tenstorrent 硬件插件，解析如何将 vLLM 的 LLM serving 能力扩展到 Tenstorrent 加速器上，涵盖后端接入与推理优化。",
+  "analysis": {
+    "tech_highlights": [
+      "vLLM TT plugin 将 Tenstorrent 硬件接入 vLLM 推理栈",
+      "在非 NVIDIA 加速器上实现 LLM serving 与高吞吐调度",
+      "结合 Tenstorrent 编程模型优化模型执行"
+    ],
+    "relevance_score": 7,
+    "score_reason": "对关注异构硬件 LLM 推理和 vLLM 插件式后端扩展的开发者有实用价值，但面向特定硬件生态。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "llm-serving",
+    "vllm",
+    "tenstorrent",
+    "hardware-acceleration",
+    "inference"
+  ],
+  "status": "draft"
+}

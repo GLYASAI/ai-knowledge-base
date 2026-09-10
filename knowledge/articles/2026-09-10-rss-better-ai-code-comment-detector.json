@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260910-003",
+  "title": "Better AI code comment detector",
+  "source": "rss",
+  "source_url": "https://entropicthoughts.com/better-ai-comment-classifier",
+  "collected_at": "2026-09-10T07:06:46Z",
+  "summary": "本文介绍一种更好的 AI 代码注释检测方法，利用 LLM 输出训练 logistic regression 分类器，以区分机器生成与人工编写的代码注释，提供轻量级检测方案。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 LLM 输出训练 logistic regression 二分类器",
+      "针对 AI 生成代码注释的检测任务设计轻量级模型",
+      "用可解释的统计分类方法替代黑盒 LLM 判别"
+    ],
+    "relevance_score": 7,
+    "score_reason": "该文章聚焦 AI 生成代码注释的检测，提供了基于 logistic regression 的轻量级方案，对关注 LLM 输出质量与代码可信度的开发者有一定参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "logistic-regression",
+    "llm-output",
+    "code-comment-detection",
+    "ai-detection",
+    "vibecoding"
+  ],
+  "status": "draft"
+}

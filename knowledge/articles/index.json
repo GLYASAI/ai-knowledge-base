@@ -1258,5 +1258,29 @@
     "title": "Hillingar - MirageOS Unikernels on NixOS",
     "source_url": "https://ryan.freumh.org/hillingar.html",
     "filename": "2026-09-05-rss-hillingar-mirageos-unikernels-on-nixos.json"
+  },
+  {
+    "id": "rss-20260910-001",
+    "title": "An alignment assessment of recent cybersecurity incidents",
+    "source_url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+    "filename": "2026-09-10-rss-an-alignment-assessment-of-recent-cybersecurity-in.json"
+  },
+  {
+    "id": "rss-20260910-002",
+    "title": "Efficient and accurate systems for querying unstructured data",
+    "source_url": "https://stacks.stanford.edu/file/fk030tb6783/thesis-augmented.pdf",
+    "filename": "2026-09-10-rss-efficient-and-accurate-systems-for-querying-unstru.json"
+  },
+  {
+    "id": "rss-20260910-003",
+    "title": "Better AI code comment detector",
+    "source_url": "https://entropicthoughts.com/better-ai-comment-classifier",
+    "filename": "2026-09-10-rss-better-ai-code-comment-detector.json"
+  },
+  {
+    "id": "rss-20260910-004",
+    "title": "Serving LLMs on Tenstorrent Hardware: Inside the vLLM TT Plugin",
+    "source_url": "https://vllm.ai/blog/2026-09-07-vllm-tt-plugin",
+    "filename": "2026-09-10-rss-serving-llms-on-tenstorrent-hardware-inside-the-vl.json"
   }
 ]
