@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260911-001",
+  "title": "Models Don't Go Rogue",
+  "source": "rss",
+  "source_url": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
+  "collected_at": "2026-09-11T07:04:52Z",
+  "summary": "本文反驳 AI 模型会自主“叛变”的常见叙事，指出模型行为源于训练目标、数据与部署方式，而非自发意图。",
+  "analysis": {
+    "tech_highlights": [
+      "区分模型优化目标与真实意图，避免对 AI 的拟人化误读",
+      "将 AI 安全风险归因于训练数据、目标规范和部署设计，而非模型自主意识",
+      "批判“rogue AI”叙事对技术治理和公众讨论的误导"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章切入当前 AI 安全与对齐讨论的重要议题，观点清晰，但更偏观点评论而非技术实现或可操作方案。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-safety",
+    "machine-learning",
+    "model-alignment",
+    "ai-ethics",
+    "anthropomorphism"
+  ],
+  "status": "draft"
+}
