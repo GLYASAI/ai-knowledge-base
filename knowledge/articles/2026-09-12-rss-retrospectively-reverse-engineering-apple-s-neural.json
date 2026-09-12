@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260912-001",
+  "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+  "source": "rss",
+  "source_url": "https://eiln.github.io/posts/ane.html",
+  "collected_at": "2026-09-12T06:57:43Z",
+  "summary": "文章深入逆向 Apple Neural Engine 的硬件接口与固件，分析其寄存器布局、指令编码和内核驱动通信机制，并介绍了在 macOS/iOS 上直接调用 ANE 加速推理的可行路径。",
+  "analysis": {
+    "tech_highlights": [
+      "通过 macOS 私有框架与 IOKit 接口定位 ANE 设备并提取固件",
+      "逆向 ANE 固件中的 kernel 执行循环与 mailbox 协议",
+      "实现对 ANE 的用户态编程，不依赖 Core ML 运行自定义模型"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该文章覆盖了稀缺的 ANE 底层逆向细节，对硬件加速与系统安全方向有很高参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "reverse-engineering",
+    "apple-neural-engine",
+    "firmware",
+    "iokit",
+    "hardware-acceleration"
+  ],
+  "status": "draft"
+}

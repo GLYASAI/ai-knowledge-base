@@ -1288,5 +1288,11 @@
     "title": "Models Don't Go Rogue",
     "source_url": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
     "filename": "2026-09-11-rss-models-don-t-go-rogue.json"
+  },
+  {
+    "id": "rss-20260912-001",
+    "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+    "source_url": "https://eiln.github.io/posts/ane.html",
+    "filename": "2026-09-12-rss-retrospectively-reverse-engineering-apple-s-neural.json"
   }
 ]
