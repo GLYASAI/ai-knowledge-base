@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260913-001",
+  "title": "Everyone should slow down AI development except for me",
+  "source": "rss",
+  "source_url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+  "collected_at": "2026-09-13T07:15:40Z",
+  "summary": "本文以讽刺标题切入，批评 AI 领域“呼吁放缓但自身继续开发”的双重标准，讨论 AI governance 与行业竞争利益之间的冲突。",
+  "analysis": {
+    "tech_highlights": [
+      "AI governance 与产业竞争利益冲突分析",
+      "对 AI safety 呼吁中双重标准的批判",
+      "technology policy 中的 incentive alignment 问题"
+    ],
+    "relevance_score": 6,
+    "score_reason": "文章聚焦 AI 治理与行业伦理，对关注 AI 政策与安全的读者有参考价值，但缺少具体技术实现或可操作方案，因此相关性中等。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-safety",
+    "ai-governance",
+    "tech-policy",
+    "ai-ethics"
+  ],
+  "status": "draft"
+}

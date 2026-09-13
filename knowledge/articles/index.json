@@ -1294,5 +1294,17 @@
     "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
     "source_url": "https://eiln.github.io/posts/ane.html",
     "filename": "2026-09-12-rss-retrospectively-reverse-engineering-apple-s-neural.json"
+  },
+  {
+    "id": "rss-20260913-001",
+    "title": "Everyone should slow down AI development except for me",
+    "source_url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+    "filename": "2026-09-13-rss-everyone-should-slow-down-ai-development-except-fo.json"
+  },
+  {
+    "id": "rss-20260913-002",
+    "title": "We Must Pace the Frontier",
+    "source_url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+    "filename": "2026-09-13-rss-we-must-pace-the-frontier.json"
   }
 ]

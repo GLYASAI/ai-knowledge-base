@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260913-002",
+  "title": "We Must Pace the Frontier",
+  "source": "rss",
+  "source_url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+  "collected_at": "2026-09-13T07:15:40Z",
+  "summary": "Anthropic CEO Dario Amodei 发文呼吁对 frontier AI 的发展节奏进行主动控制，在持续提升模型能力的同时，通过 safety 与 governance 机制避免过快部署带来的极端风险。",
+  "analysis": {
+    "tech_highlights": [
+      "提出 frontier AI pacing 策略，平衡能力扩展与风险控制",
+      "强调 responsible scaling policy 在模型部署中的安全门槛作用",
+      "从行业与政策视角讨论 AI governance 和国家安全风险"
+    ],
+    "relevance_score": 8,
+    "score_reason": "来自 Anthropic CEO 的前沿 AI 安全与治理观点，对行业和政策制定有较高参考价值，但偏战略倡议而非具体技术实现。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "frontier-ai",
+    "ai-safety",
+    "ai-governance",
+    "responsible-scaling"
+  ],
+  "status": "draft"
+}
