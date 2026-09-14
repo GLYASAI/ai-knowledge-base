@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260914-001",
+  "title": "Fable 5.1 Solves the \"Cyphral Distich\" (370 year old cipher)",
+  "source": "rss",
+  "source_url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+  "collected_at": "2026-09-14T07:39:54Z",
+  "summary": "Vals.ai 的 Fable 5.1 模型成功破解了拥有 370 年历史的 Cyphral Distich 密文，展示了大语言模型在复杂历史密码分析中的推理能力。",
+  "analysis": {
+    "tech_highlights": [
+      "运用 Fable 5.1 对 370 年前的 Cyphral Distich 密文进行自动解码",
+      "展示 LLM 在低资源历史 cipher 上的 cryptanalysis 推理能力",
+      "将 AI 推理与传统密码学破译流程结合"
+    ],
+    "relevance_score": 7,
+    "score_reason": "该文章展示了 AI 在密码学破译中的新颖应用，技术趣味性强，但主题相对垂直，对通用技术受众的实用性有限。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai",
+    "llm",
+    "cryptography",
+    "historical-cipher",
+    "codebreaking"
+  ],
+  "status": "draft"
+}
