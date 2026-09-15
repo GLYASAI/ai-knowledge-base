@@ -1,0 +1,22 @@
+{
+  "total_cost": 0.005862,
+  "total_prompt_tokens": 2335,
+  "total_completion_tokens": 5571,
+  "total_calls": 4,
+  "budget": 1.0,
+  "usage_ratio": 0.0059,
+  "by_node": {
+    "analyze": {
+      "calls": 3,
+      "prompt_tokens": 1028,
+      "completion_tokens": 3598,
+      "cost": 0.003577
+    },
+    "review": {
+      "calls": 1,
+      "prompt_tokens": 1307,
+      "completion_tokens": 1973,
+      "cost": 0.002285
+    }
+  }
+}

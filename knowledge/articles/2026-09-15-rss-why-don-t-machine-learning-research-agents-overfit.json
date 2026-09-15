@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260915-003",
+  "title": "Why don’t machine learning research agents overfit?",
+  "source": "rss",
+  "source_url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+  "collected_at": "2026-09-15T07:20:52Z",
+  "summary": "本文探讨了机器学习研究智能体（research agents）在开放式研究任务中为何不易出现经典过拟合，重点分析动态任务生成与评估机制对泛化行为的影响。",
+  "analysis": {
+    "tech_highlights": [
+      "分析 research agents 在开放任务分布下的过拟合行为",
+      "讨论动态任务生成对 benchmark 评估偏差的影响",
+      "对比传统监督学习与 LLM-based research agents 的泛化差异"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章聚焦当前热门的 LLM-based research agents 与评估泛化问题，对相关方向的研究和工程实践有较高参考价值，但偏概念性、缺少实现细节。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "llm-agents",
+    "overfitting",
+    "benchmarking",
+    "research-agents",
+    "generalization"
+  ],
+  "status": "draft"
+}

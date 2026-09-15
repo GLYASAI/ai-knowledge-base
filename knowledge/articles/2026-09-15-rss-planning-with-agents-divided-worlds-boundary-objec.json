@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260915-001",
+  "title": "Planning with Agents: Divided Worlds, Boundary Objects, and Thicker Interfaces",
+  "source": "rss",
+  "source_url": "https://maggieappleton.com/planning-agents",
+  "collected_at": "2026-09-15T07:20:52Z",
+  "summary": "本文探讨如何利用 AI agents 辅助规划，通过 boundary objects 与 thicker interfaces 弥合人类与 agent 之间的认知鸿沟，强调协作式界面设计。",
+  "analysis": {
+    "tech_highlights": [
+      "引入 boundary objects 作为人类与 agent 在规划中共享和协商的中间构件",
+      "提出 thicker interfaces 概念，以更丰富的交互界面支持人机协作规划",
+      "讨论 agent-based planning workflows 中如何组织信息与任务上下文"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章从设计视角讨论 AI agents 与人类协作规划，概念性强，对交互设计和 agent 应用开发有启发，但缺少具体实现细节。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-agents",
+    "human-computer-interaction",
+    "planning",
+    "boundary-objects",
+    "interface-design"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260915-002",
+  "title": "A Letter from a Machine Learning Engineer",
+  "source": "rss",
+  "source_url": "https://nemin.hu/llm-letter/index.html",
+  "collected_at": "2026-09-15T07:20:52Z",
+  "summary": "一位机器学习工程师以公开信形式，结合一线工程经验，反思大型语言模型（LLM）在能力边界、部署成本与评估方式上的现实局限，呼吁业界更理性看待 AI 技术。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 Transformer 架构的 LLM 能力边界分析",
+      "模型推理成本与部署约束的工程化讨论",
+      "对 LLM 评估基准和实际表现差异的反思"
+    ],
+    "relevance_score": 7,
+    "score_reason": "从一线工程师视角切入 LLM 实际工程问题，具有行业参考价值，但缺少具体实现细节。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "machine-learning",
+    "llm",
+    "mlops",
+    "ai-engineering"
+  ],
+  "status": "draft"
+}

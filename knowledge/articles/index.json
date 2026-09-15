@@ -1312,5 +1312,23 @@
     "title": "Fable 5.1 Solves the \"Cyphral Distich\" (370 year old cipher)",
     "source_url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
     "filename": "2026-09-14-rss-fable-5-1-solves-the-cyphral-distich-370-year-old-.json"
+  },
+  {
+    "id": "rss-20260915-001",
+    "title": "Planning with Agents: Divided Worlds, Boundary Objects, and Thicker Interfaces",
+    "source_url": "https://maggieappleton.com/planning-agents",
+    "filename": "2026-09-15-rss-planning-with-agents-divided-worlds-boundary-objec.json"
+  },
+  {
+    "id": "rss-20260915-002",
+    "title": "A Letter from a Machine Learning Engineer",
+    "source_url": "https://nemin.hu/llm-letter/index.html",
+    "filename": "2026-09-15-rss-a-letter-from-a-machine-learning-engineer.json"
+  },
+  {
+    "id": "rss-20260915-003",
+    "title": "Why don’t machine learning research agents overfit?",
+    "source_url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+    "filename": "2026-09-15-rss-why-don-t-machine-learning-research-agents-overfit.json"
   }
 ]
