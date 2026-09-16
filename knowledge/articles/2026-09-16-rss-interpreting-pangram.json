@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260916-002",
+  "title": "Interpreting Pangram",
+  "source": "rss",
+  "source_url": "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/",
+  "collected_at": "2026-09-16T07:23:46Z",
+  "summary": "本文围绕“Interpreting Pangram”展开，探讨如何通过编程方式解析和解释 pangram（全字母句），并展示从 parsing 到 evaluation 的基础 interpreter 设计思路。",
+  "analysis": {
+    "tech_highlights": [
+      "设计与实现针对 Pangram 的 parsing/evaluation 流程",
+      "使用字符集合或位图（bitmap）高效处理全字母句判断",
+      "展示小规模 interpreter 的模块化与扩展思路"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章结合趣味语言现象与解释器实现，适合学习基础编程概念，但应用场景偏窄。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "pangram",
+    "interpreter",
+    "parsing",
+    "string-processing"
+  ],
+  "status": "draft"
+}

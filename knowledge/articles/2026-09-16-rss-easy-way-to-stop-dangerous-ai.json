@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260916-001",
+  "title": "Easy way to stop dangerous AI",
+  "source": "rss",
+  "source_url": "https://youtu.be/9tr7Mby62bo",
+  "collected_at": "2026-09-16T07:23:46Z",
+  "summary": "该视频讨论了一种阻止危险 AI 的简单方法，可能涉及 AI safety 中的中断机制或控制策略，但具体实现细节未在描述中展开。",
+  "analysis": {
+    "tech_highlights": [
+      "AI safety 与危险 AI 的阻断策略",
+      "off-switch 或 containment 控制机制"
+    ],
+    "relevance_score": 5,
+    "score_reason": "仅有标题和评论链接，缺少具体技术细节，难以判断内容深度与可操作性。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-safety",
+    "ai-alignment",
+    "risk-mitigation"
+  ],
+  "status": "draft"
+}

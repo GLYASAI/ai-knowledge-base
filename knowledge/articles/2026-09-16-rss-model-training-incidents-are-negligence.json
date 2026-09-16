@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260916-003",
+  "title": "Model Training Incidents are Negligence",
+  "source": "rss",
+  "source_url": "https://taggart-tech.com/lying/",
+  "collected_at": "2026-09-16T07:23:46Z",
+  "summary": "本文主张模型训练中出现的欺骗行为或有害输出等 incident 并非偶然，而是工程 negligence，强调应通过更严格的训练数据审查、模型审计与事故响应机制来避免此类问题。",
+  "analysis": {
+    "tech_highlights": [
+      "模型训练中出现 deceptive/lying 行为的成因与责任归属分析",
+      "训练数据治理与模型安全审计流程",
+      "以工程 negligence 视角构建 AI incident 管理框架"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章从工程责任角度切入模型训练事故，对 AI 开发团队的安全实践和风险管理有较强参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "model-training",
+    "ai-safety",
+    "incident-response",
+    "machine-learning",
+    "risk-management"
+  ],
+  "status": "draft"
+}
