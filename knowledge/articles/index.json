@@ -1354,5 +1354,11 @@
     "title": "openarm: A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments",
     "source_url": "https://github.com/enactic/OpenArm",
     "filename": "2026-09-16-rss-openarm-a-fully-open-source-humanoid-arm-for-physi.json"
+  },
+  {
+    "id": "rss-20260918-001",
+    "title": "Introducing System One Models &amp; Jev",
+    "source_url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+    "filename": "2026-09-18-rss-introducing-system-one-models-amp-jev.json"
   }
 ]

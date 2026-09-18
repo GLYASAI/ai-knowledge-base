@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260918-001",
+  "title": "Introducing System One Models &amp; Jev",
+  "source": "rss",
+  "source_url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+  "collected_at": "2026-09-18T07:09:58Z",
+  "summary": "本文介绍 TypeSafe.ai 推出的 System One Models 与 Jev，聚焦类型安全场景下的快速推理模型及配套工具，旨在简化 AI 应用集成和输出约束。",
+  "analysis": {
+    "tech_highlights": [
+      "System One Models：采用系统一风格快速推理，面向低延迟、直接响应的 LLM 应用场景",
+      "Jev：与 TypeSafe 平台配套的类型安全接口/工具，用于约束和校验模型输出",
+      "强调 type-safe LLM 集成，降低非结构化模型输出的集成复杂度"
+    ],
+    "relevance_score": 7,
+    "score_reason": "主题与 LLM 推理优化和类型安全开发工具相关，适合关注 AI 应用工程的开发者；但公开信息有限，具体实现细节尚不明确。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "system-one-models",
+    "jev",
+    "type-safe",
+    "llm-tools",
+    "developer-tools"
+  ],
+  "status": "draft"
+}
