@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260919-001",
+  "title": "The Age of Wonders and Terrors",
+  "source": "rss",
+  "source_url": "https://scottaaronson.blog/?p=10062",
+  "collected_at": "2026-09-19T07:07:02Z",
+  "summary": "Scott Aaronson 在本文中探讨了当前 AI 技术迅猛发展带来的“Wonders and Terrors”，结合 complexity theory 与 AI alignment 视角，分析 large language models 的惊人能力、潜在风险及可能的治理方向。",
+  "analysis": {
+    "tech_highlights": [
+      "以 complexity theory 视角分析 AI 系统能力边界与安全性",
+      "讨论 large language models 的 emergent capabilities 与 alignment tax",
+      "提出对 AI 未来社会影响与治理的框架性思考"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章对当前 AI 安全与能力爆发进行了深刻的技术性探讨，对关注 AI 趋势的开发者具有较高启发价值，但非具体工程实践。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-safety",
+    "large-language-models",
+    "alignment",
+    "complexity-theory",
+    "future-of-ai"
+  ],
+  "status": "draft"
+}
