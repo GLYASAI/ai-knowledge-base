@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260920-001",
+  "title": "Laya — 33ms Multilingual System 1 Decision Engine",
+  "source": "rss",
+  "source_url": "https://laya.convaiinnovations.com/",
+  "collected_at": "2026-09-20T07:33:20Z",
+  "summary": "Laya 是一个能在 33ms 内完成多语言快速决策的 System 1 决策引擎，借鉴快思考机制为实时应用提供低延迟响应。",
+  "analysis": {
+    "tech_highlights": [
+      "33ms 低延迟决策引擎",
+      "Multilingual 多语言支持",
+      "System 1 快速直觉式决策架构"
+    ],
+    "relevance_score": 7,
+    "score_reason": "该引擎涉及低延迟决策与多语言处理，对 AI 应用与实时系统有较高参考价值，但公开信息较少。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "decision-engine",
+    "multilingual",
+    "low-latency",
+    "system-1",
+    "real-time"
+  ],
+  "status": "draft"
+}

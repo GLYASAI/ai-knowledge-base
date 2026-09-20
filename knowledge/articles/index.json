@@ -1366,5 +1366,29 @@
     "title": "The Age of Wonders and Terrors",
     "source_url": "https://scottaaronson.blog/?p=10062",
     "filename": "2026-09-19-rss-the-age-of-wonders-and-terrors.json"
+  },
+  {
+    "id": "rss-20260920-001",
+    "title": "Laya — 33ms Multilingual System 1 Decision Engine",
+    "source_url": "https://laya.convaiinnovations.com/",
+    "filename": "2026-09-20-rss-laya-33ms-multilingual-system-1-decision-engine.json"
+  },
+  {
+    "id": "rss-20260920-002",
+    "title": "I Built Non-Autoregressive Decision Models a Year Ago. Then a Frontier Lab Called It a \"Breakthrough\"",
+    "source_url": "https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me",
+    "filename": "2026-09-20-rss-i-built-non-autoregressive-decision-models-a-year-.json"
+  },
+  {
+    "id": "rss-20260920-003",
+    "title": "kicking the tires on jev (TypeSafe's System One model) with 2048",
+    "source_url": "https://gist.github.com/cablehead/bdf9ad946ceb26d9008976e49c9bfbbb",
+    "filename": "2026-09-20-rss-kicking-the-tires-on-jev-typesafe-s-system-one-mod.json"
+  },
+  {
+    "id": "rss-20260920-004",
+    "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+    "source_url": "https://spectrum.ieee.org/llms-for-chip-design",
+    "filename": "2026-09-20-rss-how-openai-used-its-own-llms-to-design-its-jalape-.json"
   }
 ]

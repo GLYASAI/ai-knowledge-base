@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260920-002",
+  "title": "I Built Non-Autoregressive Decision Models a Year Ago. Then a Frontier Lab Called It a \"Breakthrough\"",
+  "source": "rss",
+  "source_url": "https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me",
+  "collected_at": "2026-09-20T07:33:20Z",
+  "summary": "作者回顾了自己一年前构建的 non-autoregressive decision models，并提到一家 frontier lab 后来将其称为“breakthrough”，分享这一技术路线的前瞻性与实践经验。",
+  "analysis": {
+    "tech_highlights": [
+      "Non-autoregressive decision models",
+      "Parallel decision generation without autoregressive decoding",
+      "Validated by a frontier lab as a breakthrough"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章涉及生成式决策模型的前沿方向，具有技术参考价值，但标题信息有限，具体实现与效果有待正文验证。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "non-autoregressive",
+    "decision-models",
+    "generative-ai",
+    "frontier-lab"
+  ],
+  "status": "draft"
+}

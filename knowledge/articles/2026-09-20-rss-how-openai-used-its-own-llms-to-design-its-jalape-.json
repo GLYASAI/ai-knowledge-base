@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260920-004",
+  "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+  "source": "rss",
+  "source_url": "https://spectrum.ieee.org/llms-for-chip-design",
+  "collected_at": "2026-09-20T07:33:20Z",
+  "summary": "OpenAI 利用自研 LLM 辅助设计代号为 Jalapeño 的芯片，覆盖 RTL 代码生成、验证与设计优化等环节，展示 LLM 在 ASIC 开发流程中的实际应用。",
+  "analysis": {
+    "tech_highlights": [
+      "使用 LLM 自动生成和优化 RTL/Verilog 硬件描述代码",
+      "将 LLM 集成到芯片验证与设计空间探索流程，加速迭代",
+      "验证自研模型在 ASIC 后端设计中的工程可行性"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该文章展示了 LLM 在芯片设计这一前沿硬件领域的实际落地，对关注 AI 工程化和跨领域应用的开发者有较高参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "llm",
+    "chip-design",
+    "verilog",
+    "ai-for-hardware",
+    "openai"
+  ],
+  "status": "draft"
+}

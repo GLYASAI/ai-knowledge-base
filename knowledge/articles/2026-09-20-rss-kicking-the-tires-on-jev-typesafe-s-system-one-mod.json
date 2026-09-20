@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260920-003",
+  "title": "kicking the tires on jev (TypeSafe's System One model) with 2048",
+  "source": "rss",
+  "source_url": "https://gist.github.com/cablehead/bdf9ad946ceb26d9008976e49c9bfbbb",
+  "collected_at": "2026-09-20T07:33:20Z",
+  "summary": "作者以经典 2048 游戏为任务，对 TypeSafe 的 System One 模型 Jev 进行实际测试，验证其代码生成与问题解决能力。",
+  "analysis": {
+    "tech_highlights": [
+      "用 2048 游戏作为评测场景，检验 Jev 模型的实际代码生成表现",
+      "涉及 TypeSafe System One 模型的动手实践与评估",
+      "通过 Gist 记录测试结果并关联 Lobsters 社区讨论"
+    ],
+    "relevance_score": 6,
+    "score_reason": "展示了新模型在具体游戏任务上的实操记录，但 Gist 本身信息有限，深度依赖社区讨论补充。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "jev",
+    "typesafe",
+    "system-one",
+    "2048",
+    "code-generation"
+  ],
+  "status": "draft"
+}
