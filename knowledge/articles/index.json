@@ -1390,5 +1390,11 @@
     "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
     "source_url": "https://spectrum.ieee.org/llms-for-chip-design",
     "filename": "2026-09-20-rss-how-openai-used-its-own-llms-to-design-its-jalape-.json"
+  },
+  {
+    "id": "rss-20260921-001",
+    "title": "A study of sequence weighting at scale",
+    "source_url": "https://blog.janestreet.com/a-study-of-sequence-weighting-at-scale/",
+    "filename": "2026-09-21-rss-a-study-of-sequence-weighting-at-scale.json"
   }
 ]

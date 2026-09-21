@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260921-001",
+  "title": "A study of sequence weighting at scale",
+  "source": "rss",
+  "source_url": "https://blog.janestreet.com/a-study-of-sequence-weighting-at-scale/",
+  "collected_at": "2026-09-21T07:44:00Z",
+  "summary": "本文研究在大规模序列建模中不同样本加权策略的效果，比较多种 weighting 方法在金融时间序列预测任务上的表现，并讨论可扩展实现与实际性能权衡。",
+  "analysis": {
+    "tech_highlights": [
+      "系统比较多种 sequence weighting 策略（如 time decay、exponential weighting）对时间序列模型的影响",
+      "面向大规模金融时间序列数据的可扩展加权实现与性能优化",
+      "分析非平稳数据下样本 weighting 对模型泛化能力的作用"
+    ],
+    "relevance_score": 8,
+    "score_reason": "涉及大规模时间序列建模与金融场景下的样本加权方法，对相关方向的技术人员有较高参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "sequence-weighting",
+    "time-series",
+    "machine-learning",
+    "quantitative-finance"
+  ],
+  "status": "draft"
+}
