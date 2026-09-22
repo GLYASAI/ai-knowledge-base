@@ -1396,5 +1396,23 @@
     "title": "A study of sequence weighting at scale",
     "source_url": "https://blog.janestreet.com/a-study-of-sequence-weighting-at-scale/",
     "filename": "2026-09-21-rss-a-study-of-sequence-weighting-at-scale.json"
+  },
+  {
+    "id": "rss-20260922-001",
+    "title": "LLMs Are Too Big. My Log Router Doesn't Need to Sing",
+    "source_url": "https://www.distributedthoughts.org/my-log-router-doesnt-need-to-sing/",
+    "filename": "2026-09-22-rss-llms-are-too-big-my-log-router-doesn-t-need-to-sin.json"
+  },
+  {
+    "id": "rss-20260922-002",
+    "title": "A Continual learning model trained from scratch on 8GB VRAM laptop with batch-1 stream of data",
+    "source_url": "https://github.com/volotat/mini-AGI/",
+    "filename": "2026-09-22-rss-a-continual-learning-model-trained-from-scratch-on.json"
+  },
+  {
+    "id": "rss-20260922-003",
+    "title": "ChatGPT now knows what you do on other websites via ad collector",
+    "source_url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+    "filename": "2026-09-22-rss-chatgpt-now-knows-what-you-do-on-other-websites-vi.json"
   }
 ]

@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260922-003",
+  "title": "ChatGPT now knows what you do on other websites via ad collector",
+  "source": "rss",
+  "source_url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+  "collected_at": "2026-09-22T07:27:08Z",
+  "summary": "本文揭示 ChatGPT 通过广告收集器（ad collector）获取用户在其他网站上的浏览行为，分析其跨站 tracking 机制及对隐私的影响。",
+  "analysis": {
+    "tech_highlights": [
+      "ChatGPT 整合 ad collector 实现跨站行为追踪",
+      "分析广告数据收集与用户隐私泄露风险",
+      "揭示 AI 助手背后的第三方广告 tracking 生态"
+    ],
+    "relevance_score": 8,
+    "score_reason": "与 ChatGPT 数据收集和用户隐私直接相关，对关注 AI 安全和广告追踪的开发者有较高参考价值，但偏向新闻披露而非深度技术分析。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "chatgpt",
+    "privacy",
+    "ad-tracking",
+    "cross-site-tracking",
+    "data-collection"
+  ],
+  "status": "draft"
+}

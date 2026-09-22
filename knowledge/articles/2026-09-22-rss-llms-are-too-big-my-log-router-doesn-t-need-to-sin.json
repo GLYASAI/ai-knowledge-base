@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260922-001",
+  "title": "LLMs Are Too Big. My Log Router Doesn't Need to Sing",
+  "source": "rss",
+  "source_url": "https://www.distributedthoughts.org/my-log-router-doesnt-need-to-sing/",
+  "collected_at": "2026-09-22T07:27:08Z",
+  "summary": "文章指出在日志路由这类确定性任务中不应滥用 LLM，强调选择与任务规模匹配的传统工具，以降低延迟、成本和复杂度。",
+  "analysis": {
+    "tech_highlights": [
+      "对比 LLM 与规则引擎在日志路由中的适用性，指出 LLM 带来不必要的 token 成本和推理延迟",
+      "强调在基础设施组件中保持确定性、可观测性和低资源占用的工程原则",
+      "反思当前过度使用大模型解决简单问题的反模式"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章对 LLM 过度应用提出务实反思，观点明确，但内容偏工程判断，技术深度有限。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "llm",
+    "log-routing",
+    "system-design",
+    "engineering-practices",
+    "cost-optimization"
+  ],
+  "status": "draft"
+}
