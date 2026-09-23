@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260923-001",
+  "title": "DeepSeek Elastic Compute (DSec): Sandbox Infrastructure for Effective Agentic Training at Scale",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2609.22978",
+  "collected_at": "2026-09-23T07:28:34Z",
+  "summary": "DeepSeek 提出 DSec 弹性计算沙箱基础设施，通过隔离执行环境与弹性资源调度，为大规模 agentic training 提供安全高效的训练支撑。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 sandbox 的隔离执行环境，降低 agentic training 中的安全风险",
+      "elastic compute 动态资源调度，适配大规模训练负载波动",
+      "面向 agentic training 的规模化基础设施设计，提升训练效率与稳定性"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该工作聚焦 agentic training 的沙箱与弹性计算基础设施，对 AI infra 和 LLM agent 训练有较高参考价值，但预印本细节有限。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "sandboxing",
+    "elastic-compute",
+    "agentic-training",
+    "deepseek",
+    "infrastructure"
+  ],
+  "status": "draft"
+}
