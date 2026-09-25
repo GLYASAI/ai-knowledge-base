@@ -1420,5 +1420,23 @@
     "title": "DeepSeek Elastic Compute (DSec): Sandbox Infrastructure for Effective Agentic Training at Scale",
     "source_url": "https://arxiv.org/abs/2609.22978",
     "filename": "2026-09-23-rss-deepseek-elastic-compute-dsec-sandbox-infrastructu.json"
+  },
+  {
+    "id": "rss-20260925-001",
+    "title": "The turbulent AI era is here. The choices we make now are critical",
+    "source_url": "https://www.gatesnotes.com/home/home-page-topic/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+    "filename": "2026-09-25-rss-the-turbulent-ai-era-is-here-the-choices-we-make-n.json"
+  },
+  {
+    "id": "rss-20260925-002",
+    "title": "Goodbye Google",
+    "source_url": "https://robert.ocallahan.org/2026/09/goodbye-google.html",
+    "filename": "2026-09-25-rss-goodbye-google.json"
+  },
+  {
+    "id": "rss-20260925-003",
+    "title": "Combining Machine Learning and Homomorphic Encryption in the Apple Ecosystem",
+    "source_url": "https://machinelearning.apple.com/research/homomorphic-encryption",
+    "filename": "2026-09-25-rss-combining-machine-learning-and-homomorphic-encrypt.json"
   }
 ]

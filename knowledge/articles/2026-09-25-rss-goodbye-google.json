@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260925-002",
+  "title": "Goodbye Google",
+  "source": "rss",
+  "source_url": "https://robert.ocallahan.org/2026/09/goodbye-google.html",
+  "collected_at": "2026-09-25T07:16:30Z",
+  "summary": "曾开发 rr debugger 的 Robert O'Callahan 在博客中回顾与 Google 的技术生态交集，解释离开原因，并讨论向 privacy-friendly 与 self-hosted 方案迁移的取舍。",
+  "analysis": {
+    "tech_highlights": [
+      "从系统工程师视角评估 Google 服务替代方案在可维护性与 privacy 上的 trade-offs",
+      "涉及 de-Googling 的关键路径：search、email、browser 与 self-hosted 基础设施",
+      "对 big tech 封闭生态与 open-source 社区协作文化的比较反思"
+    ],
+    "relevance_score": 6,
+    "score_reason": "文章偏向个人经验与行业观察，对关注隐私、开源替代和工程师职业选择的读者有启发，但技术实现细节有限。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "de-googling",
+    "privacy",
+    "open-source",
+    "self-hosting",
+    "tech-culture"
+  ],
+  "status": "draft"
+}

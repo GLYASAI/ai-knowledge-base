@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260925-001",
+  "title": "The turbulent AI era is here. The choices we make now are critical",
+  "source": "rss",
+  "source_url": "https://www.gatesnotes.com/home/home-page-topic/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+  "collected_at": "2026-09-25T07:16:30Z",
+  "summary": "文章探讨 AI 时代的剧烈变革，强调当前在 AI governance、伦理与社会影响方面的关键选择将决定未来发展方向。",
+  "analysis": {
+    "tech_highlights": [
+      "AI governance 与政策选择",
+      "AI 对社会和经济的变革性影响",
+      "负责任的 AI 发展路径"
+    ],
+    "relevance_score": 6,
+    "score_reason": "文章从宏观视角讨论 AI 治理与影响，对技术从业者有参考意义，但缺乏具体技术实现细节。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai",
+    "ai-governance",
+    "ai-ethics",
+    "technology-policy",
+    "future-of-ai"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260925-003",
+  "title": "Combining Machine Learning and Homomorphic Encryption in the Apple Ecosystem",
+  "source": "rss",
+  "source_url": "https://machinelearning.apple.com/research/homomorphic-encryption",
+  "collected_at": "2026-09-25T07:16:30Z",
+  "summary": "Apple 介绍了将 machine learning 与 homomorphic encryption 结合的系统，可在服务器端对加密输入执行 neural network inference，从而在不暴露用户明文数据的前提下提供智能服务。",
+  "analysis": {
+    "tech_highlights": [
+      "在 encrypted domain 中运行 neural network inference，服务端无法访问明文用户输入",
+      "针对 homomorphic encryption 的计算约束进行模型压缩、量化与多项式激活近似",
+      "提供从 research 到 Apple 生态 production 部署的端到端隐私保护推理方案"
+    ],
+    "relevance_score": 9,
+    "score_reason": "该工作来自 Apple 并覆盖隐私保护机器学习的算法优化到工程落地难点，具有较高的研究和工程参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "homomorphic-encryption",
+    "privacy-preserving-ml",
+    "secure-inference",
+    "machine-learning",
+    "apple"
+  ],
+  "status": "draft"
+}
