@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260927-001",
+  "title": "Robot-use agents",
+  "source": "rss",
+  "source_url": "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html",
+  "collected_at": "2026-09-27T07:44:06Z",
+  "summary": "本文提出 robot-use agents 的概念，将 foundation models 的 agent 能力从 computer use 扩展到物理机器人操作，探讨通过通用接口让模型直接控制机器人完成真实世界任务的可能性与挑战。",
+  "analysis": {
+    "tech_highlights": [
+      "提出 robot-use agents 作为 computer-use agents 的 embodied 扩展",
+      "讨论 foundation model 与 low-level robot control 之间的接口抽象",
+      "分析从 simulation 到 real-world deployment 的泛化与安全约束"
+    ],
+    "relevance_score": 8,
+    "score_reason": "主题聚焦 embodied AI 与 agent 技术结合的前沿方向，具有概念启发性，但文章偏观点讨论，缺少具体实现与实验数据。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "robot-use-agents",
+    "embodied-ai",
+    "vision-language-models",
+    "ai-agents",
+    "robotics"
+  ],
+  "status": "draft"
+}

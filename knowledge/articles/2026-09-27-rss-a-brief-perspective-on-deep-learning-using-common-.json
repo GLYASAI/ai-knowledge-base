@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260927-004",
+  "title": "A Brief Perspective on Deep Learning Using Common Lisp",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=Yo4eqoRC1o0",
+  "collected_at": "2026-09-27T07:44:06Z",
+  "summary": "该视频简要探讨了使用 Common Lisp 进行 Deep Learning 的视角，分析其交互式开发、宏编程等特性在构建神经网络实验时的优势与生态限制。",
+  "analysis": {
+    "tech_highlights": [
+      "Common Lisp 的交互式开发与宏系统在深度学习实验中的应用",
+      "探讨 Lisp 语言生态与主流 Python 深度学习框架的差异",
+      "动态语言特性与性能权衡在神经网络训练中的体现"
+    ],
+    "relevance_score": 7,
+    "score_reason": "内容聚焦于 Common Lisp 与 Deep Learning 的交叉话题，对探索替代技术栈的开发者有参考价值，但缺乏具体实现细节且受众较窄。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "common-lisp",
+    "deep-learning",
+    "neural-networks",
+    "lisp",
+    "programming-languages"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260927-003",
+  "title": "Turn GLM-5.3-Flash into a Jev-like System One model",
+  "source": "rss",
+  "source_url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+  "collected_at": "2026-09-27T07:44:06Z",
+  "summary": "本文介绍如何将 GLM-5.3-Flash 模型改造成类似 Jev 的 System One 快速直觉式推理模型，重点是通过行为约束和 prompt 设计降低响应延迟并保持轻量部署。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 GLM-5.3-Flash 的 System One 行为塑造",
+      "Jev-like 低延迟响应风格模拟",
+      "无需重型微调的 prompt 层改造"
+    ],
+    "relevance_score": 7,
+    "score_reason": "内容涉及 LLM 行为调整和快速推理优化，具有实用参考价值，但缺少具体实现细节和验证结果。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "llm",
+    "system-one",
+    "glm",
+    "prompt-engineering",
+    "fast-inference"
+  ],
+  "status": "draft"
+}

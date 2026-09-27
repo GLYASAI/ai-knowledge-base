@@ -1438,5 +1438,35 @@
     "title": "Combining Machine Learning and Homomorphic Encryption in the Apple Ecosystem",
     "source_url": "https://machinelearning.apple.com/research/homomorphic-encryption",
     "filename": "2026-09-25-rss-combining-machine-learning-and-homomorphic-encrypt.json"
+  },
+  {
+    "id": "rss-20260927-001",
+    "title": "Robot-use agents",
+    "source_url": "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html",
+    "filename": "2026-09-27-rss-robot-use-agents.json"
+  },
+  {
+    "id": "rss-20260927-002",
+    "title": "One month without AI",
+    "source_url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+    "filename": "2026-09-27-rss-one-month-without-ai.json"
+  },
+  {
+    "id": "rss-20260927-003",
+    "title": "Turn GLM-5.3-Flash into a Jev-like System One model",
+    "source_url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+    "filename": "2026-09-27-rss-turn-glm-5-3-flash-into-a-jev-like-system-one-mode.json"
+  },
+  {
+    "id": "rss-20260927-004",
+    "title": "A Brief Perspective on Deep Learning Using Common Lisp",
+    "source_url": "https://www.youtube.com/watch?v=Yo4eqoRC1o0",
+    "filename": "2026-09-27-rss-a-brief-perspective-on-deep-learning-using-common-.json"
+  },
+  {
+    "id": "rss-20260927-005",
+    "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+    "source_url": "https://swarmtraces.org/",
+    "filename": "2026-09-27-rss-revealing-the-details-of-how-openai-agents-hacked-.json"
   }
 ]

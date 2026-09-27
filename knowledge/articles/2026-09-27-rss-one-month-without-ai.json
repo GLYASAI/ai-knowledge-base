@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260927-002",
+  "title": "One month without AI",
+  "source": "rss",
+  "source_url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+  "collected_at": "2026-09-27T07:44:06Z",
+  "summary": "作者通过为期一个月的禁用 AI 实验，记录在软件开发与日常技术工作中的体验，反思 AI 工具对效率、学习与工作流的影响。",
+  "analysis": {
+    "tech_highlights": [
+      "通过为期一个月的禁用 AI 实验，对比日常开发任务中 AI 辅助与无 AI 的效率及问题解决路径",
+      "探讨替代 AI 的传统工作流，如搜索引擎、官方文档与社区协作",
+      "反思 AI 依赖对学习深度、调试能力与技能保持的长期影响"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章从真实使用体验出发，反思 AI 对开发者工作流的影响，对关注 AI 工具合理使用的开发者有参考价值，但技术分析深度有限。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai",
+    "productivity",
+    "developer-workflow",
+    "digital-detox"
+  ],
+  "status": "draft"
+}
