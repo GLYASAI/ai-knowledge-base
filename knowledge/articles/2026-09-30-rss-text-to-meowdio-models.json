@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260930-001",
+  "title": "Text-to-meowdio models",
+  "source": "rss",
+  "source_url": "https://www.kmjn.org/notes/text_to_meowdio_models.html",
+  "collected_at": "2026-09-30T08:08:54Z",
+  "summary": "本文介绍了 Text-to-meowdio 模型，探索将文本输入映射为猫叫声（meow audio）的生成方法，涉及音频 tokenization 与序列到序列建模，属于非语音音频生成的有趣应用。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 sequence-to-sequence 的 text-to-audio 生成",
+      "猫叫声数据集的采集与 audio tokenization",
+      "非语音音频生成在交互式应用中的探索"
+    ],
+    "relevance_score": 7,
+    "score_reason": "该文章探索了跨模态音频生成在特定领域的应用，对生成模型研究有一定参考价值，但主题相对小众。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "text-to-audio",
+    "generative-models",
+    "audio-tokenization",
+    "sequence-to-sequence"
+  ],
+  "status": "draft"
+}

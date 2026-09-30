@@ -1468,5 +1468,11 @@
     "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
     "source_url": "https://swarmtraces.org/",
     "filename": "2026-09-27-rss-revealing-the-details-of-how-openai-agents-hacked-.json"
+  },
+  {
+    "id": "rss-20260930-001",
+    "title": "Text-to-meowdio models",
+    "source_url": "https://www.kmjn.org/notes/text_to_meowdio_models.html",
+    "filename": "2026-09-30-rss-text-to-meowdio-models.json"
   }
 ]
