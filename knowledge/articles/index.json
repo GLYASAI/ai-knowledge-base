@@ -1474,5 +1474,11 @@
     "title": "Text-to-meowdio models",
     "source_url": "https://www.kmjn.org/notes/text_to_meowdio_models.html",
     "filename": "2026-09-30-rss-text-to-meowdio-models.json"
+  },
+  {
+    "id": "rss-20261001-001",
+    "title": "Typeclasses vs Modules",
+    "source_url": "https://sm2n.ca/articles/typeclasses-vs-modules/",
+    "filename": "2026-10-01-rss-typeclasses-vs-modules.json"
   }
 ]

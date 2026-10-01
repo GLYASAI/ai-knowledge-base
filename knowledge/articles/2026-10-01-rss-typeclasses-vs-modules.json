@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261001-001",
+  "title": "Typeclasses vs Modules",
+  "source": "rss",
+  "source_url": "https://sm2n.ca/articles/typeclasses-vs-modules/",
+  "collected_at": "2026-10-01T08:26:30Z",
+  "summary": "本文比较了函数式编程中 typeclasses 与 modules 两种抽象机制，分析它们在 ad-hoc polymorphism、模块化和扩展性方面的差异与适用场景。",
+  "analysis": {
+    "tech_highlights": [
+      "对比 typeclasses 的隐式 instance resolution 与 modules 的显式 functor 组合",
+      "讨论二者在 retroactive extension 和 separate compilation 上的权衡",
+      "结合 Haskell 与 OCaml 实例说明不同抽象机制的适用场景"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章针对函数式编程中两种核心抽象机制进行对比，对理解类型系统与模块化设计有较高参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "typeclasses",
+    "modules",
+    "functional-programming",
+    "haskell",
+    "ocaml"
+  ],
+  "status": "draft"
+}
