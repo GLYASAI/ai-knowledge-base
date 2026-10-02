@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261002-001",
+  "title": "Lists that keep track of their reversal",
+  "source": "rss",
+  "source_url": "https://grim.cargocut.org/a/rev-list.html",
+  "collected_at": "2026-10-02T08:02:34Z",
+  "summary": "本文介绍一种“记住自身反转状态”的列表数据结构，通过同时维护正向和反向视图或惰性计算反转，避免重复 O(n) 反转，支持不可变场景下的高效两端操作。",
+  "analysis": {
+    "tech_highlights": [
+      "利用惰性求值或缓存反转结果，使 reverse 操作降至 O(1) 或接近常数时间",
+      "通过 front/back 双列表表示支持两端插入和删除，并保持反转状态一致",
+      "在函数式不可变数据结构中引入均摊分析证明操作复杂度"
+    ],
+    "relevance_score": 7,
+    "score_reason": "主题围绕函数式数据结构中的反转优化，内容有教学和实现参考价值，但应用场景相对小众。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "reversible-list",
+    "data-structures",
+    "functional-programming",
+    "lazy-evaluation",
+    "amortized-analysis"
+  ],
+  "status": "draft"
+}
