@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261003-001",
+  "title": "AI ‘godfather’ Yann LeCun has ‘zero concerns’ about human extinction, says Anthropic CEO Dario Amodei is ‘deluded’",
+  "source": "rss",
+  "source_url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+  "collected_at": "2026-10-03T07:43:32Z",
+  "summary": "Yann LeCun 驳斥 AI 导致人类灭绝的担忧，并批评 Anthropic CEO Dario Amodei 的警示性观点，引发 AI safety 与 existential risk 的争论。",
+  "analysis": {
+    "tech_highlights": [
+      "Yann LeCun 公开否定 AI 存在风险，称对 human extinction 的担忧为零",
+      "与 Anthropic CEO Dario Amodei 在 AI safety 和 AGI 风险上的立场冲突",
+      "反映 AI 业界关于 existential risk 与 AI alignment 的持续辩论"
+    ],
+    "relevance_score": 6,
+    "score_reason": "涉及 AI 安全与行业领袖观点分歧，但缺乏具体技术实现或工程细节，参考价值中等。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-safety",
+    "existential-risk",
+    "agi",
+    "yann-lecun",
+    "ai-policy"
+  ],
+  "status": "draft"
+}
