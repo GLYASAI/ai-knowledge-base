@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261005-001",
+  "title": "RIP, vector database",
+  "source": "rss",
+  "source_url": "https://turbopuffer.com/blog/rip-vector-database",
+  "collected_at": "2026-10-05T08:31:54Z",
+  "summary": "本文宣称传统专用向量数据库已经过时，认为通用数据库与对象存储等方案已能高效支撑 embedding 检索，专用 vector database 不再是必需选择。",
+  "analysis": {
+    "tech_highlights": [
+      "论述专用 vector database 正被 Postgres/pgvector、SQLite-vec、DuckDB 等通用数据库的向量检索能力取代",
+      "强调基于 object storage 的 serverless 架构在大规模向量检索中具有更低成本和更高弹性",
+      "对比专用向量数据库与通用混合方案在扩展性、运维复杂度和生态集成上的差异"
+    ],
+    "relevance_score": 9,
+    "score_reason": "文章讨论了向量数据库的技术趋势和替代架构，对 AI 应用开发者在向量检索方案选型上具有较高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "vector-database",
+    "pgvector",
+    "embeddings",
+    "serverless",
+    "object-storage"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "github-20261005-001",
+  "title": "Panniantong/Agent-Reach",
+  "source": "github",
+  "source_url": "https://github.com/Panniantong/Agent-Reach",
+  "collected_at": "2026-10-05T08:31:54Z",
+  "summary": "Agent-Reach 是一个零 API 费用的多平台搜索与抓取 CLI，让 AI agent 能读取并搜索 Twitter、Reddit、YouTube、GitHub、Bilibili 和小红书等内容。",
+  "analysis": {
+    "tech_highlights": [
+      "零 API 费用抓取和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、XiaoHongShu 等多个平台",
+      "统一 CLI 接口，方便集成到 Claude Code、Cursor 等 AI agent 工作流",
+      "支持 MCP 协议，可作为 agent infrastructure 提供联网视觉与搜索能力"
+    ],
+    "relevance_score": 9,
+    "score_reason": "覆盖主流社交与内容平台且无需 API 费用，对构建 AI agent 信息获取层非常实用。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "agent-infrastructure",
+    "ai-agent",
+    "web-scraper",
+    "mcp",
+    "cli"
+  ],
+  "status": "draft"
+}
