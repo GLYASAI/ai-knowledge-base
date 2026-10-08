@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261008-002",
+  "title": "Best Books/Courses/Channels to Leapfrog on AI/ML Material",
+  "source": "rss",
+  "source_url": "https://lobste.rs/s/xff77a/best_books_courses_channels_leapfrog_on",
+  "collected_at": "2026-10-08T08:32:32Z",
+  "summary": "该 Lobsters 讨论汇集了面向 2018 年后学习者的 AI/ML 书籍、MOOC 与 YouTube 资源，旨在构建类似 TeachYourselfCS 的路线图以快速掌握 Transformer、LLM 等进展。",
+  "analysis": {
+    "tech_highlights": [
+      "类似 TeachYourselfCS 的结构化 AI/ML 学习路线图，聚合书籍、MOOC 与 YouTube 频道",
+      "覆盖 2018 年后的关键技术进展，包括 Transformer、LLM、Diffusion 模型",
+      "讨论如何针对 AI/ML 快速迭代调整学习方法与资源选择策略"
+    ],
+    "relevance_score": 7,
+    "score_reason": "作为资源聚合讨论，对需要快速补齐现代 AI/ML 知识的学习者有实用价值，但缺少系统性技术讲解。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai",
+    "ml",
+    "learning-resources",
+    "llm",
+    "roadmap"
+  ],
+  "status": "draft"
+}

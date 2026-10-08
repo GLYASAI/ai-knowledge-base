@@ -1504,5 +1504,23 @@
     "title": "RIP, vector database",
     "source_url": "https://turbopuffer.com/blog/rip-vector-database",
     "filename": "2026-10-05-rss-rip-vector-database.json"
+  },
+  {
+    "id": "rss-20261008-001",
+    "title": "Clojure in the Age of Language Models",
+    "source_url": "https://yogthos.net/posts/2026-10-07-clojure-llms.html",
+    "filename": "2026-10-08-rss-clojure-in-the-age-of-language-models.json"
+  },
+  {
+    "id": "rss-20261008-002",
+    "title": "Best Books/Courses/Channels to Leapfrog on AI/ML Material",
+    "source_url": "https://lobste.rs/s/xff77a/best_books_courses_channels_leapfrog_on",
+    "filename": "2026-10-08-rss-ml-material.json"
+  },
+  {
+    "id": "rss-20261008-003",
+    "title": "Burn 0.22.0: Faster Builds, Easier Extensions, and Smarter Autotuning",
+    "source_url": "https://tracel.ai/blog/release-0.22.0/",
+    "filename": "2026-10-08-rss-burn-0-22-0-faster-builds-easier-extensions-and-sm.json"
   }
 ]

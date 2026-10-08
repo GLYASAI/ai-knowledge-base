@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261008-003",
+  "title": "Burn 0.22.0: Faster Builds, Easier Extensions, and Smarter Autotuning",
+  "source": "rss",
+  "source_url": "https://tracel.ai/blog/release-0.22.0/",
+  "collected_at": "2026-10-08T08:32:32Z",
+  "summary": "Burn 0.22.0 发布，重点优化了 build 时间、简化 extension 开发流程，并引入更智能的 autotuning 机制，提升 Rust 深度学习框架的性能与开发体验。",
+  "analysis": {
+    "tech_highlights": [
+      "Faster builds via refined crate feature gating and compilation pipeline",
+      "Easier custom backend/operator extension APIs",
+      "Smarter autotuning for kernel selection and execution"
+    ],
+    "relevance_score": 7,
+    "score_reason": "内容聚焦 Rust 深度学习框架的构建、扩展与自动调优改进，对相关开发者实用，但受众相对垂直。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "rust",
+    "deep-learning",
+    "burn",
+    "autotuning",
+    "build-optimization"
+  ],
+  "status": "draft"
+}

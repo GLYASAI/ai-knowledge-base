@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261008-001",
+  "title": "Clojure in the Age of Language Models",
+  "source": "rss",
+  "source_url": "https://yogthos.net/posts/2026-10-07-clojure-llms.html",
+  "collected_at": "2026-10-08T08:32:32Z",
+  "summary": "本文探讨语言模型时代 Clojure 的定位，分析其代码即数据、简洁语法和 REPL 工作流如何与 LLM 辅助开发协同。",
+  "analysis": {
+    "tech_highlights": [
+      "Clojure 的 homoiconicity 使 LLM 生成的代码更易于解析和结构化处理",
+      "REPL 驱动的快速反馈循环与 LLM 迭代式编程模式高度契合",
+      "较小的语法面有助于降低 token 消耗和生成歧义"
+    ],
+    "relevance_score": 7,
+    "score_reason": "将 Clojure 语言特性与 LLM 辅助编程结合，视角有启发性，但主题偏向 Clojure 生态，通用 AI 开发相关性中等。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "clojure",
+    "language-models",
+    "ai-assisted-coding",
+    "repl-driven-development",
+    "code-as-data"
+  ],
+  "status": "draft"
+}
