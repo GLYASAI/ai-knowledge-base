@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261009-001",
+  "title": "Whistle: Speech to Text in 16.9 MB",
+  "source": "rss",
+  "source_url": "https://cactuscompute.com/blog/whistle",
+  "collected_at": "2026-10-09T08:36:01Z",
+  "summary": "Whistle 是一个仅 16.9 MB 的 speech-to-text 解决方案，支持 on-device 离线推理，适合 edge 场景。原文未披露具体模型架构与压缩方法，体积优势可能来自 model compression 或 quantization，但需进一步验证。",
+  "analysis": {
+    "tech_highlights": [
+      "模型体积仅 16.9 MB，与主流端侧 ASR 方案相比在 storage footprint 上具有显著优势，适合 resource-constrained devices",
+      "支持 on-device offline inference，降低 cloud dependency，提升 privacy 与可用性",
+      "原文未披露具体模型架构或精度指标，因此 compression ratio 和 accuracy impact 无法评估；建议关注后续 benchmark"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该主题涉及端侧 ASR 与 model compression，对 edge AI 部署有参考价值；潜在应用包括 offline voice assistants、accessibility tools、industrial HMI 等，但原文信息有限，需进一步验证实际效果。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "speech-to-text",
+    "model-compression",
+    "on-device-ai",
+    "edge-ai",
+    "quantization"
+  ],
+  "status": "draft"
+}
