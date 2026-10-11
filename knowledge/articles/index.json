@@ -1528,5 +1528,17 @@
     "title": "Whistle: Speech to Text in 16.9 MB",
     "source_url": "https://cactuscompute.com/blog/whistle",
     "filename": "2026-10-09-rss-whistle-speech-to-text-in-16-9-mb.json"
+  },
+  {
+    "id": "rss-20261011-001",
+    "title": "Consistency is not a localized property",
+    "source_url": "https://n-the-loop.com/blog/consistency-is-not-a-localized-property/",
+    "filename": "2026-10-11-rss-consistency-is-not-a-localized-property.json"
+  },
+  {
+    "id": "rss-20261011-002",
+    "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
+    "source_url": "https://arxiv.org/html/2610.05978v1",
+    "filename": "2026-10-11-rss-byte-language-models-scaling-emergent-abstractions.json"
   }
 ]

@@ -1,0 +1,25 @@
+{
+  "id": "rss-20261011-001",
+  "title": "Consistency is not a localized property",
+  "source": "rss",
+  "source_url": "https://n-the-loop.com/blog/consistency-is-not-a-localized-property/",
+  "collected_at": "2026-10-11T08:23:49Z",
+  "summary": "本文探讨了分布式系统中 consistency 并非 localized property，说明无法仅通过局部观察或单个组件行为判断全局一致性，并讨论其对验证与设计的启示。",
+  "analysis": {
+    "tech_highlights": [
+      "论证 consistency 是一种全局性质，无法由局部行为还原或验证",
+      "通过反例展示满足局部约束的组件组合后仍可能出现全局不一致",
+      "讨论这一性质对形式化验证和分布式系统设计的影响"
+    ],
+    "relevance_score": 7,
+    "score_reason": "内容涉及分布式一致性的基础理论，对理解一致性验证的局限性有较高参考价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "consistency",
+    "distributed-systems",
+    "formal-verification",
+    "concurrency"
+  ],
+  "status": "draft"
+}

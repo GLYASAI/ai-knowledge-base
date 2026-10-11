@@ -1,0 +1,25 @@
+{
+  "id": "rss-20261011-002",
+  "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
+  "source": "rss",
+  "source_url": "https://arxiv.org/html/2610.05978v1",
+  "collected_at": "2026-10-11T08:23:49Z",
+  "summary": "该论文证明标准 flat Transformer 无需显式 tokenizer 即可直接处理原始 byte 序列，并在参数规模扩展时超越传统 subword 模型，挑战了 tokenizer 必要性的假设。",
+  "analysis": {
+    "tech_highlights": [
+      "Byte-level language modeling without explicit tokenization",
+      "Scaling advantage over subword models at larger parameter scales",
+      "Emergent abstractions and information allocation in raw byte sequences"
+    ],
+    "relevance_score": 9,
+    "score_reason": "直接挑战主流 tokenization 范式，对 LLM 架构设计和 scaling 研究具有重要影响。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "byte-level-language-model",
+    "transformer",
+    "tokenization",
+    "scaling-laws"
+  ],
+  "status": "draft"
+}
