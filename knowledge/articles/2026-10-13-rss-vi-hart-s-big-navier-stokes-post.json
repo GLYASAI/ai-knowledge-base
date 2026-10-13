@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261013-001",
+  "title": "Vi Hart's Big Navier-Stokes Post",
+  "source": "rss",
+  "source_url": "https://www.patreon.com/vihart/posts/vi-harts-big-171939430",
+  "collected_at": "2026-10-13T09:04:02Z",
+  "summary": "Vi Hart 在这篇长文中以直观和可视化的方式解析 Navier-Stokes 方程，并探讨其作为 Millennium Prize 难题的存在性与光滑性等核心数学挑战。",
+  "analysis": {
+    "tech_highlights": [
+      "以直觉和可视化方式解释 Navier-Stokes 方程的数学结构与物理意义",
+      "聚焦 Millennium Prize 中关于 Navier-Stokes 存在性与光滑性的开放问题",
+      "将偏微分方程理论与通俗数学叙事结合，降低理解门槛"
+    ],
+    "relevance_score": 8,
+    "score_reason": "对 Navier-Stokes 这一核心 PDE 难题进行了深入且可读的解析，对数学与计算流体方向读者有较高参考价值，但内容偏理论科普而非工程实现。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "navier-stokes",
+    "fluid-dynamics",
+    "millennium-prize",
+    "partial-differential-equations",
+    "math-explainer"
+  ],
+  "status": "draft"
+}
