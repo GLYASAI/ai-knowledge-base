@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261014-001",
+  "title": "Running RAG with a (small) language model in the browser",
+  "source": "rss",
+  "source_url": "https://bart.degoe.de/rag-with-a-small-language-model-in-the-browser/",
+  "collected_at": "2026-10-14T07:13:01Z",
+  "summary": "本文演示如何在浏览器中利用小型语言模型实现 RAG，通过本地推理与向量检索完成问答，无需后端服务，兼顾隐私与低延迟。",
+  "analysis": {
+    "tech_highlights": [
+      "浏览器端运行小型 LLM 推理",
+      "纯客户端 RAG 流程（embedding + vector search）",
+      "离线与隐私友好的部署方式"
+    ],
+    "relevance_score": 7,
+    "score_reason": "浏览器端 RAG 是较前沿且实用的技术实践，但设备性能和模型规模限制使其应用场景相对小众。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "retrieval-augmented-generation",
+    "browser",
+    "local-llm",
+    "webassembly",
+    "edge-ai"
+  ],
+  "status": "draft"
+}
