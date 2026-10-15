@@ -1,0 +1,25 @@
+{
+  "id": "rss-20261015-001",
+  "title": "OpenFatigue™ — Open is the new closed",
+  "source": "rss",
+  "source_url": "https://openfatigue.ai/",
+  "collected_at": "2026-10-15T07:06:44Z",
+  "summary": "OpenFatigue 是一个批评 AI 领域伪开放现象的项目，标题暗示开放正成为新的封闭，聚焦 open-washing 与 source-available 许可争议。",
+  "analysis": {
+    "tech_highlights": [
+      "批评 AI/ML 生态中的 open-washing，指出许多名义开放的模型实际附带闭源限制",
+      "聚焦 source-available 与 open-core 等许可模式对开放承诺的稀释",
+      "Lobsters 社区讨论反映开发者对伪开放 marketing 的警觉"
+    ],
+    "relevance_score": 8,
+    "score_reason": "开源许可与模型开放性争议是当前 AI 社区热点，该项目以讽刺方式切入 open-washing，对开发者判断模型可用性具有实用参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "open-source",
+    "open-washing",
+    "ai-licensing",
+    "source-available"
+  ],
+  "status": "draft"
+}
