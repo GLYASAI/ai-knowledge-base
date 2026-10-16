@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261016-001",
+  "title": "Why are we even doing all this?",
+  "source": "rss",
+  "source_url": "https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/",
+  "collected_at": "2026-10-16T06:50:28Z",
+  "summary": "Terry Tao 在本文中反思数学研究在 AI 辅助证明与 formal verification 工具兴起背景下的内在动机，追问研究者为何仍投入大量精力从事严谨的基础研究。",
+  "analysis": {
+    "tech_highlights": [
+      "对数学研究在 AI 辅助证明与 formal verification 时代的意义进行哲学反思",
+      "讨论科研评价体系与研究者内在动机之间的张力",
+      "分析基础研究长期价值与短期学术产出之间的权衡"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章涉及科研方法论与 AI 对数学研究的影响，对关注研究趋势的读者有启发，但缺少可直接落地的工程或算法细节。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "mathematics",
+    "research-culture",
+    "ai",
+    "formal-verification",
+    "academic-publishing"
+  ],
+  "status": "draft"
+}

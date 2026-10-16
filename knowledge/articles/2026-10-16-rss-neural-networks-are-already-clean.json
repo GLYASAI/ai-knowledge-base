@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261016-002",
+  "title": "Neural Networks Are Already Clean",
+  "source": "rss",
+  "source_url": "https://already-clean.goodfire.com/",
+  "collected_at": "2026-10-16T06:50:28Z",
+  "summary": "本文以 Goodfire 的实践为例，说明现代 LLM 的内部表征可能已经足够“干净”，通过 sparse autoencoder 等方法可直接提取可解释特征，挑战神经网络仍是黑箱的传统认知。",
+  "analysis": {
+    "tech_highlights": [
+      "使用 sparse autoencoder 从 LLM activations 中提取可解释的 monosemantic features",
+      "论证 neural network 内部表征无需额外复杂清理即可用于 interpretability 分析",
+      "挑战 black box 假设，降低 mechanistic interpretability 的实践门槛"
+    ],
+    "relevance_score": 7,
+    "score_reason": "该文涉及 LLM 可解释性与机制可解释性等热门议题，对理解模型内部特征有较高价值，但更偏向观点和案例展示而非系统教程。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "interpretability",
+    "sparse-autoencoders",
+    "neural-networks",
+    "llm",
+    "mechanistic-interpretability"
+  ],
+  "status": "draft"
+}

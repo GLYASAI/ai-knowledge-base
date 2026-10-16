@@ -1558,5 +1558,29 @@
     "title": "OpenFatigue™ — Open is the new closed",
     "source_url": "https://openfatigue.ai/",
     "filename": "2026-10-15-rss-openfatigue-open-is-the-new-closed.json"
+  },
+  {
+    "id": "github-20261016-001",
+    "title": "langgenius/dify",
+    "source_url": "https://github.com/langgenius/dify",
+    "filename": "2026-10-16-github-dify.json"
+  },
+  {
+    "id": "rss-20261016-001",
+    "title": "Why are we even doing all this?",
+    "source_url": "https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/",
+    "filename": "2026-10-16-rss-why-are-we-even-doing-all-this.json"
+  },
+  {
+    "id": "rss-20261016-002",
+    "title": "Neural Networks Are Already Clean",
+    "source_url": "https://already-clean.goodfire.com/",
+    "filename": "2026-10-16-rss-neural-networks-are-already-clean.json"
+  },
+  {
+    "id": "rss-20261016-003",
+    "title": "HOL Light Tutorial",
+    "source_url": "https://hol-light.github.io/tutorial/HTML/tutorial.html",
+    "filename": "2026-10-16-rss-hol-light-tutorial.json"
   }
 ]
