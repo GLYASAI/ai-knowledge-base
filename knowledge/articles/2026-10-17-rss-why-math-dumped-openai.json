@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261017-001",
+  "title": "Why Math Dumped OpenAI",
+  "source": "rss",
+  "source_url": "https://raymyers.org/post/math-dumped-openai/",
+  "collected_at": "2026-10-17T06:40:44Z",
+  "summary": "本文剖析 OpenAI 在数学推理任务中逐渐失去社区青睐的原因，重点讨论闭源策略、hidden chain-of-thought 与开源模型（如 DeepSeek-R1）的竞争关系。",
+  "analysis": {
+    "tech_highlights": [
+      "对比 OpenAI o1 与 DeepSeek-R1 在 MATH/AIME 数学基准上的推理能力",
+      "分析 hidden chain-of-thought 对数学推理可验证性和用户体验的影响",
+      "探讨开源模型权重与透明推理在数学社区中取代闭源 API 的趋势"
+    ],
+    "relevance_score": 7,
+    "score_reason": "文章紧扣当前 LLM 数学推理与开源竞争的焦点，对关注模型选型的开发者有参考价值，但主观评论成分较多。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "openai",
+    "math-reasoning",
+    "deepseek-r1",
+    "open-source",
+    "ai-benchmarks"
+  ],
+  "status": "draft"
+}

@@ -1582,5 +1582,11 @@
     "title": "HOL Light Tutorial",
     "source_url": "https://hol-light.github.io/tutorial/HTML/tutorial.html",
     "filename": "2026-10-16-rss-hol-light-tutorial.json"
+  },
+  {
+    "id": "rss-20261017-001",
+    "title": "Why Math Dumped OpenAI",
+    "source_url": "https://raymyers.org/post/math-dumped-openai/",
+    "filename": "2026-10-17-rss-why-math-dumped-openai.json"
   }
 ]
