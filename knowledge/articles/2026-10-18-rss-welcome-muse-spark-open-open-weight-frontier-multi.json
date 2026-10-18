@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261018-004",
+  "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/meta-muse-spark-open",
+  "collected_at": "2026-10-18T07:04:43Z",
+  "summary": "Meta 在 Hugging Face 上发布 open-weight 多模态 mixture-of-experts 模型 Muse Spark Open，定位 frontier 级能力，支持社区下载、集成与微调。",
+  "analysis": {
+    "tech_highlights": [
+      "Open-weight 发布，允许社区直接下载、微调与二次开发",
+      "Multimodal 能力，可处理文本与图像等跨模态输入",
+      "Mixture-of-experts 架构，在 frontier 性能下提升推理效率"
+    ],
+    "relevance_score": 8,
+    "score_reason": "Meta 开放权重的前沿多模态 MoE 模型对开源社区和产业落地具有较高关注度与影响。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "open-weight",
+    "multimodal",
+    "mixture-of-experts",
+    "meta",
+    "hugging-face"
+  ],
+  "status": "draft"
+}

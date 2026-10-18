@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261018-005",
+  "title": "Welcome FLUX.3 Image Klein in Diffusers",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/flux-3",
+  "collected_at": "2026-10-18T07:04:43Z",
+  "summary": "Hugging Face Diffusers 现已支持 FLUX.3 Image Klein 模型，开发者可以通过几行代码加载并运行高效的 text-to-image 生成。",
+  "analysis": {
+    "tech_highlights": [
+      "在 Diffusers 中新增 FLUX.3 Image Klein 的 pipeline，简化模型加载与推理流程",
+      "采用更轻量的 Klein 模型架构，在图像质量与推理效率之间取得平衡",
+      "兼容现有 Diffusers 组件生态，便于自定义与部署"
+    ],
+    "relevance_score": 8,
+    "score_reason": "内容紧跟最新生成模型在 Diffusers 中的集成，对文本生成图像方向的开发者具有较高实用价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "diffusers",
+    "flux",
+    "text-to-image",
+    "image-generation",
+    "hugging-face"
+  ],
+  "status": "draft"
+}

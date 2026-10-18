@@ -1588,5 +1588,65 @@
     "title": "Why Math Dumped OpenAI",
     "source_url": "https://raymyers.org/post/math-dumped-openai/",
     "filename": "2026-10-17-rss-why-math-dumped-openai.json"
+  },
+  {
+    "id": "rss-20261018-001",
+    "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+    "source_url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+    "filename": "2026-10-18-rss-scaling-indic-pretraining-2-8-trillion-tokens-and-.json"
+  },
+  {
+    "id": "rss-20261018-002",
+    "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+    "source_url": "https://huggingface.co/blog/reflection-beam",
+    "filename": "2026-10-18-rss-welcome-beam-a-501b-open-model-you-can-own-customi.json"
+  },
+  {
+    "id": "rss-20261018-003",
+    "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+    "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+    "filename": "2026-10-18-rss-granite-switch-4-1-chat-decisions-and-speech-from-.json"
+  },
+  {
+    "id": "rss-20261018-004",
+    "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+    "source_url": "https://huggingface.co/blog/meta-muse-spark-open",
+    "filename": "2026-10-18-rss-welcome-muse-spark-open-open-weight-frontier-multi.json"
+  },
+  {
+    "id": "rss-20261018-005",
+    "title": "Welcome FLUX.3 Image Klein in Diffusers",
+    "source_url": "https://huggingface.co/blog/flux-3",
+    "filename": "2026-10-18-rss-welcome-flux-3-image-klein-in-diffusers.json"
+  },
+  {
+    "id": "rss-20261018-006",
+    "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+    "source_url": "https://huggingface.co/blog/allenai/hiro-acev2",
+    "filename": "2026-10-18-rss-hiro-acev2-simulating-extreme-weather-at-3-km-reso.json"
+  },
+  {
+    "id": "rss-20261018-007",
+    "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+    "source_url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+    "filename": "2026-10-18-rss-run-fast-private-agents-on-device-with-lfm2-5-24b-.json"
+  },
+  {
+    "id": "rss-20261018-008",
+    "title": "The model that didn&apos;t exist, so you made it yourself",
+    "source_url": "https://huggingface.co/blog/building-with-ml-intern",
+    "filename": "2026-10-18-rss-the-model-that-didn-apos-t-exist-so-you-made-it-yo.json"
+  },
+  {
+    "id": "rss-20261018-009",
+    "title": "Introducing Falcon ASR",
+    "source_url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+    "filename": "2026-10-18-rss-introducing-falcon-asr.json"
+  },
+  {
+    "id": "rss-20261018-010",
+    "title": "The Agent Said It Was Done. The Database Disagreed.",
+    "source_url": "https://huggingface.co/blog/microsoft/thinkingbox",
+    "filename": "2026-10-18-rss-the-agent-said-it-was-done-the-database-disagreed.json"
   }
 ]

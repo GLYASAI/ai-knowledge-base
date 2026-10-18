@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261018-009",
+  "title": "Introducing Falcon ASR",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+  "collected_at": "2026-10-18T07:04:43Z",
+  "summary": "TII 发布开源 Falcon ASR 自动语音识别模型，将 Falcon 架构与音频编码器结合，支持多语言语音转录与翻译任务。",
+  "analysis": {
+    "tech_highlights": [
+      "基于 Falcon decoder 的 encoder-decoder ASR 架构",
+      "多语言语音识别与翻译能力",
+      "在 Hugging Face 以开放权重发布，便于微调与部署"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章涉及开源语音识别模型与 Falcon 架构融合，对语音 AI 和模型部署开发者具有较高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "asr",
+    "speech-recognition",
+    "falcon",
+    "tii",
+    "open-source"
+  ],
+  "status": "draft"
+}

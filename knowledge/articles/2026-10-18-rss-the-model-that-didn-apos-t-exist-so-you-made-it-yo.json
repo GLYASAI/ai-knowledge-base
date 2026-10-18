@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261018-008",
+  "title": "The model that didn&apos;t exist, so you made it yourself",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/building-with-ml-intern",
+  "collected_at": "2026-10-18T07:04:43Z",
+  "summary": "本文记录了一位 Hugging Face 实习生从零构建一个此前不存在的模型的全过程，涵盖问题定义、数据处理、训练与评估部署。",
+  "analysis": {
+    "tech_highlights": [
+      "end-to-end model development",
+      "custom dataset creation and labeling",
+      "transformer fine-tuning and evaluation"
+    ],
+    "relevance_score": 7,
+    "score_reason": "实践导向的端到端案例对 ML 工程落地有参考价值，但作为公司博客深度和通用性有限。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "hugging-face",
+    "model-training",
+    "ml-pipeline",
+    "fine-tuning",
+    "case-study"
+  ],
+  "status": "draft"
+}

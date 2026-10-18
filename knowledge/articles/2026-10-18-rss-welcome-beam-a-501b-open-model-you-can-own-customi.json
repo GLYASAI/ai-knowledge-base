@@ -1,0 +1,25 @@
+{
+  "id": "rss-20261018-002",
+  "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/reflection-beam",
+  "collected_at": "2026-10-18T07:04:43Z",
+  "summary": "Reflection 发布 501B 参数的开放模型 Beam，强调企业可完全拥有、定制和扩展，适合私有化部署、微调与规模化推理。",
+  "analysis": {
+    "tech_highlights": [
+      "501B 参数的开放权重模型，支持企业私有化部署与完全所有权",
+      "支持针对垂直业务场景进行模型微调与自定义",
+      "面向大规模推理场景的可扩展部署能力"
+    ],
+    "relevance_score": 8,
+    "score_reason": "开放 501B 规模模型降低了前沿 LLM 的使用与定制门槛，对企业级应用具有较高价值。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "open-weights",
+    "self-hosting",
+    "fine-tuning",
+    "scalable-inference"
+  ],
+  "status": "draft"
+}

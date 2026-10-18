@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261018-003",
+  "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+  "collected_at": "2026-10-18T07:04:43Z",
+  "summary": "IBM Granite Switch 4.1 通过单一 endpoint 统一提供 chat、function calling 与 speech 能力，简化多模态与 agentic 应用部署。",
+  "analysis": {
+    "tech_highlights": [
+      "统一 endpoint 整合 chat、decision-making 与 speech，减少多服务编排复杂度",
+      "原生支持 function calling 与 agentic decisions，便于构建 AI agents",
+      "集成语音交互能力，降低语音接口的接入与部署成本"
+    ],
+    "relevance_score": 8,
+    "score_reason": "覆盖统一多任务、function calling 与语音交互等热门方向，对企业级 agentic 应用有较高参考价值，但公开技术细节有限。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "granite",
+    "function-calling",
+    "speech",
+    "unified-endpoint",
+    "agentic-ai"
+  ],
+  "status": "draft"
+}

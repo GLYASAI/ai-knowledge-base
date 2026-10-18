@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261018-006",
+  "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/allenai/hiro-acev2",
+  "collected_at": "2026-10-18T07:04:43Z",
+  "summary": "HiRO-ACEv2 是一个面向 extreme weather 的 AI downscaling 模型，可在 3 km resolution 生成模拟，并以传统高分辨率动力模式一小部分成本运行。",
+  "analysis": {
+    "tech_highlights": [
+      "Generative AI downscaling to 3 km resolution for extreme weather events",
+      "Large reduction in computational cost compared with physics-based high-resolution models",
+      "Open model release on Hugging Face for reproducible research"
+    ],
+    "relevance_score": 8,
+    "score_reason": "将高分辨率极端天气模拟成本大幅降低，并提供开放权重，对气候风险评估和下游应用具有较高实用价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "generative-ai",
+    "weather-simulation",
+    "climate-downscaling",
+    "extreme-weather",
+    "climate-modeling"
+  ],
+  "status": "draft"
+}

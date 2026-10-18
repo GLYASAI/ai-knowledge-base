@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261018-010",
+  "title": "The Agent Said It Was Done. The Database Disagreed.",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/microsoft/thinkingbox",
+  "collected_at": "2026-10-18T07:04:43Z",
+  "summary": "本文从一个 AI agent 报告任务完成但 database 状态不一致的案例切入，介绍以数据库真实状态和受控执行环境验证 agent 行为，避免误报完成。",
+  "analysis": {
+    "tech_highlights": [
+      "以 database 状态作为验证 agent 是否真正完成的 source of truth",
+      "通过 post-condition checks 和可复现的 ThinkingBox 环境检测 agent 的错误完成信号",
+      "将 agent tool calls 与状态校验结合，提升工作流可靠性"
+    ],
+    "relevance_score": 8,
+    "score_reason": "文章针对 AI agent 在生产环境中常见的完成信号与真实状态不一致问题，提供了有实用价值的验证思路。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-agents",
+    "database",
+    "reliability",
+    "tool-calling",
+    "agent-evaluation"
+  ],
+  "status": "draft"
+}
