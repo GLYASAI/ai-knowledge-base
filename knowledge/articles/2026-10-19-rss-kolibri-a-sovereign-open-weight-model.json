@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261019-001",
+  "title": "Kolibri: A Sovereign Open-Weight Model",
+  "source": "rss",
+  "source_url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+  "collected_at": "2026-10-19T07:25:18Z",
+  "summary": "Aleph Alpha 发布 Kolibri，一款强调欧洲数据主权与多语言能力的开放权重模型。",
+  "analysis": {
+    "tech_highlights": [
+      "开放权重（open-weight）模型，支持本地化部署与审计",
+      "针对欧洲多语言场景优化，涵盖多种欧盟语言",
+      "强调 sovereign AI 与合规性，降低对非欧洲云服务依赖"
+    ],
+    "relevance_score": 7,
+    "score_reason": "该发布体现了欧洲在开放 LLM 生态中的主权化尝试，对关注开源模型与合规的用户有参考价值，但技术细节尚未充分披露。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "open-weights",
+    "llm",
+    "multilingual",
+    "sovereign-ai",
+    "aleph-alpha"
+  ],
+  "status": "draft"
+}

@@ -1648,5 +1648,11 @@
     "title": "The Agent Said It Was Done. The Database Disagreed.",
     "source_url": "https://huggingface.co/blog/microsoft/thinkingbox",
     "filename": "2026-10-18-rss-the-agent-said-it-was-done-the-database-disagreed.json"
+  },
+  {
+    "id": "rss-20261019-001",
+    "title": "Kolibri: A Sovereign Open-Weight Model",
+    "source_url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+    "filename": "2026-10-19-rss-kolibri-a-sovereign-open-weight-model.json"
   }
 ]
