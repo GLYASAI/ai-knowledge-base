@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261020-001",
+  "title": "Timestral: Mistral's time-series foundation models",
+  "source": "rss",
+  "source_url": "https://mistral.ai/news/timestral/",
+  "collected_at": "2026-10-20T07:16:00Z",
+  "summary": "Mistral 推出 Timestral 系列 time-series foundation models，用于处理 forecasting、anomaly detection 等时间序列任务。",
+  "analysis": {
+    "tech_highlights": [
+      "发布 Timestral 系列 time-series foundation models",
+      "面向 forecasting、anomaly detection 等时序任务统一建模",
+      "基于 Mistral 的预训练技术栈"
+    ],
+    "relevance_score": 8,
+    "score_reason": "Mistral 作为知名 AI 公司发布时间序列基础模型，对关注 foundation models 和 time-series analysis 的开发者有较高参考价值。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "time-series",
+    "foundation-models",
+    "mistral",
+    "forecasting",
+    "ai"
+  ],
+  "status": "draft"
+}

@@ -1654,5 +1654,11 @@
     "title": "Kolibri: A Sovereign Open-Weight Model",
     "source_url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
     "filename": "2026-10-19-rss-kolibri-a-sovereign-open-weight-model.json"
+  },
+  {
+    "id": "rss-20261020-001",
+    "title": "Timestral: Mistral's time-series foundation models",
+    "source_url": "https://mistral.ai/news/timestral/",
+    "filename": "2026-10-20-rss-timestral-mistral-s-time-series-foundation-models.json"
   }
 ]
