@@ -1660,5 +1660,11 @@
     "title": "Timestral: Mistral's time-series foundation models",
     "source_url": "https://mistral.ai/news/timestral/",
     "filename": "2026-10-20-rss-timestral-mistral-s-time-series-foundation-models.json"
+  },
+  {
+    "id": "rss-20261022-001",
+    "title": "How to Run Turing-Complete Malware in PyTorch's Backward Pass",
+    "source_url": "https://elonlit.com/scrivings/how-to-run-turing-complete-malware-in-pytorchs-backward-pass/",
+    "filename": "2026-10-22-rss-how-to-run-turing-complete-malware-in-pytorch-s-ba.json"
   }
 ]
