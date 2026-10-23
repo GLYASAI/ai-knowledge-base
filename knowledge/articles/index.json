@@ -1666,5 +1666,17 @@
     "title": "How to Run Turing-Complete Malware in PyTorch's Backward Pass",
     "source_url": "https://elonlit.com/scrivings/how-to-run-turing-complete-malware-in-pytorchs-backward-pass/",
     "filename": "2026-10-22-rss-how-to-run-turing-complete-malware-in-pytorch-s-ba.json"
+  },
+  {
+    "id": "rss-20261023-001",
+    "title": "Unikernels in OCaml",
+    "source_url": "https://uniker.nl/",
+    "filename": "2026-10-23-rss-unikernels-in-ocaml.json"
+  },
+  {
+    "id": "rss-20261023-002",
+    "title": "ConcurrentML: Improving on Go's concurrency model",
+    "source_url": "https://nikhilism.com/post/2026/golang-racket-concurrency/",
+    "filename": "2026-10-23-rss-concurrentml-improving-on-go-s-concurrency-model.json"
   }
 ]

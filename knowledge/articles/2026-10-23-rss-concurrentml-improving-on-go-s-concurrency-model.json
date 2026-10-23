@@ -1,0 +1,27 @@
+{
+  "id": "rss-20261023-002",
+  "title": "ConcurrentML: Improving on Go's concurrency model",
+  "source": "rss",
+  "source_url": "https://nikhilism.com/post/2026/golang-racket-concurrency/",
+  "collected_at": "2026-10-23T07:08:00Z",
+  "summary": "本文比较 ConcurrentML 与 Go 的并发模型，讨论 first-class synchronous events 与可组合原语如何弥补 Go channel 在取消、超时等场景的不足；对 AI/ML 的价值主要在于推理服务并发调度。",
+  "analysis": {
+    "tech_highlights": [
+      "First-class synchronous events 与 event combinators（choose、wrap、guard）提升同步逻辑的可组合性",
+      "对比 Go goroutine/channel 在取消、超时和动态选择场景中的限制",
+      "基于 Racket 的 ConcurrentML 实现展示替代并发原语，并可类比 AI 推理服务的取消、超时与请求组合需求；但原文未直接覆盖 ML 负载"
+    ],
+    "relevance_score": 7,
+    "score_reason": "分析基于标题和有限描述推断，需以原文为准；并发模型对 AI/ML 工程是间接相关，主要借鉴在推理服务的高并发调度、取消和超时控制，因此从 8 分调整至 7 分。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "concurrency",
+    "go",
+    "concurrent-ml",
+    "racket",
+    "csp",
+    "inference-serving"
+  ],
+  "status": "draft"
+}

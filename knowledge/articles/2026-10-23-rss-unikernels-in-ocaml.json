@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261023-001",
+  "title": "Unikernels in OCaml",
+  "source": "rss",
+  "source_url": "https://uniker.nl/",
+  "collected_at": "2026-10-23T07:08:00Z",
+  "summary": "本文讨论用 OCaml 构建 unikernel 的思路，强调类型安全与最小化镜像；内容偏系统部署，对 AI/ML 的核心关联有限，潜在价值在于轻量隔离推理服务。",
+  "analysis": {
+    "tech_highlights": [
+      "利用 OCaml 静态类型与模块系统构建类型安全的 unikernel",
+      "生成轻量级、应用定制的最小化镜像，降低资源开销",
+      "相关生态（如 MirageOS/Solo5）在轻量隔离部署上的适配需结合实际验证，原文未展示 AI/ML 推理负载评估"
+    ],
+    "relevance_score": 6,
+    "score_reason": "分析基于标题和有限描述推断，需以原文为准；Unikernel 与 AI/LLM/Agent 核心关联较弱，主要价值在轻量隔离部署模型推理服务，因此下调至 6 分。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "unikernels",
+    "ocaml",
+    "mirageos",
+    "lightweight-virtualization",
+    "solo5"
+  ],
+  "status": "draft"
+}
