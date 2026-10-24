@@ -1678,5 +1678,23 @@
     "title": "ConcurrentML: Improving on Go's concurrency model",
     "source_url": "https://nikhilism.com/post/2026/golang-racket-concurrency/",
     "filename": "2026-10-23-rss-concurrentml-improving-on-go-s-concurrency-model.json"
+  },
+  {
+    "id": "rss-20261024-001",
+    "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+    "source_url": "https://arxiv.org/abs/2610.14162",
+    "filename": "2026-10-24-rss-next-concept-modeling-fast-parallel-coarse-to-fine.json"
+  },
+  {
+    "id": "rss-20261024-002",
+    "title": "AI: EU Member States approve “digital expropriation” of Europeans for AI companies",
+    "source_url": "https://noyb.eu/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies",
+    "filename": "2026-10-24-rss-ai-eu-member-states-approve-digital-expropriation-.json"
+  },
+  {
+    "id": "rss-20261024-003",
+    "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+    "source_url": "https://arxiv.org/abs/2605.00414",
+    "filename": "2026-10-24-rss-trees-to-flows-and-back-unifying-decision-trees-an.json"
   }
 ]

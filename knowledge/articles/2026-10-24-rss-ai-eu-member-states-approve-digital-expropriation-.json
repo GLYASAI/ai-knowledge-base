@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261024-002",
+  "title": "AI: EU Member States approve “digital expropriation” of Europeans for AI companies",
+  "source": "rss",
+  "source_url": "https://noyb.eu/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies",
+  "collected_at": "2026-10-24T06:57:29Z",
+  "summary": "欧盟成员国批准了被隐私组织noyb称为“数字征用”的AI Act相关规则，允许AI公司在未经同意或补偿的情况下使用欧洲人的个人数据与版权内容训练模型，引发GDPR合规争议。",
+  "analysis": {
+    "tech_highlights": [
+      "欧盟成员国通过AI训练数据规则，被指允许大规模使用个人数据和版权作品进行模型训练",
+      "noyb批评该规则绕过GDPR的同意与透明度要求，构成对欧洲人的数字权利侵蚀",
+      "涉及opt-out机制与版权例外争议，影响AI开发者的数据合规与训练数据来源"
+    ],
+    "relevance_score": 7,
+    "score_reason": "涉及AI训练数据合规、GDPR和版权，对开发者有直接影响，但内容偏政策与法律而非技术实现。",
+    "audience": "intermediate"
+  },
+  "tags": [
+    "ai-regulation",
+    "gdpr",
+    "training-data",
+    "copyright",
+    "eu-ai-act"
+  ],
+  "status": "draft"
+}

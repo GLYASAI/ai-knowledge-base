@@ -1,0 +1,26 @@
+{
+  "id": "rss-20261024-001",
+  "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2610.14162",
+  "collected_at": "2026-10-24T06:57:29Z",
+  "summary": "本文提出 Next-Concept Modeling，一种以 concept 为中间表示、由粗到细并行生成文本的方法，旨在替代 token-level 自回归解码，提升文本生成速度与可控性。",
+  "analysis": {
+    "tech_highlights": [
+      "引入 concept-level 中间表示，将文本生成分解为 concept planning 与 text realization 两个阶段",
+      "支持并行 coarse-to-fine decoding，减少自回归串行依赖",
+      "通过 next-concept 预测替代逐 token 预测，在保持生成质量的同时降低推理延迟"
+    ],
+    "relevance_score": 8,
+    "score_reason": "该技术与大模型高效推理和可控生成直接相关，具有较高研究参考价值，但缺少详细实验数据，暂给 8 分。",
+    "audience": "advanced"
+  },
+  "tags": [
+    "text-generation",
+    "coarse-to-fine",
+    "parallel-decoding",
+    "non-autoregressive",
+    "concept-modeling"
+  ],
+  "status": "draft"
+}
