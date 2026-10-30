@@ -1,0 +1,9 @@
+{
+  "total_cost": 0,
+  "total_prompt_tokens": 0,
+  "total_completion_tokens": 0,
+  "total_calls": 0,
+  "budget": 1.0,
+  "usage_ratio": 0.0,
+  "by_node": {}
+}
